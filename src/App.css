@@ -3,38 +3,22 @@
 #root {
   width: 100%;
   max-width: 1440px;
-  text-align: center;
-  /* display: flex;
-  flex-direction: column; */
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 :root {
   --primary-color: #103559; 
-  --secondary-color: #FCEED5; 
+  --secondary-color: #F7DBA7; 
+  --third-color: #FCEED5; 
   --grey: #969EA0; 
   --background-gradient: linear-gradient(#FCEED5, #FCEED5, #FFE7BA); 
   --text-color: #103559; 
 }
 
-/* Usando as variáveis em outros lugares */
 body {
   background: var(--background-gradient);
   color: var(--text-color);
   font-family: 'Poppins', sans-serif;
-}
-
-header {
-  background: var(--background-gradient);
-  color: var(--primary-color);
-}
-
-
-body {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  background: linear-gradient(#FCEED5, #FCEED5, #FFE7BA);
 }
 
 ::-webkit-scrollbar {
@@ -47,7 +31,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #FFE7BA;
+  background-color: #103559;
   border-radius: 10px;
   border: 2px solid #f2f2f2;
 }

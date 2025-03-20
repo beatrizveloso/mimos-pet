@@ -6,11 +6,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
   padding: 0.5rem 30px;
   font-size: 1rem;
-  background: var(--secondary-color);
+  background: var(--third-color);
   color: var(--primary-color);
+  margin-top: 40px;
 }
 
 .align-header {
