@@ -10,11 +10,11 @@ header {
   font-size: 1rem;
   background: var(--third-color);
   color: var(--primary-color);
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .align-header {
-  width: 550px;
+  width: 650px;
   display: flex;
   justify-content: space-between;
   align-items: center;
