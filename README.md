@@ -1,12 +1,11 @@
-# React + Vite
+# 🐾 Mimo's Pet – Petshop Virtual
+Mimo's Pet é um projeto da faculdade de um petshop virtual em desenvolvimento, criado com React para oferecer uma experiência intuitiva e amigável aos amantes de pets. O projeto contará com um backend robusto e um banco de dados para gerenciar produtos, serviços e informações dos clientes.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚀 Tecnologias previstas:
 
-Currently, two official plugins are available:
+Frontend: React <br/>
+Backend: (em breve)  <br/>
+Banco de Dados: (em breve)  <br/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este repositório será atualizado conforme o desenvolvimento avança. Sinta-se à vontade para acompanhar o progresso! 🐶🐱🐾
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
