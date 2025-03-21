@@ -9,7 +9,7 @@ const Header = () => {
                 <ul>
 
                     <div className="align-header">
-                        <img src="images/mimo's-pet-logo.png" alt="Logo" />
+                        <img src="images/mimo's-pet-logo.svg" alt="Logo de um gato e um cachorro se olhando com um coração no meio" />
                         <li><p>Início</p></li>
                         <li><p>Categorias</p></li>
                         <li><p>Sobre Nós</p></li>
