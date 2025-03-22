@@ -33,7 +33,7 @@ main {
   font-weight: 900;
 }
 
-span {
+.align-h1 h1 > span {
   color: var(--yellow);
 }
 
