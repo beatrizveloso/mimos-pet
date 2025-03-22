@@ -1,5 +1,4 @@
 import React from "react";
-import { FaArrowRight } from "react-icons/fa"; 
 import { FiArrowRight } from "react-icons/fi"; 
 
 import "../produtos/Produtos.css";
