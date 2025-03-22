@@ -18,12 +18,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: -20px;
 }
 
 header img {
-  width: 60px;
-  height: 60px;
-  padding-right: 30px;
+  width: 70px;
+  height: 70px;
+  margin-right: 30px;
 }
 
 nav ul {
@@ -36,9 +37,10 @@ nav li {
   margin-right: 30px;
 }
 
-p {
+li p {
   font-size: 1.2rem;
   font-weight: 600;
+  margin-top: 15px;
 }
 
 .login-btn {
@@ -69,7 +71,7 @@ input {
 .search-container input {
   width: 250px;
   height: 40px;
-  padding: 10px 35px 10px 30px;
+  padding: 10px 55px 10px 30px;
   border: none;
   border-radius: 50px;
   font-size: 1.1rem;
