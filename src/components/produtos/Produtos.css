@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.align-products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px 50px 0px 50px;
+}
+
+.products-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.products-text h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.products-text p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+button p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #979393;
+}
+
+.custom-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; 
+  
+  width: 170px;
+  height: 60px;
+  border-radius: 50px;
+  
+  background-color: white;
+  border: 2.5px solid #969EA0; 
+  color: #969EA0; 
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  
+  transition: all 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #eee6e6;
+}
+
+.arrow-icon {
+  font-size: 1.2rem; 
+  stroke-width: 2.5; 
+  color: #B6BCBE; 
+}

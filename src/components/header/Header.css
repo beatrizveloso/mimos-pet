@@ -82,7 +82,7 @@ input {
   position: absolute;
   right: 30px;
   color: #969EA0;
-  font-size: 22px;
+  font-size: 20px;
   cursor: pointer;
 }
 
@@ -90,6 +90,7 @@ input {
   background: transparent; 
   border: none;
   cursor: pointer;
+  
 }
 
 .cart-btn .cart-icon {
