@@ -1,0 +1,21 @@
+:root {
+    --text-color: #333;
+  }
+  
+  .categories-page-container {
+    background: var(--categories);
+    color: var(--text-color);
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    min-height: 100vh; 
+    width: 100%;
+  }
+  
+  .custom-search input {
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    border: 3px solid #969EA0;
+    padding: 10px 55px 10px 30px;
+  }
+  
