@@ -3,7 +3,7 @@ import React from "react";
 import Header from "../../components/header/Header.jsx";
 import Home from '../../components/home/Home.jsx';
 import Produtos from '../../components/produtos/Produtos.jsx';
-// import Cards from '../../components/card/Cards.jsx';
+import Cards from '../../components/card/Cards.jsx';
 // import Apoiadores from '../../components/apoiadores/Apoiadores.jsx';
 // import Banner from '../../components/banner/Banner.jsx';
 // import Conhecimentos from '../../components/conhecimentos/Conhecimentos.jsx';
@@ -15,8 +15,8 @@ const HomePage = () => {
       <Header />
       <Home />
       <Produtos />
-      {/* <Cards />
-      <Apoiadores />
+      <Cards />
+      {/* <Apoiadores />
       <Banner />
       <Conhecimentos />
       <Footer /> */}
