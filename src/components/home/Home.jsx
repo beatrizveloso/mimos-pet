@@ -1,3 +1,5 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import "../home/Home.css";
 
 const Home = () => {
@@ -13,7 +15,11 @@ const Home = () => {
             <img src="images/retangulinho.svg" alt="" />
             </div>
             <p>Aqui você encontra tudo para cuidar do seu pet  com carinho e praticidade. Produtos de qualidade, entrega rápida e muito amor em cada escolha. Tudo o que seu pet precisa, a um clique de distância!</p>
-            <button>Ver Produtos</button>
+            <div className="products-btn">
+            <Link to="/categorias">
+            <button><p>Ver Produtos</p></button>
+            </Link>
+            </div>
         </div>
         </main>
     );

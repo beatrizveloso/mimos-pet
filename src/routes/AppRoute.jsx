@@ -5,7 +5,7 @@ import CategoriesPage from "../pages/categoriespage/CategoriesPage";
 import LoginPage from "../pages/loginpage/LoginPage"; 
 import ProductsPage from "../pages/productspage/Productspage"; 
 
-const AppRoutes = () => {  // Renomeado para evitar conflito
+const AppRoutes = () => { 
   return (
     <BrowserRouter>
       <Routes>
