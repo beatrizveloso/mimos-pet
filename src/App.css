@@ -5,9 +5,9 @@
   padding: 0%;
 }
 
+
 body {
-  padding: 0 30px; 
-  overflow-x: hidden; 
+  background: var(--background-gradient);
 }
 
 #root {
