@@ -7,7 +7,8 @@ import BannerCate from '../../components/banner/BannerCate.jsx';
 import Footer from '../../components/footer/Footer.jsx';
 
 const CategoriesPage = () => {
-    const [filtro, setFiltro] = useState("Todas as categorias"); 
+    const [filtro, setFiltro] = useState(null);
+
 
     return (
         <div className="categories-container">

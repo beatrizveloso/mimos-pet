@@ -14,6 +14,12 @@ const FilterCate = ({ setFiltro }) => {
     "Brinquedo"
   ];
 
+  const handleFilterSelection = (option) => {
+    setSelectedFilter(option);
+    setIsOpen(false);
+    setFiltro(option === "Todas as categorias" ? null : option);
+  };
+
   return (
     <div className="align-filter">
       <div className="filter-text">
@@ -23,7 +29,7 @@ const FilterCate = ({ setFiltro }) => {
 
       <div className="products-button">
         <button className="filter-button" onClick={() => setIsOpen(!isOpen)}>
-          <p>Filtre por: {selectedFilter}</p>
+          <p>Filtre por: {selectedFilter}</p> {/* Texto sempre fixo com categoria escolhida */}
           {isOpen ? <FiChevronDown className="arrow-icon" /> : <FiChevronRight className="arrow-icon" />}
         </button>
 
@@ -33,11 +39,7 @@ const FilterCate = ({ setFiltro }) => {
               <button
                 key={index}
                 className="dropdown-item"
-                onClick={() => {
-                  setSelectedFilter(option);
-                  setIsOpen(false);
-                  setFiltro(option);  // Atualiza o filtro no componente pai
-                }}
+                onClick={() => handleFilterSelection(option)}
               >
                 {option}
               </button>

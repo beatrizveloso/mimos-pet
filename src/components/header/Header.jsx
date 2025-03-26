@@ -8,28 +8,19 @@ const Header = () => {
         <header>
             <nav id="navbar">
                 <ul id="nav_list">
-                <li class="nav-item">
-                    <Link to="/">
-                        <img src="images/mimo's-pet-logo.svg" alt="Logo de um gato e um cachorro se olhando com um coração no meio" />
-                    </Link>
+                    <li class="nav-item">
+                        <Link to="/">
+                            <img src="images/mimo's-pet-logo.svg" alt="Logo de um gato e um cachorro se olhando com um coração no meio" />
+                        </Link>
                     </li>
 
                     <li class="nav-item">
-                    <Link
-                            to="/"
-                            onClick={(e) => {
-                                e.preventDefault();
-                                const section = document.getElementById("home");
-                                if (section) {
-                                    section.scrollIntoView({ behavior: "smooth" });
-                                }
-                            }}
-                        >
+                        <Link to="/">
                             <p>Início</p>
                         </Link>
-                        </li>
+                    </li>
 
-                        <li class="nav-item">
+                    <li class="nav-item">
                         <Link to="/categorias"><p>Categorias</p></Link>
                         <Link
                             to="/"
@@ -43,9 +34,9 @@ const Header = () => {
                         >
                             <p>Sobre Nós</p>
                         </Link>
-                        </li>
+                    </li>
 
-                        <li class="nav-item">
+                    <li class="nav-item">
                         <Link
                             to="/"
                             onClick={(e) => {

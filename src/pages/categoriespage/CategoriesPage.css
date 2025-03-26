@@ -1,7 +1,3 @@
-:root {
-    --text-color: #333;
-  }
-
   .categories-container {
     color: var(--text-color);
     font-family: 'Poppins', sans-serif;

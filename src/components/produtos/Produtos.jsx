@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FiArrowRight } from "react-icons/fi"; 
 import "../produtos/Produtos.css";
 
@@ -10,10 +11,12 @@ const Produtos = () => {
                 <h1>Nossos produtos:</h1>
             </div>
             <div className="products-button">
-                <button className="custom-button">
-                    <p>Ver mais</p> 
-                    <FiArrowRight className="arrow-icon" />
-                </button>
+                <Link to="/categorias" className="link-button">
+                    <button className="custom-button">
+                        <p>Ver mais</p> 
+                        <FiArrowRight className="arrow-icon" />
+                    </button>
+                </Link>
             </div>
         </div>
     );
