@@ -38,6 +38,10 @@ header {
   padding: 5px 30px; 
 }
 
+.nav-item img {
+  margin-left: 30px;
+}
+
 .nav-item a:hover {
   color: #376da3;
 }

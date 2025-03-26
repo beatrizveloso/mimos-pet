@@ -52,8 +52,11 @@ button p {
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
-  
   transition: all 0.3s ease;
+}
+
+.link-button {
+  text-decoration: none;
 }
 
 .custom-button:hover {

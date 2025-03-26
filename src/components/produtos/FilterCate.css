@@ -1,46 +1,43 @@
 .align-filter {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 60px;
-  }
-  
-  .filter-text {
-    display: flex;
-    gap: 20px;
-    margin-right: 270px;
-  }
-  
-  .filter-text h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 25px;
-  }
-  
-  .filter-text p {
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin-top: 20px;
-  }
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.filter-text {
+  display: flex;
+  gap: 20px;
+  margin-right: 270px;
+}
+
+.filter-text h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.filter-text p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 20px;
+}
 
 .filter-button {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px; 
-  
-  width: 320px;
+  gap: 20px;
+  width: 330px;
   height: 60px;
   border-radius: 50px;
-  
   background-color: white;
-  border: 2.5px solid #969EA0; 
-  color: #969EA0; 
+  border: 2.5px solid #969EA0;
+  color: #969EA0;
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
-  
   transition: all 0.3s ease;
   padding: 10px 15px;
   gap: 10px;
@@ -51,31 +48,31 @@
   background-color: #eee6e6;
 }
 
-/* Estilo do dropdown */
 .dropdown-menu {
   position: absolute;
   background: white;
-  border: 1px solid #ddd;
+  border: 3px solid #ddd;
   border-radius: 5px;
-  margin-top: 8px;  /* Ajuste do espaçamento */
+  margin-top: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 100%;  /* Ajuste a largura para 100% do botão */
+  width: 360px;
   z-index: 10;
-  display: block; /* Certifique-se de que os itens estejam em uma única coluna */
+  display: block;
 }
 
-/* Estilo das opções do dropdown */
 .dropdown-item {
-  width: 100%;  /* Certifique-se de que as opções ocupem toda a largura do dropdown */
-  padding: 10px;
+  width: 100%;
+  padding: 15px;
   text-align: left;
   border: none;
   background: white;
   cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-bottom: 1px solid #ddd;
 }
 
 .dropdown-item:hover {
   background: #f0f0f0;
 }
-
-
