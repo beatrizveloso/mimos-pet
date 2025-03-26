@@ -7,7 +7,7 @@ import Cards from '../../components/card/Cards.jsx';
 import Apoiadores from '../../components/apoiadores/Apoiadores.jsx';
 import Banner from '../../components/banner/Banner.jsx';
 import Conhecimentos from '../../components/conhecimentos/Conhecimentos.jsx';
-// import Footer from '../../components/footer/Footer.jsx';
+import Footer from '../../components/footer/Footer.jsx';
 
 const HomePage = () => {
   return (
@@ -19,7 +19,7 @@ const HomePage = () => {
       <Apoiadores />
       <Banner />
       <Conhecimentos />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

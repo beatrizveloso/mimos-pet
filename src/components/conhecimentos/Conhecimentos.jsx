@@ -26,7 +26,7 @@ const Conhecimentos = () => {
                 <div className="card-conhe">
                     <img src="images/conhecimentos-3.png" alt="Imagem do card" />
                     <div className="tag">Informativo</div>
-                    <h1>Como dar comprimido para cão e gato: dicas para não estressar seu pet!</h1>
+                    <h1>Como dar comprimido para pets: dicas para não estressar seu pet!</h1>
                     <p>Dar comprimido para cães e gatos pode ser desafiador, mas com paciência e algumas estratégias, é possível tornar o processo mais fácil e menos estressante para o seu pet. </p>
                 </div>
             </div>
