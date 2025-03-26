@@ -59,14 +59,22 @@ main {
   text-align: justify;
 }
 
-.text button {
+.products-btn p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  color: white; 
+  margin: 10px 0px 0px 30px;
+}
+
+.products-btn button {
   border: none;
   background: var(--yellow);
   width: 170px;
-  height: 55px;
+  height: 60px;
   border-radius: 50px;
   color: white;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .text button:hover {

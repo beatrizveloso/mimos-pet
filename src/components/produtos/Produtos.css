@@ -1,0 +1,63 @@
+.align-products {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 130px;
+}
+
+.products-text,
+.conhecimentos-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.products-text h1,
+.conhecimentos-text h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.products-text p,
+.conhecimentos-text p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+button p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #979393;
+}
+
+.custom-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; 
+  
+  width: 170px;
+  height: 60px;
+  border-radius: 50px;
+  
+  background-color: white;
+  border: 2.5px solid #969EA0; 
+  color: #969EA0; 
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  
+  transition: all 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #eee6e6;
+}
+
+.arrow-icon {
+  font-size: 1.2rem; 
+  stroke-width: 2.5; 
+  color: #B6BCBE; 
+}
