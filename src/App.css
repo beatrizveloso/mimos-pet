@@ -22,6 +22,7 @@ body {
   --third-color: #FCEED5; 
   --yellow: #FFBD59; 
   --grey: #969EA0; 
+  --categories: #FDFDFD;
   --background-gradient: linear-gradient(#FCEED5, #FCEED5, #FFE7BA); 
   --text-color: #103559; 
 }

@@ -40,7 +40,7 @@ const Footer = () => {
                         to="/"
                         onClick={(e) => {
                             e.preventDefault();
-                            const section = document.getElementById("header");
+                            const section = document.getElementById("home");
                             if (section) {
                                 section.scrollIntoView({ behavior: "smooth" });
                             }

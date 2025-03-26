@@ -12,7 +12,7 @@ import Footer from '../../components/footer/Footer.jsx';
 const HomePage = () => {
   return (
     <div className='home-container'>
-      <Header />
+      <Header className="green"/>
       <Home />
       <Produtos />
       <Cards />
