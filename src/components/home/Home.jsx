@@ -4,7 +4,7 @@ import "../home/Home.css";
 
 const Home = () => {
     return (
-        <main>
+        <main id="home">
         <div className="shape">
         <img src="images/img-main.svg" alt="imagem de um cachorro filhote com dois retangulos atrás" />
         </div>

@@ -5,7 +5,7 @@ import "../header/Header.css";
 
 const Header = () => {
     return (
-        <header id="header">
+        <header>
             <nav id="navbar">
                 <ul id="nav_list">
                 <li class="nav-item">
@@ -19,7 +19,7 @@ const Header = () => {
                             to="/"
                             onClick={(e) => {
                                 e.preventDefault();
-                                const section = document.getElementById("header");
+                                const section = document.getElementById("home");
                                 if (section) {
                                     section.scrollIntoView({ behavior: "smooth" });
                                 }
