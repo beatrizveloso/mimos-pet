@@ -1,0 +1,139 @@
+footer {
+  width: 100%;
+  display: block;
+  background-color: #F7DBA7;
+  height: 440px;
+  text-decoration: none;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-rectangle {
+  background-color: #003459;
+  width: 680px;
+  height: 116px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+hr {
+  width: 80%; 
+  border: 0;
+  border-top: 2px solid #5c6264; 
+  margin: 20px 0;
+}
+
+.footer-rectangle h1 {
+  color: white;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  max-width: 380px;
+  line-height: 30px;
+}
+
+.login-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-box {
+  background-color: white;
+  width: 187px;
+  height: 72px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-button {
+  background-color: #003459;
+  color: white;
+  width: 155px;
+  height: 48px;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.6s ease, color 0.6s ease;
+}
+
+.login-button:hover {
+  background-color: #376da3;
+}
+
+.footer-description {
+  max-width: 335px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 0.8rem;
+  line-height: 20px;
+  color: black;
+  text-align: justify;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  padding: 20px 0;
+}
+
+.footer-links p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  font-weight: regular;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.footer-bottom p {
+  font-family: "Poppins", sans-serif;
+  font-weight: medium;
+  font-size: 0.8rem;
+  color: #667479;
+}
+
+.footer-bottom img {
+  width: 80px; 
+  height: auto;
+}
+
+.align-retp {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+}
+
+.contact-info {
+  display: flex;
+  gap: 60px; 
+  justify-content: center;
+  margin: 20px 20px;
+}
+
+.contact-item {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: #003459;
+  text-align: center;
+}
