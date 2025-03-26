@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+main {
+  background-color: var(--third-color);
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  color: var(--primary-color);
+  width: 100%;
+  height: 650px;
+  display: flex;
+}
+
+.shape {
+  width: 50vw;
+  height: 100vh;
+}
+
+.shape img {
+  margin-top: 30px;
+  width: 50vw;
+}
+
+.text {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-h1 h1 {
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+.align-h1 h1 > span {
+  font-size: 5rem;
+  color: var(--yellow);
+}
+
+.align-h1 {
+  display: flex;
+}
+
+.align-h1 img {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.text p {
+  max-width: 520px;
+  height: 200px;
+  font-size: 1.5rem;
+  line-height: 40px; 
+  margin-top: 40px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.text button {
+  border: none;
+  background: var(--yellow);
+  width: 170px;
+  height: 55px;
+  border-radius: 50px;
+  color: white;
+  margin-top: 50px;
+}
+
+.text button:hover {
+  background-color: #e2a03c;
+}
+
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(50px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+      opacity: 0;
+      transform: translateX(-50px);
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+.shape {
+  animation: fadeInUp 1s ease-out;
+}
+
+.text {
+  animation: fadeInLeft 1s ease-out 0.3s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
