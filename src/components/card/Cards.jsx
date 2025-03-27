@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css'; 
 import Card from './Card';
 
-const Cards = ({ filtro }) => {
+const Cards = ({ filtro, searchTerm }) => {
   const produtosData = [
     { image: 'images/ração.png', title: 'Ração Seca Para Gatos Adultos Carne', category: 'Alimentação', size: ' Tamanho: 2,7kg', price: 'R$42,42' },
     { image: 'images/pipicat.png', title: 'Areia Higiênica Pipicat Classic Para Gatos', category: 'Higiene', size: ' Tamanho: 4kg', price: 'R$12,25' },
@@ -14,7 +14,14 @@ const Cards = ({ filtro }) => {
     { image: 'images/frango-galinha.png', title: 'Frango Galinha Borracha Morder Brinquedo Pet ', category: 'Brinquedo', size: ' Tamanho: Único', price: 'R$19,60' }
   ];
 
-  const produtosFiltrados = filtro && filtro !== "Filtre por:" ? produtosData.filter(produto => produto.category === filtro) : produtosData;
+  const produtosFiltrados = produtosData.filter(produto => {
+    const matchesCategory = filtro && filtro !== "Filtre por:" ? produto.category === filtro : true;
+    const matchesSearchTerm = searchTerm && produto.title 
+      ? produto.title.toLowerCase().includes(searchTerm.toLowerCase()) 
+      : true; // Se searchTerm ou produto.title não forem válidos, retorna true para não filtrar
+    return matchesCategory && matchesSearchTerm;
+  });
+  
 
   return (
     <div className="produtos-container">

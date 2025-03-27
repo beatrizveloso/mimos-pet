@@ -1,70 +1,75 @@
-  .search-container {
-    position: relative;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    width: 320px;
-    margin-bottom: 20px; 
-  }
-  
-  .search-container input {
-    margin-top: 30px;
-    width: 320px;
-    height: 40px;
-    padding: 10px 55px 10px 30px;
-    border-radius: 50px;
-    border: none;
-    background-color: #ffffff;
-    color: #103559;
-    font-size: 16px;
-    font-family: Arial, sans-serif;
-  }
-  
-  .search-container .search-icon {
-    position: absolute;
-    right: 30px; 
-    top: 50px;
-    color: #969ea0;
-    font-size: 20px;
-    cursor: pointer;
-  }
-  
-  .search-results {
-    display: grid;
-    grid-template-columns: 1fr; 
-    gap: 10px;
-    width: 100%;
-    margin-top: 20px;
-    justify-items: center;
-    position: relative;
-  }
-  
-  .search-results .card {
-    width: 380px;
-    height: 260px;
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    border: 2px solid #a7aaad;
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease-in-out;
-  }
-  
-  .search-results .card-image-container img {
-    width: 115px;
-    height: 115px;
-    border-radius: 8px;
-  }
-  
-  .search-results .card-content .details {
-    display: flex;
-    flex-direction: row;
-    gap: 10px; 
-    font-size: 0.9rem;
-    color: #555;
-  }
-  
-  
-  
+.search-container {
+  position: sticky;
+  top: 0;
+  width: 320px;
+  margin: 0 auto;
+  padding: 10px 0;
+  z-index: 10;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-container input {
+  margin-top: 30px;
+  width: 320px;
+  height: 40px;
+  padding: 10px 55px 10px 30px;
+  border-radius: 50px;
+  border: none;
+  background-color: #ffffff;
+  color: #103559;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.search-container .search-icon {
+  position: absolute;
+  top: 60px;
+  right: 15px;
+  color: #969ea0;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.search-results {
+  position: absolute;
+  top: calc(100% + 10px); 
+  left: 65%;
+  transform: translateX(-50%); 
+  width: 320px; 
+  max-height: 40vh; 
+  overflow-y: auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+
+
+.search-results .card {
+  width: 240px;
+  height: 280px;
+  background-color: #fff;
+  border: 2px solid #a7aaad;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.search-results .card-image-container img {
+  width: 115px;
+  height: 115px;
+  border-radius: 8px;
+}
+
+.search-results .card-content .details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: #555;
+}
