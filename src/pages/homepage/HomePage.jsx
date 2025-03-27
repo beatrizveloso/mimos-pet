@@ -21,7 +21,7 @@ const HomePage = () => {
       <Header onSearchChange={handleSearchChange} />
       <Home />
       <Produtos />
-      <Cards searchTerm={searchTerm} /> 
+      <Cards searchTerm={searchTerm} limit={8} />
       <Apoiadores />
       <Banner />
       <Conhecimentos />
