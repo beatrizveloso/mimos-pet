@@ -15,7 +15,7 @@ const CategoriesPage = () => {
             <Header/> 
             <BannerCate />
             <FilterCate setFiltro={setFiltro} /> 
-            <Cards filtro={filtro} /> 
+            <Cards filtro={filtro} paginated={true} />
             <Footer />
         </div>
     );

@@ -5,6 +5,7 @@
   align-items: center;
   gap: 40px;
   margin: 30px 40px;
+  margin-bottom: 100px;
 }
 
 .search-results .produtos-container {
@@ -90,4 +91,55 @@
   .produtos-container {
     grid-template-columns: 1fr;
   }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+
+.pagination button {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #103559;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.pagination button.active {
+  width: 40px;
+  height: 40px;
+  background-color: #FFBD59;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Ajustando o tamanho das setas */
+.pagination button:first-child::after,
+.pagination button:last-child::after {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Ícones das setas corrigidos */
+.pagination button:first-child {
+  content: "←";
+}
+
+.pagination button:last-child {
+  content: "→";
 }
