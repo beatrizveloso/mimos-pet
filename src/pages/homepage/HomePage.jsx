@@ -12,7 +12,6 @@ import Footer from '../../components/footer/Footer.jsx';
 const HomePage = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
-  // Função para atualizar o valor de pesquisa
   const handleSearchChange = (value) => {
     setSearchTerm(value);
   };
@@ -22,7 +21,7 @@ const HomePage = () => {
       <Header onSearchChange={handleSearchChange} />
       <Home />
       <Produtos />
-        <Cards filtro={searchTerm} />
+      <Cards searchTerm={searchTerm} /> 
       <Apoiadores />
       <Banner />
       <Conhecimentos />

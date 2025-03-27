@@ -24,7 +24,7 @@ const SearchSection = () => {
 
       {searchTerm.length > 0 && (
         <div className="search-results">
-          <Cards filtro={searchTerm} className="search-card" /> 
+          <Cards filtro={null} searchTerm={searchTerm} className="search-card" /> 
         </div>
       )}
     </section>
