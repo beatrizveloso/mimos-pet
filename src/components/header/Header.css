@@ -38,10 +38,6 @@ header {
   padding: 5px 30px; 
 }
 
-.nav-item img {
-  margin-left: 30px;
-}
-
 .nav-item a:hover {
   color: #376da3;
 }
@@ -64,8 +60,7 @@ li p:hover {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   margin: 20px; 
   padding: 12px 20px;
-  }
-  
+}
 
 .login-btn:hover {
   background-color: #376da3;
@@ -78,45 +73,17 @@ li p:hover {
   color: white;
 }
 
-input {
-  padding: 10px;
-  border-radius: 50px;
-  border: 3px solid #a7aaad;
-  background-color: #f0f0f0;
-  color: #103559;
-  font-size: 16px;
-  font-family: Arial, sans-serif;
-}
-
-.search-container {
-  position: relative;
+.auth-cart-container {
   display: flex;
   align-items: center;
-}
-
-.search-container input {
-  width: 250px;
-  height: 40px;
-  padding: 10px 55px 10px 30px;
-  border: none;
-  border-radius: 50px;
-  font-size: 1.1rem;
-  background-color: #ffffff;
-}
-
-.search-container .search-icon {
-  position: absolute;
-  right: 30px;
-  color: #969EA0;
-  font-size: 20px;
-  cursor: pointer;
+  justify-content: center;
+  gap: 30px; 
 }
 
 .cart-btn {
   background: transparent; 
   border: none;
   cursor: pointer;
-  
 }
 
 .cart-btn .cart-icon {
@@ -125,43 +92,50 @@ input {
 }
 
 #mobile_btn {
-    display: none;
-    border: none;
-    background-color: transparent;
-    font-size: 1.5rem;
-    cursor: pointer;
+  display: none;
+  border: none;
+  background-color: transparent;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
 #mobile_menu {
-    display: none;
+  display: none;
 }
 
-/* Responsividade */
-@media screen and (max-width: 1170px) {
-    #nav_list,
-    #navbar .btn-default {
-        display: none;
-    }
+@media screen and (max-width: 500px) {
+  #nav_list,
+  #navbar .btn-default {
+      display: none;
+  }
 
-    #mobile_btn {
-        display: block;
-    }
+  #mobile_btn {
+      display: block;
+  }
 
-    #mobile_menu.active {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  #mobile_menu.active {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
 
-    #mobile_nav_list {
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-        margin: 12px 0px;
-    }
+  #mobile_nav_list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin: 12px 0px;
+  }
 
-    #mobile_nav_list .nav-item {
-        list-style: none;
-        text-align: center;
-    } 
+  #mobile_nav_list .nav-item {
+      list-style: none;
+      text-align: center;
+  } 
+
+  .auth-cart-container {
+    gap: 10px; /* Menos espaço em telas menores */
+  }
+
+  .search-container input {
+    width: 80%; /* Ajusta o campo de pesquisa em telas pequenas */
+  }
 }

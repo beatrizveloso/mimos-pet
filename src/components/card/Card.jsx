@@ -1,9 +1,9 @@
 import React from 'react';
 import './Card.css';
 
-const Card = ({ image, title, category, size, price }) => {
+const Card = ({ image, title, category, size, price, isSearchResult = false }) => {
   return (
-    <section className="card">
+    <section className={`card ${isSearchResult ? 'search-card' : ''}`}>
       <div className="card-image-container">
         <img src={image} alt={title} />
       </div>

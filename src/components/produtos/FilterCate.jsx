@@ -29,7 +29,7 @@ const FilterCate = ({ setFiltro }) => {
 
       <div className="products-button">
         <button className="filter-button" onClick={() => setIsOpen(!isOpen)}>
-          <p>Filtre por: {selectedFilter}</p> {/* Texto sempre fixo com categoria escolhida */}
+          <p>Filtre por: {selectedFilter}</p> 
           {isOpen ? <FiChevronDown className="arrow-icon" /> : <FiChevronRight className="arrow-icon" />}
         </button>
 
