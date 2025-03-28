@@ -59,7 +59,24 @@
   font-size: 0.8rem;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
+  color: gray;
 }
+
+.card-link {
+  text-decoration: none;
+  color: #103559;
+}
+
+.card-link h1 {
+  text-decoration: none;
+  color: #103559;
+}
+
+.card p {
+  text-decoration: none;
+  color: gray;
+}
+
 
 .details {
   display: flex;
