@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
 
 :root {
-  --first-color: hsl(22, 92%, 54%);
-  --first-color-alt: hsl(27, 87%, 57%);
+  --first-color: hsl(39, 79%, 45%);
+  --first-color-alt: hsl(41, 93%, 42%);
   --title-color: hsl(220, 68%, 4%);
   --white-color: hsl(0, 0%, 100%);
   --text-color: hsl(220, 15%, 66%);
@@ -224,7 +224,6 @@
   padding-block: 2rem 1rem;
 }
 
-/* Input focus sticky top label */
 .login__input:not(:placeholder-shown).login__input:not(:focus)~.login__label {
   transform: translateY(-12px);
   font-size: var(--tiny-font-size);
@@ -234,7 +233,6 @@
   padding-block: 2rem 1rem;
 }
 
-/* Input focus color */
 .login__input:focus {
   border-color: var(--first-color);
 }
@@ -244,7 +242,6 @@
   color: var(--first-color);
 }
 
-/* Show hide login & create account */
 .active .login__access {
   transform: translateX(15rem);
   opacity: 0;
@@ -257,15 +254,12 @@
   pointer-events: initial;
 }
 
-/*=============== BREAKPOINTS ===============*/
-/* For small devices */
 @media screen and (max-width: 320px) {
   .container {
     margin-inline: 1rem;
   }
 }
 
-/* For medium devices */
 @media screen and (min-width: 540px) {
   .login__area {
     width: 380px;
@@ -279,7 +273,6 @@
   }
 }
 
-/* For large devices */
 @media screen and (min-width: 1150px) {
   .container {
     margin-inline: auto;
@@ -319,4 +312,23 @@
   .login__img {
     transform: translate(0rem, 0rem);
   }
+}
+
+.back-arrow-container {
+  position: absolute;
+  top: 20px;
+  left: 20px; 
+  z-index: 10; 
+}
+
+.back-btn {
+  background: transparent; 
+  border: none; 
+  cursor: pointer; 
+  padding: 5px; 
+}
+
+.back-icon {
+  font-size: 24px; 
+  color: #ca8f0f;
 }
