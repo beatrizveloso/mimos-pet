@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-main {
+#homepage {
   background-color: var(--third-color);
   font-family: "Inter", sans-serif;
   font-size: 1rem;
@@ -13,6 +13,7 @@ main {
 .shape {
   width: 50vw;
   height: 100vh;
+  animation: fadeInUp 1s ease-out;
 }
 
 .shape img {
@@ -20,7 +21,7 @@ main {
   width: 50vw;
 }
 
-.text {
+.text-home {
   width: 50vw;
   height: 100vh;
   display: flex;
@@ -29,56 +30,62 @@ main {
   align-items: center;
 }
 
-.align-h1 h1 {
+.home-h1 {
+  display: flex;
+}
+
+.home-h1 h1 {
+  margin-top: -50px;
   font-size: 5rem;
   font-weight: 900;
 }
 
-.align-h1 h1 > span {
+.home-h1 h1 > span {
   font-size: 5rem;
   color: var(--yellow);
 }
 
-.align-h1 {
-  display: flex;
-}
-
-.align-h1 img {
+.home-h1 img {
   margin-left: 30px;
   margin-right: 30px;
-  margin-bottom: 20px;
+  margin-top: -190px;
 }
 
-.text p {
+.text-home {
+  animation: fadeInLeft 1s ease-out 0.3s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.text-home button:hover {
+  background-color: #e2a03c;
+}
+
+.text-home p {
   max-width: 520px;
   height: 200px;
   font-size: 1.5rem;
   line-height: 40px; 
-  margin-top: 40px;
   font-weight: 500;
   text-align: justify;
 }
 
-.products-btn p {
-  font-size: 1.1rem;
-  font-weight: 500;
-  font-family: "Inter", sans-serif;
-  color: white; 
-  margin: 10px 0px 0px 30px;
-}
-
-.products-btn button {
+.home-btn button {
   border: none;
   background: var(--yellow);
   width: 170px;
   height: 60px;
   border-radius: 50px;
   color: white;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
-.text button:hover {
-  background-color: #e2a03c;
+.home-btn p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  color: white; 
+  margin: 10px 0px 0px 30px;
 }
 
 @keyframes fadeInUp {
@@ -101,14 +108,4 @@ main {
       opacity: 1;
       transform: translateX(0);
   }
-}
-
-.shape {
-  animation: fadeInUp 1s ease-out;
-}
-
-.text {
-  animation: fadeInLeft 1s ease-out 0.3s;
-  opacity: 0;
-  animation-fill-mode: forwards;
 }
