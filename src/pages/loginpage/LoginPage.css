@@ -37,7 +37,7 @@
 
 .bg-login {
   color: var(--text-color);
-  background-image: url('/images/background-login.svg');
+  background-image: url('/images/background-login-yellow.svg');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -330,5 +330,5 @@
 
 .back-icon {
   font-size: 24px; 
-  color: #ca8f0f;
+  color: #c28a12;
 }
