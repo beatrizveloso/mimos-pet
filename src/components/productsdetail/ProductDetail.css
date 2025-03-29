@@ -31,6 +31,37 @@
   margin-bottom: 60px;
 }
 
+.product-detail {
+  display: flex;
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+}
+
+.product-image {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.zoom-box {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  border: 2px solid #ddd;
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+  opacity: 1;
+  z-index: 10;
+}
+
 .image-and-info {
   display: flex;
   flex-direction: column;
@@ -41,7 +72,7 @@
 .product-image {
     width: 541px;
   height: 585px;
-  border: 1px solid #969EA0;
+  border: 3.5px solid #969EA0;
   border-radius: 5px;
   background-color: white;
   padding: 10px;
