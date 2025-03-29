@@ -1,0 +1,105 @@
+.conhecimento-detail-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: #003459;
+  margin-top: 50px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.main-title span {
+  color: #FFBD59;
+  font-size: 40px;
+}
+
+.author-date {
+  font-family: 'Poppins', sans-serif;
+  font-weight: medium;
+  font-size: 20px;
+  color: #848484;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.image {
+  width: 900px;
+  height: 550px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #686565;
+  margin-top: 30px;
+  line-height: 1.6;
+}
+
+.sub-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #003459;
+  margin-top: 40px;
+}
+
+.sub-title span {
+  font-size: 40px; 
+  font-weight: bold;
+  color: #FFBD59;
+}
+
+.social-share {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.social-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.social-icon .icon {
+  font-size: 30px;
+  color: white;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.whatsapp {
+  background-color: #25d366;
+}
+
+.share {
+  background-color: #555555;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+

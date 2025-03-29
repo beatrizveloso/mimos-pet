@@ -1,0 +1,59 @@
+.align-conhecimentos {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px; 
+    margin: 80px 50px 90px 50px;
+  }
+  
+  .conhecimentos-cards {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card-conhe {
+    width: 380px;
+    height: 466px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-conhe img {
+    width: calc(100% - 16px);
+    height: auto;
+    margin: 8px;
+    border-radius: 10px;
+  }
+  
+  .tag {
+    width: 90px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #00A7E7;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 3px 10px 0px 10px; 
+  }
+  
+  .card-conhe h1 {
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: black;
+    margin: 10px;
+    text-transform: capitalize;
+  }
+  
+  .card-conhe p {
+    font-size: 0.9rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: black;
+    line-height: 20px;
+    text-transform: capitalize;
+    margin: 10px;
+  }
+  

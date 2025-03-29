@@ -2,7 +2,7 @@ import './HomePage.css';
 import React, { useState } from "react";
 import Header from "../../components/header/Header.jsx";
 import Home from '../../components/home/Home.jsx';
-import Produtos from '../../components/produtos/Produtos.jsx';
+import TitleProducts from '../../components/produtos/TitleProducts.jsx';
 import Cards from '../../components/card/Cards.jsx';
 import Apoiadores from '../../components/apoiadores/Apoiadores.jsx';
 import Banner from '../../components/banner/Banner.jsx';
@@ -20,7 +20,7 @@ const HomePage = () => {
     <div className='home-container'>
       <Header onSearchChange={handleSearchChange} />
       <Home />
-      <Produtos />
+      <TitleProducts />
       <Cards searchTerm={searchTerm} limit={8} />
       <Apoiadores />
       <Banner />
