@@ -76,7 +76,7 @@ const Footer = () => {
                 </div>
                 <div className="footer-bottom">
                     <p>© 2025 Mimo’s Pet. Todos os direitos reservados</p>
-                    <img src="images/mimo's-pet-logo.svg" alt="Logo" />
+                    <img src="/images/mimo's-pet-logo.svg" alt="Logo" />
                     <p>Termos de Serviço              Políticas de privacidade</p>
                 </div>
             </div>

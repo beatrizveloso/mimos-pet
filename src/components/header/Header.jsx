@@ -18,7 +18,7 @@ const Header = () => {
                     <li className="nav-item">
                         <Link to="/">
                             <img
-                                src="images/mimo's-pet-logo.svg"
+                                src="/images/mimo's-pet-logo.svg"
                                 alt="Logo de um gato e um cachorro se olhando com um coração no meio"
                             />
                         </Link>
