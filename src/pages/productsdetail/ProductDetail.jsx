@@ -32,6 +32,22 @@ const ProductDetail = () => {
     { id: 22, image: '/images/ração-15.png', title: 'Ração Special Cat Gatos Adultos Carne', category: 'Alimentação', size: 'Tamanho: 20kg', price: 'R$238,90' },
     { id: 23, image: '/images/ração-16.png', title: 'Magnus Cat Premium Gatos Filhotes Carne E Frango', category: 'Alimentação', size: 'Tamanho: 10kg', price: 'R$162,12' },
     
+    { id: 24, image: '/images/higiene-1.png', title: 'Kit Higiene Pocket Pet Clean para Cães e Gatos', category: 'Higiene', size: 'Tamanho: Único', price: 'R$59,90' },
+    { id: 25, image: '/images/higiene-2.png', title: 'Fluído Desembaraçador Premium Cães', category: 'Higiene', size: 'Tamanho: 500ml', price: 'R$41,21' },
+    { id: 26, image: '/images/higiene-3.png', title: 'Shampoo E Condicionador Pet Clean 5 Em 1 Para Cães', category: 'Higiene', size: 'Tamanho: 700ml', price: 'R$17,89' },
+    { id: 27, image: '/images/higiene-4.png', title: 'Shampoo Cães Gatos Brilho Intenso Pelos Escuros', category: 'Higiene', size: 'Tamanho: 500ml', price: 'R$58,80' },
+    { id: 28, image: '/images/higiene-5.png', title: 'Shampoo Limpeza Suave Pet Neutro Filhotes', category: 'Higiene', size: 'Tamanho: 500ml', price: 'R$57,40' },
+    { id: 29, image: '/images/higiene-6.png', title: 'Fluido Desembaraçador Cães Gatos Pelos Longos', category: 'Higiene', size: 'Tamanho: 200ml', price: 'R$43,60' },
+    { id: 30, image: '/images/higiene-7.png', title: 'Granado Shampoo Pet Neutro Todos os Tipos de Pelos', category: 'Higiene', size: 'Tamanho: 500ml', price: 'R$57,40' },
+    { id: 31, image: '/images/higiene-8.png', title: 'Shampoo Pet Desembaraçador Pelos Longos', category: 'Higiene', size: 'Tamanho: 500ml', price: 'R$57,40' },
+    { id: 32, image: '/images/higiene-9.png', title: 'Shampoo Pet Azul Pelos Claros Granado', category: 'Higiene', size: 'Tamanho: 500ml', price: 'R$55,90' },
+    { id: 33, image: '/images/higiene-10.png', title: 'Shampoo e Condicionador 2 em 1 Genial Pet', category: 'Higiene', size: 'Tamanho: 500ml', price: 'R$22,90' },
+    { id: 34, image: '/images/higiene-11.png', title: 'Shampoo K Dog Coco e Menta para Cães e Gatos', category: 'Higiene', size: 'Tamanho: 250ml', price: 'R$18,50' },
+    { id: 35, image: '/images/higiene-12.png', title: 'Condicionador Beeps Hidratante Manteiga de Karité', category: 'Higiene', size: 'Tamanho: 480ml', price: 'R$41,61' },
+    { id: 36, image: '/images/higiene-13.png', title: 'Condicionador Au.Migos Pets Todos os tipos de pelos', category: 'Higiene', size: 'Tamanho: 400ml', price: 'R$49,90' },
+    { id: 37, image: '/images/higiene-14.png', title: 'Shampoo para Pet Au.Migos Pets 5 em 1', category: 'Higiene', size: 'Tamanho: 400ml', price: 'R$49,90' },
+    { id: 38, image: '/images/higiene-15.png', title: 'Desembaraçador De Pelos Cachorro E Gatos Pet Clean', category: 'Higiene', size: 'Tamanho: 500ml', price: 'R$17,76' },
+    { id: 39, image: '/images/higiene-16.png', title: 'Fluido Desembaraçador Pet Hydra Fluído', category: 'Higiene', size: 'Tamanho: 240ml', price: 'R$63,65' },
   ];
 
   console.log("Lista de IDs disponíveis:", produtosData.map(p => p.id));

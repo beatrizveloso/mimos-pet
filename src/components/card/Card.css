@@ -77,6 +77,13 @@
   color: gray;
 }
 
+.pagination span {
+  font-weight: bold;
+}
+
+.pagination span strong {
+  color: #FFBD59;
+}
 
 .details {
   display: flex;
