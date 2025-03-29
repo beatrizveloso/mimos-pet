@@ -4,10 +4,12 @@ import HomePage from "../pages/homepage/HomePage";
 import CategoriesPage from "../pages/categoriespage/CategoriesPage"; 
 import LoginPage from "../pages/loginpage/LoginPage"; 
 import ProductPage from "../pages/productpage/ProductPage"; 
+import ScrollToTop from "./ScrollToTop"; 
 
 const AppRoutes = () => { 
   return (
     <BrowserRouter>
+     <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} /> {/* Página inicial */}
         <Route path="/categorias" element={<CategoriesPage />} /> {/* Página Categorias */}
