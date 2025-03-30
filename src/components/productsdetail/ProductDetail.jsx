@@ -106,6 +106,8 @@ const ProductDetail = () => {
 
         </div>
 
+        <div className="align-semelhantes">
+
         <div className="descricao-composicao">
           <h3>Descrição</h3>
           <div className="descricao">
@@ -120,6 +122,7 @@ const ProductDetail = () => {
         </div>
 
         <h3>Produtos Semelhantes:</h3>
+        </div>
       </div>
     </div>
   );

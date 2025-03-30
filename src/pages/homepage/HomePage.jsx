@@ -8,6 +8,7 @@ import Apoiadores from '../../components/apoiadores/Apoiadores.jsx';
 import Banner from '../../components/banner/Banner.jsx';
 import Conhecimentos from '../../components/conhecimentocard/Conhecimentos.jsx';
 import Footer from '../../components/footer/Footer.jsx';
+import Chatbot from "../../components/chatbot/ChatBot";
 
 const HomePage = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -26,6 +27,7 @@ const HomePage = () => {
       <Banner />
       <Conhecimentos />
       <Footer />
+      <Chatbot /> 
     </div>
   );
 };
