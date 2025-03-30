@@ -1,15 +1,14 @@
-import React, { useState } from "react";
+import React, { useContext, useRef } from "react";
 import { Link } from "react-router-dom";
-import { FaShoppingCart } from "react-icons/fa";
-import "../header/Header.css";
+import { TiShoppingCart } from "react-icons/ti";
+import { CartContext } from "../../context/CartContext";
 import SearchSection from "../input/SearchSection";
+import "../header/Header.css";
 
 const Header = () => {
-    const [searchTerm, setSearchTerm] = useState(""); 
+    const { cartItems } = useContext(CartContext);
 
-    const handleSearchChange = (e) => {
-        setSearchTerm(e.target.value);
-    };
+    const cartCount = cartItems.reduce((acc, item) => acc + item.quantidade, 0);
 
     return (
         <header>
@@ -83,20 +82,23 @@ const Header = () => {
             </div>
 
             <section className="results">
-                <SearchSection /> 
+                <SearchSection />
             </section>
 
-            <div className="auth-cart-container">
-                <button className="cart-btn">
-                    <FaShoppingCart className="cart-icon" />
-                </button>
-                
-                <Link to="/login">
-                    <button className="login-btn">
-                        <p>Login</p>
+            <Link to="/carrinho">
+                <div className="auth-cart-container">
+                    <button className="cart-btn">
+                        <TiShoppingCart className="cart-icon"/>
+                        {cartCount > 0 && <span className="cart-count">{cartCount}</span>}
                     </button>
-                </Link>
-            </div>
+                </div>
+            </Link>
+
+            <Link to="/login">
+                <button className="login-btn">
+                    <p>Login</p>
+                </button>
+            </Link>
         </header>
     );
 };

@@ -1,7 +1,8 @@
-import React, { useState, useRef } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
-import { FaStar, FaMinus, FaPlus } from 'react-icons/fa';
-import './ProductDetail.css';
+import React, { useState, useRef, useContext } from "react";
+import { useParams } from "react-router-dom";
+import { FaStar, FaMinus, FaPlus } from "react-icons/fa";
+import { CartContext } from "../../context/CartContext"; // Importando o contexto do carrinho
+import "./ProductDetail.css";
 
 const produtosData = [
   {
@@ -23,8 +24,7 @@ const produtosData = [
       "Ômega 6 e zinco para manter a pele e pelo saudáveis.",
       "Disponível em embalagens de 500 g, 900 g, 2,7 kg, 10,1 kg, leve 10,1kg e pague 9kg."
     ],
-    composicao:
-      "Farinha de Carne e Ossos de bovinos, Farinha de Vísceras e Ossos de Aves, Glúten de Milho, Milho Integral, Farelo de Soja, Quirera de Arroz, Gordura de Aves, Gordura de Ruminantes, Glúten de Trigo, Farinha de Trigo, Cenoura, Espinafre, Hidrolisado de Fígado de Aves, Mananoligossacarídeo (mín 0.05%), Taurina, Metionina, Vitaminas (Vitamina A (Retinol), B1 (Tiamina), B2 (Riboflavina), B6 (Piridoxina), B12 (Cianocobalamina), D3 (Colecalciferol), E (Acetato DL Alfa Tocoferol), Ácido Fólico, Niacina, Cloreto de Colina, Ácido Pantotênico), Minerais (Cloreto de Potássio , Cloreto de Sódio (sal comum), Iodato de Cálcio, Óxido de Zinco, Selenito de Sódio, Sulfato de Cobre, Sulfato de Manganês), B.H.T. (Hidróxido de Tolueno Butilado), Corantes (Caramelo IV, Amarelo crepúsculo, Amarelo Tartrazina, Vermelho Ponceau 4R e Azul Indigotina). Eventuais Substitutivos: Sorgo Integral, Cevada em grão, Proteína Concentrada de Soja, Farinha de Carne e Ossos de Suíno. *Espécies doadoras de gene: Agrobacterium tumefaciens, Bacillus thuringiensis, Streptomyces viridochromogenes, Zea mays, Sphingobium herbicidorovans, Dicossoma sp, Diabrotica firgifera, Thermoccocales spp, Bacillus subtilis. **Espécies doadoras do gene: Agrobacterium tumefaciens, Bacillus thuringiensis, Streptomyces viridochromogenes, Arabidopsis thaliana, Delftia acidovorans, Pseudomonas fluorescens, Zea mays, Stenotrophomonas maltophilia, B.T. var Azawai e Kurstaqui, Agrobacterium sp"
+    composicao: "Farinha de Carne e Ossos de bovinos, Farinha de Vísceras..."
   },
   {
     id: 2,
@@ -33,14 +33,14 @@ const produtosData = [
     category: "Higiene",
     size: "4kg",
     price: "R$12,25",
-    descricao: ["Areia higiênica para gatos."], 
+    descricao: ["Areia higiênica para gatos."],
     composicao: "Argila 100% natural."
   }
 ];
 
-
 const ProductDetail = () => {
   const { id } = useParams();
+  const { addToCart } = useContext(CartContext); // Obtendo a função do contexto
   const produto = produtosData.find(prod => prod.id === parseInt(id));
   const [quantidade, setQuantidade] = useState(1);
 
@@ -61,12 +61,10 @@ const ProductDetail = () => {
     setZoomPos({ x, y, visible: true });
   };
 
-
   return (
     <div className="product-detail-container">
       <div className="product-detail">
-
-      <div 
+        <div
           className="image-container"
           onMouseMove={handleMouseMove}
           onMouseLeave={() => setZoomPos({ ...zoomPos, visible: false })}
@@ -102,7 +100,10 @@ const ProductDetail = () => {
           </div>
 
           <h2>{produto.price}</h2>
-          <button className="adicionar-carrinho">Adicionar ao carrinho</button>
+          <button className="adicionar-carrinho" onClick={() => addToCart(produto, quantidade)}>
+            Adicionar ao carrinho
+          </button>
+
         </div>
 
         <div className="descricao-composicao">
@@ -117,12 +118,10 @@ const ProductDetail = () => {
           <h3>Composição</h3>
           <p className="composicao">{produto.composicao}</p>
         </div>
-      <h3>Produtos Semelhantes: </h3>
-        
+
+        <h3>Produtos Semelhantes:</h3>
       </div>
     </div>
-    
-
   );
 };
 
