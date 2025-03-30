@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FiArrowRight } from "react-icons/fi"; 
-import "../produtos/Produtos.css";
+import "../produtos/TitleProducts.css";
 
-const Produtos = () => {
+const TitleProducts = () => {
     return (
         <div className="align-products">
             <div className="products-text">
@@ -22,4 +22,4 @@ const Produtos = () => {
     );
 };
 
-export default Produtos;
+export default TitleProducts;
