@@ -190,3 +190,22 @@ hr {
   border-top: 1px solid #ccc;
   margin: 20px 0;
 }
+
+.flying-image {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  z-index: 1000;
+  animation: flyToCart 1s ease-in-out forwards;
+}
+
+@keyframes flyToCart {
+  0% {
+      transform: translate(0, 0);
+      opacity: 1;
+  }
+  100% {
+      transform: translate(300px, -400px); /* Ajuste a posição conforme necessário */
+      opacity: 0;
+  }
+}
