@@ -9,8 +9,9 @@ const produtosData = [
     "id": 1,
     "image": "/images/ração-1.png",
     "title": "Ração Seca Para Gatos Adultos Carne",
-    "category": "Ração",
+    "category": "Rações para Gatos",
     "size": "2,7kg",
+    "subcategory": "Seca",
     "price": "R$42,42",
     "descricao": [
       "Indicada para gatos adultos a partir de 1 ano de idade.",
@@ -31,6 +32,7 @@ const produtosData = [
     "image": "/images/pipicat.png",
     "title": "Areia Higiênica Pipicat Classic Para Gatos",
     "category": "Higiene",
+    "subcategory": "Areia Higiênica",
     "size": "4kg",
     "price": "R$12,25",
     "descricao": [
@@ -47,6 +49,7 @@ const produtosData = [
     "image": "/images/mochila-cat.png",
     "title": "Mochila Transporte Pet Para Gatos e Cães",
     "category": "Transporte",
+    "subcategory": "Mochilas",
     "size": "Único",
     "price": "R$347,99",
     "descricao": [
@@ -62,7 +65,8 @@ const produtosData = [
     "id": 4,
     "image": "/images/bola-cravo.png",
     "title": "Brinquedo Bola Vinil com Cravo para Cães",
-    "category": "Brinquedo",
+    "category": "Brinquedos",
+    "subcategory": "Bolas",
     "size": "Tamanho: P",
     "price": "R$14,49",
     "descricao": [
@@ -78,7 +82,8 @@ const produtosData = [
     "id": 5,
     "image": "/images/brinquedo-ventosa.png",
     "title": "Brinquedo Corda Ventosa Morder Pet Cachorro Azul",
-    "category": "Brinquedo",
+    "category": "Brinquedos",
+    "subcategory": "Mordedores",
     "size": "Tamanho: Único",
     "price": "R$19,30",
     "descricao": [
@@ -94,7 +99,8 @@ const produtosData = [
     "id": 6,
     "image": "/images/comedouro.png",
     "title": "Comedouro E Brinquedo Petball Mini Pet Games",
-    "category": "Brinquedo",
+    "category": "Brinquedos",
+    "subcategory": "Bolas",
     "size": "Tamanho: P",
     "price": "R$36,46",
     "descricao": [
@@ -111,6 +117,7 @@ const produtosData = [
     "image": "/images/shampoo-neutro.png",
     "title": "Shampoo Pet Clean Neutro para Cães e Gatos",
     "category": "Higiene",
+    "subcategory": "Shampoo e Condicionador",
     "size": "Tamanho: 700ml",
     "price": "R$17,90",
     "descricao": [
@@ -126,7 +133,8 @@ const produtosData = [
     "id": 8,
     "image": "/images/frango-galinha.png",
     "title": "Frango Galinha Borracha Morder Brinquedo Pet",
-    "category": "Brinquedo",
+    "category": "Brinquedos",
+    "subcategory": "Mordedores",
     "size": "Tamanho: Único",
     "price": "R$19,60",
     "descricao": [
@@ -138,11 +146,14 @@ const produtosData = [
     ],
     "composicao": "Feito de borracha resistente e flexível, o Brinquedo Frango Galinha é seguro para o pet, livre de substâncias tóxicas. A borracha é projetada para suportar mordidas intensas, garantindo a durabilidade do brinquedo mesmo durante brincadeiras mais ativas. Além disso, o material utilizado é fácil de limpar, podendo ser lavado frequentemente sem comprometer a qualidade do brinquedo."
   },
+
+
   {
     "id": 9,
     "image": "/images/ração-2.png",
     "title": "Ração Golden Frango e Carne Gatos Castrados",
-    "category": "Alimentação",
+    "category": "Rações para Gatos",
+    "subcategory": "Seca",
     "size": "Tamanho: 10,1kg",
     "price": "R$141,21",
     "descricao": [
@@ -156,7 +167,8 @@ const produtosData = [
     "id": 10,
     "image": "/images/ração-3.png",
     "title": "Ração Special Cat Premium Para Gatos Adultos Castrados",
-    "category": "Alimentação",
+    "category": "Rações para Gatos",
+    "subcategory": "Sênior",
     "size": "Tamanho: 1kg",
     "price": "R$24,90",
     "descricao": [
@@ -170,7 +182,8 @@ const produtosData = [
     "id": 11,
     "image": "/images/ração-4.png",
     "title": "Gran Plus Ração Gatos Filhotes Frango e Arroz",
-    "category": "Alimentação",
+    "category": "Rações para Gatos",
+    "subcategory": "Filhotes",
     "size": "Tamanho: 1kg",
     "price": "R$27,90",
     "descricao": [
@@ -184,7 +197,8 @@ const produtosData = [
     "id": 12,
     "image": "/images/ração-5.png",
     "title": "Ração para Gatos Filhotes Frango Leite Cenoura",
-    "category": "Alimentação",
+    "category": "Rações para Gatos",
+    "subcategory": "Filhotes",
     "size": "Tamanho: 1kg",
     "price": "R$29,90",
     "descricao": [
@@ -198,7 +212,8 @@ const produtosData = [
     "id": 13,
     "image": "/images/ração-6.png",
     "title": "Ração Spert Cat Premium para Gatos Frango e Salmão",
-    "category": "Alimentação",
+    "category": "Rações para Gatos",
+    "subcategory": "Filhotes",
     "size": "Tamanho: 10,1kg",
     "price": "R$149,84",
     "descricao": [
@@ -212,7 +227,8 @@ const produtosData = [
     "id": 14,
     "image": "/images/ração-7.png",
     "title": "Ração Golden Gatos Castrados Frango com Abóbora",
-    "category": "Alimentação",
+    "category": "Rações para Gatos",
+    "subcategory": "Seca",
     "size": "Tamanho: 3kg",
     "price": "R$73,90",
     "descricao": [
@@ -226,7 +242,8 @@ const produtosData = [
     "id": 15,
     "image": "/images/ração-8.png",
     "title": "Ração Golden Gatos Castrados Salmão Premium",
-    "category": "Alimentação",
+    "category": "Rações para Gatos",
+    "subcategory": "Seca",
     "size": "Tamanho: 10,1kg",
     "price": "R$167,10",
     "descricao": [
@@ -240,7 +257,8 @@ const produtosData = [
     "id": 16,
     "image": "/images/ração-9.png",
     "title": "Mandala Blend Gatos Adultos Carne e Frango",
-    "category": "Alimentação",
+    "category": "Rações para Gatos",
+    "subcategory": "Sênior",
     "size": "Tamanho: 10,1kg",
     "price": "R$109,90",
     "descricao": [
@@ -254,7 +272,8 @@ const produtosData = [
     "id": 17,
     "image": "/images/ração-10.png",
     "title": "Ração Gatos Castrados Salmão e Batata Doce",
-    "category": "Alimentação",
+    "category": "Rações para Gatos",
+    "subcategory": "Seca",
     "size": "Tamanho: 10,1kg",
     "price": "R$184,89",
     "descricao": [
@@ -268,7 +287,8 @@ const produtosData = [
     "id": 18,
     "image": "/images/ração-11.png",
     "title": "Ração Premier Gatos Adultos Castrados Frango",
-    "category": "Alimentação",
+    "category": "Rações para Gatos",
+    "subcategory": "Seca",
     "size": "Tamanho: 1,5kg",
     "price": "R$68,57",
     "descricao": [
@@ -282,7 +302,8 @@ const produtosData = [
     "id": 19,
     "image": "/images/ração-12.png",
     "title": "Ração Gatos Castrados Super Premium Pet Gold",
-    "category": "Alimentação",
+    "category": "Rações para Gatos",
+    "subcategory": "Seca",
     "size": "Tamanho: 10,1kg",
     "price": "R$124,29",
     "descricao": [
@@ -296,7 +317,8 @@ const produtosData = [
     "id": 20,
     "image": "/images/ração-13.png",
     "title": "Ração Magnus Mix Partículas Recheadas para Gatos Adultos",
-    "category": "Alimentação",
+    "category": "Rações para Gatos",
+    "subcategory": "Seca",
     "size": "Tamanho: 25kg",
     "price": "R$259,66",
     "descricao": [
@@ -310,7 +332,8 @@ const produtosData = [
     "id": 21,
     "image": "/images/ração-14.png",
     "title": "Ração Magnus Cat Premium Gatos Filhotes Mix de Sabores",
-    "category": "Alimentação",
+    "category": "Rações para Gatos",
+    "subcategory": "Filhotes",
     "size": "Tamanho: 15kg",
     "price": "R$162,14",
     "descricao": [
@@ -324,7 +347,8 @@ const produtosData = [
     "id": 22,
     "image": "/images/ração-15.png",
     "title": "Ração Special Cat Gatos Adultos Carne",
-    "category": "Alimentação",
+    "category": "Rações para Gatos",
+    "subcategory": "Sênior",
     "size": "Tamanho: 20kg",
     "price": "R$238,90",
     "descricao": [
@@ -337,8 +361,8 @@ const produtosData = [
   {
     "id": 23,
     "image": "/images/ração-16.png",
-    "title": "Magnus Cat Premium Gatos Filhotes Carne e Frango",
-    "category": "Alimentação",
+    "category": "Rações para Gatos",
+    "subcategory": "Filhotes",
     "size": "Tamanho: 10kg",
     "price": "R$162,12",
     "descricao": [
@@ -348,11 +372,13 @@ const produtosData = [
     ],
     "composicao": "Carne, frango, arroz, milho, gordura animal, óleo de peixe, taurina, fibras vegetais, vitaminas, minerais."
   },
+
   {
     "id": 24,
     "image": "/images/higiene-1.png",
     "title": "Kit Higiene Pocket Pet Clean para Cães e Gatos",
     "category": "Higiene",
+    "subcategory": "Shampoo e Condicionador",
     "size": "Tamanho: Único",
     "price": "R$59,90",
     "descricao": [
@@ -367,6 +393,7 @@ const produtosData = [
     "image": "/images/higiene-2.png",
     "title": "Fluído Desembaraçador Premium Cães",
     "category": "Higiene",
+    "subcategory": "Shampoo e Condicionador",
     "size": "Tamanho: 500ml",
     "price": "R$41,21",
     "descricao": [
@@ -381,6 +408,7 @@ const produtosData = [
     "image": "/images/higiene-3.png",
     "title": "Shampoo E Condicionador Pet Clean 5 Em 1 Para Cães",
     "category": "Higiene",
+    "subcategory": "Shampoo e Condicionador",
     "size": "Tamanho: 700ml",
     "price": "R$17,89",
     "descricao": [
@@ -395,6 +423,7 @@ const produtosData = [
     "image": "/images/higiene-4.png",
     "title": "Shampoo Cães Gatos Brilho Intenso Pelos Escuros",
     "category": "Higiene",
+    "subcategory": "Shampoo e Condicionador",
     "size": "Tamanho: 500ml",
     "price": "R$58,80",
     "descricao": [
@@ -409,6 +438,7 @@ const produtosData = [
     "image": "/images/higiene-5.png",
     "title": "Shampoo Limpeza Suave Pet Neutro Filhotes",
     "category": "Higiene",
+    "subcategory": "Shampoo e Condicionador",
     "size": "Tamanho: 500ml",
     "price": "R$57,40",
     "descricao": [
@@ -423,6 +453,7 @@ const produtosData = [
     "image": "/images/higiene-6.png",
     "title": "Fluido Desembaraçador Cães Gatos Pelos Longos",
     "category": "Higiene",
+    "subcategory": "Shampoo e Condicionador",
     "size": "Tamanho: 200ml",
     "price": "R$43,60",
     "descricao": [
@@ -437,6 +468,7 @@ const produtosData = [
     "image": "/images/higiene-7.png",
     "title": "Granado Shampoo Pet Neutro Todos os Tipos de Pelos",
     "category": "Higiene",
+    "subcategory": "Shampoo e Condicionador",
     "size": "Tamanho: 500ml",
     "price": "R$57,40",
     "descricao": [
@@ -451,6 +483,7 @@ const produtosData = [
     "image": "/images/higiene-8.png",
     "title": "Shampoo Pet Desembaraçador Pelos Longos",
     "category": "Higiene",
+    "subcategory": "Shampoo e Condicionador",
     "size": "Tamanho: 500ml",
     "price": "R$57,40",
     "descricao": [
@@ -465,6 +498,7 @@ const produtosData = [
     "image": "/images/higiene-9.png",
     "title": "Shampoo Pet Azul Pelos Claros Granado",
     "category": "Higiene",
+    "subcategory": "Shampoo e Condicionador",
     "size": "Tamanho: 500ml",
     "price": "R$55,90",
     "descricao": [
@@ -479,6 +513,7 @@ const produtosData = [
     "image": "/images/higiene-10.png",
     "title": "Shampoo e Condicionador 2 em 1 Genial Pet",
     "category": "Higiene",
+    "subcategory": "Shampoo e Condicionador",
     "size": "Tamanho: 500ml",
     "price": "R$22,90",
     "descricao": [
@@ -493,6 +528,7 @@ const produtosData = [
     "image": "/images/higiene-11.png",
     "title": "Shampoo K Dog Coco e Menta para Cães e Gatos",
     "category": "Higiene",
+    "subcategory": "Shampoo e Condicionador",
     "size": "Tamanho: 250ml",
     "price": "R$18,50",
     "descricao": [
@@ -507,6 +543,7 @@ const produtosData = [
     "image": "/images/higiene-12.png",
     "title": "Condicionador Beeps Hidratante Manteiga de Karité",
     "category": "Higiene",
+    "subcategory": "Shampoo e Condicionador",
     "size": "Tamanho: 480ml",
     "price": "R$41,61",
     "descricao": [
@@ -521,6 +558,7 @@ const produtosData = [
     "image": "/images/higiene-13.png",
     "title": "Condicionador Au.Migos Pets Todos os tipos de pelos",
     "category": "Higiene",
+    "subcategory": "Shampoo e Condicionador",
     "size": "Tamanho: 400ml",
     "price": "R$49,90",
     "descricao": [
@@ -535,6 +573,7 @@ const produtosData = [
     "image": "/images/higiene-14.png",
     "title": "Shampoo para Pet Au.Migos Pets 5 em 1",
     "category": "Higiene",
+    "subcategory": "Shampoo e Condicionador",
     "size": "Tamanho: 400ml",
     "price": "R$49,90",
     "descricao": [
@@ -549,6 +588,7 @@ const produtosData = [
     "image": "/images/higiene-15.png",
     "title": "Desembaraçador De Pelos Cachorro E Gatos Pet Clean",
     "category": "Higiene",
+    "subcategory": "Shampoo e Condicionador",
     "size": "Tamanho: 500ml",
     "price": "R$17,76",
     "descricao": [
@@ -563,6 +603,7 @@ const produtosData = [
     "image": "/images/higiene-16.png",
     "title": "Fluido Desembaraçador Pet Hydra Fluído",
     "category": "Higiene",
+    "subcategory": "Shampoo e Condicionador",
     "size": "Tamanho: 240ml",
     "price": "R$63,65",
     "descricao": [
@@ -572,7 +613,6 @@ const produtosData = [
     ],
     "composicao": "Água, agentes desembaraçantes, hidratantes, fragrância suave."
   },
-
 
   {
     "id": 40,
@@ -694,11 +734,21 @@ const produtosData = [
     ],
     "composicao": "Caminha iglu feita em poliéster e espuma de alta densidade, caixa de transporte em plástico ventilado com tampa removível, tapete higiênico com camada absorvente e educador sanitário líquido com fórmula atóxica e aroma suave. Todos os materiais são laváveis e duráveis."
   },
+
+
+
+
+
+
+
+
+
   {
     "id": 50,
     "image": "/images/fantasia-1.png",
     "title": "Fantasia Pet Morcego Batman para Gatos e Cachorros",
-    "category": "Fantasia",
+    "category": "Fantasias",
+    "subcategory": "Temáticas",
     "size": "Tamanho: M",
     "price": "R$94,00",
     "descricao": [
@@ -710,7 +760,8 @@ const produtosData = [
     "id": 51,
     "image": "/images/fantasia-2.png",
     "title": "Fantasia de Pet Vampiro Drácula",
-    "category": "Fantasia",
+    "category": "Fantasias",
+    "subcategory": "Temáticas",
     "size": "Tamanho: P",
     "price": "R$75,60",
     "descricao": [
@@ -722,7 +773,8 @@ const produtosData = [
     "id": 52,
     "image": "/images/fantasia-3.png",
     "title": "Fantasia Pet Robin do Batman para Cães",
-    "category": "Fantasia",
+    "category": "Fantasias",
+    "subcategory": "Temáticas",
     "size": "Tamanho: G",
     "price": "R$69,90",
     "descricao": [
@@ -734,7 +786,8 @@ const produtosData = [
     "id": 53,
     "image": "/images/fantasia-4.png",
     "title": "Fantasia Pet Flash para Cães Grandes",
-    "category": "Fantasia",
+    "category": "Fantasias",
+    "subcategory": "Temáticas",
     "size": "Tamanho: G",
     "price": "R$74,90",
     "descricao": [
@@ -746,7 +799,8 @@ const produtosData = [
     "id": 54,
     "image": "/images/fantasia-5.png",
     "title": "Fantasia Pet Thor para Cães Pequenos",
-    "category": "Fantasia",
+    "category": "Fantasias",
+    "subcategory": "Temáticas",
     "size": "Tamanho: M",
     "price": "R$79,90",
     "descricao": [
@@ -758,7 +812,8 @@ const produtosData = [
     "id": 55,
     "image": "/images/fantasia-6.png",
     "title": "Fantasia Pet Lagosta para Gatos Adultos",
-    "category": "Fantasia",
+    "category": "Fantasias",
+    "subcategory": "Temáticas",
     "size": "Tamanho: P",
     "price": "R$89,90",
     "descricao": [
@@ -770,7 +825,8 @@ const produtosData = [
     "id": 56,
     "image": "/images/fantasia-7.png",
     "title": "Fantasia Pet Gato de Botas Adulto",
-    "category": "Fantasia",
+    "category": "Fantasias",
+    "subcategory": "Temáticas",
     "size": "Tamanho: P",
     "price": "R$94,90",
     "descricao": [
@@ -782,7 +838,8 @@ const produtosData = [
     "id": 57,
     "image": "/images/fantasia-8.png",
     "title": "Fantasia Pet Elvis Presley para Cachorros Médios",
-    "category": "Fantasia",
+    "category": "Fantasias",
+    "subcategory": "Temáticas",
     "size": "Tamanho: M",
     "price": "R$99,90",
     "descricao": [
@@ -794,7 +851,8 @@ const produtosData = [
     "id": 58,
     "image": "/images/fantasia-9.png",
     "title": "Fantasia Pet Capa Lufa-Lufa HP para Cachorros",
-    "category": "Fantasia",
+    "category": "Fantasias",
+    "subcategory": "Temáticas",
     "size": "Tamanho: M",
     "price": "R$110,00",
     "descricao": [
@@ -806,7 +864,8 @@ const produtosData = [
     "id": 59,
     "image": "/images/fantasia-10.png",
     "title": "Fantasia Pet Pijama Sulley para Cachorro",
-    "category": "Fantasia",
+    "category": "Fantasias",
+    "subcategory": "Temáticas",
     "size": "Tamanho: M",
     "price": "R$79,90",
     "descricao": [
@@ -818,7 +877,8 @@ const produtosData = [
     "id": 60,
     "image": "/images/fantasia-11.png",
     "title": "Fantasia Pet de Bruxa para Cachorro",
-    "category": "Fantasia",
+    "category": "Fantasias",
+    "subcategory": "Temáticas",
     "size": "Tamanho: M",
     "price": "R$69,90",
     "descricao": [
@@ -830,7 +890,8 @@ const produtosData = [
     "id": 61,
     "image": "/images/fantasia-12.png",
     "title": "Fantasia Pet de Bombeiro para Cachorro",
-    "category": "Fantasia",
+    "category": "Fantasias",
+    "subcategory": "Temáticas",
     "size": "Tamanho: M",
     "price": "R$79,90",
     "descricao": [
@@ -842,7 +903,8 @@ const produtosData = [
     "id": 62,
     "image": "/images/fantasia-13.png",
     "title": "Fantasia Pet Pijama para Cachorro Médio",
-    "category": "Fantasia",
+    "category": "Fantasias",
+    "subcategory": "Temáticas",
     "size": "Tamanho: M",
     "price": "R$74,90",
     "descricao": [
@@ -854,7 +916,8 @@ const produtosData = [
     "id": 63,
     "image": "/images/fantasia-14.png",
     "title": "Fantasia Pet Woody Toy Story Chapéu e Lenço",
-    "category": "Fantasia",
+    "category": "Fantasias",
+    "subcategory": "Temáticas",
     "size": "Tamanho: M",
     "price": "R$75,99",
     "descricao": [
@@ -862,11 +925,15 @@ const produtosData = [
     ],
     "composicao": "A camisa é confeccionada em poliéster e algodão com toque macio e acabamento impecável. O lenço é em tecido leve, fácil de amarrar e não irrita a pele do animal. O chapéu é feito em feltro resistente com elástico ajustável para melhor fixação. Todos os itens são costurados com atenção aos detalhes para garantir conforto e durabilidade. Produto seguro, lavável e indicado para uso em ocasiões especiais."
   },
+
+
+  
   {
     "id": 64,
     "image": "/images/ração-dogs-1.png",
     "title": "Ração Golden para Cães Adultos de Pequeno Carne",
     "category": "Ração para Cães",
+    "subcategory": "Secas",
     "size": "Tamanho: 3kg",
     "price": "R$22,40",
     "descricao": [
@@ -879,6 +946,7 @@ const produtosData = [
     "image": "/images/ração-dogs-2.png",
     "title": "Ração Golden Seleção Natural Cães Adultos",
     "category": "Ração para Cães",
+    "subcategory": "Natural",
     "size": "Tamanho: 3kg",
     "price": "R$59,90",
     "descricao": [
@@ -891,6 +959,7 @@ const produtosData = [
     "image": "/images/ração-dogs-3.png",
     "title": "Ração para Cachorro Purina Carne Frango Cereais Vegetais",
     "category": "Ração para Cães",
+    "subcategory": "Secas",
     "size": "Tamanho: 1kg",
     "price": "R$69,90",
     "descricao": [
@@ -903,6 +972,7 @@ const produtosData = [
     "image": "/images/ração-dogs-4.png",
     "title": "Ração Pedigree Filhote até 18 Meses com Cálcio",
     "category": "Ração para Cães",
+    "subcategory": "Secas",
     "size": "Tamanho: 3kg",
     "price": "R$89,90",
     "descricao": [
@@ -915,6 +985,7 @@ const produtosData = [
     "image": "/images/ração-dogs-5.png",
     "title": "Ração Flock para Cães Adultos Sabor Carne",
     "category": "Ração para Cães",
+    "subcategory": "Secas",
     "size": "Tamanho: 15kg",
     "price": "R$190,99",
     "descricao": [
@@ -939,6 +1010,7 @@ const produtosData = [
     "image": "/images/ração-dogs-7.png",
     "title": "Ração Cachorro Supreme Light Adulto Quatree Frango",
     "category": "Ração para Cães",
+    "subcategory": "Secas",
     "size": "Tamanho: 20kg",
     "price": "R$121,96",
     "descricao": [
@@ -951,6 +1023,7 @@ const produtosData = [
     "image": "/images/ração-dogs-8.png",
     "title": "Ração Para Cachorro Quatree Supreme Adulto Pequenos",
     "category": "Ração para Cães",
+    "subcategory": "Secas",
     "size": "Tamanho: 15kg",
     "price": "R$109,90",
     "descricao": [
@@ -963,6 +1036,7 @@ const produtosData = [
     "image": "/images/ração-dogs-9.png",
     "title": "Ração Seca Quatree Supreme Frango e Batata Doce Filhotes",
     "category": "Ração para Cães",
+    "subcategory": "Secas",
     "size": "Tamanho: 15kg",
     "price": "R$199,89",
     "descricao": [
@@ -975,6 +1049,7 @@ const produtosData = [
     "image": "/images/ração-dogs-10.png",
     "title": "Ração Seca Special Dog Cães Adulto sabor Carne",
     "category": "Ração para Cães",
+    "subcategory": "Secas",
     "size": "Tamanho: 1kg",
     "price": "R$106,90",
     "descricao": [
@@ -987,6 +1062,7 @@ const produtosData = [
     "image": "/images/ração-dogs-11.png",
     "title": "Ração Special Dog Vegetais Special Dog",
     "category": "Ração para Cães",
+    "subcategory": "Secas",
     "size": "Tamanho: 3kg",
     "price": "R$104,90",
     "descricao": [
@@ -999,6 +1075,7 @@ const produtosData = [
     "image": "/images/ração-dogs-12.png",
     "title": "Billy Dog Ossinho Cães Adultos Carne",
     "category": "Ração para Cães",
+    "subcategory": "Secas",
     "size": "Tamanho: 15kg",
     "price": "R$106,99",
     "descricao": [
@@ -1006,6 +1083,241 @@ const produtosData = [
     ],
     "composicao": "Farinha de carne bovina, milho integral, gordura de frango, conservantes naturais, vitaminas e minerais. Receita nutritiva, saborosa e com ingredientes selecionados para a saúde diária do seu pet."
   },
+  {
+    "id": 76,
+    "image": "/images/racao-umida-1.png",
+    "title": "Pedigree Sachê Carne ao Molho para Cães Adultos",
+    "category": "Rações para Cães",
+    "subcategory": "Úmida",
+    "size": "Tamanho: 100g",
+    "price": "R$3,99",
+    "descricao": [
+      "O sachê Pedigree Carne ao Molho é uma refeição completa e balanceada para cães adultos. Com pedaços suculentos de carne envoltos em um molho saboroso, proporciona uma alimentação deliciosa e rica em nutrientes. Além de ser altamente palatável, facilita a mastigação, tornando-se ideal para pets exigentes. Sua fórmula é enriquecida com vitaminas e minerais que ajudam a manter a saúde da pele, pelagem, dentes e ossos, promovendo bem-estar e vitalidade diária ao seu companheiro."
+    ],
+    "composicao": "Carne e derivados, miúdos de frango, farinha de trigo, óleo de soja, minerais, vitaminas A, D3, E, complexo B, taurina, espessantes naturais e aroma de carne. Receita especialmente formulada para garantir o equilíbrio nutricional e promover uma digestão saudável com alta aceitação entre os cães adultos."
+  },
+  {
+    "id": 77,
+    "image": "/images/racao-umida-2.png",
+    "title": "Golden Gourmet Sachê Frango com Arroz",
+    "category": "Rações para Cães",
+    "subcategory": "Úmida",
+    "size": "Tamanho: 100g",
+    "price": "R$4,99",
+    "descricao": [
+      "A Ração Úmida Golden Gourmet Frango com Arroz oferece uma experiência saborosa e nutritiva para cães adultos. Com uma textura macia e suculenta, combina frango de alta qualidade com arroz cozido, proporcionando uma refeição de fácil digestão. Ideal para agradar até os paladares mais exigentes, essa ração úmida é rica em proteínas e nutrientes que colaboram para o desenvolvimento e manutenção da musculatura, além de conter ingredientes que auxiliam na saúde digestiva e na hidratação do pet."
+    ],
+    "composicao": "Frango, arroz, vísceras de frango, proteína de soja, óleo vegetal, minerais orgânicos e inorgânicos, vitaminas A, D3, E, K, complexo B, taurina, espessantes e palatabilizantes naturais. Formulada para fornecer uma nutrição completa e promover um estilo de vida saudável com sabor irresistível."
+  },
+  {
+    "id": 78,
+    "image": "/images/racao-umida-3.png",
+    "title": "Premier Pet Sachê Carne com Legumes",
+    "category": "Rações para Cães",
+    "subcategory": "Úmida",
+    "size": "Tamanho: 100g",
+    "price": "R$5,49",
+    "descricao": [
+      "O sachê Premier Pet Carne com Legumes é uma refeição úmida completa desenvolvida com ingredientes de alta qualidade. Com um sabor irresistível de carne e um mix nutritivo de legumes, é ideal para cães adultos que merecem um cuidado especial. Além de garantir uma alimentação equilibrada, ajuda na digestão e hidratação diária. Sua textura facilita a mastigação e é perfeita para misturar com ração seca. Enriquecido com vitaminas e minerais, apoia a saúde do sistema imunológico, pele e pelagem."
+    ],
+    "composicao": "Carne bovina, cenoura, ervilha, miúdos de frango, arroz, óleo de peixe, óleo de girassol, vitaminas A, D, E, complexo B, zinco, ferro, manganês, espessantes naturais e palatabilizantes. Ideal para complementar a dieta do seu cão com sabor e qualidade nutricional."
+  },
+  {
+    "id": 79,
+    "image": "/images/racao-umida-4.png",
+    "title": "Purina Dog Chow Ração Úmida Frango e Carne",
+    "category": "Rações para Cães",
+    "subcategory": "Úmida",
+    "size": "Tamanho: 100g",
+    "price": "R$4,29",
+    "descricao": [
+      "A ração úmida Purina Dog Chow Frango e Carne combina o sabor marcante das proteínas animais com uma textura agradável para cães adultos. Elaborada com pedaços suculentos em molho nutritivo, ajuda a manter o pet bem alimentado e hidratado. Possui uma fórmula que favorece a digestão, contribuindo para o bem-estar intestinal. Perfeita para uso diário ou como agrado especial, oferece o equilíbrio ideal entre sabor e nutrição, fortalecendo a saúde geral do seu companheiro."
+    ],
+    "composicao": "Carne de frango, carne bovina, fígado, arroz integral, óleo vegetal, polpa de beterraba, vitaminas A, E, D3, complexo B, minerais orgânicos e inorgânicos. Contém antioxidantes e conservantes naturais que garantem frescor e qualidade nutricional para o seu pet."
+  },
+  {
+    "id": 80,
+    "image": "/images/racao-umida-5.png",
+    "title": "Special Dog Sachê Cordeiro com Arroz",
+    "category": "Rações para Cães",
+    "subcategory": "Úmida",
+    "size": "Tamanho: 100g",
+    "price": "R$3,49",
+    "descricao": [
+      "A Ração Úmida Special Dog Cordeiro com Arroz é uma excelente escolha para proporcionar uma refeição suculenta e nutritiva ao seu cão. Com alto teor de umidade, é ideal para hidratar o pet e estimular o apetite. Elaborada com ingredientes selecionados, oferece um sabor irresistível e promove uma digestão saudável. Indicada para cães adultos, ajuda a manter a saúde e a vitalidade do seu melhor amigo."
+    ],
+    "composicao": "Cordeiro, arroz, proteínas vegetais, óleo de frango, cenoura, espessantes naturais, vitaminas, minerais e antioxidantes. Livre de corantes artificiais, é formulada para garantir sabor e nutrição balanceada, mantendo o bem-estar diário e reforçando o sistema imunológico dos cães com ingredientes de qualidade."
+  },
+  {
+    "id": 81,
+    "image": "/images/racao-umida-6.png",
+    "title": "Fórmula Natural FreshMeat Ração Úmida Adultos",
+    "category": "Rações para Cães",
+    "subcategory": "Úmida",
+    "size": "Tamanho: 100g",
+    "price": "R$6,59",
+    "descricao": [
+      "A Ração Úmida Fórmula Natural FreshMeat é uma refeição completa com alta palatabilidade, ideal para cães adultos. Produzida com carne fresca, oferece proteínas de alta digestibilidade, além de ingredientes naturais e funcionais que contribuem para a saúde do trato gastrointestinal, pele e pelagem. Um alimento saudável e saboroso que seu cão vai adorar."
+    ],
+    "composicao": "Carne fresca, batata-doce, óleo de peixe, cenoura, espinafre, minerais orgânicos, vitaminas, extrato de yucca, antioxidantes naturais e água. Desenvolvida com ingredientes funcionais que promovem uma digestão mais eficiente, além de fortalecer a imunidade e manter a saúde geral do cão em dia, sem adição de corantes ou conservantes artificiais."
+  },
+  {
+    "id": 82,
+    "image": "/images/racao-natural-1.png",
+    "title": "Fórmula Natural FreshMeat Frango e Batata Doce",
+    "category": "Rações para Cães",
+    "subcategory": "Natural",
+    "size": "Tamanho: 10,1kg",
+    "price": "R$289,99",
+    "descricao": [
+      "A Fórmula Natural FreshMeat Frango e Batata Doce é uma ração super premium, feita com ingredientes nobres e carne fresca como principal fonte de proteína. Indicada para cães adultos, proporciona uma dieta equilibrada, rica em fibras e nutrientes, sem conservantes artificiais. Sua fórmula ajuda na saúde digestiva e melhora a qualidade da pelagem, além de ser extremamente saborosa e nutritiva."
+    ],
+    "composicao": "Carne de frango fresca, batata doce, aveia, linhaça, óleo de peixe, ervilhas, extrato de yucca, vitaminas e minerais quelatados. Desenvolvida com foco no bem-estar animal, fornece todos os nutrientes necessários para uma vida saudável, auxiliando também na manutenção do peso e da saúde intestinal, com ingredientes 100% naturais."
+  },
+  {
+    "id": 83,
+    "image": "/images/racao-natural-2.png",
+    "title": "Biofresh Cães Adultos Raças Médias e Grandes",
+    "category": "Rações para Cães",
+    "subcategory": "Natural",
+    "size": "Tamanho: 12kg",
+    "price": "R$319,90",
+    "descricao": [
+      "Biofresh é uma ração natural com alta inclusão de carnes frescas, frutas e vegetais. Ideal para cães adultos de raças médias e grandes, sua fórmula sem conservantes artificiais promove saúde e longevidade. Com alta digestibilidade, oferece nutrição superior e é excelente para a saúde bucal, intestinal e imunológica dos cães. Sabor irresistível com ingredientes naturais selecionados."
+    ],
+    "composicao": "Carne de frango, arroz integral, frutas desidratadas (maçã, mamão), vegetais, linhaça, óleo de peixe, extrato de yucca, vitaminas, minerais e probióticos. Ração livre de transgênicos e corantes artificiais, que contribui para a manutenção da massa muscular, digestão eficiente e sistema imunológico fortalecido com alimentação mais próxima da natureza."
+  },
+  {
+    "id": 84,
+    "image": "/images/racao-natural-3.png",
+    "title": "Nats Ração Natural para Cães Filhotes",
+    "category": "Rações para Cães",
+    "subcategory": "Natural",
+    "size": "Tamanho: 7kg",
+    "price": "R$179,00",
+    "descricao": [
+      "A Nats Natural Filhotes é desenvolvida com ingredientes naturais e balanceados, indicada para o crescimento saudável dos cães desde os primeiros meses de vida. Rica em proteínas, vitaminas e minerais, garante suporte ideal ao desenvolvimento ósseo, imunidade e funções cerebrais. Possui alta digestibilidade e não contém transgênicos ou corantes, promovendo bem-estar e vitalidade aos filhotes."
+    ],
+    "composicao": "Carne de frango, batata doce, arroz, óleo de peixe, probióticos, vegetais, vitaminas, minerais, colágeno e leveduras. Suporte nutricional completo para crescimento, saúde óssea, pelagem sedosa e sistema imune fortalecido. Produzida com ingredientes frescos e naturais, é a escolha certa para uma infância saudável e cheia de energia."
+  },
+  {
+    "id": 85,
+    "image": "/images/racao-natural-4.png",
+    "title": "Guabi Natural Adultos Frango e Arroz Integral",
+    "category": "Rações para Cães",
+    "subcategory": "Natural",
+    "size": "Tamanho: 10,1kg",
+    "price": "R$269,90",
+    "descricao": [
+      "A Ração Guabi Natural para Cães Adultos une nutrição de alta qualidade com ingredientes naturais. Com frango e arroz integral, é livre de corantes e aromatizantes artificiais. Contém prebióticos e antioxidantes naturais que ajudam na digestão e saúde geral dos cães. Ideal para quem busca uma alimentação mais saudável, saborosa e equilibrada para o pet."
+    ],
+    "composicao": "Frango, arroz integral, cenoura, abóbora, linhaça, óleo de peixe, levedura, extrato de yucca, vitaminas e minerais. Sua fórmula é rica em fibras e ômegas, promovendo pelagem brilhante, fezes firmes e reforço à imunidade. Produto natural, com alto valor nutricional e digestibilidade superior."
+  },
+  {
+    "id": 86,
+    "image": "/images/racao-natural-5.png",
+    "title": "Fórmula Natural FreshMeat Cordeiro",
+    "category": "Rações para Cães",
+    "subcategory": "Natural",
+    "size": "Tamanho: 7kg",
+    "price": "R$199,90",
+    "descricao": [
+      "A Fórmula Natural FreshMeat Cordeiro é uma ração super premium que oferece nutrição avançada com alta inclusão de carne fresca de cordeiro. Especialmente indicada para cães com paladar exigente ou sensibilidades alimentares, promove digestão fácil, saúde da pele e pelos brilhantes. Possui ingredientes naturais e funcionais para uma dieta equilibrada e deliciosa."
+    ],
+    "composicao": "Cordeiro fresco, arroz integral, linhaça, batata-doce, óleo de peixe, vegetais desidratados, extrato de yucca, vitaminas e minerais. Sem adição de corantes ou conservantes artificiais, promove saúde digestiva, imunológica e cutânea, com sabor irresistível que agrada até os cães mais exigentes."
+  },
+  {
+    "id": 87,
+    "image": "/images/racao-natural-6.png",
+    "title": "Magnus Todo Dia Natural com Carne",
+    "category": "Rações para Cães",
+    "subcategory": "Natural",
+    "size": "Tamanho: 15kg",
+    "price": "R$149,90",
+    "descricao": [
+      "A Ração Magnus Todo Dia Natural com Carne é uma opção acessível e nutritiva para alimentação diária de cães adultos. Com carne como principal ingrediente, oferece proteínas de qualidade e excelente sabor. Elaborada sem corantes artificiais, contém fibras e prebióticos para digestão saudável, além de vitaminas que garantem disposição e vitalidade ao pet todos os dias."
+    ],
+    "composicao": "Carne de frango, arroz, milho, óleo de peixe, vegetais, levedura, minerais orgânicos, vitaminas, fibras e antioxidantes. Proporciona uma nutrição equilibrada com ótimo custo-benefício, ajudando a manter o peso saudável, a imunidade em alta e o bem-estar do pet com ingredientes simples e naturais."
+  },
+  {
+    "id": 88,
+    "image": "/images/racao-medicamentosa-1.png",
+    "title": "Hills Prescription Diet i/d Digestive Care",
+    "category": "Rações para Cães",
+    "subcategory": "Medicamentosas",
+    "size": "Tamanho: 3,85kg",
+    "price": "R$279,90",
+    "descricao": [
+      "A Ração Hill’s Prescription Diet i/d Digestive Care é indicada para cães com distúrbios gastrointestinais. Com uma fórmula de fácil digestão, contribui para a recuperação da saúde intestinal e fornece nutrição completa. Enriquecida com fibras solúveis e prebióticos, melhora a microbiota e ajuda na absorção dos nutrientes, reduzindo vômitos e diarreias."
+    ],
+    "composicao": "Milho moído, farinha de frango, gordura de frango, polpa de beterraba, cevada, ovo em pó, vitaminas, minerais, taurina, beta-caroteno, antioxidantes naturais. Inclui fibras, ácidos graxos essenciais e prebióticos para uma saúde intestinal equilibrada e recuperação mais rápida em casos de distúrbios digestivos."
+  },
+  {
+    "id": 89,
+    "image": "/images/racao-medicamentosa-2.png",
+    "title": "Royal Canin Veterinary Renal Support",
+    "category": "Rações para Cães",
+    "subcategory": "Medicamentosas",
+    "size": "Tamanho: 2kg",
+    "price": "R$189,90",
+    "descricao": [
+      "Royal Canin Renal Support é especialmente formulada para cães com insuficiência renal crônica. Com baixo teor de fósforo e proteína de alta qualidade, auxilia na função renal e ajuda a prolongar a vida do pet. Possui excelente palatabilidade para garantir a aceitação mesmo por cães com apetite reduzido."
+    ],
+    "composicao": "Arroz, gordura de frango, farinha de milho, hidrolisado de fígado de frango, óleo de peixe, minerais quelatados, vitaminas, antioxidantes naturais. Enriquecida com EPA/DHA e antioxidantes, promove o suporte renal eficaz e minimiza a progressão da doença renal crônica com segurança e sabor."
+  },
+  {
+    "id": 90,
+    "image": "/images/racao-medicamentosa-3.png",
+    "title": "Premier Nutrição Clínica Obesidade Cães Adultos",
+    "category": "Rações para Cães",
+    "subcategory": "Medicamentosas",
+    "size": "Tamanho: 2kg",
+    "price": "R$119,90",
+    "descricao": [
+      "A Ração Premier Nutrição Clínica Obesidade foi desenvolvida para auxiliar na perda de peso e manutenção do peso ideal em cães adultos. Com baixo teor calórico e alta quantidade de fibras, proporciona saciedade e reduz a ingestão calórica diária. Indicada por veterinários para controle e tratamento da obesidade canina."
+    ],
+    "composicao": "Proteína isolada de soja, farinha de vísceras de frango, fibra de ervilha, celulose, óleo de frango, extrato de yucca, vitaminas, minerais e antioxidantes naturais. Rica em L-carnitina para queima de gordura, promove emagrecimento saudável, preservando a massa muscular do cão com segurança."
+  },
+  {
+    "id": 91,
+    "image": "/images/racao-medicamentosa-4.png",
+    "title": "Hills Prescription Diet z/d Alergias Alimentares",
+    "category": "Rações para Cães",
+    "subcategory": "Medicamentosas",
+    "size": "Tamanho: 3,1kg",
+    "price": "R$299,90",
+    "descricao": [
+      "Hill’s z/d é uma ração hipoalergênica formulada para cães com sensibilidades e alergias alimentares. Com proteína hidrolisada e ingredientes selecionados, evita reações adversas e melhora a saúde da pele e digestão. Ideal para diagnóstico de alergias alimentares e controle dos sintomas relacionados."
+    ],
+    "composicao": "Amido de milho, proteína hidrolisada de frango, óleo vegetal, celulose, vitaminas, minerais, taurina, antioxidantes. Fórmula clinicamente comprovada para reduzir reações alérgicas alimentares, proporcionando mais conforto e bem-estar ao pet com pele sensível ou distúrbios digestivos."
+  },
+  {
+    "id": 92,
+    "image": "/images/racao-medicamentosa-5.png",
+    "title": "Royal Canin Satiety Support",
+    "category": "Rações para Cães",
+    "subcategory": "Medicamentosas",
+    "size": "Tamanho: 4kg",
+    "price": "R$229,90",
+    "descricao": [
+      "Royal Canin Satiety Support é uma ração coadjuvante no tratamento da obesidade em cães adultos. Rica em fibras e com baixo teor calórico, ajuda a controlar o apetite e promove a perda de peso segura. Desenvolvida para garantir a manutenção da massa magra durante o processo de emagrecimento do animal."
+    ],
+    "composicao": "Farelo de trigo, farinha de glúten de milho, polpa de beterraba, casca de psyllium, óleo de peixe, proteínas hidrolisadas, minerais, vitaminas e antioxidantes. Suporta a saciedade prolongada, reduzindo a compulsão alimentar e auxiliando no emagrecimento gradual e saudável do cão."
+  },
+  {
+    "id": 93,
+    "image": "/images/racao-medicamentosa-6.png",
+    "title": "Premier Nutrição Clínica Gastrointestinal",
+    "category": "Rações para Cães",
+    "subcategory": "Medicamentosas",
+    "size": "Tamanho: 2kg",
+    "price": "R$119,00",
+    "descricao": [
+      "Premier Gastrointestinal é indicada para cães com distúrbios digestivos agudos ou crônicos. Sua fórmula de alta digestibilidade com prebióticos e fibras solúveis auxilia na recuperação da flora intestinal e no equilíbrio do sistema digestivo. Possui alta palatabilidade e é ideal para cães com diarreia ou vômitos frequentes."
+    ],
+    "composicao": "Farinha de carne e ossos de frango, arroz, milho integral, óleo de frango, levedura seca, polpa de beterraba, prebióticos, vitaminas, minerais. Desenvolvida com ingredientes que favorecem a microbiota intestinal, proporciona digestão leve e eficiente para cães com sensibilidade gastrointestinal."
+  },    
+  
 ];
 
 

@@ -18,11 +18,58 @@
   margin-bottom: 25px;
 }
 
-.filter-text p {
-  font-size: 1.2rem;
-  font-weight: 500;
-  margin-top: 20px;
+.dropdown-header {
+  font-weight: bold;
+  padding: 8px 12px;
+  background-color: #f7f4f4;
+  border-bottom: 1px solid #ddd;
+  cursor: default;
+  color: #103559;
 }
+
+.subcategorias-dropdown {
+  position: absolute;
+  top: 0;
+  right: 100%;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 10;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.subcategoria-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.subcategoria-group strong {
+  margin-bottom: 4px;
+  color: #333;
+}
+
+.subcategoria-item {
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  color: #555;
+  padding: 2px 0;
+  transition: color 0.2s;
+}
+
+.subcategoria-item:hover {
+  color: #000;
+}
+
+
+
+
+
+
 
 .filter-button {
   font-family: 'Inter', sans-serif;
