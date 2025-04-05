@@ -4,7 +4,7 @@ import Card from './Card';
 
 const Cards = ({ filtro, searchTerm, limit, paginated }) => {
   const produtosData = [
-    { id: 1, image: '/images/ração-1.png', title: 'Ração Seca Para Gatos Adultos Carne', category: 'Alimentação', size: 'Tamanho: 2,7kg', price: 'R$42,42' },
+    { id: 1, image: '/images/ração-1.png', title: 'Ração Seca Para Gatos Adultos Carne', category: 'Rações', size: 'Tamanho: 2,7kg', price: 'R$42,42' },
     { id: 2, image: '/images/pipicat.png', title: 'Areia Higiênica Pipicat Classic Para Gatos', category: 'Higiene', size: 'Tamanho: 4kg', price: 'R$12,25' },
     { id: 3, image: '/images/mochila-cat.png', title: 'Transporte Mochila Pet Gatos E Cães', category: 'Transporte', size: 'Tamanho: Único', price: 'R$347,99' },
     { id: 4, image: '/images/bola-cravo.png', title: 'Brinquedo Bola Vinil com Cravo para Cães', category: 'Brinquedo', size: 'Tamanho: P', price: 'R$14,49' },
@@ -46,7 +46,19 @@ const Cards = ({ filtro, searchTerm, limit, paginated }) => {
     { id: 37, image: '/images/higiene-14.png', title: 'Shampoo para Pet Au.Migos Pets 5 em 1', category: 'Higiene', size: 'Tamanho: 400ml', price: 'R$49,90' },
     { id: 38, image: '/images/higiene-15.png', title: 'Desembaraçador De Pelos Cachorro E Gatos Pet Clean', category: 'Higiene', size: 'Tamanho: 500ml', price: 'R$17,76' },
     { id: 39, image: '/images/higiene-16.png', title: 'Fluido Desembaraçador Pet Hydra Fluído', category: 'Higiene', size: 'Tamanho: 240ml', price: 'R$63,65' },
-   ];
+    
+    { id: 40, image: '/images/transporte-1.png', title: 'Caixa Transporte Alvorada N.2 - p/ Cães e Gatos', category: 'Transporte', size: 'Tamanho: M', price: 'R$48,99' },
+    { id: 41, image: '/images/transporte-2.png', title: 'Bolsa Transporte Pet Luxo Com Rodinhas Dupla Cães Gatos', category: 'Transporte', size: 'Tamanho: M', price: 'R$541,40' },
+    { id: 42, image: '/images/transporte-3.png', title: '6 Seis Caixas Pets Transporte Animais Pequeno', category: 'Transporte', size: 'Tamanho: P', price: 'R$344,95' },
+    { id: 43, image: '/images/transporte-4.png', title: 'Kit Bolsa de transporte para cães e gatos zíper com Pelucia', category: 'Transporte', size: 'Tamanho: P', price: 'R$147,11' },
+    { id: 44, image: '/images/transporte-5.png', title: 'Bolsa Transporte Sanremo Cachorro Gato Bordo Campania', category: 'Transporte', size: 'Tamanho: P', price: 'R$197,35' },
+    { id: 45, image: '/images/transporte-6.png', title: 'Mochila Para Transporte De Gatos E Cães Reforçada ', category: 'Transporte', size: 'Tamanho: P', price: 'R$247,52' },
+    { id: 46, image: '/images/transporte-7.png', title: 'Bolsa De Transporte Pet Avião Para Cães E Gatos', category: 'Transporte', size: 'Tamanho: M', price: 'R$199,90' },
+    { id: 47, image: '/images/transporte-8.png', title: 'Kit Cachorro Gato Cama Caminha Transporte Sanitário', category: 'Transporte', size: 'Tamanho: G', price: 'R$57,40' },
+    { id: 48, image: '/images/transporte-9.png', title: 'Caixa Transporte ATLAS 20 Trendy Plus Ferplast', category: 'Transporte', size: 'Tamanho: M', price: 'R$155,90' },
+    { id: 49, image: '/images/transporte-10.png', title: 'Kit Cama Cachorro Gato Iglu Transporte Sanitário Educador ', category: 'Transporte', size: 'Tamanho: M', price: 'R$138,29' },
+    
+  ];
 
   const [paginaAtual, setPaginaAtual] = useState(1);
 
