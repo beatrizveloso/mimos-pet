@@ -7,7 +7,6 @@ import Footer from '../../components/footer/Footer.jsx';
 
 const ProductPage = () => {
       const [searchTerm, setSearchTerm] = useState('');
-      
     return (
         <div className="productpage-container">
             <Header/> 
