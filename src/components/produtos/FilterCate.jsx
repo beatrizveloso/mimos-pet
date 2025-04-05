@@ -8,12 +8,13 @@ const FilterCate = ({ setFiltro }) => {
 
   const options = [
     "Todas as categorias",
-    "Alimentação",
+    "Rações para Gatos",
     "Higiene",
     "Transporte",
     "Brinquedo",
     "Transporte",
-    "Fantasias"
+    "Fantasia",
+    "Ração para Cães"
   ];
 
   const handleFilterSelection = (option) => {

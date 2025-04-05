@@ -571,7 +571,441 @@ const produtosData = [
       "Ideal para pelagens finas e longas, ele ajuda a manter os pelos sedosos, brilhantes e fáceis de escovar, além de deixar um perfume suave e agradável."
     ],
     "composicao": "Água, agentes desembaraçantes, hidratantes, fragrância suave."
-  }
+  },
+
+
+  {
+    "id": 40,
+    "image": "/images/transporte-1.png",
+    "title": "Caixa Transporte Alvorada N.2 - p/ Cães e Gatos",
+    "category": "Transporte",
+    "size": "Tamanho: M",
+    "price": "R$48,99",
+    "descricao": [
+      "A Caixa de Transporte Alvorada N.2 é ideal para garantir segurança e conforto no transporte de cães e gatos de pequeno e médio porte. Com design funcional, possui ótima ventilação nas laterais, alça superior para facilitar o transporte e trava segura que impede a abertura acidental. Sua estrutura rígida protege o animal durante viagens de carro, visitas ao veterinário ou deslocamentos urbanos. É fácil de montar, desmontar e higienizar, sendo uma excelente opção para quem busca praticidade e bem-estar para o pet."
+    ],
+    "composicao": "Fabricada em plástico polipropileno resistente, com grade metálica na porta frontal. As laterais possuem aberturas que garantem ventilação constante. A alça é também em plástico reforçado, pensada para suportar o peso de animais de até 10kg, proporcionando durabilidade e segurança ao tutor."
+  },
+  {
+    "id": 41,
+    "image": "/images/transporte-2.png",
+    "title": "Bolsa Transporte Pet Luxo Com Rodinhas Dupla Cães Gatos",
+    "category": "Transporte",
+    "size": "Tamanho: M",
+    "price": "R$541,40",
+    "descricao": [
+      "A Bolsa Transporte Pet Luxo com Rodinhas é perfeita para tutores que prezam por conforto e praticidade. Conta com alça retrátil tipo carrinho, rodinhas que giram 360º e compartimentos com ventilação total, garantindo segurança e boa circulação de ar para o pet. Seu design elegante e funcional a torna ideal para viagens de longa duração, inclusive em aeroportos. O espaço interno é acolchoado, o que proporciona uma viagem mais tranquila para cães e gatos de pequeno a médio porte."
+    ],
+    "composicao": "Estrutura feita com tecido poliéster reforçado de alta densidade, base rígida interna removível para higienização, telas respiráveis de nylon nas laterais e frente, rodinhas de PVC com rolamento suave, zíperes duplos de metal e alça retrátil com encaixe ergonômico."
+  },
+  {
+    "id": 42,
+    "image": "/images/transporte-3.png",
+    "title": "6 Seis Caixas Pets Transporte Animais Pequeno",
+    "category": "Transporte",
+    "size": "Tamanho: P",
+    "price": "R$344,95",
+    "descricao": [
+      "Este kit contém 6 caixas de transporte ideais para criadores, abrigos ou pet shops que precisam acomodar vários animais pequenos com segurança. Com design leve e resistente, cada caixa oferece ventilação lateral para manter o ar sempre fresco e portas frontais com sistema de travamento seguro. São empilháveis, fáceis de armazenar e transportar, além de permitirem uma higienização rápida, sendo ideais para ambientes com alta rotatividade de animais."
+    ],
+    "composicao": "Fabricadas em plástico de alta resistência com acabamento liso que facilita a limpeza, essas caixas possuem grades frontais de plástico rígido com fechos traváveis. As aberturas nas laterais proporcionam ventilação constante, enquanto os encaixes das partes são fixados com travas resistentes à pressão."
+  },
+  {
+    "id": 43,
+    "image": "/images/transporte-4.png",
+    "title": "Kit Bolsa de transporte para cães e gatos zíper com Pelucia",
+    "category": "Transporte",
+    "size": "Tamanho: P",
+    "price": "R$147,11",
+    "descricao": [
+      "Bolsa moderna e charmosa com acabamento em pelúcia sintética macia, ideal para passeios curtos com cães e gatos pequenos. O zíper reforçado garante segurança durante o transporte, enquanto o interior acolchoado proporciona conforto térmico. Leve e compacta, é perfeita para levar o pet ao shopping, ao parque ou em visitas rápidas. Seu visual delicado agrada tutores que querem unir estilo e praticidade no dia a dia com o pet."
+    ],
+    "composicao": "Exterior em poliéster com revestimento sintético de pelúcia antialérgica, interior acolchoado com espuma macia e base firme de polietileno. Zíper metálico resistente e alça de ombro reforçada com costura dupla. Toda a estrutura é pensada para suportar até 6kg de maneira segura e confortável."
+  },
+  {
+    "id": 44,
+    "image": "/images/transporte-5.png",
+    "title": "Bolsa Transporte Sanremo Cachorro Gato Bordo Campania",
+    "category": "Transporte",
+    "size": "Tamanho: P",
+    "price": "R$197,35",
+    "descricao": [
+      "A Bolsa de Transporte Sanremo modelo Campania combina elegância e funcionalidade. Ideal para cães e gatos pequenos, ela possui estrutura firme que mantém a forma mesmo com o uso prolongado. Sua ventilação lateral garante o conforto térmico do animal, enquanto as alças acolchoadas proporcionam ergonomia ao tutor. Um produto pensado para quem preza por qualidade e quer transportar o pet com segurança e estilo em qualquer ocasião."
+    ],
+    "composicao": "Tecido poliéster resistente com tratamento impermeável, base rígida de polietileno para estabilidade, alças de ombro acolchoadas com costura reforçada e painéis laterais em tela de nylon para ventilação. Fechamento com zíper duplo de metal resistente à tração e ferragens de liga leve."
+  },
+  {
+    "id": 45,
+    "image": "/images/transporte-6.png",
+    "title": "Mochila Para Transporte De Gatos E Cães Reforçada",
+    "category": "Transporte",
+    "size": "Tamanho: P",
+    "price": "R$247,52",
+    "descricao": [
+      "Com design moderno e resistente, esta mochila é ideal para carregar seu pet com segurança durante passeios urbanos, trilhas ou viagens. Permite ao tutor ter as mãos livres enquanto o animal é mantido confortável. Possui ampla ventilação por telas de malha e aberturas práticas com zíper para acesso rápido. Seu interior espaçoso e forro acolchoado tornam o transporte agradável mesmo por longos períodos."
+    ],
+    "composicao": "Tecido em nylon de alta durabilidade, malha de poliéster para ventilação nas laterais e frente, zíperes resistentes com puxadores de metal, alças ajustáveis com enchimento de espuma EVA e fecho peitoral para estabilidade. Base acolchoada interna removível para fácil limpeza."
+  },
+  {
+    "id": 46,
+    "image": "/images/transporte-7.png",
+    "title": "Bolsa De Transporte Pet Avião Para Cães E Gatos",
+    "category": "Transporte",
+    "size": "Tamanho: M",
+    "price": "R$199,90",
+    "descricao": [
+      "Desenvolvida para atender às exigências de transporte em companhias aéreas, esta bolsa oferece segurança, ventilação e conforto em viagens. Com dimensões que respeitam as normas de cabine, ela conta com alça de ombro ajustável e base interna firme. É perfeita para tutores que viajam com frequência e querem garantir bem-estar ao pet durante o voo, com entradas de ar nos quatro lados e estrutura semi-rígida que garante estabilidade."
+    ],
+    "composicao": "Tecido impermeável com camada interna em PVC, zíper reforçado de metal com trava de segurança, painéis laterais em tela respirável, alça removível ajustável e base acolchoada com espuma de polietileno expandido. Ideal para pets de até 8kg."
+  },
+  {
+    "id": 47,
+    "image": "/images/transporte-8.png",
+    "title": "Kit Cachorro Gato Cama Caminha Transporte Sanitário",
+    "category": "Transporte",
+    "size": "Tamanho: G",
+    "price": "R$57,40",
+    "descricao": [
+      "Este kit multifuncional é ideal para quem está começando a cuidar de um pet, unindo praticidade e economia. Inclui caminha macia, caixa de transporte leve e bandeja sanitária prática. A caminha possui revestimento aconchegante que garante conforto durante o sono, enquanto a caixa é segura e arejada para deslocamentos. Já o sanitário possui bordas altas para evitar respingos e manter o ambiente limpo. Tudo isso em um conjunto harmonioso e funcional."
+    ],
+    "composicao": "Caminha feita em tecido poliéster com enchimento em fibra siliconada, caixa de transporte em plástico rígido e ventilado, bandeja sanitária em plástico com acabamento brilhante fácil de limpar. Ideal para animais de até 12kg."
+  },
+  {
+    "id": 48,
+    "image": "/images/transporte-9.png",
+    "title": "Caixa Transporte ATLAS 20 Trendy Plus Ferplast",
+    "category": "Transporte",
+    "size": "Tamanho: M",
+    "price": "R$155,90",
+    "descricao": [
+      "A Caixa ATLAS 20 Trendy Plus da Ferplast é referência em segurança, conforto e durabilidade. Com design moderno e funcional, ela é perfeita para viagens de carro ou avião, com excelente ventilação nas laterais e porta frontal com trava de segurança. A alça superior facilita o transporte e a estrutura robusta protege o pet em qualquer deslocamento. É fácil de limpar e desmontar, ideal para cães e gatos de pequeno e médio porte."
+    ],
+    "composicao": "Fabricada em plástico injetado resistente a impactos, com portas de metal galvanizado anticorrosão. Laterais com aberturas amplas para ventilação, alça superior de transporte em plástico reforçado, presilhas de segurança e sistema de encaixe rápido entre a tampa e a base."
+  },
+  {
+    "id": 49,
+    "image": "/images/transporte-10.png",
+    "title": "Kit Cama Cachorro Gato Iglu Transporte Sanitário Educador",
+    "category": "Transporte",
+    "size": "Tamanho: M",
+    "price": "R$138,29",
+    "descricao": [
+      "O kit inclui uma caminha iglu acolchoada, caixa de transporte compacta e itens de higiene como educador sanitário e tapete higiênico. Ideal para quem acabou de adotar um pet ou busca um conjunto completo. O iglu oferece abrigo confortável e térmico, enquanto a caixa facilita os deslocamentos e o sanitário auxilia no treinamento e limpeza. Uma solução prática e charmosa para os cuidados com seu melhor amigo."
+    ],
+    "composicao": "Caminha iglu feita em poliéster e espuma de alta densidade, caixa de transporte em plástico ventilado com tampa removível, tapete higiênico com camada absorvente e educador sanitário líquido com fórmula atóxica e aroma suave. Todos os materiais são laváveis e duráveis."
+  },
+  {
+    "id": 50,
+    "image": "/images/fantasia-1.png",
+    "title": "Fantasia Pet Morcego Batman para Gatos e Cachorros",
+    "category": "Fantasia",
+    "size": "Tamanho: M",
+    "price": "R$94,00",
+    "descricao": [
+      "Transforme seu pet em um verdadeiro herói com a Fantasia de Morcego inspirada no Batman. Com asas de morcego acopladas e detalhes temáticos, ela é ideal para festas, Halloween ou sessões de fotos. Leve e confortável, não atrapalha os movimentos do animal e é de fácil colocação. Perfeita para gatos e cachorros pequenos que adoram atenção e estilo. O tecido é respirável e o acabamento é feito para durar mesmo com o uso contínuo."
+    ],
+    "composicao": "Tecido poliéster leve e durável, fechamento com velcro de alta fixação, malha elástica nas extremidades para ajuste confortável e asas em material sintético flexível. Costura reforçada para evitar rasgos, mesmo com o movimento ativo dos pets."
+  },
+  {
+    "id": 51,
+    "image": "/images/fantasia-2.png",
+    "title": "Fantasia de Pet Vampiro Drácula",
+    "category": "Fantasia",
+    "size": "Tamanho: P",
+    "price": "R$75,60",
+    "descricao": [
+      "Transforme seu pet em um charmoso vampiro com esta fantasia temática de Drácula. Com uma capa preta fluida, gola alta dramática e acabamento elegante, esta peça é perfeita para eventos de Halloween, festas à fantasia ou sessões de fotos cheias de estilo. O visual clássico de vampiro garante olhares e elogios por onde seu pet passar. Feita com atenção aos detalhes para garantir conforto, liberdade de movimento e um toque especial de charme sombrio."
+    ],
+    "composicao": "Tecido sintético leve e confortável, algodão de toque macio para não irritar a pele do pet, e fecho em velcro para fácil ajuste. Ideal para pets de pequeno porte que adoram se destacar com estilo."
+  },
+  {
+    "id": 52,
+    "image": "/images/fantasia-3.png",
+    "title": "Fantasia Pet Robin do Batman para Cães",
+    "category": "Fantasia",
+    "size": "Tamanho: G",
+    "price": "R$69,90",
+    "descricao": [
+      "Leve seu pet para aventuras heróicas com a fantasia do Robin, fiel escudeiro do Batman. Com estampa colorida, capa vermelha removível e fechos em velcro, o traje é fácil de vestir e ajustar. A peça garante conforto para o animal e muito estilo para qualquer evento. Ideal para passeios temáticos, festas geek ou momentos criativos com a família. Deixe seu cão brilhar como o parceiro perfeito na luta contra o tédio!"
+    ],
+    "composicao": "Feita com algodão respirável, poliéster resistente e elástico maleável, garantindo conforto durante o uso prolongado. Fecho em velcro facilita vestir e retirar a fantasia com praticidade."
+  },
+  {
+    "id": 53,
+    "image": "/images/fantasia-4.png",
+    "title": "Fantasia Pet Flash para Cães Grandes",
+    "category": "Fantasia",
+    "size": "Tamanho: G",
+    "price": "R$74,90",
+    "descricao": [
+      "Para cães rápidos e cheios de energia, essa fantasia do super-herói Flash é a escolha perfeita! Com estampa vibrante na parte frontal e máscara inclusa, o traje oferece um visual completo. Confortável e ajustável, ela foi feita especialmente para cães de porte grande que adoram chamar atenção. Ideal para encontros temáticos, fotos divertidas e comemorações especiais. Deixe seu pet correr com estilo e super velocidade!"
+    ],
+    "composicao": "Tecido em poliéster de alta qualidade, com elastano para maior flexibilidade e ajuste ao corpo do animal. Proporciona conforto, mobilidade e facilidade na hora de vestir."
+  },
+  {
+    "id": 54,
+    "image": "/images/fantasia-5.png",
+    "title": "Fantasia Pet Thor para Cães Pequenos",
+    "category": "Fantasia",
+    "size": "Tamanho: M",
+    "price": "R$79,90",
+    "descricao": [
+      "Seu pet vai se sentir digno do martelo com esta fantasia inspirada em Thor! Com capa inclusa, estampas detalhadas e ajuste ideal para cães de porte pequeno, o traje traz diversão e estilo na medida certa. A peça é perfeita para sessões de fotos criativas, festas temáticas e até para dar uma voltinha com um toque heróico. Super confortável, ela permite liberdade de movimento enquanto destaca o carisma do seu companheiro."
+    ],
+    "composicao": "Poliéster leve e durável, algodão para conforto térmico e malha flexível que se adapta ao corpo do pet. Capa em tecido macio e resistente."
+  },
+  {
+    "id": 55,
+    "image": "/images/fantasia-6.png",
+    "title": "Fantasia Pet Lagosta para Gatos Adultos",
+    "category": "Fantasia",
+    "size": "Tamanho: P",
+    "price": "R$89,90",
+    "descricao": [
+      "Transforme seu gato adulto em uma lagosta adorável com essa fantasia divertida e criativa! Com detalhes em 3D como patas e olhos em pelúcia, o traje oferece um visual cômico e encantador. Ideal para sessões de fotos, eventos especiais ou simplesmente para arrancar risadas dos humanos da casa. O tecido é macio, fácil de vestir e pensado para respeitar o conforto e a personalidade dos felinos."
+    ],
+    "composicao": "Feita com pelúcia macia e acolhedora, poliéster resistente e espuma leve para dar estrutura aos detalhes 3D. Não limita os movimentos do gato e é segura para uso supervisionado."
+  },
+  {
+    "id": 56,
+    "image": "/images/fantasia-7.png",
+    "title": "Fantasia Pet Gato de Botas Adulto",
+    "category": "Fantasia",
+    "size": "Tamanho: P",
+    "price": "R$94,90",
+    "descricao": [
+      "Seu pet vai conquistar corações com a fantasia do icônico Gato de Botas! Com capa esvoaçante, chapéu estilizado e design encantador, essa peça traz charme, aventura e muito carisma. Ideal para pets de porte pequeno que gostam de desfilar com elegância e humor. Perfeita para sessões fotográficas temáticas ou eventos especiais onde o seu bichinho será o centro das atenções."
+    ],
+    "composicao": "Tecido em poliéster leve, feltro modelado para o chapéu e elástico confortável que mantém tudo no lugar sem apertar. Durável e pensado para total conforto do pet."
+  },
+  {
+    "id": 57,
+    "image": "/images/fantasia-8.png",
+    "title": "Fantasia Pet Elvis Presley para Cachorros Médios",
+    "category": "Fantasia",
+    "size": "Tamanho: M",
+    "price": "R$99,90",
+    "descricao": [
+      "Seu cão vai arrasar como o rei do rock com essa fantasia incrível inspirada em Elvis Presley! O traje tem gola levantada, detalhes brilhantes e corte estilizado, ideal para festas, fotos temáticas ou qualquer ocasião onde estilo e atitude sejam necessários. Além de linda, a peça é confortável e fácil de vestir, feita para pets de porte médio com muito carisma e energia!"
+    ],
+    "composicao": "Poliéster brilhoso, malha flexível e velcro reforçado garantem conforto, mobilidade e segurança. Ideal para manter o estilo mesmo durante brincadeiras."
+  },
+  {
+    "id": 58,
+    "image": "/images/fantasia-9.png",
+    "title": "Fantasia Pet Capa Lufa-Lufa HP para Cachorros",
+    "category": "Fantasia",
+    "size": "Tamanho: M",
+    "price": "R$110,00",
+    "descricao": [
+      "Para os pets mais leais e amigáveis, essa capa inspirada na casa Lufa-Lufa é um verdadeiro charme! Com gola removível e gravata amarela inclusa, ela recria o estilo dos alunos de Hogwarts com detalhes mágicos. Ideal para os fãs de Harry Potter que querem incluir seus pets nas comemorações. A capa é leve, prática e muito fofa, perfeita para fotos temáticas e festas geeks."
+    ],
+    "composicao": "Tecido em algodão suave, poliéster resistente e botão de pressão para fácil fechamento. Acabamento reforçado para longa durabilidade e conforto total."
+  },
+  {
+    "id": 59,
+    "image": "/images/fantasia-10.png",
+    "title": "Fantasia Pet Pijama Sulley para Cachorro",
+    "category": "Fantasia",
+    "size": "Tamanho: M",
+    "price": "R$79,90",
+    "descricao": [
+      "Traga o universo de Monstros S.A. para os momentos de descanso do seu pet com esse pijama fofo do personagem Sulley! A peça é macia, quentinha e ideal para os dias mais frios. Com estampa colorida e design divertido, o pijama é ótimo para usar em casa, tirar fotos ou até dormir juntinho com muito estilo. Confortável e seguro, é perfeito para pets que amam carinho e aconchego."
+    ],
+    "composicao": "Feito em fleece térmico de alta qualidade, algodão macio e botão plástico que garante firmeza sem incomodar. Protege do frio com leveza e suavidade."
+  },
+  {
+    "id": 60,
+    "image": "/images/fantasia-11.png",
+    "title": "Fantasia Pet de Bruxa para Cachorro",
+    "category": "Fantasia",
+    "size": "Tamanho: M",
+    "price": "R$69,90",
+    "descricao": [
+      "Essa fantasia de bruxa vai encantar todos ao redor! Com saia rodada, tule delicado e chapéu pontudo incluso, seu pet estará pronto para lançar feitiços de fofura. Ideal para festas de Halloween, sessões fotográficas e eventos temáticos, ela traz um toque mágico e divertido. Fácil de vestir e super confortável, permite liberdade de movimento e garante muitos elogios por onde seu pet passar."
+    ],
+    "composicao": "Tecido sintético leve, saia em tule delicado com volume ideal e fechos em velcro que garantem praticidade. Materiais pensados para segurança e conforto durante o uso."
+  },
+  {
+    "id": 61,
+    "image": "/images/fantasia-12.png",
+    "title": "Fantasia Pet de Bombeiro para Cachorro",
+    "category": "Fantasia",
+    "size": "Tamanho: M",
+    "price": "R$79,90",
+    "descricao": [
+      "Fantasia temática de bombeiro para cães, com detalhes refletivos no uniforme e um charmoso chapéu de tecido incluso. Ideal para eventos, festas temáticas ou sessões de fotos divertidas. Feita com materiais confortáveis e respiráveis, permite liberdade de movimento ao pet. Fácil de vestir com fechamento prático e ajustável, garante um ótimo encaixe no corpo do animal sem apertar ou incomodar. Seu cão vai roubar a cena com estilo e muito charme!"
+    ],
+    "composicao": "Confeccionada com poliéster resistente e algodão macio para maior conforto. O uniforme possui faixas refletivas para segurança noturna. O chapéu é feito em tecido leve e maleável. Contém elásticos reforçados para melhor fixação e ajuste ao corpo do pet. Todos os materiais utilizados são atóxicos e seguros para uso animal, garantindo durabilidade e conforto prolongado."
+  },
+  {
+    "id": 62,
+    "image": "/images/fantasia-13.png",
+    "title": "Fantasia Pet Pijama para Cachorro Médio",
+    "category": "Fantasia",
+    "size": "Tamanho: M",
+    "price": "R$74,90",
+    "descricao": [
+      "Pijama listrado super macio, ideal para cães de médio porte. Proporciona aquecimento em noites frias e conforto no dia a dia. Possui gola reforçada, abertura para as patas e acabamento em costura dupla, que garante maior durabilidade. A estampa clássica de listras traz um charme adicional, tornando seu pet ainda mais fofo. Além de funcional, é uma peça leve que não atrapalha os movimentos do seu companheiro."
+    ],
+    "composicao": "Feito em algodão de alta qualidade combinado com malha soft para toque extra suave. Os botões são plásticos e resistentes, ideais para uso contínuo. Tecido respirável que mantém o corpo do animal aquecido sem causar superaquecer. Costuras reforçadas garantem maior durabilidade, mesmo após várias lavagens. Composição segura e confortável para o uso prolongado durante o sono ou em ambientes climatizados."
+  },
+  {
+    "id": 63,
+    "image": "/images/fantasia-14.png",
+    "title": "Fantasia Pet Woody Toy Story Chapéu e Lenço",
+    "category": "Fantasia",
+    "size": "Tamanho: M",
+    "price": "R$75,99",
+    "descricao": [
+      "Fantasia completa do personagem Woody do filme Toy Story, composta por camisa xadrez estilizada, lenço vermelho e chapéu marrom em tecido. Um traje encantador para cães de médio porte que adoram se destacar. Ideal para festas, eventos ou ensaios fotográficos. Leve, confortável e de fácil colocação, proporciona uma experiência divertida e segura ao pet. Uma fantasia perfeita para os fãs da Disney e Pixar."
+    ],
+    "composicao": "A camisa é confeccionada em poliéster e algodão com toque macio e acabamento impecável. O lenço é em tecido leve, fácil de amarrar e não irrita a pele do animal. O chapéu é feito em feltro resistente com elástico ajustável para melhor fixação. Todos os itens são costurados com atenção aos detalhes para garantir conforto e durabilidade. Produto seguro, lavável e indicado para uso em ocasiões especiais."
+  },
+  {
+    "id": 64,
+    "image": "/images/ração-dogs-1.png",
+    "title": "Ração Golden para Cães Adultos de Pequeno Carne",
+    "category": "Ração para Cães",
+    "size": "Tamanho: 3kg",
+    "price": "R$22,40",
+    "descricao": [
+      "Ração premium formulada especialmente para cães adultos de pequeno porte com paladar exigente. Sabor carne irresistível que agrada até os pets mais seletivos. Auxilia na manutenção da saúde bucal com crocantes que ajudam na limpeza dos dentes. Enriquecida com nutrientes que favorecem o sistema digestivo e contribuem para o bem-estar geral do animal. Com ingredientes selecionados e alta palatabilidade."
+    ],
+    "composicao": "Milho integral moído, farinha de carne e ossos de alta qualidade, óleo de frango como fonte de energia, minerais essenciais para a saúde óssea, vitaminas do complexo B, além de fibras naturais que auxiliam na digestão. Receita balanceada, sem corantes artificiais. Indicada para consumo diário, com perfil nutricional completo e adequado para cães de pequeno porte."
+  },
+  {
+    "id": 65,
+    "image": "/images/ração-dogs-2.png",
+    "title": "Ração Golden Seleção Natural Cães Adultos",
+    "category": "Ração para Cães",
+    "size": "Tamanho: 3kg",
+    "price": "R$59,90",
+    "descricao": [
+      "Ração de alta qualidade, desenvolvida para cães adultos que necessitam de uma dieta balanceada e saudável. Possui proteínas de alta digestibilidade que facilitam a absorção dos nutrientes. Livre de corantes e aromatizantes artificiais. Ajuda a manter a pele saudável, pelagem brilhante e oferece suporte à saúde intestinal. Ideal para garantir energia e vitalidade no dia a dia do seu pet."
+    ],
+    "composicao": "Contém frango como fonte principal de proteína, arroz como carboidrato de fácil digestão, polpa de beterraba que contribui com fibras prebióticas, e ômegas 3 e 6 que auxiliam na saúde da pele e pelagem. Inclui antioxidantes naturais e minerais quelatados. Fórmula segura e nutritiva que promove uma alimentação completa e equilibrada para cães adultos."
+  },
+  {
+    "id": 66,
+    "image": "/images/ração-dogs-3.png",
+    "title": "Ração para Cachorro Purina Carne Frango Cereais Vegetais",
+    "category": "Ração para Cães",
+    "size": "Tamanho: 1kg",
+    "price": "R$69,90",
+    "descricao": [
+      "Ração saborosa com fórmula nutritiva composta por carnes selecionadas, cereais integrais e vegetais desidratados. Ideal para cães adultos que precisam de uma alimentação balanceada e apetitosa. Contribui para o funcionamento saudável do sistema digestivo, além de fornecer energia e disposição. Textura crocante que ajuda na limpeza dos dentes e proporciona prazer ao mastigar."
+    ],
+    "composicao": "Farinha de carne bovina e de frango, arroz integral, milho, extrato de yucca para reduzir o odor das fezes, minerais e vitaminas essenciais, além de vegetais desidratados. Receita rica em fibras, sem corantes artificiais. Composição pensada para o equilíbrio nutricional completo, respeitando as necessidades diárias dos cães adultos."
+  },
+  {
+    "id": 67,
+    "image": "/images/ração-dogs-4.png",
+    "title": "Ração Pedigree Filhote até 18 Meses com Cálcio",
+    "category": "Ração para Cães",
+    "size": "Tamanho: 3kg",
+    "price": "R$89,90",
+    "descricao": [
+      "Especialmente desenvolvida para atender as necessidades dos filhotes até 18 meses de idade. Possui todos os nutrientes essenciais para garantir um crescimento saudável. Enriquecida com cálcio, importante para a formação de ossos e dentes fortes. Textura adequada para a mastigação dos filhotes e sabor que agrada. Proporciona energia, saúde e bem-estar desde os primeiros meses de vida."
+    ],
+    "composicao": "Farinha de vísceras de frango, óleo vegetal, milho integral moído, vitaminas A, D e E, minerais como cálcio e fósforo, proteínas de alta digestibilidade. Adição de antioxidantes naturais para preservação dos ingredientes. Fórmula balanceada que favorece o desenvolvimento saudável do sistema imunológico, muscular e ósseo."
+  },
+  {
+    "id": 68,
+    "image": "/images/ração-dogs-5.png",
+    "title": "Ração Flock para Cães Adultos Sabor Carne",
+    "category": "Ração para Cães",
+    "size": "Tamanho: 15kg",
+    "price": "R$190,99",
+    "descricao": [
+      "Ração econômica e nutritiva para cães adultos. Sabor carne que agrada ao paladar dos pets, ideal para alimentação diária. Fornece energia, proteínas e fibras na medida certa. Possui crocantes que ajudam na higiene bucal e promovem saciedade. É uma excelente opção para quem busca qualidade com preço acessível, sem abrir mão dos nutrientes essenciais para o pet."
+    ],
+    "composicao": "Farinha de carne bovina, milho moído, farelo de soja como fonte de proteína vegetal, antioxidantes naturais para conservação, vitaminas A, B, D e E, além de minerais. Receita balanceada que garante nutrição diária com segurança e economia."
+  },
+  {
+    "id": 69,
+    "image": "/images/ração-dogs-6.png",
+    "title": "Ração GranPlus Choice Cães Grandes Frango e Arroz",
+    "category": "Ração para Cães",
+    "size": "Tamanho: 15kg",
+    "price": "R$134,90",
+    "descricao": [
+      "Fórmula pensada especialmente para cães de grande porte. Contém proteínas nobres que auxiliam na manutenção da massa muscular. Ingredientes selecionados que promovem digestibilidade e saúde intestinal. Proporciona crocantes maiores, ideais para o porte do animal. Ajuda na vitalidade e na saúde das articulações, promovendo um estilo de vida ativo e equilibrado para o seu pet."
+    ],
+    "composicao": "Frango desidratado, arroz quebrado, gordura de frango, polpa de beterraba como fonte de fibra natural, vitaminas e minerais quelatados, antioxidantes naturais. Possui glucosamina e condroitina para suporte articular. Indicado para cães adultos de grande porte com necessidades específicas."
+  },
+  {
+    "id": 70,
+    "image": "/images/ração-dogs-7.png",
+    "title": "Ração Cachorro Supreme Light Adulto Quatree Frango",
+    "category": "Ração para Cães",
+    "size": "Tamanho: 20kg",
+    "price": "R$121,96",
+    "descricao": [
+      "Ração com fórmula light especialmente desenvolvida para cães adultos com tendência ao sobrepeso. Possui menor teor calórico e ingredientes funcionais que ajudam no controle de peso sem perder o sabor. Rica em fibras naturais, contribui para a saciedade do pet. Sabor de frango atrativo e nutritivo. Ideal para manter seu cão saudável, ativo e com peso adequado."
+    ],
+    "composicao": "Carne de frango desidratada, milho integral, óleo de peixe rico em ômega 3, fibras naturais para saciedade, vitaminas e minerais. Receita balanceada e segura. Com adição de prebióticos e antioxidantes naturais que promovem saúde digestiva e fortalecimento do sistema imunológico."
+  },
+  {
+    "id": 71,
+    "image": "/images/ração-dogs-8.png",
+    "title": "Ração Para Cachorro Quatree Supreme Adulto Pequenos",
+    "category": "Ração para Cães",
+    "size": "Tamanho: 15kg",
+    "price": "R$109,90",
+    "descricao": [
+      "Ração indicada para cães adultos de pequeno porte. Possui croquetes com tamanho ideal para facilitar a mastigação e digestão. Rica em nutrientes que promovem uma vida saudável e ativa. Contém ômegas e vitaminas essenciais para o brilho da pelagem e saúde da pele. Fórmula de alta palatabilidade que agrada até os cães mais exigentes."
+    ],
+    "composicao": "Farinha de frango, milho integral moído, óleo de peixe, fibras prebióticas que promovem equilíbrio da flora intestinal, antioxidantes naturais, vitaminas e minerais. Fórmula rica em nutrientes essenciais para o dia a dia do seu pet."
+  },
+  {
+    "id": 72,
+    "image": "/images/ração-dogs-9.png",
+    "title": "Ração Seca Quatree Supreme Frango e Batata Doce Filhotes",
+    "category": "Ração para Cães",
+    "size": "Tamanho: 15kg",
+    "price": "R$199,89",
+    "descricao": [
+      "Ração premium formulada para filhotes, com proteína de frango e batata doce como fontes energéticas. Proporciona nutrição completa durante a fase de crescimento. Favorece o desenvolvimento saudável do sistema digestivo e imunológico. Crocantes adaptados ao tamanho dos filhotes, com sabor que agrada e textura ideal. Com vitaminas e minerais para um crescimento forte e equilibrado."
+    ],
+    "composicao": "Frango desidratado, batata doce, arroz, óleo de peixe, fibras prebióticas, vitaminas A, C, D e E, minerais quelatados, antioxidantes naturais. Ingredientes nobres selecionados para nutrição adequada dos filhotes."
+  },
+  {
+    "id": 73,
+    "image": "/images/ração-dogs-10.png",
+    "title": "Ração Seca Special Dog Cães Adulto sabor Carne",
+    "category": "Ração para Cães",
+    "size": "Tamanho: 1kg",
+    "price": "R$106,90",
+    "descricao": [
+      "Ração com ótimo custo-benefício para cães adultos. Sabor carne que agrada facilmente. Ajuda na saúde da pele e dos pelos com a adição de ácidos graxos. Crocantes balanceados auxiliam na mastigação e higiene bucal. Ideal para quem busca uma opção acessível sem abrir mão da qualidade nutricional e segurança alimentar do seu pet."
+    ],
+    "composicao": "Farinha de carne bovina, milho integral moído, farelo de soja, antioxidantes naturais, vitaminas e minerais. Fórmula balanceada com nutrientes essenciais para a manutenção da saúde dos cães adultos."
+  },
+  {
+    "id": 74,
+    "image": "/images/ração-dogs-11.png",
+    "title": "Ração Special Dog Vegetais Special Dog",
+    "category": "Ração para Cães",
+    "size": "Tamanho: 3kg",
+    "price": "R$104,90",
+    "descricao": [
+      "Ração enriquecida com vegetais que auxiliam na digestão e proporcionam vitalidade. Ingredientes selecionados com sabor agradável. Fórmula equilibrada que garante saúde e bem-estar ao pet. Perfeita para cães que precisam de uma dieta leve, saborosa e rica em fibras."
+    ],
+    "composicao": "Vegetais desidratados como cenoura e espinafre, milho, farelo de trigo, vitaminas A, C, D e E, minerais como zinco e ferro. Receita rica em fibras e nutrientes naturais, sem adição de corantes artificiais."
+  },
+  {
+    "id": 75,
+    "image": "/images/ração-dogs-12.png",
+    "title": "Billy Dog Ossinho Cães Adultos Carne",
+    "category": "Ração para Cães",
+    "size": "Tamanho: 15kg",
+    "price": "R$106,99",
+    "descricao": [
+      "Ração com croquetes em formato de ossinhos e delicioso sabor carne. Ideal para cães adultos que apreciam textura crocante. Contribui para a saúde bucal e oferece todos os nutrientes necessários para uma alimentação equilibrada. Perfeita para ser oferecida diariamente, com excelente aceitação pelos pets."
+    ],
+    "composicao": "Farinha de carne bovina, milho integral, gordura de frango, conservantes naturais, vitaminas e minerais. Receita nutritiva, saborosa e com ingredientes selecionados para a saúde diária do seu pet."
+  },
 ];
 
 
