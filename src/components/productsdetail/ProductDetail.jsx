@@ -9,7 +9,7 @@ const produtosData = [
     "id": 1,
     "image": "/images/ração-1.png",
     "title": "Ração Seca Para Gatos Adultos Carne",
-    "category": "Alimentação",
+    "category": "Ração",
     "size": "2,7kg",
     "price": "R$42,42",
     "descricao": [

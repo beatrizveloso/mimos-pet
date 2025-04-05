@@ -11,7 +11,9 @@ const FilterCate = ({ setFiltro }) => {
     "Alimentação",
     "Higiene",
     "Transporte",
-    "Brinquedo"
+    "Brinquedo",
+    "Transporte",
+    "Fantasias"
   ];
 
   const handleFilterSelection = (option) => {
