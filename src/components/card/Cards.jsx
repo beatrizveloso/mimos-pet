@@ -84,21 +84,18 @@ const Cards = ({ filtro, subcategoria, searchTerm, limit, paginated }) => {
     { id: 73, image: '/images/ração-dogs-10.png', title: 'Ração Seca Special Dog Cães Adulto sabor Carne', category: 'Rações para Cães', subcategory: 'Seca', size: 'Tamanho: 1kg', price: 'R$106,90' },
     { id: 74, image: '/images/ração-dogs-11.png', title: 'Ração Special Dog Vegetais Special Dog', category: 'Rações para Cães', subcategory: 'Seca', size: 'Tamanho: 3kg', price: 'R$104,90' },
     { id: 75, image: '/images/ração-dogs-12.png', title: 'Billy Dog Ossinho Cães Adultos Carne', category: 'Rações para Cães', subcategory: 'Seca', size: 'Tamanho: 15kg', price: 'R$106,99' },
-
     { id: 76, image: '/images/racao-umida-1.png', title: 'Pedigree Sachê Carne ao Molho para Cães Adultos', category: 'Rações para Cães', subcategory: 'Úmida', size: 'Tamanho: 100g', price: 'R$3,99' },
     { id: 77, image: '/images/racao-umida-2.png', title: 'Golden Gourmet Sachê Frango com Arroz', category: 'Rações para Cães', subcategory: 'Úmida', size: 'Tamanho: 100g', price: 'R$4,99' },
     { id: 78, image: '/images/racao-umida-3.png', title: 'Premier Pet Sachê Carne com Legumes', category: 'Rações para Cães', subcategory: 'Úmida', size: 'Tamanho: 100g', price: 'R$5,49' },
     { id: 79, image: '/images/racao-umida-4.png', title: 'Purina Dog Chow Ração Úmida Frango e Carne', category: 'Rações para Cães', subcategory: 'Úmida', size: 'Tamanho: 100g', price: 'R$4,29' },
     { id: 80, image: '/images/racao-umida-5.png', title: 'Special Dog Sachê Cordeiro com Arroz', category: 'Rações para Cães', subcategory: 'Úmida', size: 'Tamanho: 100g', price: 'R$3,49' },
     { id: 81, image: '/images/racao-umida-6.png', title: 'Fórmula Natural FreshMeat Ração Úmida Adultos', category: 'Rações para Cães', subcategory: 'Úmida', size: 'Tamanho: 100g', price: 'R$6,59' },
-
     { id: 82, image: '/images/racao-natural-1.png', title: 'Fórmula Natural FreshMeat Frango e Batata Doce', category: 'Rações para Cães', subcategory: 'Natural', size: 'Tamanho: 10,1kg', price: 'R$289,99' },
     { id: 83, image: '/images/racao-natural-2.png', title: 'Biofresh Cães Adultos Raças Médias e Grandes', category: 'Rações para Cães', subcategory: 'Natural', size: 'Tamanho: 12kg', price: 'R$319,90' },
     { id: 84, image: '/images/racao-natural-3.png', title: 'Nats Ração Natural para Cães Filhotes', category: 'Rações para Cães', subcategory: 'Natural', size: 'Tamanho: 7kg', price: 'R$179,00' },
     { id: 85, image: '/images/racao-natural-4.png', title: 'Guabi Natural Adultos Frango e Arroz Integral', category: 'Rações para Cães', subcategory: 'Natural', size: 'Tamanho: 10,1kg', price: 'R$269,90' },
     { id: 86, image: '/images/racao-natural-5.png', title: 'Fórmula Natural FreshMeat Cordeiro', category: 'Rações para Cães', subcategory: 'Natural', size: 'Tamanho: 7kg', price: 'R$199,90' },
     { id: 87, image: '/images/racao-natural-6.png', title: 'Magnus Todo Dia Natural com Carne', category: 'Rações para Cães', subcategory: 'Natural', size: 'Tamanho: 15kg', price: 'R$149,90' },
-
     { id: 88, image: '/images/racao-medicamentosa-1.png', title: 'Royal Canin Veterinary Gastro Intestinal', category: 'Rações para Cães', subcategory: 'Medicamentosa', size: 'Tamanho: 10,1kg', price: 'R$399,00' },
     { id: 89, image: '/images/racao-medicamentosa-2.png', title: 'Hills Prescription Diet Cães com Problemas Renais', category: 'Rações para Cães', subcategory: 'Medicamentosa', size: 'Tamanho: 12kg', price: 'R$419,90' },
     { id: 90, image: '/images/racao-medicamentosa-3.png', title: 'Premier Nutrição Clínica Obesidade Cães Adultos', category: 'Rações para Cães', subcategory: 'Medicamentosa', size: 'Tamanho: 5kg', price: 'R$189,00' },
@@ -112,14 +109,12 @@ const Cards = ({ filtro, subcategoria, searchTerm, limit, paginated }) => {
     { id: 97, image: '/images/perfume-4.png', title: 'Perfume Pet Citrus Fresh', category: 'Higiene', subcategory: 'Perfumes', size: 'Tamanho: 100ml', price: 'R$21,90' },
     { id: 98, image: '/images/perfume-5.png', title: 'Perfume Pet Musk Suave', category: 'Higiene', subcategory: 'Perfumes', size: 'Tamanho: 120ml', price: 'R$25,90' },
     { id: 99, image: '/images/perfume-6.png', title: 'Perfume Pet Coco e Baunilha', category: 'Higiene', subcategory: 'Perfumes', size: 'Tamanho: 120ml', price: 'R$23,90' },
-
     { id: 100, image: '/images/escova-1.png', title: 'Escova Dental Dupla para Pets', category: 'Higiene', subcategory: 'Escova de dentes', size: 'Tamanho: Único', price: 'R$12,90' },
     { id: 101, image: '/images/escova-2.png', title: 'Escova de Dente Pet com Dedeira', category: 'Higiene', subcategory: 'Escova de dentes', size: 'Tamanho: Kit com 2', price: 'R$10,50' },
     { id: 102, image: '/images/escova-3.png', title: 'Kit Escova e Creme Dental Pet', category: 'Higiene', subcategory: 'Escova de dentes', size: 'Tamanho: 85g + Escova', price: 'R$19,90' },
     { id: 103, image: '/images/escova-4.png', title: 'Escova Dental Pet Macia Extra Longa', category: 'Higiene', subcategory: 'Escova de dentes', size: 'Tamanho: Único', price: 'R$14,90' },
     { id: 104, image: '/images/escova-5.png', title: 'Escova de Dente Pet Compacta', category: 'Higiene', subcategory: 'Escova de dentes', size: 'Tamanho: Pequeno Porte', price: 'R$11,90' },
     { id: 105, image: '/images/escova-6.png', title: 'Escova Pet com Cabo Anatômico', category: 'Higiene', subcategory: 'Escova de dentes', size: 'Tamanho: Médio Porte', price: 'R$13,90' },
-
     { id: 106, image: '/images/tapete-1.png', title: 'Tapete Higiênico SuperSec PetMais', category: 'Higiene', subcategory: 'Tapetes higiênicos', size: 'Tamanho: 80x60cm (30un)', price: 'R$59,90' },
     { id: 107, image: '/images/tapete-2.png', title: 'Tapete Higiênico Lavável EcoPet', category: 'Higiene', subcategory: 'Tapetes higiênicos', size: 'Tamanho: 90x60cm (1un)', price: 'R$44,99' },
     { id: 108, image: '/images/tapete-3.png', title: 'Tapete Higiênico Atrativo PetSoft', category: 'Higiene', subcategory: 'Tapetes higiênicos', size: 'Tamanho: 60x60cm (20un)', price: 'R$36,90' },
@@ -133,28 +128,64 @@ const Cards = ({ filtro, subcategoria, searchTerm, limit, paginated }) => {
     { id: 115, image: '/images/coleira-4.png', title: 'Coleira Simples Verde Musgo', category: 'Cinto, coleiras e guias', subcategory: 'Coleiras comuns', size: 'Tamanho: M', price: 'R$15,00' },
     { id: 116, image: '/images/coleira-5.png', title: 'Coleira de Couro Marrom Reforçada', category: 'Cinto, coleiras e guias', subcategory: 'Coleiras comuns', size: 'Tamanho: G', price: 'R$29,90' },
     { id: 117, image: '/images/coleira-6.png', title: 'Coleira Fashion com Lacinho', category: 'Cinto, coleiras e guias', subcategory: 'Coleiras comuns', size: 'Tamanho: P', price: 'R$21,99' },
-
     { id: 118, image: '/images/peitoral-1.png', title: 'Peitoral Confort Rosa Bebê', category: 'Cinto, coleiras e guias', subcategory: 'Peitorais', size: 'Tamanho: P', price: 'R$34,90' },
     { id: 119, image: '/images/peitoral-2.png', title: 'Peitoral Mesh Azul com Alça', category: 'Cinto, coleiras e guias', subcategory: 'Peitorais', size: 'Tamanho: M', price: 'R$39,90' },
     { id: 120, image: '/images/peitoral-3.png', title: 'Peitoral Esportivo Resistente Preto', category: 'Cinto, coleiras e guias', subcategory: 'Peitorais', size: 'Tamanho: G', price: 'R$45,00' },
     { id: 121, image: '/images/peitoral-4.png', title: 'Peitoral Xadrez Vermelho', category: 'Cinto, coleiras e guias', subcategory: 'Peitorais', size: 'Tamanho: M', price: 'R$37,90' },
     { id: 122, image: '/images/peitoral-5.png', title: 'Peitoral Jeans Estiloso', category: 'Cinto, coleiras e guias', subcategory: 'Peitorais', size: 'Tamanho: P', price: 'R$42,90' },
     { id: 123, image: '/images/peitoral-6.png', title: 'Peitoral Almofadado Cinza', category: 'Cinto, coleiras e guias', subcategory: 'Peitorais', size: 'Tamanho: G', price: 'R$44,50' },
-
     { id: 124, image: '/images/guia-retratil-1.png', title: 'Guia Retrátil 3m Preta', category: 'Cinto, coleiras e guias', subcategory: 'Guias retráteis', size: 'Tamanho: 3 metros', price: 'R$59,90' },
     { id: 125, image: '/images/guia-retratil-2.png', title: 'Guia Retrátil Azul 5m', category: 'Cinto, coleiras e guias', subcategory: 'Guias retráteis', size: 'Tamanho: 5 metros', price: 'R$64,90' },
     { id: 126, image: '/images/guia-retratil-3.png', title: 'Guia Retrátil Rosa com Detalhes', category: 'Cinto, coleiras e guias', subcategory: 'Guias retráteis', size: 'Tamanho: 3 metros', price: 'R$62,00' },
     { id: 127, image: '/images/guia-retratil-4.png', title: 'Guia Retrátil Resistente 8m', category: 'Cinto, coleiras e guias', subcategory: 'Guias retráteis', size: 'Tamanho: 8 metros', price: 'R$79,90' },
     { id: 128, image: '/images/guia-retratil-5.png', title: 'Guia Retrátil Verde Fluorescente', category: 'Cinto, coleiras e guias', subcategory: 'Guias retráteis', size: 'Tamanho: 5 metros', price: 'R$69,90' },
     { id: 129, image: '/images/guia-retratil-6.png', title: 'Guia Retrátil Básica Laranja', category: 'Cinto, coleiras e guias', subcategory: 'Guias retráteis', size: 'Tamanho: 3 metros', price: 'R$58,00' },
-
     { id: 130, image: '/images/cinto-seguranca-1.png', title: 'Cinto de Segurança Ajustável Preto', category: 'Cinto, coleiras e guias', subcategory: 'Cintos de segurança', size: 'Tamanho: Único', price: 'R$29,90' },
     { id: 131, image: '/images/cinto-seguranca-2.png', title: 'Cinto para Carro com Mosquetão', category: 'Cinto, coleiras e guias', subcategory: 'Cintos de segurança', size: 'Tamanho: Único', price: 'R$32,90' },
     { id: 132, image: '/images/cinto-seguranca-3.png', title: 'Cinto Pet Colorido Universal', category: 'Cinto, coleiras e guias', subcategory: 'Cintos de segurança', size: 'Tamanho: Único', price: 'R$34,50' },
     { id: 133, image: '/images/cinto-seguranca-4.png', title: 'Cinto de Segurança Rosa Antipuxão', category: 'Cinto, coleiras e guias', subcategory: 'Cintos de segurança', size: 'Tamanho: Único', price: 'R$36,00' },
     { id: 134, image: '/images/cinto-seguranca-5.png', title: 'Cinto com Engate Universal Reforçado', category: 'Cinto, coleiras e guias', subcategory: 'Cintos de segurança', size: 'Tamanho: Único', price: 'R$39,90' },
-    { id: 135, image: '/images/cinto-seguranca-6.png', title: 'Cinto Pet Estampado Pata Feliz', category: 'Cinto, coleiras e guias', subcategory: 'Cintos de segurança', size: 'Tamanho: Único', price: 'R$33,00' }
-    
+    { id: 135, image: '/images/cinto-seguranca-6.png', title: 'Cinto Pet Estampado Pata Feliz', category: 'Cinto, coleiras e guias', subcategory: 'Cintos de segurança', size: 'Tamanho: Único', price: 'R$33,00' },
+
+    { id: 136, image: '/images/racao-umida-gatos-1.png', title: 'Ração Úmida Patê de Frango para Gatos Adultos', category: 'Rações para Gatos', subcategory: 'Úmida', size: 'Peso: 100g', price: 'R$5,99' },
+    { id: 137, image: '/images/racao-umida-gatos-2.png', title: 'Ração Úmida Sabor Carne ao Molho para Filhotes', category: 'Rações para Gatos', subcategory: 'Úmida', size: 'Peso: 85g', price: 'R$6,49' },
+    { id: 138, image: '/images/racao-umida-gatos-3.png', title: 'Ração Úmida Sachê Gato Adulto Sabor Peixe', category: 'Rações para Gatos', subcategory: 'Úmida', size: 'Peso: 85g', price: 'R$4,99' },
+    { id: 139, image: '/images/racao-umida-gatos-4.png', title: 'Ração Úmida Gourmet Cordeiro com Arroz', category: 'Rações para Gatos', subcategory: 'Úmida', size: 'Peso: 100g', price: 'R$7,90' },
+    { id: 140, image: '/images/racao-umida-gatos-5.png', title: 'Ração Úmida Gatos Castrados Frango e Fígado', category: 'Rações para Gatos', subcategory: 'Úmida', size: 'Peso: 85g', price: 'R$5,49' },
+    { id: 141, image: '/images/racao-umida-gatos-6.png', title: 'Ração Úmida Carne e Legumes Natural Premium', category: 'Rações para Gatos', subcategory: 'Úmida', size: 'Peso: 100g', price: 'R$6,99' },
+    { id: 142, image: '/images/caixa-areia-tampa-1.png', title: 'Caixa de Areia com Tampa Azul', category: 'Caixas de areia', subcategory: 'Com tampa', size: 'Tamanho: 50x40x40cm', price: 'R$89,90' },
+    { id: 143, image: '/images/caixa-areia-tampa-2.png', title: 'Caixa de Areia com Tampa e Filtro', category: 'Caixas de areia', subcategory: 'Com tampa', size: 'Tamanho: 52x41x42cm', price: 'R$99,90' },
+    { id: 144, image: '/images/caixa-areia-tampa-3.png', title: 'Caixa de Areia com Tampa Rosa e Alça', category: 'Caixas de areia', subcategory: 'Com tampa', size: 'Tamanho: 48x38x38cm', price: 'R$94,50' },
+    { id: 145, image: '/images/caixa-areia-sem-tampa-1.png', title: 'Caixa de Areia Sem Tampa Verde', category: 'Caixas de areia', subcategory: 'Sem tampa', size: 'Tamanho: 45x35x15cm', price: 'R$49,90' },
+    { id: 146, image: '/images/caixa-areia-sem-tampa-2.png', title: 'Caixa de Areia Plástica Básica Azul', category: 'Caixas de areia', subcategory: 'Sem tampa', size: 'Tamanho: 50x40x18cm', price: 'R$54,90' },
+    { id: 147, image: '/images/caixa-areia-sem-tampa-3.png', title: 'Caixa de Areia Retangular Vermelha', category: 'Caixas de areia', subcategory: 'Sem tampa', size: 'Tamanho: 48x38x16cm', price: 'R$51,90' },
+    { id: 148, image: '/images/caixa-areia-auto-1.png', title: 'Caixa de Areia Autolimpante Branca', category: 'Caixas de areia', subcategory: 'Autolimpantes', size: 'Tamanho: 55x45x40cm', price: 'R$199,90' },
+    { id: 149, image: '/images/caixa-areia-auto-2.png', title: 'Caixa Autolimpante com Peneira Cinza', category: 'Caixas de areia', subcategory: 'Autolimpantes', size: 'Tamanho: 50x42x38cm', price: 'R$219,90' },
+    { id: 150, image: '/images/caixa-areia-auto-3.png', title: 'Caixa de Areia Automática com Sensor', category: 'Caixas de areia', subcategory: 'Autolimpantes', size: 'Tamanho: 60x45x45cm', price: 'R$499,90' },
+
+    { id: 151, image: '/images/areia-higienica-1.png', title: 'Areia Higiênica Super Absorvente Neutra', category: 'Higiene', subcategory: 'Areia Higiênica', size: 'Peso: 4kg', price: 'R$22,90' },
+    { id: 152, image: '/images/areia-higienica-2.png', title: 'Areia Higiênica com Perfume Floral', category: 'Higiene', subcategory: 'Areia Higiênica', size: 'Peso: 5kg', price: 'R$25,50' },
+    { id: 153, image: '/images/areia-higienica-3.png', title: 'Areia Higiênica de Sílica Cristal Premium', category: 'Higiene', subcategory: 'Areia Higiênica', size: 'Peso: 1,6kg', price: 'R$29,90' },
+    { id: 154, image: '/images/shampoo-seco-1.png', title: 'Shampoo Seco Spray para Cães e Gatos', category: 'Higiene', subcategory: 'Shampoo seco', size: 'Volume: 200ml', price: 'R$18,90' },
+    { id: 155, image: '/images/shampoo-seco-2.png', title: 'Shampoo Seco Natural com Aloe Vera', category: 'Higiene', subcategory: 'Shampoo seco', size: 'Volume: 150ml', price: 'R$21,50' },
+    { id: 156, image: '/images/shampoo-seco-3.png', title: 'Shampoo Seco Refrescante Lavanda', category: 'Higiene', subcategory: 'Shampoo seco', size: 'Volume: 180ml', price: 'R$20,00' },
+    { id: 157, image: '/images/escova-pente-1.png', title: 'Escova Dupla Face para Pelos', category: 'Higiene', subcategory: 'Escovas e pente', size: 'Tamanho: Único', price: 'R$24,90' },
+    { id: 158, image: '/images/escova-pente-2.png', title: 'Pente Desembaraçador de Aço Inox', category: 'Higiene', subcategory: 'Escovas e pente', size: 'Tamanho: Médio', price: 'R$19,90' },
+    { id: 159, image: '/images/escova-pente-3.png', title: 'Escova Autolimpante para Gatos e Cães', category: 'Higiene', subcategory: 'Escovas e pente', size: 'Tamanho: Grande', price: 'R$29,50' },
+
+    { id: 160, image: '/images/arranhador-pequeno-1.png', title: 'Arranhador Compacto de Sisal', category: 'Arranhadores', subcategory: 'Pequenos', size: 'Altura: 30cm', price: 'R$49,90' },
+    { id: 161, image: '/images/arranhador-pequeno-2.png', title: 'Arranhador em Forma de Cacto', category: 'Arranhadores', subcategory: 'Pequenos', size: 'Altura: 35cm', price: 'R$59,90' },
+    { id: 162, image: '/images/arranhador-pequeno-3.png', title: 'Arranhador de Canto 2 em 1', category: 'Arranhadores', subcategory: 'Pequenos', size: 'Tamanho: 40x25cm', price: 'R$39,90' },
+    { id: 163, image: '/images/arranhador-medio-1.png', title: 'Arranhador com Plataforma Elevada', category: 'Arranhadores', subcategory: 'Médios', size: 'Altura: 65cm', price: 'R$89,90' },
+    { id: 164, image: '/images/arranhador-medio-2.png', title: 'Arranhador com Brinquedo Suspenso', category: 'Arranhadores', subcategory: 'Médios', size: 'Altura: 60cm', price: 'R$95,00' },
+    { id: 165, image: '/images/arranhador-medio-3.png', title: 'Arranhador com Casinha Embutida', category: 'Arranhadores', subcategory: 'Médios', size: 'Altura: 70cm', price: 'R$119,90' },
+    { id: 166, image: '/images/arranhador-torre-1.png', title: 'Torre Arranhador com Plataformas', category: 'Arranhadores', subcategory: 'Estilo torre', size: 'Altura: 1,20m', price: 'R$199,90' },
+    { id: 167, image: '/images/arranhador-torre-2.png', title: 'Torre de Atividades para Gatos', category: 'Arranhadores', subcategory: 'Estilo torre', size: 'Altura: 1,40m', price: 'R$249,90' },
+    { id: 168, image: '/images/arranhador-torre-3.png', title: 'Torre Deluxe com Camas e Tunel', category: 'Arranhadores', subcategory: 'Estilo torre', size: 'Altura: 1,50m', price: 'R$289,90' },
+    { id: 169, image: '/images/arranhador-interativo-1.png', title: 'Arranhador Interativo com Bolinhas', category: 'Arranhadores', subcategory: 'Interativos', size: 'Altura: 50cm', price: 'R$79,90' },
+    { id: 170, image: '/images/arranhador-interativo-2.png', title: 'Arranhador com Laser Automático', category: 'Arranhadores', subcategory: 'Interativos', size: 'Altura: 55cm', price: 'R$139,90' },
+    { id: 171, image: '/images/arranhador-interativo-3.png', title: 'Arranhador com Bolinha e Catnip', category: 'Arranhadores', subcategory: 'Interativos', size: 'Altura: 45cm', price: 'R$89,50' }
+
   ];
 
   const [paginaAtual, setPaginaAtual] = useState(1);

@@ -1859,8 +1859,478 @@ const produtosData = [
       "O Cinto Pet Estampado Pata Feliz combina segurança, conforto e fofura para os passeios de carro. Com estampa temática de patinhas, ele é ideal para tutores que amam detalhes divertidos. Compatível com peitorais e coleiras, sua fivela universal se encaixa na maioria dos cintos automotivos. É ajustável, leve e extremamente prático para o dia a dia com o pet."
     ],
     "composicao": "Fita de nylon estampada com patinhas, mosquetão metálico com rotação 360°, engate universal para cinto automotivo. Produto resistente, fácil de limpar e com regulagem de até 80cm."
-  }
+  },
+  {
+    "id": 136,
+    "image": "/images/racao-umida-gatos-1.png",
+    "title": "Ração Úmida Patê de Frango para Gatos Adultos",
+    "category": "Rações para Gatos",
+    "subcategory": "Úmida",
+    "size": "Peso: 100g",
+    "price": "R$5,99",
+    "descricao": [
+      "A Ração Úmida Patê de Frango para Cães Adultos é uma refeição completa e saborosa que agrada até os paladares mais exigentes. Preparada com carne de frango selecionada, ela fornece proteínas de alta qualidade que ajudam na manutenção da massa muscular. Sua textura cremosa e fácil de mastigar é perfeita para cães de todas as raças. Além de ser prática, oferece hidratação adicional por ser rica em umidade, auxiliando também na saúde urinária do pet. Ideal como refeição principal ou complemento alimentar."
+    ],
+    "composicao": "Água, carne e subprodutos de frango, fígado de frango, minerais, vitaminas (A, D3, E, B12), glicerina, goma guar, amido modificado, taurina, cloreto de sódio, extrato de yucca, conservantes e antioxidantes naturais. Sem corantes artificiais."
+  },
+  {
+    "id": 137,
+    "image": "/images/racao-umida-gatos-2.png",
+    "title": "Ração Úmida Sabor Carne ao Molho para Filhotes",
+    "category": "Rações para Gatos",
+    "subcategory": "Úmida",
+    "size": "Peso: 85g",
+    "price": "R$6,49",
+    "descricao": [
+      "Indicada para cães filhotes, a Ração Úmida Sabor Carne ao Molho é uma excelente opção para proporcionar nutrição balanceada e sabor irresistível. Enriquecida com vitaminas essenciais ao desenvolvimento saudável, ela contribui para um crescimento forte e vitalidade desde os primeiros meses de vida. Seu molho apetitoso melhora a palatabilidade e garante uma refeição atrativa. A embalagem prática facilita o oferecimento em porções diárias, mantendo o frescor do alimento por mais tempo."
+    ],
+    "composicao": "Carne bovina, fígado, coração, arroz, minerais quelatados, vitaminas A, E, D3, B1, B2, B6, B12, ácido fólico, óleo de peixe (rico em ômega 3), extrato de levedura, glicerina vegetal, espessantes naturais e antioxidantes naturais. Livre de conservantes artificiais."
+  },
+  {
+    "id": 138,
+    "image": "/images/racao-umida-gatos-3.png",
+    "title": "Ração Úmida Sachê Gato Adulto Sabor Peixe",
+    "category": "Rações para Gatos",
+    "subcategory": "Úmida",
+    "size": "Peso: 85g",
+    "price": "R$4,99",
+    "descricao": [
+      "A Ração Úmida Sachê Sabor Peixe para Gatos Adultos é uma delícia nutritiva feita com ingredientes frescos e selecionados. Sua fórmula contém peixe como principal fonte de proteína, além de ácidos graxos que mantêm a pelagem macia e brilhante. A textura úmida e o aroma natural atraem até os gatos mais exigentes. Ideal para complementar a alimentação seca ou como única fonte de nutrição, promovendo bem-estar, hidratação e saúde renal, com baixo teor de sódio."
+    ],
+    "composicao": "Peixe fresco, água, fígado de frango, óleo de peixe, levedura de cerveja, taurina, vitamina A, D3, E, B12, zinco, manganês, biotina, espessantes vegetais, antioxidantes naturais. Sem adição de corantes ou conservantes artificiais."
+  },
+  {
+    "id": 139,
+    "image": "/images/racao-umida-gatos-4.png",
+    "title": "Ração Úmida Gourmet Cordeiro com Arroz",
+    "category": "Rações para Gatos",
+    "subcategory": "Úmida",
+    "size": "Peso: 100g",
+    "price": "R$7,90",
+    "descricao": [
+      "A Ração Úmida Gourmet Cordeiro com Arroz oferece uma refeição diferenciada para cães adultos com paladar refinado. Preparada com carne de cordeiro, fonte rica em proteína e baixa em gordura, ela é ideal para pets com dietas sensíveis ou necessidades especiais. O arroz integral presente na fórmula auxilia na digestão e no equilíbrio nutricional. Seu sabor único aliado a ingredientes naturais fazem dessa ração uma escolha nutritiva, equilibrada e deliciosa para a rotina alimentar do seu pet."
+    ],
+    "composicao": "Carne de cordeiro, arroz integral, fígado bovino, óleo de girassol, minerais orgânicos, vitaminas (A, E, C, D3), extrato de yucca, fibra de beterraba, goma xantana, espessantes naturais, conservantes naturais. Não contém transgênicos nem corantes artificiais."
+  },
+  {
+    "id": 140,
+    "image": "/images/racao-umida-gatos-5.png",
+    "title": "Ração Úmida Gatos Castrados Frango e Fígado",
+    "category": "Rações para Gatos",
+    "subcategory": "Úmida",
+    "size": "Peso: 85g",
+    "price": "R$5,49",
+    "descricao": [
+      "A Ração Úmida para Gatos Castrados Sabor Frango e Fígado é formulada para atender às necessidades específicas desses pets. Com níveis reduzidos de gordura e alto teor de fibras, ajuda na manutenção do peso ideal, evitando a obesidade. Seus ingredientes de alta digestibilidade promovem saúde digestiva e urinária, enquanto o sabor irresistível garante aceitação elevada. Pode ser usada sozinha ou combinada com ração seca para oferecer mais variedade ao cardápio do seu gato."
+    ],
+    "composicao": "Frango, fígado de ave, proteína isolada vegetal, taurina, minerais quelatados, vitaminas A, D3, E, biotina, espessantes naturais, água, óleo de peixe, L-carnitina, antioxidantes naturais. Produto livre de corantes e conservantes artificiais."
+  },
+  {
+    "id": 141,
+    "image": "/images/racao-umida-gatos-6.png",
+    "title": "Ração Úmida Carne e Legumes Natural Premium",
+    "category": "Rações para Gatos",
+    "subcategory": "Úmida",
+    "size": "Peso: 100g",
+    "price": "R$6,99",
+    "descricao": [
+      "Com um mix nutritivo de carne e legumes, a Ração Úmida Natural Premium oferece uma alimentação completa, balanceada e saborosa para cães adultos. Livre de grãos e com ingredientes naturais, ela contribui para uma digestão saudável e maior absorção dos nutrientes. A textura macia facilita a mastigação e o aroma natural estimula o apetite até dos cães mais seletivos. Ideal para incluir na dieta diária como refeição principal ou adicional à ração seca tradicional."
+    ],
+    "composicao": "Carne bovina, cenoura, ervilha, batata-doce, óleo de coco, extrato de alecrim, levedura de cerveja, vitaminas A, D3, E, B12, zinco, cobre, ferro, taurina, espessantes vegetais. Sem transgênicos, corantes, aromatizantes ou conservantes artificiais."
+  },
+  {
+    "id": 142,
+    "image": "/images/caixa-areia-tampa-1.png",
+    "title": "Caixa de Areia com Tampa Azul",
+    "category": "Higiene para Gatos",
+    "subcategory": "Com tampa",
+    "size": "Tamanho: 50x40x40cm",
+    "price": "R$89,90",
+    "descricao": [
+      "A Caixa de Areia com Tampa Azul garante mais privacidade e conforto ao seu gato, além de minimizar odores no ambiente. Com design prático, possui porta frontal basculante para facilitar a entrada e saída do pet. Seu formato fechado evita a dispersão de areia, mantendo o ambiente sempre limpo e organizado."
+    ],
+    "composicao": "Plástico resistente de alta densidade, dobradiças de polipropileno, filtro de carvão ativado, alça ergonômica. Material lavável, leve e durável, livre de BPA."
+  },
+  {
+    "id": 143,
+    "image": "/images/caixa-areia-tampa-2.png",
+    "title": "Caixa de Areia com Tampa e Filtro",
+    "category": "Higiene para Gatos",
+    "subcategory": "Com tampa",
+    "size": "Tamanho: 52x41x42cm",
+    "price": "R$99,90",
+    "descricao": [
+      "A Caixa de Areia com Tampa e Filtro é ideal para quem busca praticidade e higiene. Com sistema de ventilação e filtro de carvão ativado, ajuda a controlar odores de forma eficaz. A tampa removível facilita a limpeza e a entrada possui portinhola translúcida para mais conforto do pet."
+    ],
+    "composicao": "Estrutura em polipropileno reforçado, filtro de carvão ativado substituível, porta em plástico translúcido, travas de segurança. Produto resistente à umidade e fácil de higienizar."
+  },
+  {
+    "id": 144,
+    "image": "/images/caixa-areia-tampa-3.png",
+    "title": "Caixa de Areia com Tampa Rosa e Alça",
+    "category": "Higiene para Gatos",
+    "subcategory": "Com tampa",
+    "size": "Tamanho: 48x38x38cm",
+    "price": "R$94,50",
+    "descricao": [
+      "Com um design charmoso e funcional, a Caixa de Areia com Tampa Rosa é perfeita para manter a higiene do seu gato em dia. Possui alça superior para transporte e tampa com encaixe seguro. A estrutura fechada oferece mais privacidade ao pet e evita respingos de areia."
+    ],
+    "composicao": "Plástico rígido livre de BPA, alça de polietileno, tampa com encaixe por pressão, base antiderrapante. Leve, durável e fácil de lavar."
+  },
+  {
+    "id": 145,
+    "image": "/images/caixa-areia-sem-tampa-1.png",
+    "title": "Caixa de Areia Sem Tampa Verde",
+    "category": "Higiene para Gatos",
+    "subcategory": "Sem tampa",
+    "size": "Tamanho: 45x35x15cm",
+    "price": "R$49,90",
+    "descricao": [
+      "Prática e econômica, a Caixa de Areia Sem Tampa Verde é ideal para gatos que preferem espaços abertos. Seu tamanho compacto facilita o posicionamento em qualquer ambiente. As bordas arredondadas proporcionam conforto e segurança para o pet durante o uso."
+    ],
+    "composicao": "Plástico polipropileno resistente, pigmento atóxico, superfície lisa fácil de limpar. Produto leve, lavável e reciclável."
+  },
+  {
+    "id": 146,
+    "image": "/images/caixa-areia-sem-tampa-2.png",
+    "title": "Caixa de Areia Plástica Básica Azul",
+    "category": "Higiene para Gatos",
+    "subcategory": "Sem tampa",
+    "size": "Tamanho: 50x40x18cm",
+    "price": "R$54,90",
+    "descricao": [
+      "A Caixa de Areia Plástica Azul é uma opção prática e versátil para o dia a dia. Fabricada em material resistente, possui bordas altas que ajudam a conter a areia durante o uso. Ideal para gatos de todos os portes e fácil de lavar e transportar."
+    ],
+    "composicao": "Plástico PP de alta qualidade, resistente a arranhões e impactos, não tóxico. Design com cantos arredondados e superfície polida."
+  },
+  {
+    "id": 147,
+    "image": "/images/caixa-areia-sem-tampa-3.png",
+    "title": "Caixa de Areia Retangular Vermelha",
+    "category": "Higiene para Gatos",
+    "subcategory": "Sem tampa",
+    "size": "Tamanho: 48x38x16cm",
+    "price": "R$51,90",
+    "descricao": [
+      "Com design clássico e funcional, a Caixa de Areia Retangular Vermelha é indicada para uso diário. Suas laterais altas evitam o desperdício de areia, enquanto a base antiderrapante garante estabilidade durante o uso. Leve, prática e de fácil manutenção."
+    ],
+    "composicao": "Polímero plástico reciclável, pigmentação não tóxica, superfície lisa de fácil limpeza. Produto lavável e durável."
+  },
+  {
+    "id": 148,
+    "image": "/images/caixa-areia-auto-1.png",
+    "title": "Caixa de Areia Autolimpante Branca",
+    "category": "Higiene para Gatos",
+    "subcategory": "Autolimpantes",
+    "size": "Tamanho: 55x45x40cm",
+    "price": "R$199,90",
+    "descricao": [
+      "A Caixa de Areia Autolimpante Branca traz mais tecnologia e comodidade para a rotina. Com sistema automático de peneiração, separa resíduos sólidos da areia limpa, garantindo maior higiene e menos trabalho. Ideal para tutores que buscam praticidade sem abrir mão da limpeza."
+    ],
+    "composicao": "Plástico ABS de alta durabilidade, mecanismo interno de peneira com rotação manual, base antiderrapante. Produto elétrico não incluso. Fácil de montar e desmontar."
+  },
+  {
+    "id": 149,
+    "image": "/images/caixa-areia-auto-2.png",
+    "title": "Caixa Autolimpante com Peneira Cinza",
+    "category": "Higiene para Gatos",
+    "subcategory": "Autolimpantes",
+    "size": "Tamanho: 50x42x38cm",
+    "price": "R$219,90",
+    "descricao": [
+      "Com sistema de peneira removível, a Caixa Autolimpante Cinza é prática, moderna e funcional. Permite a separação dos dejetos em segundos, otimizando a limpeza diária. Fabricada em plástico resistente e fácil de higienizar, garante conforto e higiene para o pet."
+    ],
+    "composicao": "Estrutura em polietileno reforçado, peneira de encaixe em polipropileno, alças ergonômicas. Produto reutilizável, resistente à umidade e livre de toxinas."
+  },
+  {
+    "id": 150,
+    "image": "/images/caixa-areia-auto-3.png",
+    "title": "Caixa de Areia Automática com Sensor",
+    "category": "Higiene para Gatos",
+    "subcategory": "Autolimpantes",
+    "size": "Tamanho: 60x45x45cm",
+    "price": "R$499,90",
+    "descricao": [
+      "Tecnologia e conforto em um só produto: a Caixa de Areia Automática com Sensor realiza a limpeza automaticamente após o uso do gato. Sensores inteligentes detectam o movimento do pet e ativam o sistema de coleta sem causar ruídos incômodos. Ideal para tutores que desejam mais tempo livre e menos bagunça."
+    ],
+    "composicao": "Plástico ABS de engenharia, sensor infravermelho inteligente, motor silencioso de baixa voltagem, recipiente de resíduos removível. Produto bivolt, fácil de operar e seguro."
+  },
+  {
+    "id": 151,
+    "image": "/images/areia-higienica-1.png",
+    "title": "Areia Higiênica Super Absorvente Neutra",
+    "category": "Higiene",
+    "subcategory": "Areia Higiênica",
+    "size": "Peso: 4kg",
+    "price": "R$22,90",
+    "descricao": [
+      "A Areia Higiênica Super Absorvente Neutra proporciona máxima absorção da urina, controle eficaz de odores e formação de torrões firmes, facilitando a limpeza diária. É ideal para gatos exigentes e tutores que buscam praticidade sem abrir mão da higiene."
+    ],
+    "composicao": "Argila bentonita natural, isenta de fragrâncias e aditivos artificiais. Produto atóxico e seguro para gatos de todas as idades."
+  },
+  {
+    "id": 152,
+    "image": "/images/areia-higienica-2.png",
+    "title": "Areia Higiênica com Perfume Floral",
+    "category": "Higiene",
+    "subcategory": "Areia Higiênica",
+    "size": "Peso: 5kg",
+    "price": "R$25,50",
+    "descricao": [
+      "Com fragrância suave e agradável, a Areia Higiênica com Perfume Floral proporciona um ambiente limpo e perfumado. Sua fórmula especial forma torrões resistentes, facilitando a remoção e prolongando a durabilidade do produto."
+    ],
+    "composicao": "Argila bentonita, fragrância floral suave, agentes de controle de odor. Produto hipoalergênico e livre de poeira."
+  },
+  {
+    "id": 153,
+    "image": "/images/areia-higienica-3.png",
+    "title": "Areia Higiênica de Sílica Cristal Premium",
+    "category": "Higiene",
+    "subcategory": "Areia Higiênica",
+    "size": "Peso: 1,6kg",
+    "price": "R$29,90",
+    "descricao": [
+      "Com altíssimo poder de absorção, a Areia de Sílica Cristal Premium neutraliza odores instantaneamente e mantém a caixa seca por mais tempo. É ideal para ambientes internos e para tutores que prezam por limpeza contínua."
+    ],
+    "composicao": "Cristais de sílica gel microporosos, livre de fragrâncias artificiais. Não tóxica e biodegradável."
+  },
+  {
+    "id": 154,
+    "image": "/images/shampoo-seco-1.png",
+    "title": "Shampoo Seco Spray para Cães e Gatos",
+    "category": "Higiene",
+    "subcategory": "Shampoo seco",
+    "size": "Volume: 200ml",
+    "price": "R$18,90",
+    "descricao": [
+      "Ideal para limpezas rápidas entre os banhos, o Shampoo Seco em Spray proporciona frescor imediato aos pelos dos pets. Sua fórmula suave remove impurezas sem necessidade de enxágue, deixando o animal limpo e perfumado."
+    ],
+    "composicao": "Extratos naturais, álcool de cereais, fragrância suave, agentes de limpeza a seco. Livre de parabenos e corantes artificiais."
+  },
+  {
+    "id": 155,
+    "image": "/images/shampoo-seco-2.png",
+    "title": "Shampoo Seco Natural com Aloe Vera",
+    "category": "Higiene",
+    "subcategory": "Shampoo seco",
+    "size": "Volume: 150ml",
+    "price": "R$21,50",
+    "descricao": [
+      "Com fórmula enriquecida com Aloe Vera, o Shampoo Seco Natural promove hidratação e cuidado aos pelos do pet, limpando suavemente e proporcionando sensação de frescor. Ideal para peles sensíveis e uso frequente."
+    ],
+    "composicao": "Extrato de Aloe Vera, óleos essenciais, base vegetal, vitamina E. Produto vegano e dermatologicamente testado."
+  },
+  {
+    "id": 156,
+    "image": "/images/shampoo-seco-3.png",
+    "title": "Shampoo Seco Refrescante Lavanda",
+    "category": "Higiene",
+    "subcategory": "Shampoo seco",
+    "size": "Volume: 180ml",
+    "price": "R$20,00",
+    "descricao": [
+      "O Shampoo Seco com aroma de lavanda proporciona limpeza instantânea e perfume relaxante. Indicado para animais que não podem tomar banho com frequência, oferece frescor e bem-estar com praticidade."
+    ],
+    "composicao": "Extrato de lavanda, álcool de cereais, glicerina vegetal, fragrância hipoalergênica. Livre de sulfatos."
+  },
+  {
+    "id": 157,
+    "image": "/images/escova-pente-1.png",
+    "title": "Escova Dupla Face para Pelos",
+    "category": "Higiene",
+    "subcategory": "Escovas e pente",
+    "size": "Tamanho: Único",
+    "price": "R$24,90",
+    "descricao": [
+      "A Escova Dupla Face é ideal para desembaraçar e dar brilho aos pelos. De um lado, cerdas macias que removem sujeiras e poeira, do outro, pinos com bolinhas para massagear a pele e ativar a circulação sanguínea do animal."
+    ],
+    "composicao": "Corpo em madeira tratada, cerdas naturais, pinos metálicos com pontas arredondadas. Produto leve e anatômico."
+  },
+  {
+    "id": 158,
+    "image": "/images/escova-pente-2.png",
+    "title": "Pente Desembaraçador de Aço Inox",
+    "category": "Higiene",
+    "subcategory": "Escovas e pente",
+    "size": "Tamanho: Médio",
+    "price": "R$19,90",
+    "descricao": [
+      "Ideal para remover nós e pelos mortos, o Pente Desembaraçador de Aço Inox é indicado para raças com pelagem média a longa. Possui dentes arredondados que evitam arranhões e proporcionam conforto ao pet."
+    ],
+    "composicao": "Dentes de aço inoxidável, cabo ergonômico em plástico emborrachado. Resistente e de fácil manuseio."
+  },
+  {
+    "id": 159,
+    "image": "/images/escova-pente-3.png",
+    "title": "Escova Autolimpante para Gatos e Cães",
+    "category": "Higiene",
+    "subcategory": "Escovas e pente",
+    "size": "Tamanho: Grande",
+    "price": "R$29,50",
+    "descricao": [
+      "Com sistema de autolimpeza, a Escova Autolimpante remove os pelos da escova com um simples clique. Ideal para manter o pet sempre bem cuidado, é eficiente para desembaraçar e eliminar pelos soltos sem esforço."
+    ],
+    "composicao": "Cerdas em aço inox, corpo em plástico ABS, botão retrátil de autolimpeza. Design moderno e confortável."
+  },
+  {
+    "id": 160,
+    "image": "/images/arranhador-pequeno-1.png",
+    "title": "Arranhador Compacto de Sisal",
+    "category": "Arranhadores",
+    "subcategory": "Pequenos",
+    "size": "Altura: 30cm",
+    "price": "R$49,90",
+    "descricao": [
+      "Ideal para espaços pequenos, este arranhador compacto possui base estável e haste revestida com sisal natural, perfeito para o gato afiar as garras sem danificar os móveis. Ocupa pouco espaço e é indicado para gatos de pequeno porte ou filhotes."
+    ],
+    "composicao": "Base de MDF revestida em carpete, haste de madeira coberta com corda de sisal natural, materiais atóxicos e sustentáveis, fácil de montar."
+  },
+  {
+    "id": 161,
+    "image": "/images/arranhador-pequeno-2.png",
+    "title": "Arranhador em Forma de Cacto",
+    "category": "Arranhadores",
+    "subcategory": "Pequenos",
+    "size": "Altura: 35cm",
+    "price": "R$59,90",
+    "descricao": [
+      "Com design criativo em formato de cacto, esse arranhador é funcional e decorativo. Possui revestimento em sisal verde, ideal para o gato gastar energia e ainda enfeitar o ambiente com charme."
+    ],
+    "composicao": "Plataforma em MDF, estrutura de PVC resistente, revestimento em sisal verde tingido com corantes naturais, base antiderrapante."
+  },
+  {
+    "id": 162,
+    "image": "/images/arranhador-pequeno-3.png",
+    "title": "Arranhador de Canto 2 em 1",
+    "category": "Arranhadores",
+    "subcategory": "Pequenos",
+    "size": "Tamanho: 40x25cm",
+    "price": "R$39,90",
+    "descricao": [
+      "Perfeito para cantos de sofá ou paredes, esse arranhador 2 em 1 é compacto e eficiente, com acabamento de sisal e carpete. Ajuda a redirecionar o comportamento natural do gato de arranhar móveis."
+    ],
+    "composicao": "Placa de MDF, tecido de carpete resistente, superfície em sisal trançado, ganchos de fixação inclusos."
+  },
 
+  {
+    "id": 163,
+    "image": "/images/arranhador-medio-1.png",
+    "title": "Arranhador com Plataforma Elevada",
+    "category": "Arranhadores",
+    "subcategory": "Médios",
+    "size": "Altura: 65cm",
+    "price": "R$89,90",
+    "descricao": [
+      "Com uma plataforma elevada para descanso e coluna de sisal para arranhadura, este arranhador médio é ideal para gatos que gostam de observar o ambiente e gastar energia."
+    ],
+    "composicao": "Madeira MDF, tubo central revestido com sisal natural, base e plataforma em pelúcia macia, estrutura firme e segura."
+  },
+  {
+    "id": 164,
+    "image": "/images/arranhador-medio-2.png",
+    "title": "Arranhador com Brinquedo Suspenso",
+    "category": "Arranhadores",
+    "subcategory": "Médios",
+    "size": "Altura: 60cm",
+    "price": "R$95,00",
+    "descricao": [
+      "Esse arranhador inclui uma bola pendurada que estimula o instinto de caça do gato, além de um pilar revestido com sisal. É uma excelente opção para manter o felino ativo e entretido."
+    ],
+    "composicao": "Estrutura de MDF com tubo central de papelão grosso, corda de sisal natural, brinquedo com enchimento e cordão de nylon."
+  },
+  {
+    "id": 165,
+    "image": "/images/arranhador-medio-3.png",
+    "title": "Arranhador com Casinha Embutida",
+    "category": "Arranhadores",
+    "subcategory": "Médios",
+    "size": "Altura: 70cm",
+    "price": "R$119,90",
+    "descricao": [
+      "Além da função de arranhador, esse modelo possui uma casinha confortável onde o gato pode dormir ou se esconder. Um produto 2 em 1 ideal para enriquecer o ambiente do pet."
+    ],
+    "composicao": "Casinha de MDF forrada com pelúcia, poste central revestido de sisal, estrutura firme com almofada interna removível."
+  },
+
+  {
+    "id": 166,
+    "image": "/images/arranhador-torre-1.png",
+    "title": "Torre Arranhador com Plataformas",
+    "category": "Arranhadores",
+    "subcategory": "Estilo torre",
+    "size": "Altura: 1,20m",
+    "price": "R$199,90",
+    "descricao": [
+      "Essa torre possui várias plataformas para o gato explorar diferentes níveis, com áreas revestidas em sisal e pelúcia. Ideal para múltiplos gatos ou para quem busca um item completo para o pet."
+    ],
+    "composicao": "MDF de alta resistência, colunas com sisal, degraus e bases com pelúcia macia, parafusos de fixação e manual de montagem incluso."
+  },
+  {
+    "id": 167,
+    "image": "/images/arranhador-torre-2.png",
+    "title": "Torre de Atividades para Gatos",
+    "category": "Arranhadores",
+    "subcategory": "Estilo torre",
+    "size": "Altura: 1,40m",
+    "price": "R$249,90",
+    "descricao": [
+      "Torre multifuncional com arranhadores, plataformas, tocas e brinquedos integrados. Oferece estímulo físico e mental, promovendo bem-estar e diminuindo o estresse."
+    ],
+    "composicao": "MDF, sisal trançado, tecido de pelúcia sintética, acessórios de nylon e metal para montagem segura, resistente até 3 gatos simultâneos."
+  },
+  {
+    "id": 168,
+    "image": "/images/arranhador-torre-3.png",
+    "title": "Torre Deluxe com Camas e Tunel",
+    "category": "Arranhadores",
+    "subcategory": "Estilo torre",
+    "size": "Altura: 1,50m",
+    "price": "R$289,90",
+    "descricao": [
+      "Com design robusto e funcional, essa torre possui duas camas, túnel suspenso, postes com sisal e plataformas em diferentes alturas. Oferece diversão, descanso e arranhadura em um só produto."
+    ],
+    "composicao": "MDF de engenharia, postes com sisal reforçado, camas com espuma e revestimento de pelúcia, túnel de tecido estruturado com entrada dupla."
+  },
+
+  {
+    "id": 169,
+    "image": "/images/arranhador-interativo-1.png",
+    "title": "Arranhador Interativo com Bolinhas",
+    "category": "Arranhadores",
+    "subcategory": "Interativos",
+    "size": "Altura: 50cm",
+    "price": "R$79,90",
+    "descricao": [
+      "Esse arranhador inclui uma pista circular com bolinhas que giram, mantendo o gato entretido enquanto afia suas garras. Um ótimo recurso para reduzir o tédio e incentivar o exercício."
+    ],
+    "composicao": "Base de MDF, trilho de plástico com esferas de PVC, poste revestido com sisal, estrutura desmontável e fácil de limpar."
+  },
+  {
+    "id": 170,
+    "image": "/images/arranhador-interativo-2.png",
+    "title": "Arranhador com Laser Automático",
+    "category": "Arranhadores",
+    "subcategory": "Interativos",
+    "size": "Altura: 55cm",
+    "price": "R$139,90",
+    "descricao": [
+      "Além do sisal, este arranhador conta com um sistema automático de laser que estimula o gato a se movimentar e brincar. Ideal para pets que ficam muito tempo sozinhos."
+    ],
+    "composicao": "MDF, sisal natural, base com compartimento eletrônico de laser, funciona com pilhas AA (não inclusas), botão de ativação e timer automático."
+  },
+  {
+    "id": 171,
+    "image": "/images/arranhador-interativo-3.png",
+    "title": "Arranhador com Bolinha e Catnip",
+    "category": "Arranhadores",
+    "subcategory": "Interativos",
+    "size": "Altura: 45cm",
+    "price": "R$89,50",
+    "descricao": [
+      "Esse arranhador possui uma bolinha presa por elástico e compartimento para catnip, estimulando o comportamento natural e garantindo horas de diversão."
+    ],
+    "composicao": "Poste em papelão grosso com revestimento de sisal, base antiderrapante de MDF, bolinha de pelúcia com elástico resistente, compartimento interno com catnip orgânico incluso."
+  },
 ];
 
 
