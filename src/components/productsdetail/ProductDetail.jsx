@@ -925,15 +925,12 @@ const produtosData = [
     ],
     "composicao": "A camisa é confeccionada em poliéster e algodão com toque macio e acabamento impecável. O lenço é em tecido leve, fácil de amarrar e não irrita a pele do animal. O chapéu é feito em feltro resistente com elástico ajustável para melhor fixação. Todos os itens são costurados com atenção aos detalhes para garantir conforto e durabilidade. Produto seguro, lavável e indicado para uso em ocasiões especiais."
   },
-
-
-  
   {
     "id": 64,
     "image": "/images/ração-dogs-1.png",
     "title": "Ração Golden para Cães Adultos de Pequeno Carne",
-    "category": "Ração para Cães",
-    "subcategory": "Secas",
+    "category": "Rações para Cães",
+    "subcategory": "Seca",
     "size": "Tamanho: 3kg",
     "price": "R$22,40",
     "descricao": [
@@ -945,7 +942,7 @@ const produtosData = [
     "id": 65,
     "image": "/images/ração-dogs-2.png",
     "title": "Ração Golden Seleção Natural Cães Adultos",
-    "category": "Ração para Cães",
+    "category": "Rações para Cães",
     "subcategory": "Natural",
     "size": "Tamanho: 3kg",
     "price": "R$59,90",
@@ -958,8 +955,8 @@ const produtosData = [
     "id": 66,
     "image": "/images/ração-dogs-3.png",
     "title": "Ração para Cachorro Purina Carne Frango Cereais Vegetais",
-    "category": "Ração para Cães",
-    "subcategory": "Secas",
+    "category": "Rações para Cães",
+    "subcategory": "Seca",
     "size": "Tamanho: 1kg",
     "price": "R$69,90",
     "descricao": [
@@ -971,8 +968,8 @@ const produtosData = [
     "id": 67,
     "image": "/images/ração-dogs-4.png",
     "title": "Ração Pedigree Filhote até 18 Meses com Cálcio",
-    "category": "Ração para Cães",
-    "subcategory": "Secas",
+    "category": "Rações para Cães",
+    "subcategory": "Seca",
     "size": "Tamanho: 3kg",
     "price": "R$89,90",
     "descricao": [
@@ -984,8 +981,8 @@ const produtosData = [
     "id": 68,
     "image": "/images/ração-dogs-5.png",
     "title": "Ração Flock para Cães Adultos Sabor Carne",
-    "category": "Ração para Cães",
-    "subcategory": "Secas",
+    "category": "Rações para Cães",
+    "subcategory": "Seca",
     "size": "Tamanho: 15kg",
     "price": "R$190,99",
     "descricao": [
@@ -997,7 +994,7 @@ const produtosData = [
     "id": 69,
     "image": "/images/ração-dogs-6.png",
     "title": "Ração GranPlus Choice Cães Grandes Frango e Arroz",
-    "category": "Ração para Cães",
+    "category": "Rações para Cães",
     "size": "Tamanho: 15kg",
     "price": "R$134,90",
     "descricao": [
@@ -1009,8 +1006,8 @@ const produtosData = [
     "id": 70,
     "image": "/images/ração-dogs-7.png",
     "title": "Ração Cachorro Supreme Light Adulto Quatree Frango",
-    "category": "Ração para Cães",
-    "subcategory": "Secas",
+    "category": "Rações para Cães",
+    "subcategory": "Seca",
     "size": "Tamanho: 20kg",
     "price": "R$121,96",
     "descricao": [
@@ -1022,8 +1019,8 @@ const produtosData = [
     "id": 71,
     "image": "/images/ração-dogs-8.png",
     "title": "Ração Para Cachorro Quatree Supreme Adulto Pequenos",
-    "category": "Ração para Cães",
-    "subcategory": "Secas",
+    "category": "Rações para Cães",
+    "subcategory": "Seca",
     "size": "Tamanho: 15kg",
     "price": "R$109,90",
     "descricao": [
@@ -1035,8 +1032,8 @@ const produtosData = [
     "id": 72,
     "image": "/images/ração-dogs-9.png",
     "title": "Ração Seca Quatree Supreme Frango e Batata Doce Filhotes",
-    "category": "Ração para Cães",
-    "subcategory": "Secas",
+    "category": "Rações para Cães",
+    "subcategory": "Seca",
     "size": "Tamanho: 15kg",
     "price": "R$199,89",
     "descricao": [
@@ -1048,8 +1045,8 @@ const produtosData = [
     "id": 73,
     "image": "/images/ração-dogs-10.png",
     "title": "Ração Seca Special Dog Cães Adulto sabor Carne",
-    "category": "Ração para Cães",
-    "subcategory": "Secas",
+    "category": "Rações para Cães",
+    "subcategory": "Seca",
     "size": "Tamanho: 1kg",
     "price": "R$106,90",
     "descricao": [
@@ -1061,8 +1058,8 @@ const produtosData = [
     "id": 74,
     "image": "/images/ração-dogs-11.png",
     "title": "Ração Special Dog Vegetais Special Dog",
-    "category": "Ração para Cães",
-    "subcategory": "Secas",
+    "category": "Rações para Cães",
+    "subcategory": "Seca",
     "size": "Tamanho: 3kg",
     "price": "R$104,90",
     "descricao": [
@@ -1074,8 +1071,8 @@ const produtosData = [
     "id": 75,
     "image": "/images/ração-dogs-12.png",
     "title": "Billy Dog Ossinho Cães Adultos Carne",
-    "category": "Ração para Cães",
-    "subcategory": "Secas",
+    "category": "Rações para Cães",
+    "subcategory": "Seca",
     "size": "Tamanho: 15kg",
     "price": "R$106,99",
     "descricao": [
@@ -1316,8 +1313,554 @@ const produtosData = [
       "Premier Gastrointestinal é indicada para cães com distúrbios digestivos agudos ou crônicos. Sua fórmula de alta digestibilidade com prebióticos e fibras solúveis auxilia na recuperação da flora intestinal e no equilíbrio do sistema digestivo. Possui alta palatabilidade e é ideal para cães com diarreia ou vômitos frequentes."
     ],
     "composicao": "Farinha de carne e ossos de frango, arroz, milho integral, óleo de frango, levedura seca, polpa de beterraba, prebióticos, vitaminas, minerais. Desenvolvida com ingredientes que favorecem a microbiota intestinal, proporciona digestão leve e eficiente para cães com sensibilidade gastrointestinal."
-  },    
-  
+  },
+  {
+    "id": 94,
+    "image": "/images/perfume-1.png",
+    "title": "Colônia Pet Care Flor de Algodão",
+    "category": "Higiene",
+    "subcategory": "Perfumes",
+    "size": "Tamanho: 120ml",
+    "price": "R$29,90",
+    "descricao": [
+      "Fragrância suave e agradável de flor de algodão, ideal para deixar seu pet com cheirinho fresco por mais tempo. A fórmula é livre de álcool, garantindo segurança para a pele sensível dos animais. Pode ser usada após o banho ou no dia a dia, proporcionando uma sensação de limpeza e bem-estar. Seu pet vai ficar ainda mais gostoso de abraçar!"
+    ],
+    "composicao": "Água purificada, essência flor de algodão, polímeros fixadores, glicerina, conservantes e componentes hipoalergênicos. Livre de álcool e substâncias agressivas para a pele do animal. Desenvolvido para uso seguro e diário em cães e gatos de todas as idades e portes."
+  },
+  {
+    "id": 95,
+    "image": "/images/perfume-2.png",
+    "title": "PetSmell Lavanda Relaxante",
+    "category": "Higiene",
+    "subcategory": "Perfumes",
+    "size": "Tamanho: 100ml",
+    "price": "R$27,99",
+    "descricao": [
+      "Colônia suave com aroma de lavanda para acalmar e perfumar o seu pet. Ideal para uso após o banho ou em momentos de relaxamento. Dermatologicamente testado e com ação prolongada, mantendo seu animal cheiroso por mais tempo. Pode ser usada semanalmente com segurança."
+    ],
+    "composicao": "Base aquosa, extrato natural de lavanda, fixador suave, glicerina vegetal, conservantes naturais e fragrâncias hipoalergênicas. Sem álcool ou parabenos. Produto especialmente desenvolvido para uso em pets com pele sensível."
+  },
+  {
+    "id": 96,
+    "image": "/images/perfume-3.png",
+    "title": "Cheirinho Pet Baby Powder",
+    "category": "Higiene",
+    "subcategory": "Perfumes",
+    "size": "Tamanho: 150ml",
+    "price": "R$31,90",
+    "descricao": [
+      "Perfume com fragrância clássica de talco de bebê, proporcionando um aroma limpo e confortável. Desenvolvido especialmente para cães e gatos, com fórmula não irritante e longa duração. Excelente para quem busca praticidade e um cheirinho de banho tomado todos os dias."
+    ],
+    "composicao": "Água deionizada, essência de talco de bebê, fixadores naturais, conservantes suaves, componentes hipoalergênicos. Livre de produtos químicos agressivos. Indicado para uso semanal em todas as raças."
+  },
+  {
+    "id": 97,
+    "image": "/images/perfume-4.png",
+    "title": "Colônia Pet Elegance Floral",
+    "category": "Higiene",
+    "subcategory": "Perfumes",
+    "size": "Tamanho: 110ml",
+    "price": "R$33,50",
+    "descricao": [
+      "Com aroma floral sofisticado, a Colônia Elegance Floral é perfeita para pets estilosos. A fragrância leve não incomoda o olfato sensível dos animais e deixa o pet perfumado o dia inteiro. Dermatologicamente testado e seguro para uso frequente."
+    ],
+    "composicao": "Essência floral leve, base aquosa, fixador vegetal, glicerina, conservantes hipoalergênicos. Sem álcool ou corantes artificiais. Ideal para cães e gatos adultos."
+  },
+  {
+    "id": 98,
+    "image": "/images/perfume-5.png",
+    "title": "Pet Aromas Baunilha & Coco",
+    "category": "Higiene",
+    "subcategory": "Perfumes",
+    "size": "Tamanho: 120ml",
+    "price": "R$30,90",
+    "descricao": [
+      "Perfume com aroma doce e tropical de baunilha com coco, criando uma experiência sensorial agradável tanto para o pet quanto para o tutor. Indicado para uso pós-banho e ocasiões especiais. Fórmula livre de parabenos e corantes."
+    ],
+    "composicao": "Água purificada, fragrância de baunilha e coco, fixadores suaves, óleo de coco refinado, glicerina vegetal, conservantes naturais. Produto vegano e cruelty-free, com ação prolongada e segura para o uso contínuo."
+  },
+  {
+    "id": 99,
+    "image": "/images/perfume-6.png",
+    "title": "Spray Aromático Citrus Fresh",
+    "category": "Higiene",
+    "subcategory": "Perfumes",
+    "size": "Tamanho: 130ml",
+    "price": "R$32,90",
+    "descricao": [
+      "Colônia leve com fragrância cítrica revigorante. Ideal para dias quentes, deixando seu pet com um cheirinho fresco e agradável. Desenvolvido com ingredientes naturais e pH balanceado, seguro para uso frequente."
+    ],
+    "composicao": "Água deionizada, essência cítrica (limão, laranja), fixadores naturais, glicerina, extrato de aloe vera, conservantes suaves. Produto hipoalergênico e livre de álcool, próprio para peles sensíveis."
+  },
+  {
+    "id": 100,
+    "image": "/images/escova-1.png",
+    "title": "Escova Dental Dupla Face PetClean",
+    "category": "Higiene",
+    "subcategory": "Escova de dentes",
+    "size": "Tamanho: Único",
+    "price": "R$14,90",
+    "descricao": [
+      "Escova dental dupla face com cerdas macias, ideal para a limpeza completa dos dentes do seu pet. Desenvolvida para atingir áreas de difícil acesso, ajuda a prevenir o tártaro e o mau hálito. Indicada para cães de todos os tamanhos e raças. Uso diário ou conforme recomendação veterinária."
+    ],
+    "composicao": "Cabo de plástico resistente, cerdas de nylon macio, ponta angulada para melhor alcance. Material não tóxico, livre de BPA, com design ergonômico para facilitar o manuseio durante a escovação diária do seu pet."
+  },
+  {
+    "id": 101,
+    "image": "/images/escova-2.png",
+    "title": "Kit Escova + Dedeira Dental Canina",
+    "category": "Higiene",
+    "subcategory": "Escova de dentes",
+    "size": "Tamanho: Único",
+    "price": "R$19,99",
+    "descricao": [
+      "Kit completo com escova tradicional e dedeira para higienização bucal. A dedeira oferece mais controle para quem está começando o hábito de escovar os dentes do pet. As cerdas suaves ajudam na remoção da placa sem agredir a gengiva."
+    ],
+    "composicao": "Escova com cabo plástico, cerdas de nylon flexível. Dedeira em silicone hipoalergênico, livre de látex, de fácil higienização e reutilizável. Indicado para cães e gatos de todos os portes."
+  },
+  {
+    "id": 102,
+    "image": "/images/escova-3.png",
+    "title": "Escova Dental Massageadora PetSmile",
+    "category": "Higiene",
+    "subcategory": "Escova de dentes",
+    "size": "Tamanho: Médio",
+    "price": "R$17,50",
+    "descricao": [
+      "Escova com função massageadora, ideal para pets com gengivas sensíveis. As cerdas em formato especial proporcionam conforto e eficácia durante a escovação. Estimula a circulação sanguínea da gengiva, além de prevenir mau hálito e acúmulo de tártaro."
+    ],
+    "composicao": "Cabo emborrachado antiderrapante, cerdas de silicone macio, ponta adaptável a bocas pequenas e médias. Produto atóxico e resistente, fácil de higienizar após o uso."
+  },
+  {
+    "id": 103,
+    "image": "/images/escova-4.png",
+    "title": "Escova Dental Trifásica para Cães",
+    "category": "Higiene",
+    "subcategory": "Escova de dentes",
+    "size": "Tamanho: Grande",
+    "price": "R$22,90",
+    "descricao": [
+      "Escova com três superfícies de cerdas que limpam simultaneamente todos os lados dos dentes. Ideal para cães grandes e com dificuldade de escovação. Remove resíduos e previne doenças periodontais com eficiência superior às escovas comuns."
+    ],
+    "composicao": "Cabo anatômico em plástico ABS, cerdas de nylon em três ângulos, fácil de manusear mesmo em cães agitados. Produto durável e resistente à mastigação leve."
+  },
+  {
+    "id": 104,
+    "image": "/images/escova-5.png",
+    "title": "Escova Infantil Adaptada para Filhotes",
+    "category": "Higiene",
+    "subcategory": "Escova de dentes",
+    "size": "Tamanho: Pequeno",
+    "price": "R$12,50",
+    "descricao": [
+      "Perfeita para a introdução à escovação nos primeiros meses de vida do pet. Tamanho reduzido e cerdas ultramacias garantem uma experiência confortável e segura para o filhote. Estimula bons hábitos de higiene desde cedo."
+    ],
+    "composicao": "Cabo plástico leve, cerdas em nylon extra macio, livre de substâncias tóxicas. Design lúdico e colorido que facilita o manuseio pelo tutor e a aceitação pelo filhote."
+  },
+  {
+    "id": 105,
+    "image": "/images/escova-6.png",
+    "title": "Escova Dental 360° PetBrush",
+    "category": "Higiene",
+    "subcategory": "Escova de dentes",
+    "size": "Tamanho: Único",
+    "price": "R$24,90",
+    "descricao": [
+      "Escova inovadora com cerdas em 360 graus, proporcionando limpeza completa com menos movimentos. Ideal para tutores que têm pets agitados ou impacientes. Pode ser usada com pastas específicas para cães e gatos. Resultados eficazes com escovação rápida."
+    ],
+    "composicao": "Cabo em silicone antiderrapante, cabeça com cerdas circulares de nylon suave, atóxico e durável. Produto higiênico, fácil de lavar, compatível com qualquer tipo de pasta dental pet."
+  },
+  {
+    "id": 106,
+    "image": "/images/tapete-1.png",
+    "title": "Tapete Higiênico SuperSec PetMais",
+    "category": "Higiene",
+    "subcategory": "Tapetes higiênicos",
+    "size": "Tamanho: 80x60cm (Pacote com 30 unidades)",
+    "price": "R$59,90",
+    "descricao": [
+      "Tapete superabsorvente com tecnologia gel para retenção de líquidos, ideal para o dia a dia do seu pet. Neutraliza odores, possui fitas adesivas que evitam o deslizamento e bordas reforçadas para não vazar. Perfeito para treinar filhotes ou oferecer conforto em locais fechados."
+    ],
+    "composicao": "Celulose de alta absorção, polímero superabsorvente, plástico impermeável e fitas adesivas laterais. Produto descartável, livre de fragrâncias artificiais e seguro para o uso diário de cães de todas as idades e portes."
+  },
+  {
+    "id": 107,
+    "image": "/images/tapete-2.png",
+    "title": "Tapete Higiênico Lavável EcoPet",
+    "category": "Higiene",
+    "subcategory": "Tapetes higiênicos",
+    "size": "Tamanho: 90x60cm (1 unidade reutilizável)",
+    "price": "R$44,99",
+    "descricao": [
+      "Tapete ecológico reutilizável, lavável até 200 vezes. Ideal para tutores sustentáveis que desejam reduzir o uso de descartáveis. Alta absorção e secagem rápida, com tecido antibacteriano e base antiderrapante. Pode ser usado em ambientes internos e externos."
+    ],
+    "composicao": "Tecido poliéster absorvente, camada intermediária impermeável e base antiderrapante de borracha natural. Hipoalergênico, resistente a lavagens e livre de produtos tóxicos. Ideal para cães e gatos."
+  },
+  {
+    "id": 108,
+    "image": "/images/tapete-3.png",
+    "title": "Tapete Higiênico Atrativo PetSoft",
+    "category": "Higiene",
+    "subcategory": "Tapetes higiênicos",
+    "size": "Tamanho: 60x60cm (Pacote com 20 unidades)",
+    "price": "R$36,90",
+    "descricao": [
+      "Com atrativo canino que facilita o adestramento, este tapete é indicado para filhotes e cães adultos que ainda estão em processo de aprendizado. Oferece alta absorção e proteção contra odores, garantindo higiene e praticidade em apartamentos e casas."
+    ],
+    "composicao": "Polpa de celulose, camada absorvente com atrativo natural, plástico protetor e fitas adesivas. Produto descartável, dermatologicamente testado, seguro para uso contínuo e livre de perfumes fortes."
+  },
+  {
+    "id": 109,
+    "image": "/images/tapete-4.png",
+    "title": "Tapete Higiênico Mega Absorvente UltraPet",
+    "category": "Higiene",
+    "subcategory": "Tapetes higiênicos",
+    "size": "Tamanho: 80x90cm (Pacote com 10 unidades)",
+    "price": "R$42,50",
+    "descricao": [
+      "Tapete com extra capacidade de absorção, ideal para pets que ficam muitas horas em ambientes internos. Sistema de rápida secagem, evita que o pet pise em líquido e espalhe sujeira. Contém adesivo de fixação e camadas reforçadas para máxima segurança."
+    ],
+    "composicao": "Fibra de celulose de alta densidade, polímero gel absorvente, plástico antivasamento e adesivos de fixação. Não contém fragrância e é indicado para uso veterinário e doméstico."
+  },
+  {
+    "id": 110,
+    "image": "/images/tapete-5.png",
+    "title": "Tapete Higiênico Econômico PetClean",
+    "category": "Higiene",
+    "subcategory": "Tapetes higiênicos",
+    "size": "Tamanho: 60x50cm (Pacote com 50 unidades)",
+    "price": "R$49,90",
+    "descricao": [
+      "Com excelente custo-benefício, esse tapete é ideal para quem busca qualidade sem gastar muito. Absorve até 800ml de líquido, possui barreiras antivazamento e não deixa cheiro. Ótima escolha para criadores, lares com múltiplos cães ou uso intensivo."
+    ],
+    "composicao": "Celulose tratada, polímero absorvente, plástico protetor e cola adesiva nas bordas. Produto seguro, livre de químicos agressivos e aprovado por veterinários."
+  },
+  {
+    "id": 111,
+    "image": "/images/tapete-6.png",
+    "title": "Tapete Higiênico com Carvão Ativado PetFresh",
+    "category": "Higiene",
+    "subcategory": "Tapetes higiênicos",
+    "size": "Tamanho: 80x60cm (Pacote com 30 unidades)",
+    "price": "R$64,90",
+    "descricao": [
+      "Tapete diferenciado com carvão ativado que neutraliza odores intensos. Ideal para pets que vivem em apartamentos. Oferece absorção rápida, superfície seca em segundos e design discreto. Recomendado para cães de médio a grande porte com uso diário."
+    ],
+    "composicao": "Camada de carvão ativado, polpa de celulose, plástico impermeável e fitas adesivas. Produto dermatologicamente testado, hipoalergênico e livre de fragrâncias artificiais."
+  },
+  {
+    "id": 112,
+    "image": "/images/coleira-1.png",
+    "title": "Coleira Nylon Ajustável Azul",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Coleiras comuns",
+    "size": "Tamanho: M",
+    "price": "R$19,90",
+    "descricao": [
+      "A Coleira Nylon Ajustável Azul oferece segurança e conforto para o seu pet em todos os passeios. Fabricada com material resistente, é ideal para cães de porte médio, garantindo durabilidade e um ajuste confortável ao pescoço. Seu fecho prático permite colocação rápida, e o acabamento em nylon evita irritações na pele. Além de ser leve, essa coleira possui anel metálico resistente para prender a guia, proporcionando maior controle durante os passeios diários."
+    ],
+    "composicao": "Nylon de alta resistência, fivela plástica com trava de segurança, costuras reforçadas com linha de poliéster, anel metálico galvanizado para engate. Produto hipoalergênico, sem tingimentos agressivos, resistente à água e fácil de limpar."
+  },
+  {
+    "id": 113,
+    "image": "/images/coleira-2.png",
+    "title": "Coleira Estampada Patinhas Rosa",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Coleiras comuns",
+    "size": "Tamanho: P",
+    "price": "R$17,50",
+    "descricao": [
+      "A Coleira Estampada Patinhas Rosa traz estilo e segurança para cães de pequeno porte. Seu design moderno com estampa de patinhas conquista pela fofura, enquanto seu material leve e resistente assegura um uso confortável. Ideal para passeios curtos e longos, a coleira possui regulagem prática e fecho com trava de segurança. É perfeita para deixar seu pet ainda mais charmoso, sem abrir mão da resistência e funcionalidade necessárias para o dia a dia."
+    ],
+    "composicao": "Fita de poliéster com estampa termotransferida, fivela plástica com trava, regulador de tamanho em polipropileno, argola de aço inoxidável para fixação de guia. Livre de metais pesados e testada dermatologicamente."
+  },
+  {
+    "id": 114,
+    "image": "/images/coleira-3.png",
+    "title": "Coleira Refletiva com Fivela Metálica",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Coleiras comuns",
+    "size": "Tamanho: G",
+    "price": "R$24,90",
+    "descricao": [
+      "A Coleira Refletiva com Fivela Metálica garante máxima segurança para o seu cão durante passeios noturnos. Com fitas refletivas costuradas ao longo do nylon, ela proporciona visibilidade em ambientes escuros. O fecho metálico reforçado oferece resistência extra para cães de grande porte. Além disso, seu ajuste é simples e firme, ideal para pets agitados. O design moderno combina funcionalidade com estilo, sendo uma ótima escolha para quem busca conforto e proteção em um só produto."
+    ],
+    "composicao": "Nylon grosso com costura refletiva, fivela de metal cromado, argola de aço para guia, ajuste de tamanho com passadores em poliacetal. Produto não abrasivo à pele, lavável e com durabilidade superior à média."
+  },
+  {
+    "id": 115,
+    "image": "/images/coleira-4.png",
+    "title": "Coleira Simples Verde Musgo",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Coleiras comuns",
+    "size": "Tamanho: M",
+    "price": "R$15,00",
+    "descricao": [
+      "A Coleira Simples Verde Musgo é uma opção básica, porém eficaz, para o controle do seu pet. Ideal para uso diário, ela combina um visual discreto com a robustez necessária para garantir a segurança do seu animal. Seu tecido leve proporciona conforto ao pet durante o uso prolongado. O fecho plástico é fácil de abrir e fechar, e a argola de metal resiste a tração. Uma excelente escolha para quem procura qualidade e economia em um só produto."
+    ],
+    "composicao": "Fita de poliéster, fivela de polipropileno, regulador de tamanho e argola metálica galvanizada. Produto resistente à água, livre de tintas tóxicas e com acabamento manual para garantir maior durabilidade."
+  },
+  {
+    "id": 116,
+    "image": "/images/coleira-5.png",
+    "title": "Coleira de Couro Marrom Reforçada",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Coleiras comuns",
+    "size": "Tamanho: G",
+    "price": "R$29,90",
+    "descricao": [
+      "A Coleira de Couro Marrom Reforçada é ideal para cães grandes e fortes. Feita com couro legítimo, proporciona resistência incomparável, além de um toque sofisticado e clássico ao visual do pet. Seu fecho metálico reforçado garante segurança mesmo em passeios mais agitados. É a escolha ideal para donos que desejam um acessório durável e bonito. O couro é tratado para evitar odores e rachaduras, mantendo sua integridade por muito mais tempo."
+    ],
+    "composicao": "Couro bovino legítimo tratado, fivela de metal niquelado, costura reforçada com linha encerada. Produto impermeável, livre de agentes irritantes e com acabamento polido para evitar ferimentos."
+  },
+  {
+    "id": 117,
+    "image": "/images/coleira-6.png",
+    "title": "Coleira Fashion com Lacinho",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Coleiras comuns",
+    "size": "Tamanho: P",
+    "price": "R$21,99",
+    "descricao": [
+      "A Coleira Fashion com Lacinho é perfeita para deixar sua pet ainda mais estilosa. Feita com materiais leves e confortáveis, ela possui um delicado laço decorativo, ideal para momentos especiais ou para o uso diário com charme. Seu design é pensado para oferecer conforto e beleza, sem abrir mão da segurança. Ideal para cadelas de pequeno porte, a coleira conta com regulagem prática e fecho resistente para garantir total tranquilidade durante o passeio."
+    ],
+    "composicao": "Fita de nylon estampada, laço de cetim, fivela de plástico resistente com trava, argola de aço inoxidável para guia. Produto não alergênico, resistente à abrasão e lavável à mão."
+  },
+  {
+    "id": 118,
+    "image": "/images/peitoral-1.png",
+    "title": "Peitoral Confort Rosa Bebê",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Peitorais",
+    "size": "Tamanho: P",
+    "price": "R$34,90",
+    "descricao": [
+      "O Peitoral Confort Rosa Bebê é a escolha ideal para garantir conforto e estilo ao seu pet. Com um design acolchoado e anatômico, oferece ajuste perfeito ao corpo do animal, proporcionando liberdade de movimento e segurança durante os passeios. Seu tom delicado de rosa é perfeito para cadelinhas que adoram um visual fofo e charmoso. Indicado para cães de pequeno porte, o peitoral é fácil de colocar e possui fecho resistente com engate rápido, além de alça superior para melhor controle."
+    ],
+    "composicao": "Tecido acolchoado com toque macio, forro respirável, alças em nylon ajustável, fivela plástica com trava de segurança, argola metálica para guia. Produto lavável, hipoalergênico e desenvolvido com materiais resistentes à tração e desgaste."
+  },
+  {
+    "id": 119,
+    "image": "/images/peitoral-2.png",
+    "title": "Peitoral Mesh Azul com Alça",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Peitorais",
+    "size": "Tamanho: M",
+    "price": "R$39,90",
+    "descricao": [
+      "O Peitoral Mesh Azul com Alça combina funcionalidade e conforto para passeios seguros com seu pet. Fabricado com malha respirável tipo mesh, ele mantém a ventilação adequada mesmo nos dias mais quentes. A alça reforçada na parte superior permite maior controle em situações de emergência ou em locais movimentados. Ideal para cães de médio porte, possui ajuste prático e design ergonômico que distribui melhor a pressão, evitando desconforto no pescoço."
+    ],
+    "composicao": "Malha mesh respirável, alças em nylon reforçado, costura dupla de segurança, fivela com engate rápido, alça de mão acolchoada e argola metálica para engate de guia. Produto leve, resistente e fácil de limpar."
+  },
+  {
+    "id": 120,
+    "image": "/images/peitoral-3.png",
+    "title": "Peitoral Esportivo Resistente Preto",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Peitorais",
+    "size": "Tamanho: G",
+    "price": "R$45,00",
+    "descricao": [
+      "O Peitoral Esportivo Resistente Preto foi desenvolvido especialmente para pets ativos e cheios de energia. Seu design robusto proporciona segurança durante corridas, caminhadas ou trilhas. Com ajuste em múltiplos pontos e tecido resistente à abrasão, garante conforto e firmeza sem causar irritações na pele. Recomendado para cães de grande porte, o modelo possui refletores laterais para visibilidade noturna e alça superior que facilita o controle manual."
+    ],
+    "composicao": "Tecido poliéster reforçado, malha interna respirável, costuras reforçadas, tiras de ajuste em nylon, fivela de liberação rápida, alça ergonômica acolchoada, refletores e argola metálica ultra resistente. Produto lavável e durável."
+  },
+  {
+    "id": 121,
+    "image": "/images/peitoral-4.png",
+    "title": "Peitoral Xadrez Vermelho",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Peitorais",
+    "size": "Tamanho: M",
+    "price": "R$37,90",
+    "descricao": [
+      "O Peitoral Xadrez Vermelho é a opção perfeita para deixar seu pet elegante e confortável em qualquer ocasião. Com estampa clássica e charmosa, ele é confeccionado em tecido macio e resistente, garantindo um encaixe anatômico ao corpo do animal. Indicado para cães de médio porte, este peitoral conta com regulagens simples e fecho seguro, proporcionando passeios tranquilos e com muito estilo. Ideal para cliques fotográficos e passeios urbanos."
+    ],
+    "composicao": "Tecido estampado de algodão e poliéster, forro em malha respirável, tiras de ajuste em nylon, fivela de segurança com trava, argola metálica de alta resistência. Produto confortável, hipoalergênico e lavável."
+  },
+  {
+    "id": 122,
+    "image": "/images/peitoral-5.png",
+    "title": "Peitoral Jeans Estiloso",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Peitorais",
+    "size": "Tamanho: P",
+    "price": "R$42,90",
+    "descricao": [
+      "O Peitoral Jeans Estiloso traz um visual urbano e moderno para seu pet. Feito em tecido jeans de alta qualidade, ele oferece durabilidade, conforto e muito charme. Seu design ergonômico se ajusta perfeitamente ao corpo do pet, evitando desconfortos mesmo após longos passeios. Ideal para cães de pequeno porte com personalidade marcante, o modelo possui fechamento prático, costuras reforçadas e argola segura para prender a guia com tranquilidade."
+    ],
+    "composicao": "Tecido jeans resistente, forro interno acolchoado, nylon ajustável, fecho em plástico com trava, argola metálica para guia. Produto lavável à mão, não desbota e é resistente à tração."
+  },
+  {
+    "id": 123,
+    "image": "/images/peitoral-6.png",
+    "title": "Peitoral Almofadado Cinza",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Peitorais",
+    "size": "Tamanho: G",
+    "price": "R$44,50",
+    "descricao": [
+      "O Peitoral Almofadado Cinza oferece conforto extra para cães de grande porte. Com estrutura macia e acolchoada, ele é ideal para pets que necessitam de suporte adicional durante passeios longos. Seu formato envolve bem o tórax, distribuindo a pressão de forma equilibrada e evitando desconfortos na região cervical. O tom neutro cinza combina com qualquer estilo, tornando este peitoral uma escolha versátil e sofisticada."
+    ],
+    "composicao": "Tecido sintético almofadado, revestimento interno respirável, ajustes laterais em nylon, fivelas com trava de segurança, argola em aço reforçado para guia. Produto confortável, resistente e lavável."
+  },
+  {
+    "id": 124,
+    "image": "/images/guia-retratil-1.png",
+    "title": "Guia Retrátil 3m Preta",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Guias retráteis",
+    "size": "Tamanho: 3 metros",
+    "price": "R$59,90",
+    "descricao": [
+      "A Guia Retrátil 3m Preta é ideal para quem busca praticidade e liberdade nos passeios com o pet. Seu mecanismo retrátil permite que o cão explore o ambiente com segurança, mantendo o controle nas mãos do tutor. Compacta e resistente, possui botão de trava para ajustar o comprimento conforme a necessidade, oferecendo flexibilidade e segurança. Perfeita para cães de pequeno e médio porte, essa guia alia funcionalidade a um design discreto e moderno."
+    ],
+    "composicao": "Estrutura em plástico ABS de alta resistência, fita de nylon retrátil, mola interna de aço carbono, botão de trava e liberação em PVC, gancho giratório em liga metálica. Produto leve, ergonômico e durável."
+  },
+  {
+    "id": 125,
+    "image": "/images/guia-retratil-2.png",
+    "title": "Guia Retrátil Azul 5m",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Guias retráteis",
+    "size": "Tamanho: 5 metros",
+    "price": "R$64,90",
+    "descricao": [
+      "A Guia Retrátil Azul 5m proporciona maior alcance e liberdade para o seu pet durante os passeios. Com um comprimento ideal para cães ativos, ela oferece mobilidade e controle através de seu sistema de trava eficiente. A fita de nylon resistente garante segurança mesmo para animais mais fortes. Seu design moderno e a cor vibrante tornam os passeios mais estilosos e seguros. Indicada para cães de médio porte que adoram explorar."
+    ],
+    "composicao": "Plástico ABS resistente, fita de nylon reforçada com costura dupla, mola retrátil em aço inoxidável, botão de controle com trava e destrava instantânea, gancho metálico com rotação 360°. Produto robusto e lavável."
+  },
+  {
+    "id": 126,
+    "image": "/images/guia-retratil-3.png",
+    "title": "Guia Retrátil Rosa com Detalhes",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Guias retráteis",
+    "size": "Tamanho: 3 metros",
+    "price": "R$62,00",
+    "descricao": [
+      "A Guia Retrátil Rosa com Detalhes é perfeita para pets estilosos e tutores exigentes. Com acabamento delicado e detalhes elegantes, ela combina praticidade e charme em um só produto. Ideal para passeios urbanos, conta com sistema retrátil que permite controlar facilmente a distância do pet, mantendo-o sempre seguro. Seu tamanho é ideal para cães de pequeno porte que gostam de caminhar com mais liberdade."
+    ],
+    "composicao": "Carcaça em plástico rosa brilhante, fita de nylon com acabamento em costura decorativa, botão de trava com design ergonômico, mola interna reforçada e gancho metálico resistente. Produto leve, durável e fácil de higienizar."
+  },
+  {
+    "id": 127,
+    "image": "/images/guia-retratil-4.png",
+    "title": "Guia Retrátil Resistente 8m",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Guias retráteis",
+    "size": "Tamanho: 8 metros",
+    "price": "R$79,90",
+    "descricao": [
+      "A Guia Retrátil Resistente 8m é ideal para cães grandes ou de alta energia que precisam de mais espaço para explorar. Seu sistema de retração suave e fita longa oferecem controle total sem limitar a liberdade do pet. O design robusto e os materiais reforçados garantem resistência durante passeios intensos. O botão de trava permite ajuste rápido e seguro do comprimento da guia conforme o ambiente e necessidade."
+    ],
+    "composicao": "Estrutura em ABS reforçado, fita de nylon ultra resistente, mola interna em aço de alta tensão, botão de trava reforçado, gancho metálico com trava de segurança. Produto indicado para cães de até 40kg."
+  },
+  {
+    "id": 128,
+    "image": "/images/guia-retratil-5.png",
+    "title": "Guia Retrátil Verde Fluorescente",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Guias retráteis",
+    "size": "Tamanho: 5 metros",
+    "price": "R$69,90",
+    "descricao": [
+      "A Guia Retrátil Verde Fluorescente é a escolha ideal para quem busca segurança com estilo. Sua cor vibrante garante alta visibilidade em ambientes com pouca luz, aumentando a segurança dos passeios noturnos. O mecanismo retrátil proporciona conforto ao pet e praticidade ao tutor, permitindo liberdade com controle. Feita com materiais de alta qualidade, é perfeita para cães de médio porte que adoram aventuras ao ar livre."
+    ],
+    "composicao": "Corpo em plástico ABS fluorescente, fita de nylon reflexiva, mola de retração em aço inox, botão de trava com resposta rápida, gancho giratório metálico com fecho seguro. Produto durável e fácil de manusear."
+  },
+  {
+    "id": 129,
+    "image": "/images/guia-retratil-6.png",
+    "title": "Guia Retrátil Básica Laranja",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Guias retráteis",
+    "size": "Tamanho: 3 metros",
+    "price": "R$58,00",
+    "descricao": [
+      "A Guia Retrátil Básica Laranja oferece funcionalidade essencial com um toque de cor. Ideal para quem prefere um modelo prático e eficiente, ela garante liberdade e controle durante os passeios. Seu mecanismo retrátil suave e a fita de nylon resistente proporcionam segurança para cães de pequeno porte. É compacta, leve e fácil de guardar, perfeita para o dia a dia."
+    ],
+    "composicao": "Estrutura plástica em ABS laranja, fita de nylon resistente, sistema de retração com mola interna em aço, botão de travamento simples, gancho de metal com rotação 360°. Produto lavável, leve e funcional."
+  },
+  {
+    "id": 130,
+    "image": "/images/cinto-seguranca-1.png",
+    "title": "Cinto de Segurança Ajustável Preto",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Cintos de segurança",
+    "size": "Tamanho: Único",
+    "price": "R$29,90",
+    "descricao": [
+      "O Cinto de Segurança Ajustável Preto foi desenvolvido para garantir viagens seguras e confortáveis com seu pet. Compatível com a maioria dos cintos automotivos, ele mantém o animal preso de forma segura, evitando deslocamentos bruscos. Seu sistema ajustável permite adaptar o comprimento de acordo com o tamanho do pet e a necessidade do passeio. Ideal para cães de pequeno a médio porte, é um item indispensável para o transporte responsável."
+    ],
+    "composicao": "Fita de nylon resistente, fivela metálica universal para encaixe no cinto do carro, mosquetão giratório de liga metálica. Produto lavável, não alergênico e ajustável em até 70cm de comprimento."
+  },
+  {
+    "id": 131,
+    "image": "/images/cinto-seguranca-2.png",
+    "title": "Cinto para Carro com Mosquetão",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Cintos de segurança",
+    "size": "Tamanho: Único",
+    "price": "R$32,90",
+    "descricao": [
+      "O Cinto para Carro com Mosquetão oferece praticidade e segurança para transportar seu pet com tranquilidade. Equipado com mosquetão resistente, ele se conecta facilmente à coleira ou peitoral, evitando que o animal se movimente livremente dentro do veículo. Seu comprimento ajustável proporciona flexibilidade para diferentes portes de cães. É a solução ideal para garantir segurança em viagens curtas ou longas."
+    ],
+    "composicao": "Fita de nylon durável, mosquetão em aço inoxidável com trava, engate universal para cinto de segurança veicular. Produto leve, resistente e compatível com peitorais e coleiras padrão."
+  },
+  {
+    "id": 132,
+    "image": "/images/cinto-seguranca-3.png",
+    "title": "Cinto Pet Colorido Universal",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Cintos de segurança",
+    "size": "Tamanho: Único",
+    "price": "R$34,50",
+    "descricao": [
+      "O Cinto Pet Colorido Universal une segurança e estilo em um só produto. Com estampa vibrante, ele proporciona um visual alegre ao mesmo tempo que mantém o pet preso com firmeza no banco do carro. Seu sistema universal é compatível com a maioria dos veículos e a regulagem de tamanho oferece conforto extra durante os trajetos. Perfeito para tutores que priorizam segurança com um toque de personalidade."
+    ],
+    "composicao": "Fita de nylon estampada, engate universal em aço cromado, mosquetão de alta resistência. Regulável, lavável e indicado para cães de até 30kg. Produto não tóxico e resistente à tração."
+  },
+  {
+    "id": 133,
+    "image": "/images/cinto-seguranca-4.png",
+    "title": "Cinto de Segurança Rosa Antipuxão",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Cintos de segurança",
+    "size": "Tamanho: Único",
+    "price": "R$36,00",
+    "descricao": [
+      "O Cinto de Segurança Rosa Antipuxão é ideal para pets mais agitados durante viagens. Com sistema que reduz trancos e movimentos bruscos, ele protege o animal com conforto e firmeza. Sua estética delicada com cor rosa traz charme ao passeio, e a regulagem permite ajustar a fita conforme o porte do pet. É uma opção segura e estilosa para deslocamentos em veículos."
+    ],
+    "composicao": "Fita em poliéster rosa, mosquetão giratório de aço inox, engate universal reforçado, regulador de comprimento e amortecedor elástico interno. Produto lavável, flexível e indicado para pets de até 35kg."
+  },
+  {
+    "id": 134,
+    "image": "/images/cinto-seguranca-5.png",
+    "title": "Cinto com Engate Universal Reforçado",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Cintos de segurança",
+    "size": "Tamanho: Único",
+    "price": "R$39,90",
+    "descricao": [
+      "O Cinto com Engate Universal Reforçado foi projetado para oferecer máxima segurança em viagens de carro. Indicado para cães de médio e grande porte, ele conta com fita extra grossa e engate metálico de alta resistência, prevenindo acidentes durante freadas bruscas. Seu comprimento ajustável permite adaptação ideal ao espaço interno do veículo. Um acessório indispensável para tutores conscientes."
+    ],
+    "composicao": "Nylon reforçado com costura dupla, engate metálico universal, mosquetão em aço com trava de segurança. Produto resistente à tração intensa, ajustável até 90cm e lavável à mão."
+  },
+  {
+    "id": 135,
+    "image": "/images/cinto-seguranca-6.png",
+    "title": "Cinto Pet Estampado Pata Feliz",
+    "category": "Cinto, coleiras e guias",
+    "subcategory": "Cintos de segurança",
+    "size": "Tamanho: Único",
+    "price": "R$33,00",
+    "descricao": [
+      "O Cinto Pet Estampado Pata Feliz combina segurança, conforto e fofura para os passeios de carro. Com estampa temática de patinhas, ele é ideal para tutores que amam detalhes divertidos. Compatível com peitorais e coleiras, sua fivela universal se encaixa na maioria dos cintos automotivos. É ajustável, leve e extremamente prático para o dia a dia com o pet."
+    ],
+    "composicao": "Fita de nylon estampada com patinhas, mosquetão metálico com rotação 360°, engate universal para cinto automotivo. Produto resistente, fácil de limpar e com regulagem de até 80cm."
+  }
+
 ];
 
 
