@@ -3294,8 +3294,336 @@ const produtosData = [
     ],
     "composicao": "Feno de timothy, farinha de alfafa, amido vegetal, extrato de maçã, sem açúcar ou aditivos, compactado em formato cilíndrico, 100% natural e seguro para consumo diário."
   },
-
-
+  {
+    "id": 247,
+    "image": "/images/racao-calopsita-1.png",
+    "title": "Ração Calopsita Premium",
+    "category": "Rações para Aves",
+    "subcategory": "Para calopsitas",
+    "size": "Peso: 1kg",
+    "price": "R$26,90",
+    "descricao": "A Ração Calopsita Premium é desenvolvida com ingredientes de alta qualidade para garantir nutrição completa e balanceada às calopsitas. Composta por grãos selecionados, enriquecida com vitaminas e minerais essenciais, proporciona saúde e vitalidade às aves. Ideal para manter a plumagem brilhante e o sistema imunológico forte. Sua formulação também ajuda na digestão e bem-estar do pet. Indicada para uso diário, essa ração garante uma alimentação segura e saborosa.",
+    "composicao": "Milho integral, sorgo, aveia, semente de girassol, trigo, cálcio, vitaminas A, D3 e E, minerais quelatados, aminoácidos essenciais, extrato de yucca, antioxidantes naturais, óleo de soja, levedura de cerveja, probióticos e prebióticos. Enriquecido com fibras alimentares para melhor digestibilidade e manutenção da flora intestinal saudável."
+  },
+  {
+    "id": 248,
+    "image": "/images/racao-calopsita-2.png",
+    "title": "Ração Calopsita Frutas e Sementes",
+    "category": "Rações para Aves",
+    "subcategory": "Para calopsitas",
+    "size": "Peso: 800g",
+    "price": "R$22,50",
+    "descricao": "A Ração Calopsita Frutas e Sementes combina sementes naturais com pedaços desidratados de frutas, oferecendo uma refeição saborosa e nutritiva para calopsitas. Esta ração é formulada para estimular o apetite e promover o bem-estar da ave, com componentes que auxiliam na digestão e fornecem energia para o dia a dia. Seu aroma agradável e textura variada tornam a alimentação mais atrativa e completa.",
+    "composicao": "Alpiste, painço, aveia, sementes de girassol, mamão desidratado, banana seca, maçã desidratada, vitaminas A, B1, B2, B6, B12, D3, E e K, minerais quelatados, aminoácidos, levedura de cerveja, óleo de milho, antioxidantes naturais e extrato de yucca. Sem corantes artificiais e com fibras naturais."
+  },
+  {
+    "id": 249,
+    "image": "/images/racao-calopsita-3.png",
+    "title": "Ração Calopsita com Vitaminas",
+    "category": "Rações para Aves",
+    "subcategory": "Para calopsitas",
+    "size": "Peso: 900g",
+    "price": "R$24,90",
+    "descricao": "Desenvolvida especialmente para fornecer suporte vitamínico às calopsitas, a Ração Calopsita com Vitaminas garante nutrição ideal para manter o bom funcionamento do organismo. Possui uma mistura balanceada de sementes e suplementos que favorecem o crescimento saudável, melhora da plumagem e fortalecimento da imunidade. Ideal para aves em fase de crescimento ou recuperação.",
+    "composicao": "Milheto, girassol preto, painço vermelho, semente de linhaça, beterraba desidratada, minerais orgânicos, vitaminas A, D3, C, E, complexo B, probióticos, prebióticos, cálcio, ferro, zinco, cobre, extrato de yucca, antioxidantes naturais e óleos vegetais. Livre de conservantes artificiais."
+  },
+  {
+    "id": 250,
+    "image": "/images/racao-canario-1.png",
+    "title": "Ração Canário Mix Sementes",
+    "category": "Rações para Aves",
+    "subcategory": "Para canários",
+    "size": "Peso: 500g",
+    "price": "R$16,90",
+    "descricao": "A Ração Canário Mix Sementes é uma mistura cuidadosamente balanceada de sementes naturais, desenvolvida especialmente para canários. Proporciona energia, nutrição e bem-estar às aves, promovendo o bom funcionamento do organismo e uma plumagem vibrante. Indicado para uso diário, seu consumo regular garante uma dieta saudável e balanceada, respeitando as necessidades nutricionais da espécie.",
+    "composicao": "Painço amarelo, painço vermelho, alpiste, níger, aveia, girassol miúdo, vitaminas A, D3 e E, minerais, cálcio, ferro, zinco, manganês, extrato de yucca, antioxidantes naturais e prebióticos. Sem conservantes artificiais, com alto teor de fibras e proteínas naturais."
+  },
+  {
+    "id": 251,
+    "image": "/images/racao-canario-2.png",
+    "title": "Ração Canário com Frutas",
+    "category": "Rações para Aves",
+    "subcategory": "Para canários",
+    "size": "Peso: 700g",
+    "price": "R$19,50",
+    "descricao": "Ideal para enriquecer a alimentação dos canários, esta ração contém uma seleção de sementes e frutas desidratadas que agradam o paladar das aves e contribuem para sua saúde. A combinação de ingredientes naturais fortalece o sistema imunológico e melhora o brilho da plumagem. É uma excelente opção para variar a dieta sem comprometer o equilíbrio nutricional.",
+    "composicao": "Painço, alpiste, aveia descascada, maçã desidratada, banana seca, mamão, semente de linhaça, óleo de milho, vitaminas A, B1, B2, B6, B12, C, D3, E, minerais orgânicos, levedura de cerveja, extrato de yucca e antioxidantes naturais. Produto livre de corantes e conservantes artificiais."
+  },
+  {
+    "id": 252,
+    "image": "/images/racao-canario-3.png",
+    "title": "Ração Canário Super Premium",
+    "category": "Rações para Aves",
+    "subcategory": "Para canários",
+    "size": "Peso: 1kg",
+    "price": "R$28,90",
+    "descricao": "Formulada com ingredientes de altíssima qualidade, a Ração Canário Super Premium oferece uma nutrição completa e sofisticada, ideal para manter os canários saudáveis, ativos e com aparência exuberante. A ração contém elementos essenciais para uma dieta equilibrada e ajuda na prevenção de doenças comuns em aves. Recomendada para criadores e tutores exigentes.",
+    "composicao": "Painço, aveia, sementes oleaginosas, proteína vegetal, óleo de linhaça, vitaminas A, D3, E, complexo B, cálcio, ferro, zinco, cobre, selênio, prebióticos, probióticos, levedura de cerveja, extrato de yucca, antioxidantes naturais e enzimas digestivas. Livre de conservantes artificiais e corantes."
+  },
+  {
+    "id": 253,
+    "image": "/images/racao-papagaio-1.png",
+    "title": "Ração Papagaio Nutritiva",
+    "category": "Rações para Aves",
+    "subcategory": "Para papagaios",
+    "size": "Peso: 1kg",
+    "price": "R$34,90",
+    "descricao": "A Ração Papagaio Nutritiva é formulada para atender às necessidades específicas dos papagaios, oferecendo uma mistura rica em nutrientes e sabor. Promove o fortalecimento do sistema imunológico, ajuda na digestão e contribui para uma plumagem mais bonita e saudável. É ideal para uso diário e foi pensada para garantir o bem-estar e a longevidade das aves.",
+    "composicao": "Milho, soja, sementes de abóbora, castanha-do-pará, girassol, frutas desidratadas (maçã, banana e mamão), vitaminas A, D3, E, C e K, complexo B, minerais quelatados, ômega 3 e 6, antioxidantes naturais, prebióticos e probióticos, levedura de cerveja e extrato de yucca. Sem adição de conservantes químicos."
+  },
+  {
+    "id": 254,
+    "image": "/images/racao-papagaio-2.png",
+    "title": "Ração Papagaio Frutas Tropicais",
+    "category": "Rações para Aves",
+    "subcategory": "Para papagaios",
+    "size": "Peso: 800g",
+    "price": "R$31,90",
+    "descricao": "Com uma combinação deliciosa de frutas tropicais, esta ração é perfeita para papagaios que adoram variedade e sabor. Além do apelo palatável, ela é enriquecida com vitaminas e minerais que ajudam na saúde óssea, digestiva e imunológica. Os ingredientes naturais garantem uma alimentação equilibrada e sem aditivos artificiais, sendo ideal para consumo diário.",
+    "composicao": "Mamão, manga, banana, abacaxi desidratado, sementes oleaginosas, milho integral, grão de bico, vitaminas A, D3, E, K, C, complexo B, minerais essenciais, prebióticos, probióticos, levedura de cerveja, óleo de soja, antioxidantes naturais e fibras solúveis. Livre de corantes artificiais e açúcar."
+  },
+  {
+    "id": 255,
+    "image": "/images/racao-papagaio-3.png",
+    "title": "Ração Papagaio Equilíbrio Natural",
+    "category": "Rações para Aves",
+    "subcategory": "Para papagaios",
+    "size": "Peso: 1,2kg",
+    "price": "R$38,00",
+    "descricao": "A Ração Papagaio Equilíbrio Natural oferece uma dieta balanceada, com ingredientes cuidadosamente selecionados para proporcionar saúde e bem-estar ao seu papagaio. Rica em fibras, proteínas vegetais e vitaminas, essa ração contribui para o bom funcionamento do organismo e para uma plumagem vibrante e resistente. Indicada para papagaios de todas as idades.",
+    "composicao": "Milho extrusado, ervilha, cenoura, semente de girassol, farelo de soja, frutas desidratadas, linhaça, vitaminas A, D3, E, C, complexo B, cálcio, fósforo, zinco, probióticos, prebióticos, antioxidantes naturais, extrato de yucca e enzimas digestivas. Sem transgênicos, conservantes ou corantes artificiais."
+  },
+  {
+    "id": 256,
+    "image": "/images/gaiola-pequena-1.png",
+    "title": "Gaiola Pequena Básica",
+    "category": "Gaiolas",
+    "subcategory": "Pequenas",
+    "size": "Dimensões: 30x25x35cm",
+    "price": "R$49,90",
+    "descricao": "A Gaiola Pequena Básica é ideal para canários, periquitos e outras aves de pequeno porte. Fabricada com materiais resistentes e acabamento seguro, oferece conforto e segurança ao animal. Seu design compacto permite fácil transporte e limpeza. Conta com porta frontal, poleiros e comedouros inclusos, sendo perfeita para quem busca praticidade sem abrir mão da qualidade.",
+    "composicao": "Estrutura em arame galvanizado com pintura epóxi atóxica, bandeja removível em polipropileno, comedouros e poleiros em plástico resistente, sistema de encaixe simples e seguro. Material leve e durável, ideal para ambientes internos."
+  },
+  {
+    "id": 257,
+    "image": "/images/gaiola-pequena-2.png",
+    "title": "Gaiola Charmosa Mini",
+    "category": "Gaiolas",
+    "subcategory": "Pequenas",
+    "size": "Dimensões: 28x22x30cm",
+    "price": "R$54,90",
+    "descricao": "Compacta e com design charmoso, a Gaiola Charmosa Mini é indicada para aves pequenas, proporcionando um espaço seguro e confortável. Possui detalhes decorativos, pintura resistente e bandeja removível para facilitar a limpeza. Ideal para ambientes internos, sua estrutura leve permite fácil transporte e acomodação em diferentes locais da casa.",
+    "composicao": "Fios de aço galvanizado com pintura eletrostática, base em plástico rígido, bandeja deslizante, poleiros em madeira tratada, porta frontal com trava de segurança, comedouro em acrílico. Produto durável, higiênico e fácil de manusear."
+  },
+  {
+    "id": 258,
+    "image": "/images/gaiola-pequena-3.png",
+    "title": "Gaiola Econômica com Acessórios",
+    "category": "Gaiolas",
+    "subcategory": "Pequenas",
+    "size": "Dimensões: 32x26x34cm",
+    "price": "R$59,90",
+    "descricao": "Ideal para quem procura custo-benefício, a Gaiola Econômica com Acessórios é prática e funcional. Acompanha bebedouro, comedouro, dois poleiros e bandeja de fácil remoção. Seu formato retangular permite otimizar o espaço, e sua estrutura resistente garante segurança às aves. Ótima opção para iniciantes na criação de pequenos pássaros.",
+    "composicao": "Arame galvanizado, pintura epóxi atóxica, bandeja plástica removível, acessórios em polipropileno, poleiros de madeira, suporte de alça para transporte. Material resistente à corrosão e fácil de higienizar."
+  },
+  {
+    "id": 259,
+    "image": "/images/gaiola-grande-1.png",
+    "title": "Gaiola Grande Luxo",
+    "category": "Gaiolas",
+    "subcategory": "Grandes",
+    "size": "Dimensões: 60x45x70cm",
+    "price": "R$159,90",
+    "descricao": "A Gaiola Grande Luxo oferece amplo espaço e conforto para papagaios e outras aves de médio a grande porte. Conta com estrutura reforçada, acessórios completos e bandeja deslizante que facilita a limpeza. Ideal para áreas internas e externas, proporciona liberdade de movimento e um ambiente seguro para o pet. Seu acabamento de alta qualidade garante durabilidade.",
+    "composicao": "Estrutura em aço com pintura epóxi, bandeja removível em polietileno, comedouros grandes, poleiros reforçados de madeira tratada, portão duplo com travas de segurança, rodinhas para locomoção. Produto robusto e fácil de montar."
+  },
+  {
+    "id": 260,
+    "image": "/images/gaiola-grande-2.png",
+    "title": "Gaiola Aviário com Divisória",
+    "category": "Gaiolas",
+    "subcategory": "Grandes",
+    "size": "Dimensões: 75x50x90cm",
+    "price": "R$189,90",
+    "descricao": "Projetada para criadores ou tutores com mais de uma ave, a Gaiola Aviário com Divisória conta com amplo espaço interno e separador central removível. Ideal para reprodução ou convivência de diferentes espécies com segurança. Sua estrutura é resistente e pensada para o bem-estar dos animais, incluindo vários acessórios essenciais.",
+    "composicao": "Aço tratado com pintura epóxi, divisória interna removível, bandejas independentes, poleiros em madeira, comedouros e bebedouros em acrílico, portas com tranca dupla. Rodízios reforçados para movimentação segura e fácil higienização."
+  },
+  {
+    "id": 261,
+    "image": "/images/gaiola-grande-3.png",
+    "title": "Gaiola Espaçosa Premium",
+    "category": "Gaiolas",
+    "subcategory": "Grandes",
+    "size": "Dimensões: 80x60x100cm",
+    "price": "R$219,90",
+    "descricao": "Para quem busca uma moradia confortável e segura para sua ave, a Gaiola Espaçosa Premium é a escolha certa. Ideal para calopsitas, araras e papagaios, oferece muito espaço, ótima ventilação e estrutura robusta. Além disso, acompanha acessórios completos e tem design sofisticado que combina com qualquer ambiente.",
+    "composicao": "Estrutura metálica com pintura atóxica, bandeja dupla removível, poleiros de madeira, comedouros de inox, portão frontal com trava, rodízios com freio, protetores laterais contra sujeira, suporte para brinquedos. Fácil montagem e durabilidade superior."
+  },
+  {
+    "id": 262,
+    "image": "/images/balancinho-1.png",
+    "title": "Balanço de Corda para Aves",
+    "category": "Brinquedos",
+    "subcategory": "Balancinhos",
+    "size": "Tamanho: 15x15cm",
+    "price": "R$22,90",
+    "descricao": "O Balanço de Corda para Aves é um brinquedo interativo e divertido que proporciona estímulo físico e mental às aves. Feito com materiais seguros, ajuda a reduzir o estresse e a ansiedade, além de exercitar as patinhas e bico. Ideal para gaiolas de pequeno e médio porte, oferece entretenimento saudável e enriquecimento ambiental.",
+    "composicao": "Corda de algodão 100% natural, argolas de metal galvanizado, base de madeira tratada, tintas atóxicas, estrutura resistente à mordidas. Produto artesanal, feito com materiais seguros e de qualidade."
+  },
+  {
+    "id": 263,
+    "image": "/images/balancinho-2.png",
+    "title": "Balanço com Argola Colorida",
+    "category": "Brinquedos",
+    "subcategory": "Balancinhos",
+    "size": "Tamanho: 20x18cm",
+    "price": "R$25,90",
+    "descricao": "Colorido e resistente, o Balanço com Argola é ideal para aves como calopsitas e periquitos. Estimula o equilíbrio e o exercício físico, além de ser um ótimo passatempo. Pode ser facilmente pendurado na gaiola e oferece conforto com sua base anatômica. Indicado para promover bem-estar e saúde mental das aves domésticas.",
+    "composicao": "Argola plástica atóxica, corrente metálica zincada, base em madeira natural, pintura com corantes vegetais, gancho em aço inox. Produto testado e aprovado por veterinários especializados em aves."
+  },
+  {
+    "id": 264,
+    "image": "/images/balancinho-3.png",
+    "title": "Balanço com Espelho",
+    "category": "Brinquedos",
+    "subcategory": "Balancinhos",
+    "size": "Tamanho: 18x15cm",
+    "price": "R$27,50",
+    "descricao": "O Balanço com Espelho é um brinquedo divertido e estimulante para aves de pequeno porte. O espelho atrai a atenção do pet, promovendo interatividade, enquanto o balanço garante exercícios leves e naturais. Ideal para combater o tédio e incentivar o movimento dentro da gaiola.",
+    "composicao": "Base de madeira, espelho acrílico atóxico, correntes de aço galvanizado, fixadores de segurança, pintura à base de água. Produto resistente e seguro, projetado para uso contínuo em ambientes domésticos."
+  },
+  {
+    "id": 265,
+    "image": "/images/espelho-1.png",
+    "title": "Espelho Pequeno com Moldura",
+    "category": "Brinquedos",
+    "subcategory": "Espelhos",
+    "size": "Tamanho: 8x6cm",
+    "price": "R$12,90",
+    "descricao": "O Espelho Pequeno com Moldura é um item clássico para gaiolas de aves, oferecendo uma forma simples e divertida de entretenimento. A moldura resistente protege o espelho e permite fácil fixação na gaiola. Ideal para pequenos pássaros como canários e periquitos, este espelho estimula o comportamento natural de socialização, já que as aves costumam interagir com o próprio reflexo. Além de promover distração, ajuda a reduzir o estresse e a ansiedade nos momentos em que o pássaro está sozinho. Um acessório acessível e eficaz para enriquecer o ambiente do seu pet alado.",
+    "composicao": "Plástico atóxico resistente, espelho de acrílico polido, moldura reforçada com encaixe adaptável a diversos modelos de gaiola, design leve, bordas arredondadas para maior segurança, livre de substâncias químicas prejudiciais às aves."
+  },
+  {
+    "id": 266,
+    "image": "/images/espelho-2.png",
+    "title": "Espelho com Sinos Pendentes",
+    "category": "Brinquedos",
+    "subcategory": "Espelhos",
+    "size": "Tamanho: 10x8cm",
+    "price": "R$15,90",
+    "descricao": "O Espelho com Sinos Pendentes combina estímulos visuais e sonoros para manter sua ave entretida e ativa. Com sinos pequenos e seguros, pendurados sob o espelho, o brinquedo estimula o movimento e a curiosidade do animal. É excelente para pássaros que ficam sozinhos por longos períodos, promovendo uma interação divertida com o próprio reflexo e com os sons agradáveis dos sinos. Um acessório ideal para canários, calopsitas e outros pássaros de pequeno a médio porte. Garante horas de distração e contribui para o bem-estar físico e mental do seu companheiro de penas.",
+    "composicao": "Plástico resistente, espelho de acrílico, sinos metálicos leves com revestimento não tóxico, argolas plásticas flexíveis, sistema de fixação por gancho, livre de BPA e materiais prejudiciais à saúde das aves."
+  },
+  {
+    "id": 267,
+    "image": "/images/espelho-3.png",
+    "title": "Espelho Duplo com Moldura Colorida",
+    "category": "Brinquedos",
+    "subcategory": "Espelhos",
+    "size": "Tamanho: 12x10cm",
+    "price": "R$17,90",
+    "descricao": "O Espelho Duplo com Moldura Colorida é ideal para aves que gostam de interagir com seu reflexo. Com dois espelhos posicionados lado a lado, proporciona maior área de reflexão e mais diversão para o pet. A moldura colorida chama atenção e estimula a curiosidade. É uma excelente opção para ambientes internos e contribui para a saúde emocional do seu pássaro, reduzindo o tédio e o estresse. Pode ser facilmente acoplado à gaiola e é indicado para aves de pequeno e médio porte, como calopsitas, periquitos e agapornis.",
+    "composicao": "Plástico colorido de alta durabilidade, espelhos de acrílico com acabamento polido, estrutura leve e segura, fixação por clipe universal, materiais 100% atóxicos e recicláveis."
+  },
+  {
+    "id": 268,
+    "image": "/images/poleiro-1.png",
+    "title": "Poleiro de Madeira Natural",
+    "category": "Acessórios",
+    "subcategory": "Poleiros",
+    "size": "Tamanho: 25cm",
+    "price": "R$14,90",
+    "descricao": "O Poleiro de Madeira Natural é um item essencial para o conforto e bem-estar das aves. Proporciona uma superfície firme e segura para que o pássaro possa descansar, se exercitar e manter as garras em bom estado. Por ser feito de madeira natural, simula o ambiente que os pássaros encontrariam na natureza, o que é ideal para a saúde mental e física. Pode ser utilizado em diversas gaiolas e é indicado para espécies pequenas e médias. Um produto simples e funcional para deixar a vida do seu pássaro mais agradável.",
+    "composicao": "Madeira de reflorestamento tratada termicamente, livre de vernizes e produtos tóxicos, base metálica com parafuso de fixação, acabamento natural com textura leve para estímulo tátil, compatível com diversos tipos de gaiolas."
+  },
+  {
+    "id": 269,
+    "image": "/images/poleiro-2.png",
+    "title": "Poleiro Texturizado com Fixador",
+    "category": "Acessórios",
+    "subcategory": "Poleiros",
+    "size": "Tamanho: 20cm",
+    "price": "R$16,50",
+    "descricao": "O Poleiro Texturizado com Fixador oferece mais do que apoio: ele contribui para o desgaste natural das unhas e o estímulo dos pés das aves. Com superfície levemente áspera, evita o crescimento excessivo das garras e promove exercícios para a musculatura das pernas. O fixador ajustável permite instalação firme e prática em diversos tipos de gaiola. Ideal para calopsitas, periquitos e demais aves pequenas. Um acessório útil, seguro e indicado por criadores e veterinários especializados em aves.",
+    "composicao": "Plástico texturizado de alta resistência, superfície com grânulos minerais atóxicos, suporte de aço galvanizado com parafuso de fixação, componentes livres de chumbo e substâncias tóxicas, desenvolvido para conforto e saúde das aves."
+  },
+  {
+    "id": 270,
+    "image": "/images/poleiro-3.png",
+    "title": "Poleiro Colorido com Saliências",
+    "category": "Acessórios",
+    "subcategory": "Poleiros",
+    "size": "Tamanho: 22cm",
+    "price": "R$15,90",
+    "descricao": "O Poleiro Colorido com Saliências é uma ótima alternativa para manter a saúde podal das aves. Suas saliências massageiam os pés enquanto o animal permanece sobre ele, estimulando a circulação e prevenindo calosidades. Feito com material resistente e colorido, chama a atenção do pet e proporciona um ambiente mais alegre e estimulante. Pode ser facilmente instalado em diferentes tipos de gaiolas e é especialmente indicado para pássaros como agapornis, calopsitas e periquitos.",
+    "composicao": "PVC reforçado com acabamento colorido, textura antiderrapante, base metálica ajustável, pigmentação atóxica, sistema de encaixe compatível com grades horizontais ou verticais, livre de metais pesados e componentes agressivos."
+  },
+  {
+    "id": 271,
+    "image": "/images/comedouro-1.png",
+    "title": "Comedouro Duplo para Gaiola",
+    "category": "Acessórios",
+    "subcategory": "Comedouros",
+    "size": "Tamanho: 12x6cm",
+    "price": "R$13,90",
+    "descricao": "O Comedouro Duplo para Gaiola é uma solução prática para quem deseja oferecer dois tipos diferentes de alimentos ou combinar ração e água em um único acessório. Possui duas cavidades separadas e fundo arredondado que facilita a limpeza. Sua estrutura é feita para se adaptar perfeitamente às grades da gaiola, proporcionando segurança e estabilidade. Indicado para aves pequenas e médias, como periquitos, agapornis e calopsitas. Com design funcional e compacto, este comedouro garante a organização e a higiene no espaço do seu pet.",
+    "composicao": "Plástico polipropileno atóxico, sistema de encaixe por ganchos adaptável à maioria das gaiolas, acabamento arredondado para evitar ferimentos, livre de BPA e metais pesados, cores vibrantes seguras para aves."
+  },
+  {
+    "id": 272,
+    "image": "/images/comedouro-2.png",
+    "title": "Comedouro com Tampa Removível",
+    "category": "Acessórios",
+    "subcategory": "Comedouros",
+    "size": "Tamanho: 10x7cm",
+    "price": "R$14,50",
+    "descricao": "O Comedouro com Tampa Removível é ideal para quem busca praticidade no dia a dia. A tampa protege os alimentos contra sujeiras e permite manter a ração ou sementes frescas por mais tempo. Feito com material resistente e fácil de higienizar, o comedouro possui encaixe firme na gaiola, evitando desperdícios e quedas. Seu tamanho é perfeito para pequenas e médias aves, ajudando na organização do ambiente e garantindo mais conforto na hora da alimentação. A tampa transparente permite monitoramento rápido dos níveis de comida.",
+    "composicao": "Policarbonato transparente livre de BPA, tampa com trava de segurança, base de polipropileno atóxico, sistema de engate rápido para gaiolas, componentes duráveis e resistentes ao tempo, livre de materiais tóxicos."
+  },
+  {
+    "id": 273,
+    "image": "/images/comedouro-3.png",
+    "title": "Comedouro Giratório com Trava",
+    "category": "Acessórios",
+    "subcategory": "Comedouros",
+    "size": "Tamanho: 13x8cm",
+    "price": "R$18,90",
+    "descricao": "O Comedouro Giratório com Trava oferece praticidade e modernidade no manejo de aves. Possui um sistema giratório que permite abastecer o recipiente de fora da gaiola, sem a necessidade de abri-la, garantindo mais segurança. A trava evita que a ave derrube o alimento ou se machuque. Fabricado com plástico de alta resistência, é ideal para ambientes com mais de uma ave, promovendo facilidade no reabastecimento e limpeza. Um produto pensado para o bem-estar do tutor e do animal, aumentando a eficiência da rotina de cuidados.",
+    "composicao": "Plástico ABS de alta durabilidade, mecanismo giratório com eixo metálico inoxidável, trava de segurança com encaixe firme, materiais atóxicos e laváveis, compatível com a maioria das gaiolas comerciais."
+  },
+  {
+    "id": 274,
+    "image": "/images/bebedouro-1.png",
+    "title": "Bebedouro Automático 150ml",
+    "category": "Acessórios",
+    "subcategory": "Bebedouros",
+    "size": "Capacidade: 150ml",
+    "price": "R$9,90",
+    "descricao": "O Bebedouro Automático 150ml é ideal para manter sua ave sempre hidratada com praticidade e segurança. Sua estrutura permite o abastecimento contínuo de água limpa, evitando o acúmulo de sujeira no recipiente. A base se encaixa facilmente nas grades da gaiola, sendo firme e estável. O reservatório transparente facilita o monitoramento do nível da água, e seu formato estreito se adapta a diferentes modelos de gaiolas. É uma opção econômica e eficiente para garantir a hidratação diária de pássaros de pequeno porte como canários e periquitos.",
+    "composicao": "Reservatório de plástico PET reciclável, bico dosador em polipropileno, encaixe com trava de segurança, materiais livres de BPA, alta resistência térmica, design ergonômico para fácil limpeza e reposição."
+  },
+  {
+    "id": 275,
+    "image": "/images/bebedouro-2.png",
+    "title": "Bebedouro com Ventosa",
+    "category": "Acessórios",
+    "subcategory": "Bebedouros",
+    "size": "Capacidade: 200ml",
+    "price": "R$12,90",
+    "descricao": "O Bebedouro com Ventosa é ideal para quem busca uma fixação prática em superfícies lisas como vidro ou acrílico. A ventosa oferece segurança extra contra quedas acidentais e facilita o reposicionamento. Seu design permite fácil abastecimento e manutenção, mantendo a água limpa por mais tempo. Recomendado para ambientes internos e gaiolas diferenciadas, é um acessório versátil e higiênico. A transparência do reservatório permite verificar a quantidade de água sem remover o bebedouro. Ideal para aves pequenas e sensíveis à qualidade da água.",
+    "composicao": "Reservatório em plástico transparente de alta qualidade, ventosa de silicone atóxico com grande poder de aderência, tampa com sistema anti-vazamento, livre de PVC e substâncias prejudiciais à saúde das aves."
+  },
+  {
+    "id": 276,
+    "image": "/images/bebedouro-3.png",
+    "title": "Bebedouro com Suporte Metálico",
+    "category": "Acessórios",
+    "subcategory": "Bebedouros",
+    "size": "Capacidade: 250ml",
+    "price": "R$14,50",
+    "descricao": "O Bebedouro com Suporte Metálico é um item robusto, ideal para quem busca maior estabilidade e durabilidade. O suporte metálico garante que o bebedouro permaneça firme na gaiola, mesmo com o movimento constante das aves. Possui bico dosador que libera a água de forma controlada, evitando desperdício e mantendo a higiene do ambiente. É fácil de instalar e limpar, ideal para pássaros de médio porte, como calopsitas e agapornis. Um acessório resistente que facilita o cuidado diário com seu pet.",
+    "composicao": "Frasco em plástico rígido atóxico, bico dosador com válvula anti-gotejamento, suporte em arame galvanizado de alta resistência, peças laváveis, livre de substâncias tóxicas ou metais pesados prejudiciais à saúde animal."
+  },
 
 ];
 

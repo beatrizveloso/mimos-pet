@@ -265,8 +265,37 @@ const Cards = ({ filtro, subcategoria, searchTerm, limit, paginated }) => {
     { id: 245, image: '/images/dentes-2.png', title: 'Bloco Mineral para Roer', category: 'Cuidado com a saúde', subcategory: 'Itens para dentes', size: 'Peso: 80g', price: 'R$14,90' },
     { id: 246, image: '/images/dentes-3.png', title: 'Bastão de Madeira Natural', category: 'Cuidado com a saúde', subcategory: 'Itens para dentes', size: 'Tamanho: 15cm', price: 'R$17,90' },
 
-    
-    
+    { id: 247, image: "/images/racao-calopsita-1.png", title: "Ração Premium para Calopsitas", category: "Rações para Aves", subcategory: "Para calopsitas", size: "Peso: 1kg", price: "R$26,90" },
+    { id: 248, image: "/images/racao-calopsita-2.png", title: "Mistura de Sementes com Frutas", category: "Rações para Aves", subcategory: "Para calopsitas", size: "Peso: 800g", price: "R$22,50" },
+    { id: 249, image: "/images/racao-calopsita-3.png", title: "Alimento Balanceado com Vitaminas", category: "Rações para Aves", subcategory: "Para calopsitas", size: "Peso: 900g", price: "R$24,90" },
+    { id: 250, image: "/images/racao-canario-1.png", title: "Ração Específica para Canários", category: "Rações para Aves", subcategory: "Para canários", size: "Peso: 500g", price: "R$18,90" },
+    { id: 251, image: "/images/racao-canario-2.png", title: "Mistura Natural com Mel e Alpiste", category: "Rações para Aves", subcategory: "Para canários", size: "Peso: 600g", price: "R$20,50" },
+    { id: 252, image: "/images/racao-canario-3.png", title: "Alimento Nutritivo para Plumagem", category: "Rações para Aves", subcategory: "Para canários", size: "Peso: 550g", price: "R$19,90" },
+    { id: 253, image: "/images/racao-papagaio-1.png", title: "Ração Extrusada para Papagaios", category: "Rações para Aves", subcategory: "Para papagaios", size: "Peso: 1,2kg", price: "R$39,90" },
+    { id: 254, image: "/images/racao-papagaio-2.png", title: "Mistura Natural com Castanhas", category: "Rações para Aves", subcategory: "Para papagaios", size: "Peso: 1kg", price: "R$36,50" },
+    { id: 255, image: "/images/racao-papagaio-3.png", title: "Alimento Completo com Vitaminas", category: "Rações para Aves", subcategory: "Para papagaios", size: "Peso: 1,1kg", price: "R$38,90" },
+    { id: 256, image: "/images/gaiola-pequena-1.png", title: "Gaiola Pequena com Bandeja Removível", category: "Gaiolas", subcategory: "Pequenas", size: "Tamanho: 30x25x35cm", price: "R$79,90" },
+    { id: 257, image: "/images/gaiola-pequena-2.png", title: "Gaiola Compacta com Poleiro", category: "Gaiolas", subcategory: "Pequenas", size: "Tamanho: 28x22x30cm", price: "R$72,50" },
+    { id: 258, image: "/images/gaiola-pequena-3.png", title: "Mini Gaiola Decorativa para Canários", category: "Gaiolas", subcategory: "Pequenas", size: "Tamanho: 26x20x28cm", price: "R$68,90" },
+    { id: 259, image: "/images/gaiola-grande-1.png", title: "Gaiola Grande com Rodinhas", category: "Gaiolas", subcategory: "Grandes", size: "Tamanho: 60x40x70cm", price: "R$149,90" },
+    { id: 260, image: "/images/gaiola-grande-2.png", title: "Gaiola Ampla com Comedouros Externos", category: "Gaiolas", subcategory: "Grandes", size: "Tamanho: 65x45x75cm", price: "R$159,90" },
+    { id: 261, image: "/images/gaiola-grande-3.png", title: "Gaiola de Luxo com Diversos Acessórios", category: "Gaiolas", subcategory: "Grandes", size: "Tamanho: 70x50x80cm", price: "R$179,90" },
+    { id: 262, image: "/images/balancinho-1.png", title: "Balancinho de Madeira com Corda", category: "Brinquedos", subcategory: "Balancinhos", size: "Tamanho: 15x10cm", price: "R$18,90" },
+    { id: 263, image: "/images/balancinho-2.png", title: "Balanço Colorido com Sinos", category: "Brinquedos", subcategory: "Balancinhos", size: "Tamanho: 20x15cm", price: "R$22,50" },
+    { id: 264, image: "/images/balancinho-3.png", title: "Balanço Suspenso com Argolas", category: "Brinquedos", subcategory: "Balancinhos", size: "Tamanho: 18x12cm", price: "R$21,90" },
+    { id: 265, image: "/images/espelho-1.png", title: "Espelho Pequeno com Moldura", category: "Brinquedos", subcategory: "Espelhos", size: "Tamanho: 8x6cm", price: "R$12,90" },
+    { id: 266, image: "/images/espelho-2.png", title: "Espelho com Sinos Pendentes", category: "Brinquedos", subcategory: "Espelhos", size: "Tamanho: 10x8cm", price: "R$15,90" },
+    { id: 267, image: "/images/espelho-3.png", title: "Espelho Duplo com Moldura Colorida", category: "Brinquedos", subcategory: "Espelhos", size: "Tamanho: 12x10cm", price: "R$17,90" },
+    { id: 268, image: "/images/poleiro-1.png", title: "Poleiro de Madeira Natural", category: "Acessórios", subcategory: "Poleiros", size: "Tamanho: 25cm", price: "R$14,90" },
+    { id: 269, image: "/images/poleiro-2.png", title: "Poleiro Texturizado com Fixador", category: "Acessórios", subcategory: "Poleiros", size: "Tamanho: 20cm", price: "R$16,50" },
+    { id: 270, image: "/images/poleiro-3.png", title: "Poleiro Colorido com Saliências", category: "Acessórios", subcategory: "Poleiros", size: "Tamanho: 22cm", price: "R$15,90" },
+    { id: 271, image: "/images/comedouro-1.png", title: "Comedouro Transparente com Suporte", category: "Acessórios", subcategory: "Comedouros", size: "Capacidade: 150ml", price: "R$11,90" },
+    { id: 272, image: "/images/comedouro-2.png", title: "Comedouro Duplo Antidesperdício", category: "Acessórios", subcategory: "Comedouros", size: "Capacidade: 2x100ml", price: "R$14,50" },
+    { id: 273, image: "/images/comedouro-3.png", title: "Comedouro Colorido com Tampa", category: "Acessórios", subcategory: "Comedouros", size: "Capacidade: 200ml", price: "R$13,90" },
+    { id: 274, image: "/images/bebedouro-1.png", title: "Bebedouro Automático de Plástico", category: "Acessórios", subcategory: "Bebedouros", size: "Capacidade: 300ml", price: "R$12,50" },
+    { id: 275, image: "/images/bebedouro-2.png", title: "Bebedouro Vertical com Bico", category: "Acessórios", subcategory: "Bebedouros", size: "Capacidade: 250ml", price: "R$13,50" },
+    { id: 276, image: "/images/bebedouro-3.png", title: "Bebedouro Suspenso para Gaiolas", category: "Acessórios", subcategory: "Bebedouros", size: "Capacidade: 200ml", price: "R$11,90" },
+
   ];
 
   const [paginaAtual, setPaginaAtual] = useState(1);
