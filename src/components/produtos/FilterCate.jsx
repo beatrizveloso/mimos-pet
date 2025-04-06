@@ -74,7 +74,7 @@ const categorias = [
     header: "4. Produtos para Roedores",
     categorias: [
       {
-        nome: "Rações",
+        nome: "Rações para Roedores",
         subcategorias: ["Para hamsters", "Para porquinhos-da-índia", "Para coelhos"]
       },
       {
@@ -95,7 +95,7 @@ const categorias = [
     header: "5. Produtos para Aves",
     categorias: [
       {
-        nome: "Rações",
+        nome: "Rações para Aves",
         subcategorias: ["Para calopsitas", "Para canários", "Para papagaios"]
       },
       {

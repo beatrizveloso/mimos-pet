@@ -2331,6 +2331,972 @@ const produtosData = [
     ],
     "composicao": "Poste em papelão grosso com revestimento de sisal, base antiderrapante de MDF, bolinha de pelúcia com elástico resistente, compartimento interno com catnip orgânico incluso."
   },
+  {
+    "id": 172,
+    "image": "/images/brinquedo-bola-1.png",
+    "title": "Bola Interativa com Luz LED",
+    "category": "Brinquedos",
+    "subcategory": "Bolas",
+    "size": "Tamanho: 6cm",
+    "price": "R$19,90",
+    "descricao": [
+      "Bola eletrônica que acende luzes coloridas ao ser movimentada, estimulando o instinto caçador de gatos e cães. Ideal para brincadeiras noturnas e ambientes internos."
+    ],
+    "composicao": "Plástico ABS resistente, componentes LED internos, sensor de movimento, bateria substituível. Produto não-tóxico, seguro para animais."
+  },
+  {
+    "id": 173,
+    "image": "/images/brinquedo-bola-2.png",
+    "title": "Kit com 3 Bolinhas Texturizadas",
+    "category": "Brinquedos",
+    "subcategory": "Bolas",
+    "size": "Tamanho: 5cm cada",
+    "price": "R$14,50",
+    "descricao": [
+      "Conjunto com 3 bolinhas leves, com texturas variadas que proporcionam estímulo tátil e diversão prolongada para seu pet."
+    ],
+    "composicao": "Borracha termoplástica, superfície texturizada, material flexível e lavável. Livre de substâncias tóxicas."
+  },
+  {
+    "id": 174,
+    "image": "/images/brinquedo-bola-3.png",
+    "title": "Bola com Catnip para Gatos",
+    "category": "Brinquedos",
+    "subcategory": "Bolas",
+    "size": "Tamanho: 4cm",
+    "price": "R$12,90",
+    "descricao": [
+      "Bola feita especialmente para gatos, com catnip prensado que estimula a brincadeira e reduz o estresse."
+    ],
+    "composicao": "Catnip natural prensado, cola vegetal atóxica, embalagem biodegradável. Produto 100% seguro para felinos."
+  },
+  {
+    "id": 175,
+    "image": "/images/mordedor-1.png",
+    "title": "Mordedor em Forma de Osso",
+    "category": "Brinquedos",
+    "subcategory": "Mordedores",
+    "size": "Tamanho: 10cm",
+    "price": "R$16,90",
+    "descricao": [
+      "Mordedor em formato de osso com textura massageadora para manter os dentes limpos e proporcionar entretenimento saudável ao pet."
+    ],
+    "composicao": "Borracha natural com aroma artificial de carne, livre de BPA e materiais tóxicos. Alta durabilidade."
+  },
+  {
+    "id": 176,
+    "image": "/images/mordedor-2.png",
+    "title": "Mordedor de Borracha com Textura",
+    "category": "Brinquedos",
+    "subcategory": "Mordedores",
+    "size": "Tamanho: 12cm",
+    "price": "R$18,50",
+    "descricao": [
+      "Texturas variadas que massageiam a gengiva durante a mastigação. Ideal para cães em fase de troca dentária."
+    ],
+    "composicao": "Borracha resistente atóxica, material reciclável, lavável e durável. Indicado para todos os portes."
+  },
+  {
+    "id": 177,
+    "image": "/images/mordedor-3.png",
+    "title": "Anel Mordedor Resistente",
+    "category": "Brinquedos",
+    "subcategory": "Mordedores",
+    "size": "Tamanho: 9cm",
+    "price": "R$15,00",
+    "descricao": [
+      "Mordedor em formato de anel, ideal para brincadeiras de puxar e mastigar. Estimula os músculos da mandíbula e promove higiene bucal."
+    ],
+    "composicao": "Polímero resistente, material com certificação de segurança, superfície lisa e firme."
+  },
+  {
+    "id": 178,
+    "image": "/images/pelucia-1.png",
+    "title": "Brinquedo de Pelúcia Patinha",
+    "category": "Brinquedos",
+    "subcategory": "De pelúcia",
+    "size": "Tamanho: 15cm",
+    "price": "R$22,90",
+    "descricao": [
+      "Pelúcia em formato de patinha com enchimento macio e costura reforçada. Ideal para pets de pequeno e médio porte."
+    ],
+    "composicao": "Tecido de pelúcia hipoalergênico, enchimento de fibra siliconada, costura dupla com linha de nylon."
+  },
+  {
+    "id": 179,
+    "image": "/images/pelucia-2.png",
+    "title": "Pelúcia com Apito para Cães",
+    "category": "Brinquedos",
+    "subcategory": "De pelúcia",
+    "size": "Tamanho: 20cm",
+    "price": "R$25,00",
+    "descricao": [
+      "Brinquedo de pelúcia com apito interno que emite som ao ser pressionado. Estimula a curiosidade e proporciona diversão prolongada."
+    ],
+    "composicao": "Pelúcia sintética, apito plástico interno, enchimento de poliéster, costura reforçada."
+  },
+  {
+    "id": 180,
+    "image": "/images/pelucia-3.png",
+    "title": "Bicho de Pelúcia com Catnip",
+    "category": "Brinquedos",
+    "subcategory": "De pelúcia",
+    "size": "Tamanho: 12cm",
+    "price": "R$19,90",
+    "descricao": [
+      "Pelúcia macia com enchimento de catnip que estimula a brincadeira e reduz o tédio dos gatos."
+    ],
+    "composicao": "Tecido de algodão, catnip natural, enchimento atóxico, bordado em alto relevo para maior segurança."
+  },
+  {
+    "id": 181,
+    "image": "/images/cama-espuma-1.png",
+    "title": "Caminha de Espuma Aconchegante",
+    "category": "Camas",
+    "subcategory": "Espuma",
+    "size": "Tamanho: M",
+    "price": "R$89,90",
+    "descricao": [
+      "Caminha confortável com enchimento em espuma de alta densidade que proporciona aconchego e suporte para o pet descansar com qualidade."
+    ],
+    "composicao": "Tecido de microfibra, espuma ortopédica, fundo antiderrapante. Capa removível e lavável."
+  },
+  {
+    "id": 182,
+    "image": "/images/cama-espuma-2.png",
+    "title": "Colchonete de Espuma Ortopédico",
+    "category": "Camas",
+    "subcategory": "Espuma",
+    "size": "Tamanho: G",
+    "price": "R$109,90",
+    "descricao": [
+      "Colchonete com espuma ortopédica para suporte de pets idosos ou com problemas articulares. Design reto ideal para ambientes pequenos."
+    ],
+    "composicao": "Espuma ortopédica revestida com tecido impermeável, base antiderrapante em PVC, acabamento com viés reforçado."
+  },
+  {
+    "id": 183,
+    "image": "/images/cama-espuma-3.png",
+    "title": "Cama Macia de Espuma com Zíper",
+    "category": "Camas",
+    "subcategory": "Espuma",
+    "size": "Tamanho: P",
+    "price": "R$75,00",
+    "descricao": [
+      "Caminha compacta com espuma macia e zíper para fácil remoção da capa. Perfeita para pets de pequeno porte."
+    ],
+    "composicao": "Espuma de poliuretano, capa com zíper em tecido poliéster, base com antiderrapante emborrachado."
+  },
+  {
+    "id": 184,
+    "image": "/images/casinha-1.png",
+    "title": "Casinha de Pelúcia Fechada",
+    "category": "Camas",
+    "subcategory": "Casinha",
+    "size": "Tamanho: Único",
+    "price": "R$129,90",
+    "descricao": [
+      "Casinha fechada e acolchoada, proporciona sensação de segurança ao pet e isolamento térmico em dias frios."
+    ],
+    "composicao": "Tecido de pelúcia macia, estrutura de espuma moldada, fundo com material impermeável e antiderrapante."
+  },
+  {
+    "id": 185,
+    "image": "/images/casinha-2.png",
+    "title": "Casinha Dobrável com Almofada",
+    "category": "Camas",
+    "subcategory": "Casinha",
+    "size": "Tamanho: M",
+    "price": "R$139,90",
+    "descricao": [
+      "Modelo dobrável com almofada removível, ideal para viagens ou uso doméstico. Oferece conforto e praticidade ao tutor."
+    ],
+    "composicao": "Tecido Oxford impermeável, estrutura dobrável com velcro, almofada com enchimento de fibra siliconada."
+  },
+  {
+    "id": 186,
+    "image": "/images/casinha-3.png",
+    "title": "Casinha Estilo Cabana com Forro Térmico",
+    "category": "Camas",
+    "subcategory": "Casinha",
+    "size": "Tamanho: G",
+    "price": "R$159,90",
+    "descricao": [
+      "Casinha estilo cabana com forro térmico e entrada oval. Ideal para cães e gatos que gostam de ambientes aconchegantes."
+    ],
+    "composicao": "Forro térmico de poliéster aluminizado, tecido plush externo, espuma interna com alta densidade, base emborrachada."
+  },
+  {
+    "id": 187,
+    "image": "/images/tunel-1.png",
+    "title": "Túnel Macio com Entrada Dupla",
+    "category": "Camas",
+    "subcategory": "Túnel",
+    "size": "Comprimento: 90cm",
+    "price": "R$69,90",
+    "descricao": [
+      "Túnel de pelúcia com duas entradas e almofada interna, proporciona conforto e diversão ao mesmo tempo."
+    ],
+    "composicao": "Tecido de pelúcia, armação flexível interna, base acolchoada, lavável à mão."
+  },
+  {
+    "id": 188,
+    "image": "/images/tunel-2.png",
+    "title": "Cama Túnel com Enchimento Fofo",
+    "category": "Camas",
+    "subcategory": "Túnel",
+    "size": "Comprimento: 1m",
+    "price": "R$79,90",
+    "descricao": [
+      "Modelo de túnel mais comprido, com enchimento extra para conforto máximo. Ideal para ambientes frios."
+    ],
+    "composicao": "Enchimento de fibra siliconada, revestimento em tecido sintético térmico, acabamento costurado à máquina."
+  },
+  {
+    "id": 189,
+    "image": "/images/tunel-3.png",
+    "title": "Túnel de Brincar e Dormir 2 em 1",
+    "category": "Camas",
+    "subcategory": "Túnel",
+    "size": "Comprimento: 80cm",
+    "price": "R$74,50",
+    "descricao": [
+      "Túnel multifuncional ideal para descanso e brincadeiras. Estimula o instinto natural de esconderijo em gatos e cães de pequeno porte."
+    ],
+    "composicao": "Tecido Oxford, armação metálica flexível, interior acolchoado, fechos laterais para ajuste do formato."
+  },
+  {
+    "id": 190,
+    "image": "/images/pijama-1.png",
+    "title": "Pijama Estampado Algodão Pet",
+    "category": "Roupas e acessórios",
+    "subcategory": "Pijamas",
+    "size": "Tamanho: P",
+    "price": "R$39,90",
+    "descricao": [
+      "Pijama Estampado Algodão Pet proporciona conforto, segurança e praticidade para o dia a dia do seu pet. Ideal para uso diário, adaptando-se às necessidades do animal com estilo e funcionalidade."
+    ],
+    "composicao": "Material resistente e de alta qualidade, adequado ao uso animal, com acabamento cuidadoso que garante durabilidade e bem-estar."
+  },
+  {
+    "id": 191,
+    "image": "/images/pijama-2.png",
+    "title": "Pijama Inverno com Capuz",
+    "category": "Roupas e acessórios",
+    "subcategory": "Pijamas",
+    "size": "Tamanho: M",
+    "price": "R$44,90",
+    "descricao": [
+      "Pijama Inverno com Capuz proporciona conforto, segurança e praticidade para o dia a dia do seu pet. Ideal para uso diário, adaptando-se às necessidades do animal com estilo e funcionalidade."
+    ],
+    "composicao": "Material resistente e de alta qualidade, adequado ao uso animal, com acabamento cuidadoso que garante durabilidade e bem-estar."
+  },
+  {
+    "id": 192,
+    "image": "/images/pijama-3.png",
+    "title": "Pijama Xadrez Pet Style",
+    "category": "Roupas e acessórios",
+    "subcategory": "Pijamas",
+    "size": "Tamanho: G",
+    "price": "R$49,90",
+    "descricao": [
+      "Pijama Xadrez Pet Style proporciona conforto, segurança e praticidade para o dia a dia do seu pet. Ideal para uso diário, adaptando-se às necessidades do animal com estilo e funcionalidade."
+    ],
+    "composicao": "Material resistente e de alta qualidade, adequado ao uso animal, com acabamento cuidadoso que garante durabilidade e bem-estar."
+  },
+  {
+    "id": 193,
+    "image": "/images/coleira-decorada-1.png",
+    "title": "Coleira com Estampa de Frutas",
+    "category": "Roupas e acessórios",
+    "subcategory": "Coleiras decoradas",
+    "size": "Tamanho: Ajustável",
+    "price": "R$29,90",
+    "descricao": [
+      "Coleira com Estampa de Frutas proporciona conforto, segurança e praticidade para o dia a dia do seu pet. Ideal para uso diário, adaptando-se às necessidades do animal com estilo e funcionalidade."
+    ],
+    "composicao": "Material resistente e de alta qualidade, adequado ao uso animal, com acabamento cuidadoso que garante durabilidade e bem-estar."
+  },
+  {
+    "id": 194,
+    "image": "/images/coleira-decorada-2.png",
+    "title": "Coleira com Laço de Cetim",
+    "category": "Roupas e acessórios",
+    "subcategory": "Coleiras decoradas",
+    "size": "Tamanho: P",
+    "price": "R$27,50",
+    "descricao": [
+      "Coleira com Laço de Cetim proporciona conforto, segurança e praticidade para o dia a dia do seu pet. Ideal para uso diário, adaptando-se às necessidades do animal com estilo e funcionalidade."
+    ],
+    "composicao": "Material resistente e de alta qualidade, adequado ao uso animal, com acabamento cuidadoso que garante durabilidade e bem-estar."
+  },
+  {
+    "id": 195,
+    "image": "/images/coleira-decorada-3.png",
+    "title": "Coleira Colorida com Pingente",
+    "category": "Roupas e acessórios",
+    "subcategory": "Coleiras decoradas",
+    "size": "Tamanho: M",
+    "price": "R$32,90",
+    "descricao": [
+      "Coleira Colorida com Pingente proporciona conforto, segurança e praticidade para o dia a dia do seu pet. Ideal para uso diário, adaptando-se às necessidades do animal com estilo e funcionalidade."
+    ],
+    "composicao": "Material resistente e de alta qualidade, adequado ao uso animal, com acabamento cuidadoso que garante durabilidade e bem-estar."
+  },
+  {
+    "id": 196,
+    "image": "/images/gravata-1.png",
+    "title": "Gravatinha Clássica Pet",
+    "category": "Roupas e acessórios",
+    "subcategory": "Gravatinhas",
+    "size": "Tamanho: Único",
+    "price": "R$14,90",
+    "descricao": [
+      "Gravatinha Clássica Pet proporciona conforto, segurança e praticidade para o dia a dia do seu pet. Ideal para uso diário, adaptando-se às necessidades do animal com estilo e funcionalidade."
+    ],
+    "composicao": "Material resistente e de alta qualidade, adequado ao uso animal, com acabamento cuidadoso que garante durabilidade e bem-estar."
+  },
+  {
+    "id": 197,
+    "image": "/images/gravata-2.png",
+    "title": "Gravata Borboleta Estampada",
+    "category": "Roupas e acessórios",
+    "subcategory": "Gravatinhas",
+    "size": "Tamanho: Ajustável",
+    "price": "R$16,90",
+    "descricao": [
+      "Gravata Borboleta Estampada proporciona conforto, segurança e praticidade para o dia a dia do seu pet. Ideal para uso diário, adaptando-se às necessidades do animal com estilo e funcionalidade."
+    ],
+    "composicao": "Material resistente e de alta qualidade, adequado ao uso animal, com acabamento cuidadoso que garante durabilidade e bem-estar."
+  },
+  {
+    "id": 198,
+    "image": "/images/gravata-3.png",
+    "title": "Gravatinha com Listras e Elástico",
+    "category": "Roupas e acessórios",
+    "subcategory": "Gravatinhas",
+    "size": "Tamanho: P",
+    "price": "R$13,90",
+    "descricao": [
+      "Gravatinha com Listras e Elástico proporciona conforto, segurança e praticidade para o dia a dia do seu pet. Ideal para uso diário, adaptando-se às necessidades do animal com estilo e funcionalidade."
+    ],
+    "composicao": "Material resistente e de alta qualidade, adequado ao uso animal, com acabamento cuidadoso que garante durabilidade e bem-estar."
+  },
+  {
+    "id": 199,
+    "image": "/images/carrinho-1.png",
+    "title": "Carrinho Dobrável para Pets",
+    "category": "Transporte",
+    "subcategory": "Carrinhos",
+    "size": "Altura: 100cm",
+    "price": "R$299,90",
+    "descricao": [
+      "Carrinho Dobrável para Pets proporciona conforto, segurança e praticidade para o transporte do seu pet. Ideal para passeios, viagens ou deslocamentos urbanos com praticidade e estilo."
+    ],
+    "composicao": "Estrutura de alumínio, rodas de silicone, tecido impermeável com zíper reforçado e alça acolchoada ergonômica."
+  },
+  {
+    "id": 200,
+    "image": "/images/carrinho-2.png",
+    "title": "Carrinho Luxo com Visor Telado",
+    "category": "Transporte",
+    "subcategory": "Carrinhos",
+    "size": "Altura: 105cm",
+    "price": "R$379,90",
+    "descricao": [
+      "Carrinho Luxo com Visor Telado proporciona conforto, segurança e praticidade para o transporte do seu pet. Ideal para passeios, viagens ou deslocamentos urbanos com praticidade e estilo."
+    ],
+    "composicao": "Estrutura de aço carbono, rodas giratórias com freio, cobertura com visor em tela, cesto inferior para acessórios."
+  },
+  {
+    "id": 201,
+    "image": "/images/carrinho-3.png",
+    "title": "Carrinho Pet com Bolsa Removível",
+    "category": "Transporte",
+    "subcategory": "Carrinhos",
+    "size": "Altura: 110cm",
+    "price": "R$349,50",
+    "descricao": [
+      "Carrinho Pet com Bolsa Removível proporciona conforto, segurança e praticidade para o transporte do seu pet. Ideal para passeios, viagens ou deslocamentos urbanos com praticidade e estilo."
+    ],
+    "composicao": "Estrutura dobrável de ferro, tecido Oxford, zíper duplo, alças reforçadas e base almofadada removível."
+  },
+  {
+    "id": 202,
+    "image": "/images/cortador-1.png",
+    "title": "Cortador de Unha Profissional",
+    "category": "Cuidados",
+    "subcategory": "Cortadores de unha",
+    "size": "Tamanho: Médio",
+    "price": "R$18,90",
+    "descricao": [
+      "Cortador de Unha Profissional proporciona conforto, segurança e praticidade para a higiene do seu pet. Ideal para manutenção regular das unhas com precisão e segurança."
+    ],
+    "composicao": "Lâminas de aço inoxidável, cabo emborrachado antiderrapante e trava de segurança integrada."
+  },
+  {
+    "id": 203,
+    "image": "/images/cortador-2.png",
+    "title": "Cortador com Limitador de Corte",
+    "category": "Cuidados",
+    "subcategory": "Cortadores de unha",
+    "size": "Tamanho: P",
+    "price": "R$22,90",
+    "descricao": [
+      "Cortador com Limitador de Corte proporciona conforto, segurança e praticidade para a higiene do seu pet. Ideal para manutenção regular das unhas com precisão e segurança."
+    ],
+    "composicao": "Lâminas resistentes de aço carbono, limitador ajustável, estrutura ergonômica com material antiderrapante."
+  },
+  {
+    "id": 204,
+    "image": "/images/cortador-3.png",
+    "title": "Cortador de Unha com Lupa",
+    "category": "Cuidados",
+    "subcategory": "Cortadores de unha",
+    "size": "Tamanho: Grande",
+    "price": "R$29,90",
+    "descricao": [
+      "Cortador de Unha com Lupa proporciona conforto, segurança e praticidade para a higiene do seu pet. Ideal para manutenção regular das unhas com precisão e segurança."
+    ],
+    "composicao": "Estrutura de plástico ABS, lâminas em aço inox, lupa acoplada e apoio antiderrapante de borracha."
+  },
+  {
+    "id": 205,
+    "image": "/images/escova-cuidados-1.png",
+    "title": "Escova de Cerdas Macias",
+    "category": "Cuidados",
+    "subcategory": "Escovas",
+    "size": "Tamanho: Único",
+    "price": "R$24,50",
+    "descricao": [
+      "Escova de Cerdas Macias proporciona conforto, segurança e praticidade para o cuidado com os pelos do seu pet. Ideal para uso diário, removendo sujeiras e mantendo a pelagem saudável e brilhante."
+    ],
+    "composicao": "Cabo anatômico de plástico, cerdas sintéticas macias e base almofadada com tecnologia antiestática."
+  },
+  {
+    "id": 206,
+    "image": "/images/escova-cuidados-2.png",
+    "title": "Escova 2 em 1 Massageadora",
+    "category": "Cuidados",
+    "subcategory": "Escovas",
+    "size": "Tamanho: P",
+    "price": "R$28,90",
+    "descricao": [
+      "Escova 2 em 1 Massageadora proporciona conforto, segurança e praticidade para o cuidado com os pelos do seu pet. Ideal para uso diário, removendo sujeiras e mantendo a pelagem saudável e brilhante."
+    ],
+    "composicao": "Cerdas de silicone, base flexível e pegador emborrachado, com função massageadora e removedora de pelos."
+  },
+  {
+    "id": 207,
+    "image": "/images/escova-cuidados-3.png",
+    "title": "Escova com Cabo de Madeira",
+    "category": "Cuidados",
+    "subcategory": "Escovas",
+    "size": "Tamanho: M",
+    "price": "R$31,90",
+    "descricao": [
+      "Escova com Cabo de Madeira proporciona conforto, segurança e praticidade para o cuidado com os pelos do seu pet. Ideal para uso diário, removendo sujeiras e mantendo a pelagem saudável e brilhante."
+    ],
+    "composicao": "Cabo de madeira natural, cerdas firmes em nylon e ponta arredondada para evitar machucados."
+  },
+  {
+    "id": 208,
+    "image": "/images/lencos-1.png",
+    "title": "Lenços Umedecidos com Aloe Vera",
+    "category": "Cuidados",
+    "subcategory": "Lenços umedecidos",
+    "size": "Pacote: 50 unidades",
+    "price": "R$19,90",
+    "descricao": [
+      "Lenços Umedecidos com Aloe Vera proporcionam conforto, segurança e praticidade para a higiene do seu pet. Ideais para limpeza rápida das patas, pelos e áreas sensíveis, com ação calmante."
+    ],
+    "composicao": "Fibras naturais, extrato de aloe vera, glicerina vegetal, sem álcool e sem parabenos."
+  },
+  {
+    "id": 209,
+    "image": "/images/lencos-2.png",
+    "title": "Lenços Hipoalergênicos Neutros",
+    "category": "Cuidados",
+    "subcategory": "Lenços umedecidos",
+    "size": "Pacote: 75 unidades",
+    "price": "R$24,90",
+    "descricao": [
+      "Lenços Hipoalergênicos Neutros proporcionam conforto, segurança e praticidade para a higiene do seu pet. Ideais para limpeza rápida das patas, pelos e áreas sensíveis, com ação calmante."
+    ],
+    "composicao": "Tecido biodegradável, extratos vegetais calmantes, fórmula livre de fragrância, dermatologicamente testado."
+  },
+  {
+    "id": 210,
+    "image": "/images/lencos-3.png",
+    "title": "Lenços com Perfume Suave",
+    "category": "Cuidados",
+    "subcategory": "Lenços umedecidos",
+    "size": "Pacote: 100 unidades",
+    "price": "R$27,90",
+    "descricao": [
+      "Lenços com Perfume Suave proporcionam conforto, segurança e praticidade para a higiene do seu pet. Ideais para limpeza rápida das patas, pelos e áreas sensíveis, com ação calmante."
+    ],
+    "composicao": "Lenços ultramacios, fórmula com aloe vera e camomila, fragrância suave e livre de álcool."
+  },
+  {
+    "id": 211,
+    "image": "/images/racao-hamster-1.png",
+    "title": "Mix Nutritivo para Hamsters Jovens",
+    "category": "Rações para Roedores",
+    "subcategory": "Para hamsters",
+    "size": "Peso: 400g",
+    "price": "R$24,90",
+    "descricao": [
+      "O Mix Nutritivo para Hamsters Jovens é formulado para atender as necessidades alimentares durante a fase de crescimento, promovendo saúde e bem-estar. Contém uma combinação balanceada de grãos integrais, sementes, frutas desidratadas e vegetais ricos em fibras e vitaminas. Sua textura crocante ajuda na saúde bucal, enquanto os ingredientes selecionados oferecem energia e vitalidade. Ideal para manter o pelo brilhante, os ossos fortes e o sistema digestivo saudável."
+    ],
+    "composicao": "Milho integral, trigo, aveia, semente de girassol, cenoura desidratada, maçã seca, vitaminas A, D3, E, complexo B, minerais como cálcio e zinco, antioxidantes naturais e prebióticos para digestão saudável."
+  },
+  {
+    "id": 212,
+    "image": "/images/racao-hamster-2.png",
+    "title": "Ração Natural com Grãos e Frutas Secas",
+    "category": "Rações para Roedores",
+    "subcategory": "Para hamsters",
+    "size": "Peso: 500g",
+    "price": "R$26,50",
+    "descricao": [
+      "A Ração Natural com Grãos e Frutas Secas proporciona uma alimentação rica e equilibrada para hamsters adultos. Com ingredientes selecionados e sem corantes artificiais, favorece a digestão e a saúde intestinal, ao mesmo tempo que fornece energia de forma natural. Frutas secas como banana e maçã adicionam sabor e nutrição, tornando a refeição mais atrativa. Ideal para fortalecer o sistema imunológico e garantir uma vida ativa e saudável ao pet."
+    ],
+    "composicao": "Aveia, milho laminado, trigo, flocos de arroz, banana desidratada, maçã seca, linhaça, ervilhas, extrato de levedura, prebióticos, minerais quelatados, vitamina C estabilizada, antioxidantes naturais."
+  },
+  {
+    "id": 213,
+    "image": "/images/racao-hamster-3.png",
+    "title": "Ração Orgânica para Hamsters Adultos",
+    "category": "Rações para Roedores",
+    "subcategory": "Para hamsters",
+    "size": "Peso: 350g",
+    "price": "R$28,90",
+    "descricao": [
+      "A Ração Orgânica para Hamsters Adultos é ideal para tutores que buscam uma alimentação mais natural e saudável para seus pets. Produzida com ingredientes livres de pesticidas e aditivos químicos, essa ração é enriquecida com fibras, vitaminas e minerais. Sua fórmula exclusiva contribui para o bom funcionamento do metabolismo e manutenção do peso. Além disso, seu sabor atrativo estimula o apetite mesmo de hamsters mais exigentes."
+    ],
+    "composicao": "Grãos orgânicos certificados (milho, trigo, cevada), vegetais desidratados, cenoura, beterraba, frutas liofilizadas, levedura de cerveja, fontes naturais de ômega 3 e 6, minerais orgânicos e fibras vegetais."
+  },
+  {
+    "id": 214,
+    "image": "/images/racao-hamster-4.png",
+    "title": "Alimento Balanceado para Hamsters Ativos",
+    "category": "Rações para Roedores",
+    "subcategory": "Para hamsters",
+    "size": "Peso: 450g",
+    "price": "R$22,90",
+    "descricao": [
+      "Este alimento foi especialmente desenvolvido para hamsters com alta demanda energética. Sua composição contém cereais integrais, frutas secas e proteínas vegetais que auxiliam no desenvolvimento muscular e no bom funcionamento do organismo. A fórmula é balanceada para atender as necessidades nutricionais diárias, proporcionando pelos brilhantes, dentes saudáveis e um sistema imunológico fortalecido."
+    ],
+    "composicao": "Cevada, flocos de milho, proteína de soja, maçã seca, semente de girassol, extrato de alecrim, vitaminas do complexo B, vitamina E, zinco, ferro, cobre e fibras naturais que auxiliam no trânsito intestinal."
+  },
+  {
+    "id": 215,
+    "image": "/images/racao-hamster-5.png",
+    "title": "Ração Fortificada com Ômega 3 e 6",
+    "category": "Rações para Roedores",
+    "subcategory": "Para hamsters",
+    "size": "Peso: 300g",
+    "price": "R$25,90",
+    "descricao": [
+      "A Ração Fortificada com Ômega 3 e 6 oferece uma nutrição completa para hamsters que precisam manter a pele saudável e a pelagem sedosa. Os ácidos graxos essenciais presentes na fórmula têm ação anti-inflamatória, além de apoiar o sistema cardiovascular e nervoso. Sua combinação equilibrada de grãos, sementes e frutas promove também uma digestão eficiente e aumenta a vitalidade do animal no dia a dia."
+    ],
+    "composicao": "Milho, farelo de trigo, farinha de peixe, óleo de linhaça (fonte de ômega 3 e 6), cenoura desidratada, polpa de beterraba, antioxidantes naturais, prebióticos, minerais orgânicos e extrato de yucca."
+  },
+  {
+    "id": 216,
+    "image": "/images/racao-hamster-6.png",
+    "title": "Ração Premium para Hamsters - Maçã e Mel",
+    "category": "Rações para Roedores",
+    "subcategory": "Para hamsters",
+    "size": "Peso: 300g",
+    "price": "R$19,90",
+    "descricao": [
+      "A Ração Premium com Maçã e Mel é uma opção irresistível para hamsters exigentes. Sua fórmula conta com frutas e mel natural, que fornecem energia rápida e melhoram o sabor da alimentação. Rica em fibras e antioxidantes, auxilia na digestão e previne doenças comuns em pequenos roedores. Seu tamanho e textura foram pensados para ajudar no desgaste dos dentes, contribuindo para a saúde bucal dos pets."
+    ],
+    "composicao": "Milho moído, flocos de aveia, maçã desidratada, mel natural, alfafa, cenoura, levedura seca, vitaminas A, C, E, minerais quelatados, fibras vegetais e antioxidantes naturais."
+  },
+  {
+    "id": 217,
+    "image": "/images/racao-porquinho-1.png",
+    "title": "Ração Especial para Porquinhos-da-índia - Cenoura e Feno",
+    "category": "Rações para Roedores",
+    "subcategory": "Para porquinhos-da-índia",
+    "size": "Peso: 1kg",
+    "price": "R$34,90",
+    "descricao": [
+      "Desenvolvida com ingredientes de alta qualidade, a Ração Especial para Porquinhos-da-índia oferece uma dieta completa com feno e cenoura desidratada. Rica em fibras, essa ração melhora o trânsito intestinal e previne doenças digestivas. Contém vitamina C estabilizada, essencial para a saúde dessa espécie, que não a produz naturalmente. Com um aroma agradável e textura crocante, garante palatabilidade e nutrição de alto nível para o dia a dia."
+    ],
+    "composicao": "Feno de alfafa, cenoura desidratada, milho, flocos de soja, polpa de beterraba, vitamina C estabilizada, prebióticos, óleos vegetais, antioxidantes naturais, levedura de cerveja, minerais essenciais e fibras."
+  },
+  {
+    "id": 218,
+    "image": "/images/racao-porquinho-2.png",
+    "title": "Ração Natural com Ervas Aromáticas",
+    "category": "Rações para Roedores",
+    "subcategory": "Para porquinhos-da-índia",
+    "size": "Peso: 800g",
+    "price": "R$29,90",
+    "descricao": [
+      "Feita com ervas aromáticas e ingredientes selecionados, esta ração oferece uma alimentação balanceada, promovendo saúde e bem-estar para porquinhos-da-índia. Livre de corantes e conservantes artificiais, fortalece o sistema imunológico e contribui para um pelo brilhante. A presença de fibras solúveis e insolúveis favorece a digestão e a saúde intestinal, tornando-se ideal para o consumo diário do seu pet."
+    ],
+    "composicao": "Feno de capim, alfafa, tomilho, hortelã, camomila, milho integral, aveia, frutas secas, levedura seca, prebióticos, vitamina C, D3, E, cálcio, ferro, zinco e antioxidantes naturais."
+  },
+  {
+    "id": 219,
+    "image": "/images/racao-porquinho-3.png",
+    "title": "Alimento Completo Rico em Vitamina C",
+    "category": "Rações para Roedores",
+    "subcategory": "Para porquinhos-da-índia",
+    "size": "Peso: 1,2kg",
+    "price": "R$38,90",
+    "descricao": [
+      "Ideal para o consumo diário, este alimento é rico em vitamina C, nutriente essencial para a saúde dos porquinhos-da-índia. Sua fórmula foi desenvolvida com grãos selecionados, frutas e legumes desidratados, promovendo uma dieta equilibrada. A combinação de ingredientes fortalece o sistema imunológico, previne escorbuto e mantém a pelagem bonita e saudável. Com excelente palatabilidade, agrada até os pets mais exigentes."
+    ],
+    "composicao": "Grãos integrais, feno de alfafa, cenoura seca, maçã desidratada, vitamina C estabilizada, linhaça, prebióticos, vitaminas A, D3, E, complexo B, fibras, antioxidantes naturais e minerais orgânicos."
+  },
+  {
+    "id": 220,
+    "image": "/images/racao-porquinho-4.png",
+    "title": "Mix Nutricional com Feno de Alfafa",
+    "category": "Rações para Roedores",
+    "subcategory": "Para porquinhos-da-índia",
+    "size": "Peso: 900g",
+    "price": "R$32,90",
+    "descricao": [
+      "Este mix é indicado para manter a nutrição completa dos porquinhos-da-índia. Rico em fibras provenientes do feno de alfafa, auxilia no desgaste natural dos dentes e na regulação intestinal. A inclusão de vegetais e frutas desidratadas complementa a dieta com vitaminas e minerais importantes. Sua fórmula promove ossos fortes, boa digestão e maior vitalidade, sendo ideal para todas as fases da vida do pet."
+    ],
+    "composicao": "Feno de alfafa, milho laminado, ervilhas secas, flocos de cenoura, maçã, beterraba desidratada, prebióticos, minerais quelatados, antioxidantes naturais e vitamina C estabilizada."
+  },
+  {
+    "id": 221,
+    "image": "/images/racao-porquinho-5.png",
+    "title": "Ração Veggie com Legumes Desidratados",
+    "category": "Rações para Roedores",
+    "subcategory": "Para porquinhos-da-índia",
+    "size": "Peso: 850g",
+    "price": "R$30,50",
+    "descricao": [
+      "A Ração Veggie combina legumes desidratados com cereais naturais, oferecendo uma alternativa saudável e saborosa. Indicada para porquinhos-da-índia que necessitam de uma dieta leve e rica em fibras, contribui para o bom funcionamento intestinal e o controle de peso. A ausência de corantes e conservantes artificiais torna o produto ainda mais seguro para o dia a dia do seu pet."
+    ],
+    "composicao": "Cenoura, abobrinha, milho integral, farelo de soja, aveia em flocos, levedura de cerveja, vitamina C, prebióticos, extrato de alecrim, fibras alimentares, minerais orgânicos e antioxidantes naturais."
+  },
+  {
+    "id": 222,
+    "image": "/images/racao-porquinho-6.png",
+    "title": "Ração Premium para Pelagem Brilhante",
+    "category": "Rações para Roedores",
+    "subcategory": "Para porquinhos-da-índia",
+    "size": "Peso: 1kg",
+    "price": "R$36,90",
+    "descricao": [
+      "Especialmente desenvolvida para porquinhos-da-índia com pelagem longa, esta ração contém nutrientes que promovem brilho e força aos pelos. Os ingredientes naturais ajudam na prevenção de alergias, fortalecem o sistema imunológico e oferecem uma dieta equilibrada. Com fibras e antioxidantes, também favorece a digestão e proporciona mais energia e disposição ao seu animal de estimação."
+    ],
+    "composicao": "Farelo de trigo, óleo de linhaça, milho moído, feno de alfafa, maçã seca, vitaminas A, E, C, biotina, zinco quelatado, antioxidantes naturais, levedura e prebióticos."
+  },
+  {
+    "id": 223,
+    "image": "/images/racao-coelho-1.png",
+    "title": "Ração Premium para Coelhos Adultos Feno",
+    "category": "Rações para Roedores",
+    "subcategory": "Para coelhos",
+    "size": "Peso: 1kg",
+    "price": "R$33,90",
+    "descricao": "Desenvolvida especialmente para coelhos adultos, esta ração premium é enriquecida com fibras de alta qualidade provenientes de feno selecionado. Sua fórmula ajuda a manter a saúde digestiva e promove o desgaste adequado dos dentes. Possui aroma suave e textura crocante que agrada até os coelhos mais exigentes. Ideal para garantir uma dieta balanceada, contém os nutrientes necessários para a vitalidade, brilho da pelagem e bom funcionamento intestinal. Indicada para uso diário, contribui para o bem-estar e longevidade do seu pet.",
+    "composicao": "Feno de capim Tifton, farelo de soja, polpa de beterraba, óleo vegetal, prebióticos (MOS e FOS), extrato de yucca, vitaminas (A, D3, E, C), minerais orgânicos e inorgânicos, zinco, ferro, cobre, selênio, biotina, niacina, ácido fólico, antioxidantes naturais e aromatizantes. Livre de corantes artificiais e transgênicos. Contém fibras longas essenciais para a digestão eficiente e manutenção do sistema imunológico saudável."
+  },
+  {
+    "id": 224,
+    "image": "/images/racao-coelho-2.png",
+    "title": "Ração Natural com Alfafa e Camomila",
+    "category": "Rações para Roedores",
+    "subcategory": "Para coelhos",
+    "size": "Peso: 900g",
+    "price": "R$31,90",
+    "descricao": "Feita com ingredientes naturais, esta ração combina alfafa, camomila e outros vegetais que promovem o bem-estar físico e emocional dos coelhos. A alfafa fornece cálcio e proteínas essenciais, enquanto a camomila possui propriedades calmantes, ajudando a reduzir o estresse. Sua textura crocante favorece o desgaste dental natural e sua composição equilibrada contribui para uma digestão eficiente. Livre de corantes e conservantes artificiais, é indicada para coelhos de todas as idades e ideal para uma alimentação saudável e saborosa.",
+    "composicao": "Alfafa desidratada, extrato de camomila, farelo de trigo, milho integral moído, polpa cítrica, óleo de linhaça, minerais (ferro, zinco, manganês), vitaminas A, C e E, levedura de cerveja, prebióticos naturais (FOS), antioxidantes naturais, extrato de alecrim, manjericão desidratado e aroma natural. Rica em fibras e nutrientes essenciais para a saúde do trato gastrointestinal e do sistema imunológico dos coelhos."
+  },
+  {
+    "id": 225,
+    "image": "/images/racao-coelho-3.png",
+    "title": "Mix de Grãos com Ervas Naturais",
+    "category": "Rações para Roedores",
+    "subcategory": "Para coelhos",
+    "size": "Peso: 800g",
+    "price": "R$29,50",
+    "descricao": "Este mix exclusivo de grãos e ervas naturais oferece variedade e sabor à dieta do seu coelho. Contém ingredientes selecionados que promovem uma alimentação rica em fibras, vitaminas e minerais essenciais. As ervas naturais, como hortelã e salsa, têm propriedades digestivas e contribuem para o bom funcionamento do organismo. É uma opção saudável e deliciosa para complementar a rotina alimentar dos coelhos, estimulando o apetite e o interesse pela comida. Ideal para enriquecer o ambiente e a saúde do seu pet.",
+    "composicao": "Aveia em grãos, cevada, milho moído, ervilhas, cenoura desidratada, hortelã, salsa, manjericão, sementes de linhaça, farelo de arroz, vitaminas A, D, E e C, minerais (ferro, zinco, manganês, selênio), levedura de cerveja, prebióticos, antioxidantes naturais e óleo de girassol. Sem conservantes artificiais. Proporciona energia, digestão equilibrada e suporte imunológico para coelhos de todas as idades."
+  },
+  {
+    "id": 226,
+    "image": "/images/racao-coelho-4.png",
+    "title": "Ração Fortificada para Crescimento Saudável",
+    "category": "Rações para Roedores",
+    "subcategory": "Para coelhos",
+    "size": "Peso: 1,2kg",
+    "price": "R$37,90",
+    "descricao": "Perfeita para coelhos em fase de crescimento, esta ração fortificada oferece uma combinação equilibrada de proteínas, cálcio e vitaminas essenciais. Ajuda no desenvolvimento ósseo, muscular e na manutenção do sistema imunológico. Com textura ideal para o desgaste dos dentes e sabor atrativo, é indicada para filhotes e jovens adultos. Sua fórmula contém ingredientes naturais e fortificantes que promovem uma alimentação completa e balanceada, incentivando o crescimento saudável desde os primeiros meses de vida.",
+    "composicao": "Farelo de soja, feno de alfafa, milho integral moído, óleo de milho, farinha de cenoura, vitaminas (A, D3, E, K, C), minerais quelatados (zinco, ferro, cobre), prebióticos, extrato de yucca, levedura de cerveja, fibras de polpa de beterraba, aminoácidos essenciais, biotina e antioxidantes naturais. Contém cálcio e fósforo em proporções ideais para o desenvolvimento saudável de coelhos jovens."
+  },
+  {
+    "id": 227,
+    "image": "/images/racao-coelho-5.png",
+    "title": "Ração para Coelhos Filhotes com Prebióticos",
+    "category": "Rações para Roedores",
+    "subcategory": "Para coelhos",
+    "size": "Peso: 750g",
+    "price": "R$28,90",
+    "descricao": "Especialmente desenvolvida para coelhos filhotes, esta ração é rica em nutrientes que auxiliam no crescimento, fortalecimento dos ossos e desenvolvimento do sistema digestivo. Contém prebióticos que favorecem a flora intestinal, além de ser altamente palatável. Com textura suave e ingredientes de fácil digestão, é ideal para a transição alimentar após o desmame. Proporciona uma alimentação segura e completa, ajudando a construir uma base sólida para a saúde futura do seu pet.",
+    "composicao": "Farelo de soja, milho moído, farinha de alfafa, polpa de beterraba, óleo de girassol, vitaminas (A, D, E, C), minerais orgânicos (zinco, cobre, ferro), prebióticos (FOS e MOS), extrato de yucca, aminoácidos essenciais, fibras naturais, extrato de camomila e antioxidantes naturais. Sem corantes artificiais. Indicado para coelhos de até 6 meses de idade, promovendo saúde e crescimento equilibrado."
+  },
+  {
+    "id": 228,
+    "image": "/images/racao-coelho-6.png",
+    "title": "Alimento Integral com Cenoura e Maçã",
+    "category": "Rações para Roedores",
+    "subcategory": "Para coelhos",
+    "size": "Peso: 1kg",
+    "price": "R$34,50",
+    "descricao": "Com uma combinação deliciosa de cenoura e maçã, este alimento integral oferece sabor e nutrição em cada mordida. Rico em fibras e antioxidantes, ajuda na digestão e fortalece o sistema imunológico. Sua textura crocante colabora para o desgaste natural dos dentes, enquanto o aroma frutado estimula o apetite. Pode ser oferecido diariamente como base da alimentação ou em conjunto com feno e vegetais frescos. Ideal para coelhos adultos que merecem uma dieta equilibrada e saborosa.",
+    "composicao": "Farinha de trigo, cenoura desidratada, maçã desidratada, farelo de soja, óleo de canola, extrato de levedura, vitaminas (A, C, E), minerais (ferro, zinco, manganês), prebióticos naturais, antioxidantes, fibras vegetais, extrato de hortelã e camomila. Sem corantes ou conservantes artificiais. Fornece energia, reforça a imunidade e contribui para a saúde digestiva e dental do seu coelho."
+  },
+  {
+    "id": 229,
+    "image": "/images/gaiola-tunel-1.png",
+    "title": "Gaiola com Túnel Aventura",
+    "category": "Gaiolas",
+    "subcategory": "Com túnel",
+    "size": "Tamanho: 60x40x45cm",
+    "price": "R$189,90",
+    "descricao": [
+      "A Gaiola com Túnel Aventura é perfeita para pequenos roedores exploradores. Seu túnel transparente estimula a atividade física e oferece diversão constante. Ideal para hamsters, possui ótima ventilação, bandeja removível para facilitar a limpeza e estrutura resistente. Um espaço seguro e confortável que ajuda a manter o bem-estar do pet, promovendo entretenimento e reduzindo o estresse. O design moderno ainda contribui com a decoração do ambiente."
+    ],
+    "composicao": "Estrutura metálica com pintura epóxi atóxica, base em plástico resistente, túnel de acrílico transparente, peças de encaixe em polipropileno, sem componentes tóxicos, ideal para ambientes internos."
+  },
+  {
+    "id": 230,
+    "image": "/images/gaiola-tunel-2.png",
+    "title": "Gaiola com Túnel Divertido",
+    "category": "Gaiolas",
+    "subcategory": "Com túnel",
+    "size": "Tamanho: 55x35x40cm",
+    "price": "R$175,00",
+    "descricao": [
+      "A Gaiola com Túnel Divertido proporciona um ambiente completo para o seu hamster brincar, descansar e explorar. Inclui túnel lateral com visão externa, ideal para manter o pet ativo e entretido. Fácil de montar e limpar, essa gaiola foi pensada para combinar praticidade e segurança, promovendo um habitat estimulante para o desenvolvimento saudável do seu roedor. Perfeita para ambientes internos e apartamentos."
+    ],
+    "composicao": "Base plástica com proteção UV, grades metálicas galvanizadas, túnel em PVC atóxico, encaixes reforçados de plástico ABS, materiais não corrosivos e próprios para pequenos animais."
+  },
+  {
+    "id": 231,
+    "image": "/images/gaiola-tunel-3.png",
+    "title": "Gaiola com Túnel Transparente",
+    "category": "Gaiolas",
+    "subcategory": "Com túnel",
+    "size": "Tamanho: 58x38x42cm",
+    "price": "R$199,90",
+    "descricao": [
+      "Com um design moderno e funcional, a Gaiola com Túnel Transparente oferece conforto e entretenimento ao seu pet. Seu túnel liga dois compartimentos da gaiola, estimulando a curiosidade natural do roedor. Ideal para quem busca um lar completo e enriquecedor para o animal. Seu tamanho é ideal para espaços compactos, mantendo o ambiente do pet sempre limpo e arejado. Uma escolha que une beleza, segurança e diversão em um só produto."
+    ],
+    "composicao": "Estrutura em aço pintado, bandeja removível em plástico polipropileno, tubo acrílico transparente, conexões de segurança com trava dupla, componentes resistentes ao desgaste e à umidade."
+  },
+  {
+    "id": 232,
+    "image": "/images/gaiola-multiplano-1.png",
+    "title": "Gaiola Multiplano Premium",
+    "category": "Gaiolas",
+    "subcategory": "Multiplano",
+    "size": "Tamanho: 70x50x60cm",
+    "price": "R$249,90",
+    "descricao": [
+      "A Gaiola Multiplano Premium é ideal para roedores que amam explorar. Com diversos andares e rampas, estimula a movimentação e o comportamento natural do pet. Espaçosa e de fácil higienização, proporciona um ambiente confortável, seguro e interativo. Indicada para coelhos, porquinhos-da-índia e hamsters grandes. Seu visual sofisticado combina com qualquer ambiente e oferece ao animal a liberdade de brincar e descansar com conforto."
+    ],
+    "composicao": "Grades de aço com pintura eletrostática, plataformas e rampas de plástico resistente, bandeja plástica removível, conectores de nylon durável, materiais atóxicos e de alta durabilidade."
+  },
+  {
+    "id": 233,
+    "image": "/images/gaiola-multiplano-2.png",
+    "title": "Gaiola Multiplano Compacta",
+    "category": "Gaiolas",
+    "subcategory": "Multiplano",
+    "size": "Tamanho: 65x45x55cm",
+    "price": "R$229,00",
+    "descricao": [
+      "Projetada para roedores ativos, a Gaiola Multiplano Compacta possui dois andares conectados por rampas antiderrapantes, oferecendo mais espaço vertical em um formato compacto. Ótima ventilação e segurança em cada detalhe. Fácil de limpar, é ideal para espaços menores sem abrir mão do conforto do seu animal de estimação. Estimula a atividade física e mental dos roedores, tornando os momentos dentro da gaiola mais dinâmicos."
+    ],
+    "composicao": "Estrutura em aço inoxidável, bandejas e plataformas em polietileno, rampas com acabamento emborrachado, peças de fixação reforçadas, materiais laváveis e livres de substâncias nocivas."
+  },
+  {
+    "id": 234,
+    "image": "/images/gaiola-multiplano-3.png",
+    "title": "Gaiola Multiplano com Escadas",
+    "category": "Gaiolas",
+    "subcategory": "Multiplano",
+    "size": "Tamanho: 72x48x58cm",
+    "price": "R$259,90",
+    "descricao": [
+      "A Gaiola Multiplano com Escadas é uma opção espaçosa e versátil para seu roedor. Com degraus e plataformas seguras, incentiva a movimentação e proporciona uma rotina mais saudável e divertida. Sua montagem é prática e o sistema de abertura frontal facilita o manuseio do animal. Ótima escolha para quem quer proporcionar conforto e entretenimento ao pet, além de facilitar a rotina de cuidados com praticidade e estilo."
+    ],
+    "composicao": "Grades com pintura protetora atóxica, escadas plásticas com base antiderrapante, bandeja plástica deslizante, conectores reforçados com trava de segurança, estrutura durável e ventilada."
+  },
+  {
+    "id": 235,
+    "image": "/images/rodinha-1.png",
+    "title": "Rodinha Silenciosa para Roedores",
+    "category": "Brinquedos",
+    "subcategory": "Rodinhas",
+    "size": "Diâmetro: 18cm",
+    "price": "R$39,90",
+    "descricao": [
+      "A Rodinha Silenciosa para Roedores foi projetada especialmente para garantir exercícios seguros e silenciosos. Ideal para hamsters e pequenos roedores, promove atividade física regular, evitando o tédio e o sedentarismo. Seu sistema de rotação suave reduz ruídos e garante o conforto do pet, mesmo em ambientes internos. Feita com materiais resistentes e de fácil higienização, oferece estabilidade e durabilidade para o uso diário do seu pequeno companheiro."
+    ],
+    "composicao": "Plástico PP atóxico, eixo metálico com rolamento silencioso, base antiderrapante de silicone, sem componentes tóxicos, fácil de lavar e resistente ao uso contínuo."
+  },
+  {
+    "id": 236,
+    "image": "/images/rodinha-2.png",
+    "title": "Roda de Exercício com Apoio",
+    "category": "Brinquedos",
+    "subcategory": "Rodinhas",
+    "size": "Diâmetro: 20cm",
+    "price": "R$45,00",
+    "descricao": [
+      "A Roda de Exercício com Apoio oferece uma estrutura firme e segura para o seu roedor praticar exercícios diários. Desenvolvida com material antiderrapante, permite que o animal corra com estabilidade e conforto. Seu design ergonômico e a base com suporte removível tornam a limpeza prática e rápida. Ideal para manter seu pet ativo e saudável, estimulando o instinto natural de movimentação e proporcionando uma vida mais longa e feliz ao seu bichinho."
+    ],
+    "composicao": "Estrutura de plástico ABS, superfície com textura antiderrapante, rolamento com eixo de aço, base de polietileno resistente e lavável, materiais atóxicos e livres de BPA."
+  },
+  {
+    "id": 237,
+    "image": "/images/rodinha-3.png",
+    "title": "Roda de Corrida Transparente",
+    "category": "Brinquedos",
+    "subcategory": "Rodinhas",
+    "size": "Diâmetro: 22cm",
+    "price": "R$52,90",
+    "descricao": [
+      "A Roda de Corrida Transparente une funcionalidade e beleza para a rotina do seu roedor. Com material translúcido, permite acompanhar as atividades do pet, ao mesmo tempo em que proporciona uma corrida silenciosa e confortável. Indicada para hamsters, gerbils e outros pequenos roedores, essa rodinha é essencial para manter o bem-estar físico do animal. Fácil de montar e lavar, combina perfeitamente com qualquer tipo de gaiola ou habitat."
+    ],
+    "composicao": "Plástico acrílico transparente, rolamento com eixo reforçado, base de borracha macia para evitar ruído, estrutura livre de produtos tóxicos e design ergonômico para patas pequenas."
+  },
+  {
+    "id": 238,
+    "image": "/images/escadinha-1.png",
+    "title": "Escadinha de Madeira Natural",
+    "category": "Brinquedos",
+    "subcategory": "Escadinhas",
+    "size": "Tamanho: 30cm",
+    "price": "R$29,90",
+    "descricao": [
+      "A Escadinha de Madeira Natural é perfeita para roedores que adoram escalar e explorar. Fabricada com madeira tratada, é segura para roer e proporciona um estímulo saudável ao comportamento natural dos pets. Ideal para coelhos, hamsters e porquinhos-da-índia, pode ser instalada em gaiolas ou áreas de lazer. Além de funcional, também ajuda no desgaste natural dos dentes. Um acessório que une diversão, exercício e saúde bucal para o seu amiguinho peludo."
+    ],
+    "composicao": "Madeira de pinus tratada, sem verniz, conectores metálicos para fixação segura, sem colas tóxicas, resistente à umidade e livre de produtos químicos prejudiciais."
+  },
+  {
+    "id": 239,
+    "image": "/images/escadinha-2.png",
+    "title": "Escadinha Flexível para Gaiolas",
+    "category": "Brinquedos",
+    "subcategory": "Escadinhas",
+    "size": "Tamanho: 35cm",
+    "price": "R$33,50",
+    "descricao": [
+      "A Escadinha Flexível para Gaiolas é um brinquedo versátil e divertido para roedores pequenos. Pode ser moldada em diferentes formatos, como ponte ou rampa, adaptando-se à estrutura da gaiola. Estimula a atividade física e contribui para o enriquecimento ambiental do pet, reduzindo o estresse. Seu material é resistente, leve e fácil de instalar. Ideal para quem busca um acessório prático, criativo e funcional para o bem-estar do roedor."
+    ],
+    "composicao": "Madeira de reflorestamento, arame interno flexível, acabamento liso para não machucar as patas, livre de tinta, verniz ou colas industriais, 100% biodegradável e seguro."
+  },
+  {
+    "id": 240,
+    "image": "/images/escadinha-3.png",
+    "title": "Escada de Níveis com Plataformas",
+    "category": "Brinquedos",
+    "subcategory": "Escadinhas",
+    "size": "Tamanho: 40cm",
+    "price": "R$39,00",
+    "descricao": [
+      "A Escada de Níveis com Plataformas é ideal para roedores curiosos que adoram subir e explorar. Com degraus largos e superfícies planas, proporciona diversão e estímulo físico. Pode ser usada em gaiolas multiplano ou solta em áreas de recreação. Fabricada com madeira resistente e segura para roer, auxilia também na manutenção dos dentes. Um item multifuncional para enriquecer a rotina do seu pet com segurança e interatividade."
+    ],
+    "composicao": "Plataformas de madeira natural, conexões com parafusos inoxidáveis, acabamento liso sem farpas, livre de colas industriais, sem pigmentos artificiais, segura para contato prolongado."
+  },
+  {
+    "id": 241,
+    "image": "/images/vitamina-1.png",
+    "title": "Suplemento Vitamínico Diário",
+    "category": "Cuidado com a saúde",
+    "subcategory": "Vitaminas",
+    "size": "Frasco: 50ml",
+    "price": "R$24,90",
+    "descricao": [
+      "O Suplemento Vitamínico Diário foi desenvolvido especialmente para reforçar a imunidade de roedores. Contém vitaminas essenciais como A, D3, E e complexo B, promovendo mais energia, crescimento saudável e prevenção de doenças. Pode ser adicionado à água ou alimento do pet, sendo recomendado para hamsters, porquinhos-da-índia e coelhos. Um reforço nutricional prático que ajuda no equilíbrio do organismo e na manutenção da saúde em todas as fases da vida."
+    ],
+    "composicao": "Água purificada, vitamina A, D3, E, complexo B (B1, B2, B6 e B12), conservantes naturais, sem corantes artificiais, sem açúcar, formulação líquida de fácil absorção e palatável."
+  },
+  {
+    "id": 242,
+    "image": "/images/vitamina-2.png",
+    "title": "Gotas de Energia para Roedores",
+    "category": "Cuidado com a saúde",
+    "subcategory": "Vitaminas",
+    "size": "Frasco: 30ml",
+    "price": "R$21,90",
+    "descricao": [
+      "As Gotas de Energia para Roedores oferecem uma combinação equilibrada de nutrientes essenciais que promovem mais disposição, fortalecimento dos ossos e melhor qualidade de vida. Ideal para períodos de troca de pelos, estresse ou recuperação de doenças. Com fórmula líquida, é de fácil administração e pode ser utilizada diariamente. Indicado para todas as espécies de roedores, esse suplemento auxilia na saúde geral e no desempenho metabólico do pet."
+    ],
+    "composicao": "Solução aquosa de vitaminas A, C, D3, E e B12, minerais quelatados, extrato de guaraná natural, conservante natural, livre de aditivos sintéticos, sem açúcar ou lactose."
+  },
+  {
+    "id": 243,
+    "image": "/images/vitamina-3.png",
+    "title": "Fortificante Natural com Ômega",
+    "category": "Cuidado com a saúde",
+    "subcategory": "Vitaminas",
+    "size": "Frasco: 60ml",
+    "price": "R$29,90",
+    "descricao": [
+      "O Fortificante Natural com Ômega é um suplemento completo que une vitaminas, minerais e ácidos graxos essenciais para a saúde do seu roedor. Auxilia no brilho da pelagem, fortalece o sistema imunológico e atua no desenvolvimento ósseo e muscular. Recomendado para coelhos e porquinhos-da-índia, é palatável e fácil de administrar. Um cuidado diário que faz toda a diferença na qualidade de vida e longevidade do seu pet."
+    ],
+    "composicao": "Óleo de linhaça, ômega 3 e 6, vitaminas A, D, E e K, zinco orgânico, selênio, base líquida sabor cenoura, conservantes naturais, livre de conservantes sintéticos e aditivos artificiais."
+  },
+  {
+    "id": 244,
+    "image": "/images/dentes-1.png",
+    "title": "Bloco Dental de Cálcio Natural",
+    "category": "Cuidado com a saúde",
+    "subcategory": "Itens para dentes",
+    "size": "Peso: 100g",
+    "price": "R$18,90",
+    "descricao": [
+      "O Bloco Dental de Cálcio Natural é um item essencial para a saúde bucal dos roedores. Ajuda a desgastar os dentes de forma natural, evitando o crescimento excessivo e possíveis problemas dentários. Além disso, fornece cálcio, mineral importante para ossos e dentes fortes. Pode ser colocado na gaiola como brinquedo comestível, proporcionando estímulo e enriquecimento ambiental. Indicado para coelhos, porquinhos-da-índia e hamsters."
+    ],
+    "composicao": "Carbonato de cálcio, farinha de alfafa, aroma natural de frutas, sem açúcar, corantes ou conservantes artificiais, textura firme e comestível, 100% natural e biodegradável."
+  },
+  {
+    "id": 245,
+    "image": "/images/dentes-2.png",
+    "title": "Madeira Mineral para Roer",
+    "category": "Cuidado com a saúde",
+    "subcategory": "Itens para dentes",
+    "size": "Pacote: 3 unidades",
+    "price": "R$22,00",
+    "descricao": [
+      "A Madeira Mineral para Roer é ideal para manter os dentes dos roedores no tamanho adequado, evitando o desgaste irregular e problemas de mastigação. Enriquecida com minerais naturais, também auxilia na suplementação alimentar. Seu formato atrativo estimula o pet a brincar e roer com frequência, aliviando o estresse. Pode ser pendurada ou deixada solta na gaiola, oferecendo mais autonomia ao animal durante o uso diário."
+    ],
+    "composicao": "Madeira de reflorestamento, sais minerais naturais, formato cilíndrico com furos, livre de químicos e corantes, produto sustentável, seguro e comestível para roedores."
+  },
+  {
+    "id": 246,
+    "image": "/images/dentes-3.png",
+    "title": "Mordedor Natural com Feno",
+    "category": "Cuidado com a saúde",
+    "subcategory": "Itens para dentes",
+    "size": "Unidade: 1 bastão",
+    "price": "R$19,50",
+    "descricao": [
+      "O Mordedor Natural com Feno é uma excelente opção para cuidar dos dentes do seu roedor enquanto oferece uma experiência saborosa e saudável. Produzido com feno compactado e ingredientes naturais, estimula a mastigação, ajuda a manter os dentes limpos e promove bem-estar. Também funciona como um brinquedo nutritivo e é ideal para coelhos e porquinhos-da-índia. Um item indispensável para enriquecer o dia a dia do seu pet com saúde e diversão."
+    ],
+    "composicao": "Feno de timothy, farinha de alfafa, amido vegetal, extrato de maçã, sem açúcar ou aditivos, compactado em formato cilíndrico, 100% natural e seguro para consumo diário."
+  },
+
+
+
 ];
 
 
