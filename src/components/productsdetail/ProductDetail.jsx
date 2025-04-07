@@ -4152,6 +4152,436 @@ const produtosData = [
     ],
     "composicao": "Tiosulfato de sódio, vitaminas do complexo B."
   },
+    {
+      "id": 313,
+      "image": "/images/vitamina-cao-1.png",
+      "title": "Vitamina A para Cães",
+      "category": "Vitaminas",
+      "subcategory": "Para cães",
+      "size": "Embalagem: 60 cápsulas",
+      "price": "R$39,90",
+       "descricao": [
+         "Suplemento vitamínico essencial para a saúde da visão e do sistema imunológico de cães de todas as raças e idades.",
+       ],
+       "composicao": "Vitamina A (Retinol), excipientes."
+    },
+    {
+      "id": 314,
+      "image": "/images/vitamina-cao-2.png",
+      "title": "Complexo B para Cães",
+      "category": "Vitaminas",
+      "subcategory": "Para cães",
+      "size": "Embalagem: 30 comprimidos",
+      "price": "R$45,90",
+       "descricao": [
+         "Complexo de vitaminas do grupo B que auxilia no metabolismo energético, na saúde do sistema nervoso e na manutenção da pelagem saudável dos cães.",
+       ],
+       "composicao": "Vitaminas B1, B2, B3, B5, B6, B9, B12, excipientes."
+    },
+    {
+      "id": 315,
+      "image": "/images/vitamina-cao-3.png",
+      "title": "Vitamina C Reforço Imunológico para Cães",
+      "category": "Vitaminas",
+      "subcategory": "Para cães",
+      "size": "Embalagem: 100g em pó",
+      "price": "R$52,90",
+       "descricao": [
+         "Suplemento de Vitamina C em pó para cães, importante antioxidante que fortalece o sistema imunológico e auxilia na absorção de outros nutrientes.",
+       ],
+       "composicao": "Vitamina C (Ácido Ascórbico)."
+    },
+    {
+      "id": 316,
+      "image": "/images/vitamina-gato-1.png",
+      "title": "Taurina para Gatos",
+      "category": "Vitaminas",
+      "subcategory": "Para gatos",
+      "size": "Embalagem: 60 cápsulas",
+      "price": "R$42,90",
+       "descricao": [
+         "Suplemento de taurina, aminoácido essencial para a saúde do coração, da visão e do sistema nervoso de gatos.",
+       ],
+       "composicao": "Taurina, excipientes."
+    },
+    {
+      "id": 317,
+      "image": "/images/vitamina-gato-2.png",
+      "title": "Ômega 3 e 6 para Gatos",
+      "category": "Vitaminas",
+      "subcategory": "Para gatos",
+      "size": "Frasco: 30ml",
+      "price": "R$58,90",
+       "descricao": [
+         "Suplemento líquido de ômega 3 e 6, ácidos graxos essenciais que contribuem para a saúde da pele, da pelagem e das articulações dos gatos.",
+       ],
+       "composicao": "Óleo de peixe, óleo de linhaça."
+    },
+    {
+      "id": 318,
+      "image": "/images/vitamina-gato-3.png",
+      "title": "Vitaminas Essenciais para Gatos Filhotes",
+      "category": "Vitaminas",
+      "subcategory": "Para gatos",
+      "size": "Embalagem: 45g em pasta",
+      "price": "R$49,90",
+       "descricao": [
+         "Pasta vitamínica palatável formulada para atender às necessidades nutricionais de gatos filhotes em fase de crescimento.",
+       ],
+       "composicao": "Vitaminas A, D, E, B complexo, cálcio, fósforo."
+    },
+    {
+      "id": 319,
+      "image": "/images/multivitaminico-1.png",
+      "title": "Multivitamínico Completo para Cães",
+      "category": "Vitaminas",
+      "subcategory": "Multivitamínicos",
+      "size": "Embalagem: 60 tabletes mastigáveis",
+      "price": "R$69,90",
+       "descricao": [
+         "Suplemento multivitamínico e mineral completo para cães, fornecendo todos os nutrientes essenciais para a saúde geral, energia e vitalidade.",
+       ],
+       "composicao": "Vitaminas A, C, D, E, K, B complexo, cálcio, fósforo, ferro, zinco, selênio."
+    },
+    {
+      "id": 320,
+      "image": "/images/multivitaminico-2.png",
+      "title": "Multivitamínico para Gatos com Taurina",
+      "category": "Vitaminas",
+      "subcategory": "Multivitamínicos",
+      "size": "Embalagem: 30 cápsulas",
+      "price": "R$55,90",
+       "descricao": [
+         "Multivitamínico para gatos enriquecido com taurina, essencial para a saúde felina, além de outras vitaminas e minerais importantes.",
+       ],
+       "composicao": "Taurina, vitaminas A, D, E, B complexo, minerais."
+    },
+    {
+      "id": 321,
+      "image": "/images/multivitaminico-3.png",
+      "title": "Multivitamínico Líquido para Cães e Gatos",
+      "category": "Vitaminas",
+      "subcategory": "Multivitamínicos",
+      "size": "Frasco: 120ml",
+      "price": "R$75,90",
+       "descricao": [
+         "Multivitamínico líquido palatável para cães e gatos, fácil de administrar e ideal para animais com dificuldade em ingerir comprimidos.",
+       ],
+       "composicao": "Vitaminas A, D3, E, B1, B2, B6, B12, biotina, niacina."
+    },
+    {
+      "id": 322,
+      "image": "/images/suplemento-articular-1.png",
+      "title": "Suplemento Articular para Cães com Condroitina e Glicosamina",
+      "category": "Suplementos",
+      "subcategory": "Articulares",
+      "size": "Embalagem: 60 tabletes",
+      "price": "R$89,90",
+       "descricao": [
+         "Suplemento articular para cães, formulado com condroitina e glicosamina para auxiliar na saúde das articulações, reduzir a dor e melhorar a mobilidade.",
+       ],
+       "composicao": "Sulfato de condroitina, sulfato de glicosamina, MSM (Metilsulfonilmetano)."
+    },
+    {
+      "id": 323,
+      "image": "/images/suplemento-articular-2.png",
+      "title": "Suplemento Articular para Gatos com Ômega 3",
+      "category": "Suplementos",
+      "subcategory": "Articulares",
+      "size": "Frasco: 60ml",
+      "price": "R$78,90",
+       "descricao": [
+         "Suplemento líquido para gatos, rico em ômega 3, que contribui para a saúde das articulações e possui ação anti-inflamatória.",
+       ],
+       "composicao": "Óleo de salmão (fonte de ômega 3)."
+    },
+    {
+      "id": 324,
+      "image": "/images/suplemento-articular-3.png",
+      "title": "Colágeno para Cães e Gatos",
+      "category": "Suplementos",
+      "subcategory": "Articulares",
+      "size": "Embalagem: 150g em pó",
+      "price": "R$95,90",
+       "descricao": [
+         "Suplemento de colágeno hidrolisado em pó para cães e gatos, auxilia na manutenção da saúde das articulações, tendões e ligamentos.",
+       ],
+       "composicao": "Colágeno hidrolisado."
+    },
+    {
+      "id": 325,
+      "image": "/images/suplemento-pelagem-1.png",
+      "title": "Suplemento para Pelagem Brilhante de Cães",
+      "category": "Suplementos",
+      "subcategory": "Para pelagem",
+      "size": "Embalagem: 90 cápsulas",
+      "price": "R$62,90",
+       "descricao": [
+         "Suplemento para cães que promove uma pelagem mais brilhante, sedosa e saudável, além de auxiliar na redução da queda de pelos.",
+       ],
+       "composicao": "Biotina, ômega 3 e 6, vitaminas do complexo B, zinco."
+    },
+    {
+      "id": 326,
+      "image": "/images/suplemento-pelagem-2.png",
+      "title": "Óleo de Linhaça para Pelagem de Gatos",
+      "category": "Suplementos",
+      "subcategory": "Para pelagem",
+      "size": "Frasco: 100ml",
+      "price": "R$55,90",
+       "descricao": [
+         "Óleo de linhaça, rico em ômega 3 e 6, essencial para a saúde da pele e da pelagem dos gatos, proporcionando brilho e maciez.",
+       ],
+       "composicao": "Óleo de linhaça."
+    },
+    {
+      "id": 327,
+      "image": "/images/suplemento-pelagem-3.png",
+      "title": "Suplemento com Biotina para Cães e Gatos",
+      "category": "Suplementos",
+      "subcategory": "Para pelagem",
+      "size": "Embalagem: 45 tabletes",
+      "price": "R$59,90",
+       "descricao": [
+         "Suplemento com alta concentração de biotina para cães e gatos, importante para o fortalecimento dos pelos e unhas.",
+       ],
+       "composicao": "Biotina."
+    },
+    {
+      "id": 328,
+      "image": "/images/antipulgas-topico-1.png",
+      "title": "Antipulgas Tópico para Cães Pequenos",
+      "category": "Antipulgas",
+      "subcategory": "Tópicos",
+      "size": "Embalagem: 1 pipeta",
+      "price": "R$42,90",
+       "descricao": [
+         "Antipulgas tópico de aplicação única para cães de pequeno porte, eficaz contra pulgas e carrapatos por até um mês.",
+       ],
+       "composicao": "Fipronil."
+    },
+    {
+      "id": 329,
+      "image": "/images/antipulgas-topico-2.png",
+      "title": "Antipulgas Tópico para Gatos",
+      "category": "Antipulgas",
+      "subcategory": "Tópicos",
+      "size": "Embalagem: 1 pipeta",
+      "price": "R$38,90",
+       "descricao": [
+         "Antipulgas tópico para gatos, seguro e eficaz no combate a pulgas e piolhos por até um mês.",
+       ],
+       "composicao": "Imidacloprid."
+    },
+    {
+      "id": 330,
+      "image": "/images/antipulgas-topico-3.png",
+      "title": "Antipulgas e Carrapatos Tópico para Cães Médios",
+      "category": "Antipulgas",
+      "subcategory": "Tópicos",
+      "size": "Embalagem: 1 pipeta",
+      "price": "R$55,90",
+       "descricao": [
+         "Antipulgas tópico para cães de médio porte, oferece proteção contra pulgas e carrapatos por um período prolongado.",
+       ],
+       "composicao": "Fipronil, (S)-metopreno."
+    },
+    {
+      "id": 331,
+      "image": "/images/antipulgas-comprimido-1.png",
+      "title": "Antipulgas Oral para Cães",
+      "category": "Antipulgas",
+      "subcategory": "Comprimidos",
+      "size": "Embalagem: 3 comprimidos",
+      "price": "R$79,90",
+       "descricao": [
+         "Antipulgas oral palatável para cães, de ação rápida e eficaz contra pulgas.",
+       ],
+       "composicao": "Nitenpiram."
+    },
+    {
+      "id": 332,
+      "image": "/images/antipulgas-comprimido-2.png",
+      "title": "Antipulgas e Carrapatos Oral para Cães",
+      "category": "Antipulgas",
+      "subcategory": "Comprimidos",
+      "size": "Embalagem: 1 comprimido",
+      "price": "R$65,90",
+       "descricao": [
+         "Comprimido oral para cães que protege contra pulgas e carrapatos por até três meses.",
+       ],
+       "composicao": "Fluralaner."
+    },
+    {
+      "id": 333,
+      "image": "/images/antipulgas-comprimido-3.png",
+      "title": "Antipulgas Oral para Gatos",
+      "category": "Antipulgas",
+      "subcategory": "Comprimidos",
+      "size": "Embalagem: 6 comprimidos",
+      "price": "R$52,90",
+       "descricao": [
+         "Comprimidos antipulgas para gatos, fáceis de administrar e com ação rápida.",
+       ],
+       "composicao": "Capstar (Nitenpiram)."
+    },
+    {
+      "id": 334,
+      "image": "/images/antipulgas-coleira-1.png",
+      "title": "Coleira Antipulgas para Cães Pequenos",
+      "category": "Antipulgas",
+      "subcategory": "Coleiras",
+      "size": "Tamanho: Pequeno",
+      "price": "R$85,90",
+       "descricao": [
+         "Coleira antipulgas para cães pequenos, oferece proteção contínua contra pulgas e carrapatos por vários meses.",
+       ],
+       "composicao": "Flumetrina, imidacloprid."
+    },
+    {
+      "id": 335,
+      "image": "/images/antipulgas-coleira-2.png",
+      "title": "Coleira Antipulgas para Gatos",
+      "category": "Antipulgas",
+      "subcategory": "Coleiras",
+      "size": "Tamanho: Único",
+      "price": "R$78,90",
+       "descricao": [
+         "Coleira antipulgas segura e eficaz para gatos, com proteção de longa duração contra pulgas e carrapatos.",
+       ],
+       "composicao": "Propoxur, flumetrina."
+    },
+    {
+      "id": 336,
+      "image": "/images/antipulgas-coleira-3.png",
+      "title": "Coleira Antipulgas para Cães Grandes",
+      "category": "Antipulgas",
+      "subcategory": "Coleiras",
+      "size": "Tamanho: Grande",
+      "price": "R$92,90",
+       "descricao": [
+         "Coleira antipulgas para cães de grande porte, com alta eficácia e proteção prolongada contra pulgas e carrapatos.",
+       ],
+       "composicao": "Deltametrina."
+    },
+    {
+      "id": 337,
+      "image": "/images/vermifugo-liquido-1.png",
+      "title": "Vermífugo Líquido para Cães Filhotes",
+      "category": "Vermífugos",
+      "subcategory": "Líquido",
+      "size": "Frasco: 20ml",
+      "price": "R$35,90",
+       "descricao": [
+         "Vermífugo líquido palatável para cães filhotes, eficaz contra vermes intestinais comuns.",
+       ],
+       "composicao": "Pamoato de pirantel, febantel."
+    },
+    {
+      "id": 338,
+      "image": "/images/vermifugo-liquido-2.png",
+      "title": "Vermífugo Líquido para Gatos",
+      "category": "Vermífugos",
+      "subcategory": "Líquido",
+      "size": "Frasco: 15ml",
+      "price": "R$32,90",
+       "descricao": [
+         "Vermífugo líquido de fácil administração para gatos, combate diversos tipos de vermes intestinais.",
+       ],
+       "composicao": "Praziquantel, pamoato de pirantel."
+  },
+  {
+    "id": 339,
+    "image": "/images/vermifugo-liquido-3.png",
+    "title": "Vermífugo Líquido de Amplo Espectro para Cães",
+    "category": "Vermífugos",
+    "subcategory": "Líquido",
+    "size": "Frasco: 30ml",
+    "price": "R$48,90",
+     "descricao": [
+       "Vermífugo líquido de amplo espectro para cães adultos, eficaz contra vermes redondos, vermes chatos e giárdia.",
+     ],
+     "composicao": "Febantel, pamoato de pirantel, praziquantel."
+  },
+  {
+    "id": 340,
+    "image": "/images/vermifugo-comprimido-1.png",
+    "title": "Vermífugo Comprimido para Cães Pequenos",
+    "category": "Vermífugos",
+    "subcategory": "Comprimido",
+    "size": "Embalagem: 4 comprimidos",
+    "price": "R$39,90",
+     "descricao": [
+       "Vermífugo em comprimidos palatáveis para cães de pequeno porte, fácil de administrar e eficaz contra vermes intestinais.",
+     ],
+     "composicao": "Pamoato de pirantel, febantel, praziquantel."
+  },
+  {
+    "id": 341,
+    "image": "/images/vermifugo-comprimido-2.png",
+    "title": "Vermífugo Comprimido para Gatos",
+    "category": "Vermífugos",
+    "subcategory": "Comprimido",
+    "size": "Embalagem: 2 comprimidos",
+    "price": "R$36,90",
+     "descricao": [
+       "Vermífugo em comprimidos para gatos, indicado para o tratamento de infestações por vermes redondos e chatos.",
+     ],
+     "composicao": "Praziquantel, pamoato de pirantel."
+  },
+  {
+    "id": 342,
+    "image": "/images/vermifugo-comprimido-3.png",
+    "title": "Vermífugo Comprimido para Cães Grandes",
+    "category": "Vermífugos",
+    "subcategory": "Comprimido",
+    "size": "Embalagem: 1 comprimido",
+    "price": "R$52,90",
+     "descricao": [
+       "Vermífugo em comprimido de dose única para cães de grande porte, eficaz contra diversos tipos de vermes.",
+     ],
+     "composicao": "Milbemicina oxima, praziquantel."
+  },
+  {
+    "id": 343,
+    "image": "/images/vermifugo-especifico-1.png",
+    "title": "Vermífugo Específico para Filhotes de Cães",
+    "category": "Vermífugos",
+    "subcategory": "Específico por animal",
+    "size": "Embalagem: 1 frasco",
+    "price": "R$41,90",
+     "descricao": [
+       "Vermífugo líquido palatável especialmente formulado para filhotes de cães, seguro e eficaz contra os vermes mais comuns nessa fase.",
+     ],
+     "composicao": "Pamoato de pirantel."
+  },
+  {
+    "id": 344,
+    "image": "/images/vermifugo-especifico-2.png",
+    "title": "Vermífugo Específico para Gatos Adultos",
+    "category": "Vermífugos",
+    "subcategory": "Específico por animal",
+    "size": "Embalagem: 2 comprimidos",
+    "price": "R$38,90",
+     "descricao": [
+       "Vermífugo em comprimidos desenvolvido especificamente para gatos adultos, com dosagem adequada e alta eficácia.",
+     ],
+     "composicao": "Praziquantel."
+  },
+  {
+    "id": 345,
+    "image": "/images/vermifugo-especifico-3.png",
+    "title": "Vermífugo Específico para Cães Sensíveis",
+    "category": "Vermífugos",
+    "subcategory": "Específico por animal",
+    "size": "Embalagem: 3 comprimidos",
+    "price": "R$45,90",
+     "descricao": [
+       "Vermífugo palatável em comprimidos, formulado para cães com sensibilidade digestiva, eficaz contra vermes sem causar desconforto.",
+     ],
+     "composicao": "Mebendazol."
+  },
+
 ];
 
 
