@@ -116,7 +116,7 @@ const categorias = [
     header: "6. Produtos para Peixes",
     categorias: [
       {
-        nome: "Rações",
+        nome: "Rações para Peixes",
         subcategorias: ["Para peixes ornamentais", "Para peixes de fundo", "Em flocos / granulada"]
       },
       {
