@@ -1,0 +1,206 @@
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+}
+
+.card-profile {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.account-settings-links {
+  padding: 1rem;
+  border-right: 1px solid #e0e0e0;
+  height: 100%;
+}
+
+.account-settings-links button {
+  border: none;
+  background: none;
+  text-align: left;
+  width: 100%;
+  padding: 10px 15px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+}
+
+.account-settings-links .active {
+  background-color: #e8f0fe;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.tab-content {
+  padding: 1.5rem;
+}
+
+.ui-w-80 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.media-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.tab-content {
+  padding: 24px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.form-control,
+.custom-select {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: border-color 0.3s;
+}
+
+.form-control:focus,
+.custom-select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.btn {
+  font-size: 14px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.btn-outline-primary {
+  background-color: #fff;
+  border: 2px solid #007bff;
+  color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-default {
+  background-color: #f0f0f0;
+  border: none;
+  color: #555;
+}
+
+.md-btn-flat {
+  font-weight: 500;
+}
+
+.alert {
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.ui-w-80 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #007bff;
+}
+
+.media-body {
+  margin-left: 20px;
+}
+
+h4 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .row.no-gutters {
+    flex-direction: column;
+  }
+
+  .col-md-3,
+  .col-md-9 {
+    width: 100%;
+  }
+
+  .account-settings-links {
+    flex-direction: row;
+    overflow-x: auto;
+  }
+
+  .account-settings-links button {
+    flex: 1;
+    text-align: center;
+  }
+}
+
+.align-group {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  width: 100%;
+  background-color: #FDFDFD;
+  border-radius: 10px;
+}
+
+.account-settings-links {
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.tab-content {
+  flex: 1;
+}
+
+.align-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.btn-save {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-save:hover {
+  background-color: #0056b3;
+}
