@@ -6,6 +6,8 @@ import LoginPage from "../pages/loginpage/LoginPage";
 import ProductPage from "../pages/productpage/ProductPage"; 
 import CartPage from "../pages/cartpage/CartPage"; 
 import ConhecimentosPage from "../pages/conhecimentospage/ConhecimentosPage";  
+import OtherProfilePage from "../pages/otherprofilepage/OtherProfilePage";
+import ProfilePage from "../pages/profilepage/ProfilePage";
 import ScrollToTop from "./ScrollToTop"; 
 
 const AppRoutes = () => { 
@@ -19,6 +21,8 @@ const AppRoutes = () => {
         <Route path="/produtos/:id" element={<ProductPage />} /> {/* Página de Produtos */}
         <Route path="/carrinho" element={<CartPage />} /> {/* Página de Carrinho */}
         <Route path="/conhecimentos/:id" element={<ConhecimentosPage />} /> {/* Página de Conhecimentos */}
+        <Route path="/otherprofile" element={<OtherProfilePage />} /> {/* Página de Perfil */}
+        <Route path="/profile" element={<ProfilePage />} /> {/* Página de Perfil alterável*/}
         <Route path="*" element={<h1>Not Found</h1>} />
       </Routes>
     </BrowserRouter>
