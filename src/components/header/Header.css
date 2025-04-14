@@ -51,27 +51,6 @@ li p:hover {
   color:#376da3;
 }
 
-.login-btn {
-  width: 110px;
-  height: 55px;
-  border-radius: 50px;
-  background-color: var(--primary-color);
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-  margin: 20px; 
-  padding: 12px 20px;
-}
-
-.login-btn:hover {
-  background-color: #376da3;
-}
-
-.login-btn p {
-  font-size: 1.1rem;
-  font-weight: 500;
-  font-family: "Inter", sans-serif;
-  color: white;
-}
-
 .auth-cart-container {
   display: flex;
   align-items: center;
@@ -85,7 +64,7 @@ li p:hover {
   cursor: pointer;
 }
 
-.cart-btn .cart-icon {
+.cart-btn .cart-icon{
   color: #103559;
   font-size: 38px; 
 }
@@ -131,10 +110,10 @@ li p:hover {
   } 
 
   .auth-cart-container {
-    gap: 10px; /* Menos espaço em telas menores */
+    gap: 10px;
   }
 
   .search-container input {
-    width: 80%; /* Ajusta o campo de pesquisa em telas pequenas */
+    width: 80%;
   }
 }

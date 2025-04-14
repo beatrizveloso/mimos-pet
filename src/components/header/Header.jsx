@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { TiShoppingCart } from "react-icons/ti";
 import { CartContext } from "../../context/CartContext";
 import SearchSection from "../input/SearchSection";
+import LoginButton from '../loginbutton/LoginButton'; 
 import "../header/Header.css";
 
 const Header = () => {
@@ -88,16 +89,14 @@ const Header = () => {
             <Link to="/carrinho">
                 <div className="auth-cart-container">
                     <button className="cart-btn">
-                        <TiShoppingCart className="cart-icon"/>
+                        <TiShoppingCart className="cart-icon" />
                         {cartCount > 0 && <span className="cart-count">{cartCount}</span>}
                     </button>
                 </div>
             </Link>
 
             <Link to="/login">
-                <button className="login-btn">
-                    <p>Login</p>
-                </button>
+                  <LoginButton />
             </Link>
         </header>
     );

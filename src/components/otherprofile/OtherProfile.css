@@ -1,0 +1,99 @@
+.other-container {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .other-profile-card {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    width: 100%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    gap: 30px;
+  }
+  
+  .other-left {
+    flex: 1 1 250px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    padding-right: 30px;
+  }
+  
+  .other-profile-image {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid  #646669; 
+  }
+  
+  .other-name {
+    font-size: 22px;
+    margin-top: 15px;
+    color: #333;
+  }
+  
+  .other-caption {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .other-info-box {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #444;
+  }
+  
+  .badge {
+    background-color:  #103559; 
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  
+  .edit-profile-btn {
+    margin-top: 60px;
+    background-color:  #103559; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .edit-profile-btn:hover {
+    background-color:  #103559; 
+  }
+  
+  .other-right {
+    flex: 2 1 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .other-details > div {
+    margin-bottom: 10px;
+  }
+  
+  .other-details strong {
+    display: block;
+    color: #222;
+  }
+  
+  .other-details p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .other-no-posts {
+    color: #777;
+    font-style: italic;
+  }
+  

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
 import "./LoginPage.css";
 
@@ -58,7 +58,10 @@ const LoginPage = () => {
               </div>
             </div>
             <a href="#" className="login__forgot">Esqueceu sua senha?</a>
-            <button className="login__button" onClick={() => alert("Login bem-sucedido!")}>Login</button>
+
+            <Link to="/other-profile">
+              <button className="login__button" onClick={() => alert("Login bem-sucedido!")}>Login</button>
+            </Link>
 
             <div className="login__social">
               <p className="login__social-title">Ou faça login com</p>

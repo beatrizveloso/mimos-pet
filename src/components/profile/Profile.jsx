@@ -11,7 +11,7 @@ export default function Profile() {
   const [phone, setPhone] = useState("+55 (11) 44022-8922");
   const [secondaryEmail, setSecondaryEmail] = useState("");
   const [activeTab, setActiveTab] = useState("general");
-  const [imagePreview, setImagePreview] = useState("/images/icon-julia.png");
+  const [imagePreview, setImagePreview] = useState("/images/profile.jpg");
 
   const handleImageUpload = (e) => {
     const file = e.target.files[0];
@@ -156,7 +156,8 @@ export default function Profile() {
   };
 
   return (
-    <div className="container light-style flex-grow-1 container-p-y">
+    <section className="align-profile">
+    <div className="container-profile light-style flex-grow-1 container-p-y">
       <h4 className="font-weight-bold py-3 mb-4">Configurações da Conta</h4>
 
       <section className="align-group">
@@ -164,10 +165,7 @@ export default function Profile() {
           {[
             { id: "general", label: "Geral" },
             { id: "change-password", label: "Alterar a senha" },
-            { id: "info", label: "Informações" },
-            { id: "social-links", label: "Links sociais" },
-            { id: "connections", label: "Conexões" },
-            { id: "notifications", label: "Notificações" },
+            { id: "info", label: "Informações" }
           ].map((tab) => (
             <button
               key={tab.id}
@@ -184,5 +182,6 @@ export default function Profile() {
         </div>
       </section>
     </div>
+    </section>
   );
 }
