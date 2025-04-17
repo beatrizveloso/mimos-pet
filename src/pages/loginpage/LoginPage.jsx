@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 import "./LoginPage.css";
 
 const LoginPage = () => {
@@ -91,7 +92,7 @@ const LoginPage = () => {
             <div className="login__content grid">
               <div className="login__box">
                 <input type="text" id="names" placeholder=" " className="login__input" />
-                <label htmlFor="names" className="login__label">Nome</label>
+                <label htmlFor="names" className="login__label">Nome e sobrenome</label>
                 <i className="ri-id-card-fill login__icon"></i>
               </div>
               <div className="login__box">
@@ -99,26 +100,86 @@ const LoginPage = () => {
                 <label htmlFor="emailCreate" className="login__label">Email</label>
                 <i className="ri-mail-fill login__icon"></i>
               </div>
+
+              <div className="login__row">
+                <div className="login__box">
+                  <input type="text" id="celular" placeholder=" " className="login__input" />
+                  <label htmlFor="celular" className="login__label">Celular</label>
+                  <i className="ri-phone-fill login__icon"></i>
+                </div>
+                <div className="login__box">
+                  <input type="text" id="telefone" placeholder=" " className="login__input" />
+                  <label htmlFor="telefone" className="login__label">Telefone</label>
+                  <i className="ri-phone-line login__icon"></i>
+                </div>
+              </div>
+
               <div className="login__box">
-                <input
-                  type={showRegisterPassword ? "text" : "password"}
-                  id="passwordCreate"
-                  placeholder=" "
-                  className="login__input"
-                />
-                <label htmlFor="passwordCreate" className="login__label">Senha</label>
-                <i
-                  className={`ri-eye${showRegisterPassword ? "-off" : ""}-fill login__icon login__password`}
-                  onClick={() => setShowRegisterPassword(!showRegisterPassword)}
-                ></i>
+                <select id="sexo" className="login__input">
+                  <option value="">Selecione o sexo</option>
+                  <option value="feminino">Feminino</option>
+                  <option value="masculino">Masculino</option>
+                  <option value="outro">Outro</option>
+                </select>
+                <label htmlFor="sexo" className="login__label">Sexo</label>
+                <i className="ri-user-fill login__icon"></i>
+              </div>
+
+
+              <div className="login__box">
+                <input type="date" id="nascimento" placeholder=" " className="login__input" />
+                <label htmlFor="nascimento" className="login__label">Data de nascimento</label>
+                <i className="ri-calendar-2-fill login__icon"></i>
+              </div>
+              <div className="login__box">
+                <input type="text" id="cpf" placeholder=" " className="login__input" />
+                <label htmlFor="cpf" className="login__label">CPF</label>
+                <i className="ri-file-user-fill login__icon"></i>
+              </div>
+
+              <div className="login__row">
+                <div className="login__box login__password-box">
+                  <input
+                    type={showRegisterPassword ? "text" : "password"}
+                    id="passwordCreate"
+                    placeholder=" "
+                    className="login__input"
+                  />
+                  <label htmlFor="passwordCreate" className="login__label">Senha</label>
+                  <span className="login__icon login__eye" onClick={() => setShowRegisterPassword(!showRegisterPassword)}>
+                    {showRegisterPassword ? <FaEyeSlash /> : <FaEye />}
+                  </span>
+                </div>
+                <div className="login__box login__password-box">
+                  <input
+                    type={showRegisterPassword ? "text" : "password"}
+                    id="confirmPassword"
+                    placeholder=" "
+                    className="login__input"
+                  />
+                  <label htmlFor="confirmPassword" className="login__label">Confirmar senha</label>
+                  <span className="login__icon login__eye" onClick={() => setShowRegisterPassword(!showRegisterPassword)}>
+                    {showRegisterPassword ? <FaEyeSlash /> : <FaEye />}
+                  </span>
+                </div>
+              </div>
+
+
+              <div className="login__checkbox">
+                <input type="checkbox" id="termos" />
+                <label htmlFor="termos">
+                  Concordo com os <Link to="/termos">termos e condições</Link>
+                </label>
               </div>
             </div>
+
             <button className="login__button" onClick={() => alert("Conta criada com sucesso!")}>Criar conta</button>
             <p className="login__switch">Já possui uma conta?
               <button onClick={() => setIsRegistering(false)}>Log In</button>
             </p>
           </div>
         </div>
+
       </div>
     </section>
   );
