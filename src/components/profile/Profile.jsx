@@ -25,17 +25,23 @@ export default function Profile() {
   };
 
   const handleSave = () => {
-    console.log("Dados salvos:");
-    console.log("Nome de usuário:", username);
-    console.log("Nome:", name);
-    console.log("Email:", email);
-    console.log("Biografia:", bio);
-    console.log("Aniversário:", birthday);
-    console.log("País:", country);
-    console.log("Telefone:", phone);
-    console.log("Email secundário:", secondaryEmail);
+    const userData = {
+      username,
+      name,
+      email,
+      bio,
+      birthday,
+      country,
+      phone,
+      secondaryEmail,
+      imagePreview,
+    };
+  
+    localStorage.setItem("userProfileData", JSON.stringify(userData));
+  
     alert("Dados salvos com sucesso!");
-  };
+    window.location.href = "/other-profile"; 
+  };  
   
 
   const renderTabContent = () => {

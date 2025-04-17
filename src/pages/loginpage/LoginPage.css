@@ -64,7 +64,7 @@
   font-size: var(--big-font-size);
   color: var(--title-color);
   text-align: center;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 .login__box {
@@ -75,10 +75,58 @@
   border-radius: 1rem;
 }
 
+.login__password-info {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 1rem;
+  line-height: 1.4;
+}
+
+.login__terms {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  font-size: 0.85rem;
+}
+.login__terms a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.login__row {
+  display: flex;
+  gap: 1rem;
+}
+
+.login__row .login__box {
+  flex: 1;
+}
+
+.password-rules {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.login__checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+}
+
+
+
+
+
+
 .login__input {
   background: none;
   width: 100%;
-  padding: 1.5rem 2.5rem 1.5rem 1.25rem;
+  padding: 1rem 6px 12px 6px;
   font-weight: var(--font-semi-bold);
   border: 3px solid transparent;
   border-radius: 1rem;
@@ -92,7 +140,7 @@
 
 .login__label {
   position: absolute;
-  left: 1.25rem;
+  left: 1.5rem;
   font-weight: var(--font-semi-bold);
   transition: transform .4s, font-size .4s, color .4s;
 }
@@ -221,7 +269,7 @@
 }
 
 .login__input:focus {
-  padding-block: 2rem 1rem;
+  padding-block: 1rem 1rem;
 }
 
 .login__input:not(:placeholder-shown).login__input:not(:focus)~.login__label {
@@ -243,7 +291,7 @@
 }
 
 .active .login__access {
-  transform: translateX(15rem);
+  transform: translateX(15em);
   opacity: 0;
   pointer-events: none;
 }
@@ -290,13 +338,28 @@
 
   .login__title {
     text-align: initial;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
   }
 
   .login__button {
-    margin-bottom: 3rem;
+    margin-bottom: 1.2rem;
   }
 
+  .login__password-box {
+    position: relative;
+  }
+  
+  .login__eye {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1rem;
+    color: #666;
+    z-index: 2;
+  }
+  
   .login__group {
     grid-template-columns: repeat(2, 1fr);
   }
