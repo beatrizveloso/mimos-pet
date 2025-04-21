@@ -1,12 +1,12 @@
-import React, { useState, useEffect, useContext } from "react"; // Importando o useContext corretamente
+import React, { useState, useEffect, useContext } from "react"; 
 import { Link } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
-import { UserContext } from "../../context/UserContext"; // Importando o UserContext
+import { UserContext } from "../../context/UserContext";
 import "./LoginPage.css";
 
 const LoginPage = () => {
-  const { setUserData } = useContext(UserContext); // Usando o useContext dentro do componente
+  const { setUserData } = useContext(UserContext); 
 
   const [showPassword, setShowPassword] = useState(false);
   const [showRegisterPassword, setShowRegisterPassword] = useState(false);

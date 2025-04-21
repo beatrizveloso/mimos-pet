@@ -1,4 +1,6 @@
 import React, { useState, useMemo } from "react";
+import { Link } from "react-router-dom";
+import { FaArrowLeft } from "react-icons/fa";
 import ReviewCard from "../../components/reviewcard/ReviewCard";
 import "./ReviewPage.css";
 
@@ -7,35 +9,35 @@ const ReviewPage = () => {
         {
             reviewer: "Antônio",
             rating: 5,
-            title: "Compacto, potente e cheio de funcionalidades!",
+            title: "Grão de qualidade",
             date: "Avaliado no Brasil em 30 de março de 2025",
-            details: "Cor: Preto | Configuração: Echo Pop",
-            text: "O Echo Pop é um smart speaker compacto que surpreende pelo som envolvente, ideal para pequenos ambientes.",
-            img: "/images/alexa.jpg",
-            preview: "/images/alexa.jpg",
-            profile: "/images/anthony-profile.png",
+            details: "Sabor: Peixe",
+            text: "Já coloquei no pote, pedir pra vim na embalagem da Amazon aí veio numa caixa, veio bem protegido adorei",
+            img: "/images/ração-ava-1.jpg",
+            preview: "/images/ração-ava-1.jpg",
+            profile: "/images/profile.jpg",
         },
         {
             reviewer: "Carlos",
             rating: 4,
-            title: "Bom custo-benefício",
+            title: "Super indico!",
             date: "Avaliado em 10 de abril de 2025",
-            details: "Cor: Branco | Versão 2ª Geração",
-            text: "Achei o som excelente, mas senti falta de mais integração com outros apps.",
-            img: "/images/alexa.jpg",
-            preview: "/images/alexa.jpg",
-            profile: "/images/anthony-profile.png",
+            details: "Sabor: Peixe",
+            text: "Saiu mais em conta do q na minha cidade.",
+            img: "/images/ração-ava-2.jpg",
+            preview: "/images/ração-ava-2.jpg",
+            profile: "/images/profile.jpg",
         },
         {
             reviewer: "Júlia",
             rating: 3,
-            title: "Esperava mais",
+            title: "Satisfeita",
             date: "Avaliado em 12 de abril de 2025",
-            details: "Cor: Azul",
-            text: "Funciona, mas achei o volume baixo e pouco responsivo à Alexa.",
-            img: "/images/alexa.jpg",
-            preview: "/images/alexa.jpg",
-            profile: "/images/anthony-profile.png",
+            details: "Sabor: Peixe",
+            text: "Deveria chegar mais rápido, mas mesmo assim estou satisfeita. Comprarei mais vezes.",
+            img: "/images/ração-ava-3.jpg",
+            preview: "/images/ração-ava-3.jpg",
+            profile: "/images/profile.jpg",
         },
     ]);
 
@@ -114,6 +116,13 @@ const ReviewPage = () => {
     return (
         <div className="review-page">
             <div className="review-summary">
+                <Link to="/categorias">
+                    <div className="back-arrow-container">
+                        <button className="back-btn">
+                            <FaArrowLeft className="back-icon" />
+                        </button>
+                    </div>
+                </Link>
                 <h2>Avaliações de clientes</h2>
                 <div className="stars-container">
                     {renderStars(5)}

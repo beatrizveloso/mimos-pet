@@ -47,6 +47,15 @@ hr {
   align-items: center;
 }
 
+.map-container {
+  width: 100%;
+  max-width: 340px;
+  height: 150px;
+  margin: 20px auto;
+  overflow: hidden;
+  border: 4px solid #eea812; 
+}
+
 .login-box {
   background-color: white;
   width: 187px;

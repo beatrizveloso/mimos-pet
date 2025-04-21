@@ -1,3 +1,5 @@
+import "./ReviewCard.css";
+
 const ReviewCard = ({ reviewer, rating, title, date, details, text, img, profile, onImageClick }) => {
   return (
     <div className="review-card">

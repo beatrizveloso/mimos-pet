@@ -5,9 +5,15 @@
   }
   
   .cart-container h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 15px;
+    color: #103559;
+  }
+
+  .cart-container h3 {
+    font-size: 24px;
     margin-bottom: 15px;
     color: #103559;
   }
@@ -47,10 +53,11 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
+    margin-left: -10px;
   }
   
   .cart-price {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     color: #333;
   }
