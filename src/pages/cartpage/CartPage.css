@@ -1,14 +1,229 @@
-.cartpage-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.cartpage-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 32px 40px;
+  font-family: 'Segoe UI', sans-serif;
 }
 
-.cart-text h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 25px;
-  margin-top: 40px;
-  color: #FEBC56;
+.cart-left {
+  flex: 2;
+}
+
+.cart-right {
+  flex: 1;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.05);
+  background-color: #fff;
+  font-size: 14px;
+  color: #1a1a1a;
+}
+
+/* CEP */
+.cep-box label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+  font-size: 14px;
+}
+
+.cep-box input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+/* Seções */
+.shipping-options,
+.payment-options,
+.discount-box,
+.summary-box,
+.payment-logos,
+.support-box {
+  margin-top: 24px;
+}
+
+.shipping-options h3,
+.payment-options h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.shipping-options ul,
+.payment-options ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.shipping-options li,
+.payment-options li {
+  background-color: #f9f9f9;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  border: 1px solid #eee;
+}
+
+/* Cupom */
+.discount-box label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.discount-box input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #fcfcfc;
+}
+
+/* Resumo */
+.summary-box {
+  padding-top: 16px;
+  border-top: 1px solid #ddd;
+}
+
+.summary-box .line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.summary-box .total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.summary-box .installment {
+  font-size: 13px;
+  color: #666;
+  margin-top: 4px;
+}
+
+/* Botões */
+.button-primary {
+  background-color: #0059ff;
+  color: #fff;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  margin-top: 16px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.button-secondary {
+  background-color: transparent;
+  color: #000;
+  border: 1px solid #ccc;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* Bandeiras */
+.payment-logos img {
+  width: 100%;
+  max-width: 220px;
+  margin-top: 16px;
+}
+
+/* Suporte */
+.support-box {
+  margin-top: 24px;
+  font-size: 13px;
+  color: #333;
+  border-top: 1px solid #ddd;
+  padding-top: 12px;
+}
+
+.support-box a {
+  color: #0059ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.summary-box h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.summary-box .line span {
+  font-size: 14px;
+  color: #1a1a1a;
+}
+
+.summary-box .line span:last-child {
+  font-weight: 600;
+}
+
+.summary-box .line.discount span:last-child {
+  color: #1db84b; /* verde para descontos */
+}
+
+.summary-box .total span {
+  color: #1a1a1a;
+}
+
+.summary-box .installment {
+  font-size: 13px;
+  color: #666;
+  margin-top: 4px;
+}
+
+.button-primary {
+  background-color: #0059ff;
+  color: #fff;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  margin-top: 16px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-primary:hover {
+  background-color: #0047cc;
+}
+
+.button-secondary {
+  background-color: transparent;
+  color: #000;
+  border: 1px solid #ccc;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-secondary:hover {
+  background-color: #f2f2f2;
 }

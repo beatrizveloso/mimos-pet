@@ -8,19 +8,27 @@ export const CartProvider = ({ children }) => {
   useEffect(() => {
     const fetchCart = async () => {
       try {
-        const response = await fetch("URL_DA_SUA_API/carrinho");
+        const response = await fetch("http://localhost:3001/carrinho");
         if (!response.ok) throw new Error("Erro ao buscar carrinho");
+  
         const data = await response.json();
-        setCartItems(data);
+  
+        const sanitizedData = data.map((item) => ({
+          ...item,
+          price: parseFloat(item.price) || 0,
+          quantidade: item.quantidade || 1,
+        }));
+  
+        setCartItems(sanitizedData);
       } catch (error) {
         console.error("Erro ao carregar carrinho:", error);
       }
     };
-
+  
     fetchCart();
   }, []);
+  
 
-  // ✅ Adicionando a função para adicionar itens ao carrinho
   const addToCart = (produto, quantidade) => {
     setCartItems((prevItems) => {
       const itemExiste = prevItems.find((item) => item.id === produto.id);
@@ -37,13 +45,29 @@ export const CartProvider = ({ children }) => {
     });
   };
 
-  // ✅ Adicionando a função para remover itens do carrinho
   const removeFromCart = (id) => {
     setCartItems((prevItems) => prevItems.filter((item) => item.id !== id));
   };
 
+  const updateQuantity = (id, novaQuantidade) => {
+    if (novaQuantidade < 1) return;
+    setCartItems((prevItems) =>
+      prevItems.map((item) =>
+        item.id === id ? { ...item, quantidade: novaQuantidade } : item
+      )
+    );
+  };
+
   return (
-    <CartContext.Provider value={{ cartItems, setCartItems, addToCart, removeFromCart }}>
+    <CartContext.Provider
+      value={{
+        cartItems,
+        setCartItems,
+        addToCart,
+        removeFromCart,
+        updateQuantity
+      }}
+    >
       {children}
     </CartContext.Provider>
   );
