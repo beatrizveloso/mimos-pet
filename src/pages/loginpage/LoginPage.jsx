@@ -1,10 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react"; // Importando o useContext corretamente
 import { Link } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { UserContext } from "../../context/UserContext"; // Importando o UserContext
 import "./LoginPage.css";
 
 const LoginPage = () => {
+  const { setUserData } = useContext(UserContext); // Usando o useContext dentro do componente
+
   const [showPassword, setShowPassword] = useState(false);
   const [showRegisterPassword, setShowRegisterPassword] = useState(false);
   const [isRegistering, setIsRegistering] = useState(false);
@@ -13,9 +16,23 @@ const LoginPage = () => {
     document.title = "Mimo's Pet";
   }, []);
 
+  const handleCreateAccount = () => {
+    const data = {
+      name: document.getElementById("names").value,
+      email: document.getElementById("emailCreate").value,
+      celular: document.getElementById("celular").value,
+      telefone: document.getElementById("telefone").value,
+      sexo: document.getElementById("sexo").value,
+      nascimento: document.getElementById("nascimento").value,
+      cpf: document.getElementById("cpf").value,
+      senha: document.getElementById("passwordCreate").value,
+    };
+    setUserData(data);
+    alert("Conta criada com sucesso!");
+  };
+
   return (
     <section className="bg-login">
-
       <Link to="/">
         <div className="back-arrow-container">
           <button className="back-btn">
@@ -79,7 +96,6 @@ const LoginPage = () => {
               </div>
             </div>
 
-
             <p className="login__switch">Não possui uma conta?
               <button onClick={() => setIsRegistering(true)}>Crie uma conta</button>
             </p>
@@ -125,7 +141,6 @@ const LoginPage = () => {
                 <i className="ri-user-fill login__icon"></i>
               </div>
 
-
               <div className="login__box">
                 <input type="date" id="nascimento" placeholder=" " className="login__input" />
                 <label htmlFor="nascimento" className="login__label">Data de nascimento</label>
@@ -157,29 +172,24 @@ const LoginPage = () => {
                     placeholder=" "
                     className="login__input"
                   />
-                  <label htmlFor="confirmPassword" className="login__label">Confirmar senha</label>
+                  <label htmlFor="confirmPassword" className="login__label">Confirmar Senha</label>
                   <span className="login__icon login__eye" onClick={() => setShowRegisterPassword(!showRegisterPassword)}>
                     {showRegisterPassword ? <FaEyeSlash /> : <FaEye />}
                   </span>
                 </div>
               </div>
-
-
-              <div className="login__checkbox">
-                <input type="checkbox" id="termos" />
-                <label htmlFor="termos">
-                  Concordo com os <Link to="/termos">termos e condições</Link>
-                </label>
-              </div>
             </div>
 
-            <button className="login__button" onClick={() => alert("Conta criada com sucesso!")}>Criar conta</button>
-            <p className="login__switch">Já possui uma conta?
-              <button onClick={() => setIsRegistering(false)}>Log In</button>
+            <Link to="/other-profile">
+              <button className="login__button" onClick={handleCreateAccount}>Criar Conta</button>
+            </Link>
+
+            <p className="login__switch">
+              Já possui uma conta?
+              <button onClick={() => setIsRegistering(false)}>Faça login</button>
             </p>
           </div>
         </div>
-
       </div>
     </section>
   );
