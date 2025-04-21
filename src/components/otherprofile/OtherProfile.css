@@ -22,6 +22,10 @@
     border-right: 1px solid #ccc;
     padding-right: 30px;
   }
+
+  .other-left p{
+    margin-top: 20px;
+  }
   
   .other-profile-image {
     width: 180px;

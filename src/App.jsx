@@ -1,15 +1,18 @@
 import React from "react";
-import { CartProvider } from "./context/CartContext"; 
+import { CartProvider } from "./context/CartContext";
 import AppRoutes from "./routes/AppRoutes";
+import { UserProvider } from "./context/UserContext";
 // import Chatbot from "./components/chatbot/ChatBot";
 import './App.css';
 
 const App = () => {
   return (
-    <CartProvider> 
-      <AppRoutes />
-      {/* <Chatbot />  */}
-    </CartProvider>
+    <UserProvider>
+      <CartProvider>
+        <AppRoutes />
+        {/* <Chatbot /> */}
+      </CartProvider>
+    </UserProvider>
   );
 };
 

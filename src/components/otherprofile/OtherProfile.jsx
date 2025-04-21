@@ -1,16 +1,20 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import "./OtherProfile.css";
+import { UserContext } from "../../context/UserContext";
 
 const OtherProfile = () => {
-  const [userData, setUserData] = useState(null);
+  const { userData: contextUserData } = useContext(UserContext);
+  const [userData, setUserData] = useState(contextUserData);
 
   useEffect(() => {
-    const storedData = localStorage.getItem("userProfileData");
-    if (storedData) {
-      setUserData(JSON.parse(storedData));
+    if (!contextUserData) {
+      const storedData = localStorage.getItem("userProfileData");
+      if (storedData) {
+        setUserData(JSON.parse(storedData));
+      }
     }
-  }, []);
+  }, [contextUserData]);
 
   if (!userData) {
     return <p>Carregando perfil...</p>;
@@ -26,7 +30,7 @@ const OtherProfile = () => {
             className="other-profile-image"
           />
           <h2 className="other-name">{userData.name}</h2>
-          <p className="other-caption">{userData.bio || "Sem legenda"}</p>
+          <p className="other-caption">{userData.bio || "Seu perfil"}</p>
 
           <div className="other-info-box">
             <p><strong>Nível:</strong> <span className="badge">Novato</span></p>
@@ -47,7 +51,7 @@ const OtherProfile = () => {
             </div>
             <div>
               <strong>Gênero:</strong>
-              <p>Feminino</p>
+              <p>{userData.gender || "Não informado"}</p>
             </div>
             <div>
               <strong>Localização:</strong>
@@ -60,9 +64,6 @@ const OtherProfile = () => {
               </p>
             </div>
           </div>
-
-          {/* <h3>Receitas recentes</h3>
-          <p className="other-no-posts">Nenhuma receita publicada ainda.</p> */}
         </div>
       </div>
     </div>
