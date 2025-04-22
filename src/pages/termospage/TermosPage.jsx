@@ -1,15 +1,15 @@
 import Header from "../../components/header/Header.jsx";
-import ConhecimentoDetail from '../../components/conhecimentodetail/ConhecimentoDetail.jsx';
+import TermosLGPD from '../../components/LGPDBanner/TermosLGPD.jsx';
 import Footer from '../../components/footer/Footer.jsx';
 
-const ConhecimentosPage = () => {
+const TermosPage = () => {
   return (
     <div>
       <Header />
-      <ConhecimentoDetail />
+      <TermosLGPD />
       <Footer />
     </div>
   );
 };
 
-export default ConhecimentosPage;
+export default TermosPage;

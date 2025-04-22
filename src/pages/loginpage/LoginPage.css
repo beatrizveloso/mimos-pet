@@ -118,22 +118,6 @@
   font-size: 0.85rem;
 }
 
-
-
-
-
-
-.login__input {
-  background: none;
-  width: 100%;
-  padding: 1rem 6px 12px 6px;
-  font-weight: var(--font-semi-bold);
-  border: 3px solid transparent;
-  border-radius: 1rem;
-  z-index: 1;
-  transition: border-color .4s;
-}
-
 .login__input:autofill {
   transition: background-color 6000s, color 6000s;
 }
@@ -269,20 +253,27 @@
 }
 
 .login__input:focus {
-  padding-block: 1rem 1rem;
+  border-color: var(--first-color);
+  box-shadow: 0 0 0 3px hsla(39, 79%, 45%, 0.2);
+}
+
+.login__input {
+  background: none;
+  width: 100%;
+  padding: 1.5rem 1rem 0.5rem 1.25rem;
+  font-weight: var(--font-semi-bold);
+  border: 3px solid transparent;
+  border-radius: 1rem;
+  z-index: 1;
+  transition: border-color 0.4s;
+  height: 3.1rem;
+  box-sizing: border-box;
+  outline: none; 
 }
 
 .login__input:not(:placeholder-shown).login__input:not(:focus)~.login__label {
   transform: translateY(-12px);
   font-size: var(--tiny-font-size);
-}
-
-.login__input:not(:placeholder-shown).login__input:not(:focus) {
-  padding-block: 2rem 1rem;
-}
-
-.login__input:focus {
-  border-color: var(--first-color);
 }
 
 .login__input:focus~.login__label,

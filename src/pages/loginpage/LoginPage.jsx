@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { UserContext } from "../../context/UserContext";
+import LGPDBanner from "../../components/LGPDBanner/LGPDBanner";
 import "./LoginPage.css";
 
 const LoginPage = () => {
@@ -32,6 +33,8 @@ const LoginPage = () => {
   };
 
   return (
+    <>
+  <LGPDBanner />
     <section className="bg-login">
       <Link to="/">
         <div className="back-arrow-container">
@@ -192,6 +195,7 @@ const LoginPage = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 
