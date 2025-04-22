@@ -1,0 +1,93 @@
+.pagamento-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+    background-color: #fdfdfd;
+    border-radius: 12px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    margin: 40px 40px 120px 40px;
+  }
+  
+  .dados-cadastrais,
+  .selecao-pagamento {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  .duplo {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .opcoes-pagamento {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .opcoes-pagamento button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background-color: #eee;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .opcoes-pagamento .ativo {
+    background-color: #FFBD59;
+    color: white;
+  }
+  
+  .bandeiras {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .botao-comprar {
+    width: 100%;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .seguro {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #666;
+  }
+  

@@ -1,4 +1,5 @@
 import React, { useContext, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import { CartContext } from "../../context/CartContext";
 import Header from "../../components/header/Header";
 import Cart from "../../components/cart/Cart";
@@ -73,8 +74,15 @@ const CartPage = () => {
                 <div className="installment">
                   ou 3x de R$ {(totalFinal / 3).toFixed(2).replace('.', ',')} sem juros
                 </div>
+
+                <Link to="/pagamento">
                 <button className="button-primary">Ir para pagamento</button>
-                <button className="button-secondary">Escolher mais produtos</button>
+                </Link>
+
+                <Link to="/categorias">
+                  <button className="button-secondary">Escolher mais produtos</button>
+                </Link>
+
                 <div className="payment-logos">
                   <p>Formas de pagamento:</p>
                   <img src="/images/bandeiras-cartoes.png" alt="Formas de pagamento" />

@@ -1,0 +1,41 @@
+.pagamento-aprovado {
+  background-color: #27ae60;
+  height: 320px;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icone {
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  border-radius: 50%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.sacola-icon {
+  color: #27ae60;
+  font-size: 40px;
+}
+
+.check {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background-color: #27ae60;
+  color: white;
+  border-radius: 50%;
+  padding: 4px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

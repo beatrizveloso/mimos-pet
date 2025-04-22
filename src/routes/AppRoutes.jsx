@@ -9,6 +9,8 @@ import ConhecimentosPage from "../pages/conhecimentospage/ConhecimentosPage";
 import OtherProfilePage from "../pages/otherprofilepage/OtherProfilePage";
 import ProfilePage from "../pages/profilepage/ProfilePage";
 import ReviewPage from "../pages/reviewpage/ReviewPage";
+import PagamentoPage from "../pages/pagamentopage/PagamentoPage";
+import AprovadoPage from "../pages/aprovadopage/AprovadoPage";
 import ScrollToTop from "./ScrollToTop"; 
 
 const AppRoutes = () => { 
@@ -25,6 +27,8 @@ const AppRoutes = () => {
         <Route path="/other-profile" element={<OtherProfilePage />} /> {/* Página de Perfil */}
         <Route path="/profile" element={<ProfilePage />} /> {/* Página de Perfil alterável*/}
         <Route path="/review" element={<ReviewPage />} /> {/* Página de Avaliações*/}
+        <Route path="/pagamento" element={<PagamentoPage />} /> {/* Página de Pagamento*/}
+        <Route path="/aprovado" element={<AprovadoPage />} /> {/* Página de Pagamento Aprovado*/}
         <Route path="*" element={<h1>Not Found</h1>} />
       </Routes>
     </BrowserRouter>
