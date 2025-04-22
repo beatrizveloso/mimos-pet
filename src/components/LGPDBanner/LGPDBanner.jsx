@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";// Importando Link
 
 export default function LGPDBanner() {
   const [visivel, setVisivel] = useState(true);
@@ -18,13 +19,13 @@ export default function LGPDBanner() {
     <div style={estilos.banner}>
       <p style={estilos.texto}>
         Usamos cookies e dados conforme a{" "}
-        <a href="/politica-de-privacidade" target="_blank" style={estilos.link}>
+        <Link to="/politica-de-privacidade" style={estilos.link}>
           Política de Privacidade
-        </a>{" "}
+        </Link>{" "}
         e os{" "}
-        <a href="/termos-de-servico" target="_blank" style={estilos.link}>
+        <Link to="/termos-de-servico" style={estilos.link}>
           Termos de Serviço
-        </a>
+        </Link>
         . Ao continuar navegando, você concorda com isso.
       </p>
       <button onClick={aceitar} style={estilos.botao}>
