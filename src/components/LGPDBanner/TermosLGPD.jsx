@@ -1,18 +1,7 @@
 import "./TermosePoliticas.css";
-import { Link } from "react-router-dom";
-import { FaArrowLeft } from "react-icons/fa";
-import React from "react";
 
 export default function TermosLGPD() {
     return (
-        <>
-            <Link to="/login">
-                <div className="back-arrow-container">
-                    <button className="back-btn" style={{ marginTop: "80px" }}>
-                        <FaArrowLeft className="back-icon" />
-                    </button>
-                </div>
-            </Link>
             <div style={{ padding: "2rem", maxWidth: "900px", margin: "0 auto" }}>
                 <h1 className="sub-title">Termos de Serviço — Mimo's Petz</h1>
 
@@ -79,6 +68,5 @@ export default function TermosLGPD() {
 
                 <p className="text">Última atualização: Abril de 2025</p>
             </div>
-        </>
     );
 }
