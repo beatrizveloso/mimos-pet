@@ -1,18 +1,15 @@
 import { useEffect, useState } from "react";
 
 export default function LGPDBanner() {
-  const [visivel, setVisivel] = useState(false);
+  const [visivel, setVisivel] = useState(true);
 
   useEffect(() => {
-    const aceito = localStorage.getItem("lgpdAceito");
-    if (!aceito) {
-      setVisivel(true);
-    }
+    setVisivel(true); 
   }, []);
 
   const aceitar = () => {
-    localStorage.setItem("lgpdAceito", "true");
     setVisivel(false);
+    document.cookie = "cookiesAceitos=true; path=/; max-age=" + 60 * 60 * 24 * 365; 
   };
 
   if (!visivel) return null;

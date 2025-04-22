@@ -1,19 +1,7 @@
 import "./TermosePoliticas.css";
-import { Link } from "react-router-dom";
-import { FaArrowLeft } from "react-icons/fa";
-import React from "react";
 
 export default function PoliticasLGPD() {
   return (
-    <>
-      <Link to="/login">
-        <div className="back-arrow-container">
-          <button className="back-btn" style={{ marginTop: "80px" }}>
-            <FaArrowLeft className="back-icon" />
-          </button>
-        </div>
-      </Link>
-
       <div className="politicas-lgpd" style={{ padding: "2rem", maxWidth: "900px", margin: "0 auto" }}>
         <h1 className="sub-title">Política de Privacidade — Mimo's Pet</h1>
         <p className="text">
@@ -95,6 +83,5 @@ export default function PoliticasLGPD() {
 
         <p className="text">Última atualização: Abril de 2025</p>
       </div>
-    </>
   );
 }
