@@ -1,0 +1,18 @@
+.sub-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #003459;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #686565;
+    margin-top: 30px;
+    line-height: 1.6;
+  }
+  
