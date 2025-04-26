@@ -125,12 +125,12 @@
       transform: translateX(0);
   }
 }
-
 @media (max-width: 480px) {
   #homepage {
     flex-direction: column;
     align-items: center;
     height: auto;
+    padding: 0; /* Remove qualquer padding extra */
   }
 
   .shape {
@@ -139,8 +139,9 @@
 
   .text-home {
     width: 100%;
-    padding: 20px;
+    padding: 10px; /* Ajusta o padding para evitar o estouro */
     height: auto;
+    box-sizing: border-box; /* Garante que o padding não afete o layout */
   }
 
   .home-h1 {
@@ -165,11 +166,11 @@
   }
 
   .home-h1 img {
-   display: none';
+    display: none;
   }
 
   .text-home p {
-    width: 321px;
+    width: 100%;
     font-size: 15px;
     line-height: 23px;
     text-align: justify;
@@ -177,7 +178,7 @@
   }
 
   .home-btn {
-    align-self: flex-end; 
+    align-self: flex-end;
     margin-top: -75px;
     margin-right: 40px;
   }

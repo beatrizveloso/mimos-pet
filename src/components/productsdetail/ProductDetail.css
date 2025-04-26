@@ -70,7 +70,7 @@
 }
 
 .product-image {
-    width: 541px;
+  width: 541px;
   height: 585px;
   border: 3.5px solid #969EA0;
   border-radius: 5px;
@@ -117,8 +117,8 @@
 
 .quantidade-container {
   display: flex;
-  align-items: center; 
-  justify-content: center; 
+  align-items: center;
+  justify-content: center;
   gap: 10px;
   background: #fff;
   padding: 10px 15px;
@@ -137,14 +137,14 @@
   padding: 8px;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px; 
+  font-size: 16px;
   width: 30px;
   height: 30px;
   color: #5AA2F3;
 }
 
 .quantidade-container span {
-  width: 40px; 
+  width: 40px;
   text-align: center;
   font-weight: bold;
   font-size: 18px;
@@ -201,12 +201,13 @@ hr {
 
 @keyframes flyToCart {
   0% {
-      transform: translate(0, 0);
-      opacity: 1;
+    transform: translate(0, 0);
+    opacity: 1;
   }
+
   100% {
-      transform: translate(300px, -400px); 
-      opacity: 0;
+    transform: translate(300px, -400px);
+    opacity: 0;
   }
 }
 
@@ -215,4 +216,87 @@ hr {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 480px) {
+  .zoom-box {
+    width: 80%;
+    height: 80%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #ccc;
+    background-size: 200%;
+  }
+
+  .product-image {
+    width: 340px;
+    height: auto;
+  }
+
+  .product-info {
+    margin-left: 20px;
+  }
+
+  .product-info h1 {
+    font-size: 28px;
+    line-height: 40px;
+    word-wrap: break-word;
+    margin: 20px 30px;
+  }
+
+  .product-info h2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .avaliacao {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    font-size: 20px;
+  }
+
+  .star {
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .align-av {
+    display: flex;
+    margin-top: 15px;
+    gap: 30px;
+  }
+
+  .avaliacoes,
+  .estoque {
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 0;
+  }
+
+  .adicionar-carrinho {
+    align-items: center;
+    width: 340px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 0px 0;
+  }
+
+  .descricao,
+  .composicao {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 30px;
+    width: calc(100% - 60px);
+  }
+
+  .quantidade-container span {
+    font-size: 16px;
+  }
+
+  h3 {
+    margin: 20px 30px;
+  }
 }

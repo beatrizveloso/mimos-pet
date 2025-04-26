@@ -23,7 +23,6 @@ footer {
   border-radius: 16px;
   display: flex;
   align-items: center;
-  padding: 20px;
   justify-content: space-between;
 }
 
@@ -164,13 +163,13 @@ hr {
   }
 
   .footer-rectangle {
-    width: 372px;
+    width: 360px;
     height: 262px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    border-radius: 0px;
   }
 
   .footer-rectangle h1 {

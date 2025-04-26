@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FiChevronDown, FiChevronRight } from "react-icons/fi";
 import "../produtos/FilterCate.css";
 
@@ -161,21 +161,39 @@ const FilterCate = ({ setFiltro, setSubcategoria }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedFilter, setSelectedFilter] = useState("Todas as categorias");
   const [hoveredCategoria, setHoveredCategoria] = useState(null);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 480);
+  const [expandedCategoria, setExpandedCategoria] = useState(null);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 480);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const handleFilterSelection = (option) => {
     setFiltro(option === "Todas as categorias" ? null : option);
-    setSubcategoria(null); 
+    setSubcategoria(null);
     setSelectedFilter(option);
     setIsOpen(false);
   };
 
   const handleSubcategoriaClick = (sub, categoria) => {
     setFiltro(categoria);
-    setSubcategoria(sub); 
+    setSubcategoria(sub);
     setSelectedFilter(sub);
     setIsOpen(false);
   };
 
+  const handleCategoriaClick = (index) => {
+    if (expandedCategoria === index) {
+      setExpandedCategoria(null);
+    } else {
+      setExpandedCategoria(index);
+    }
+  };
 
   return (
     <div className="align-filter">
@@ -202,16 +220,36 @@ const FilterCate = ({ setFiltro, setSubcategoria }) => {
               <div
                 key={index}
                 className="dropdown-header"
-                onMouseEnter={() => setHoveredCategoria(index)}
-                onMouseLeave={() => setHoveredCategoria(null)}
+                onMouseEnter={() => !isMobile && setHoveredCategoria(index)}
+                onMouseLeave={() => !isMobile && setHoveredCategoria(null)}
+                onClick={() => isMobile && handleCategoriaClick(index)}
                 style={{ position: "relative" }}
               >
                 {categoria.header}
 
-                {hoveredCategoria === index && (
+                {!isMobile && hoveredCategoria === index && (
                   <div className="subcategorias-dropdown">
                     {categoria.categorias.map((cat, idx) => (
                       <div key={idx} className="subcategoria-group">
+                        <strong>{cat.nome}</strong>
+                        {cat.subcategorias.map((sub, subIdx) => (
+                          <button
+                            key={subIdx}
+                            className="subcategoria-item"
+                            onClick={() => handleSubcategoriaClick(sub, cat.nome)}
+                          >
+                            {sub}
+                          </button>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+                )}
+
+                {isMobile && expandedCategoria === index && (
+                  <div className="subcategorias-mobile">
+                    {categoria.categorias.map((cat, idx) => (
+                      <div key={idx} className="subcategoria-group-mobile">
                         <strong>{cat.nome}</strong>
                         {cat.subcategorias.map((sub, subIdx) => (
                           <button
@@ -236,4 +274,3 @@ const FilterCate = ({ setFiltro, setSubcategoria }) => {
 };
 
 export default FilterCate;
-
