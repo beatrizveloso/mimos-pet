@@ -125,13 +125,12 @@
       transform: translateX(0);
   }
 }
-
-/* --- MEDIA QUERY MOBILE --- */
 @media (max-width: 480px) {
   #homepage {
     flex-direction: column;
     align-items: center;
     height: auto;
+    padding: 0; /* Remove qualquer padding extra */
   }
 
   .shape {
@@ -140,8 +139,9 @@
 
   .text-home {
     width: 100%;
-    padding: 20px;
+    padding: 10px; /* Ajusta o padding para evitar o estouro */
     height: auto;
+    box-sizing: border-box; /* Garante que o padding não afete o layout */
   }
 
   .home-h1 {
@@ -166,25 +166,19 @@
   }
 
   .home-h1 img {
-    width: 30px;
-    height: auto;
-    margin-top: -10px;
+    display: none;
   }
 
   .text-home p {
-    width: 321px;
+    width: 100%;
     font-size: 15px;
     line-height: 23px;
     text-align: justify;
     margin-top: 15px;
   }
-/* 
-  .home-h1 img {
-    display: none; 
-  } */
 
   .home-btn {
-    align-self: flex-end; 
+    align-self: flex-end;
     margin-top: -75px;
     margin-right: 40px;
   }
@@ -202,7 +196,7 @@
 
   .dog-mobile img {
     width: 100%;
-    margin-top: 50px;
     height: auto;
+    margin-top: 50px;
   }
 }

@@ -29,8 +29,9 @@ header {
 }
 
 .nav-left img {
-    height: 60px;
-    margin-left: 20px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 #nav_list {
@@ -115,6 +116,7 @@ li p:hover {
 .mobile-menu-icon {
     font-size: 2rem;
     margin-right: 20px;
+    margin-top: -30px;
 }
 
 #mobile_menu {
@@ -176,6 +178,10 @@ li p:hover {
 }
 
 @media screen and (max-width: 480px) {
+    header {
+    height: 70px;
+    }
+
     #navbar {
         flex-wrap: wrap;
     }

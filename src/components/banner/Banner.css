@@ -14,7 +14,8 @@
   display: block;
 }
 
-.banner-mobile {
+.banner-mobile, 
+.banner-mobile2 {
   display: none;
 }
 
@@ -29,6 +30,18 @@
 
   .banner-mobile {
     display: block;
+    width: 360px;
+  }
+
+  .banner-mobile2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 480px;
+    margin-top: -30px;
+  }
+  .banner-mobile2 img{
     width: 360px;
   }
 }
