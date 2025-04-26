@@ -149,6 +149,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 15px;
+    margin-top: 25px;
   }
 
   .home-h1 h1 {
@@ -172,15 +173,15 @@
 
   .text-home p {
     width: 321px;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 23px;
     text-align: justify;
     margin-top: 15px;
   }
-
+/* 
   .home-h1 img {
     display: none; 
-  }
+  } */
 
   .home-btn {
     align-self: flex-end; 
@@ -201,6 +202,7 @@
 
   .dog-mobile img {
     width: 100%;
+    margin-top: 50px;
     height: auto;
   }
 }

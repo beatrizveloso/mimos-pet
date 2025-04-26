@@ -22,3 +22,9 @@ span {
   color: #103559;
   font-weight: 800;
 }
+
+@media (max-width: 480px) {
+  .align-apoiadores {
+    display: none;
+  }
+}
