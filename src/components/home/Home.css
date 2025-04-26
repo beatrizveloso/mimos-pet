@@ -126,7 +126,6 @@
   }
 }
 
-/* --- MEDIA QUERY MOBILE --- */
 @media (max-width: 480px) {
   #homepage {
     flex-direction: column;
@@ -166,9 +165,7 @@
   }
 
   .home-h1 img {
-    width: 30px;
-    height: auto;
-    margin-top: -10px;
+   display: none';
   }
 
   .text-home p {
@@ -178,10 +175,6 @@
     text-align: justify;
     margin-top: 15px;
   }
-/* 
-  .home-h1 img {
-    display: none; 
-  } */
 
   .home-btn {
     align-self: flex-end; 
@@ -202,7 +195,7 @@
 
   .dog-mobile img {
     width: 100%;
-    margin-top: 50px;
     height: auto;
+    margin-top: 50px;
   }
 }

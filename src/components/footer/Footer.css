@@ -4,16 +4,16 @@ footer {
   text-decoration: none;
   padding-bottom: 50px; 
   position: relative;
-  min-height: 440px; /* Garante que o footer tenha altura mínima */
+  min-height: 440px; 
 }
 
 .footer-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* Mantém o conteúdo no topo */
+  justify-content: flex-start; 
   width: 100%;
-  min-height: 440px; /* Certifica-se de que o container do footer tenha altura mínima */
+  min-height: 440px; 
 }
 
 .footer-rectangle {
@@ -150,7 +150,7 @@ hr {
 
 @media (max-width: 480px) {
   footer {
-    height: auto; /* Remove a altura fixa */
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start; 
@@ -160,7 +160,7 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    min-height: 440px; /* Garante que o container tenha altura mínima */
+    min-height: 440px; 
   }
 
   .footer-rectangle {
