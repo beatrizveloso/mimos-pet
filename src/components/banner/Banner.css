@@ -4,10 +4,31 @@
   display: flex;
   justify-content: center; 
   align-items: center;
+  position: relative;
 }
 
-.align-banner img {
+.banner-desktop img,
+.banner-mobile img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+.banner-mobile {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .align-banner {
+    height: 570px;
+  }
+  
+  .banner-desktop {
+    display: none;
+  }
+
+  .banner-mobile {
+    display: block;
+    width: 360px;
+  }
 }
