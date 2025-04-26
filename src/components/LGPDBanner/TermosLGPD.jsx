@@ -3,7 +3,7 @@ import "./TermosePoliticas.css";
 export default function TermosLGPD() {
     return (
             <div style={{ padding: "2rem", maxWidth: "900px", margin: "0 auto" }}>
-                <h1 className="sub-title">Termos de Serviço — Mimo's Petz</h1>
+                <h1 className="sub-title">Termos de Serviço — Mimo's Pet</h1>
 
                 <p className="text">
                     Estes Termos de Serviço regem o uso do site da Mimo's Pet, um e-commerce dedicado à venda de produtos para animais de estimação. Ao acessar e utilizar nossa plataforma, você concorda com os termos descritos abaixo, os quais têm como objetivo regulamentar os direitos e deveres entre a Mimo's Pet e seus clientes. Caso não concorde com algum dos itens, recomendamos que não continue utilizando os serviços do site.
