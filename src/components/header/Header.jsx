@@ -46,23 +46,10 @@ const Header = () => {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/categorias">
-                            <p>Categorias</p>
-                        </Link>
+                        <Link to="/categorias"><p>Categorias</p></Link>
                     </li>
                     <li className="nav-item">
-                        <Link
-                            to="/"
-                            onClick={(e) => {
-                                e.preventDefault();
-                                const section = document.getElementById("sobre-nos");
-                                if (section) {
-                                    section.scrollIntoView({ behavior: "smooth" });
-                                }
-                            }}
-                        >
-                            <p>Sobre Nós</p>
-                        </Link>
+                    <Link to="/sobre-nos"><p>Sobre Nós</p></Link>
                     </li>
                     <li className="nav-item">
                         <Link

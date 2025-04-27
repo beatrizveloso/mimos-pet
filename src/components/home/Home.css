@@ -8,6 +8,7 @@
   width: 100%;
   height: 650px;
   display: flex;
+  padding-top: 90px; 
 }
 
 .shape {

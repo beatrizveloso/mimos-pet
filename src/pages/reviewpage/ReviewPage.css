@@ -1,9 +1,7 @@
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-
+.review-page header {
+  background-color:  #f9fafb;
 }
+
 
 .review-page {
   display: grid;
@@ -245,12 +243,11 @@ body {
   margin-top: 30px;
 }
 
-/* Ajuste da galeria de imagens */
 .image-gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem; /* Espaçamento entre as imagens */
-  justify-content: center; /* Centraliza as imagens */
+  gap: 1rem; 
+  justify-content: center; 
 }
 
   .form-container {

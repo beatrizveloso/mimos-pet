@@ -106,7 +106,7 @@ const LoginPage = () => {
           </div>
 
           <div className="login__register">
-            <h1 className="login__title">Criar nova conta.</h1>
+            <h1 className="login__title2">Criar nova conta.</h1>
             <div className="login__area">
               <div className="login__content grid">
                 <div className="login__box">

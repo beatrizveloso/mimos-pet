@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
+import { Link } from "react-router-dom";
 import "./Profile.css";
 import { UserContext } from "../../context/UserContext";
 
@@ -76,7 +77,9 @@ const Profile = () => {
                   alt="Perfil"
                   className="d-block ui-w-80"
                 />
+                 <Link to="/other-profile">
                 <button className="btn-save" onClick={handleSave}>Salvar</button>
+                </Link>
               </div>
               <div className="media-body ml-4">
                 <label className="btn btn-outline-primary">
