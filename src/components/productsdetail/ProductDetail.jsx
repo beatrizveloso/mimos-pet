@@ -4641,11 +4641,11 @@ const ProductDetail = () => {
               ))}
             </div>
             <div className="align-av">
-            <Link to="/review">
-              <span className="avaliacoes">(3 avaliações)</span>
-            </Link>
-            <span className="estoque">Em estoque</span>
-          </div>
+              <Link to="/review">
+                <span className="avaliacoes">(3 avaliações)</span>
+              </Link>
+              <span className="estoque">Em estoque</span>
+            </div>
           </div>
 
           <div className="quantidade-container">
@@ -4655,9 +4655,11 @@ const ProductDetail = () => {
           </div>
 
           <h2>{produto.price}</h2>
-          <button className="adicionar-carrinho" onClick={() => addToCart(produto, quantidade)}>
-            Adicionar ao carrinho
-          </button>
+          <Link to="/carrinho">
+            <button className="adicionar-carrinho" onClick={() => addToCart(produto, quantidade)}>
+              Adicionar ao carrinho
+            </button>
+          </Link>
 
         </div>
 
