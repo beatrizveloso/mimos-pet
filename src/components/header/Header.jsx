@@ -117,10 +117,13 @@ const Header = () => {
                             <Link to="/categorias" onClick={() => setIsMobileMenuOpen(false)}>Categorias</Link>
                         </li>
                         <li className="nav-item">
-                            <a href="#sobre-nos" onClick={() => setIsMobileMenuOpen(false)}>Sobre nós</a>
+                            <a href="/sobre-nos" onClick={() => setIsMobileMenuOpen(false)}>Sobre nós</a>
                         </li>
                         <li className="nav-item">
                             <a href="#footer" onClick={() => setIsMobileMenuOpen(false)}>Contato</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="/carrinho" onClick={() => setIsMobileMenuOpen(false)}>Carrinho</a>
                         </li>
                         <li className="nav-item">
                             <Link to="/login" onClick={() => setIsMobileMenuOpen(false)}>Login</Link>

@@ -43,7 +43,7 @@ const OtherProfile = () => {
         </div>
 
         <div className="other-right">
-          <h3>Sobre</h3>
+          <h3>Sobre mim:</h3>
           <div className="other-details">
             <div>
               <strong>Nome completo:</strong>

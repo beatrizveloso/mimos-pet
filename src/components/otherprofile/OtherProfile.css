@@ -101,3 +101,12 @@
     font-style: italic;
   }
   
+  @media (max-width: 480px) {
+  .other-left {
+    padding-right: 0px;
+  }
+  .other-right h3 {
+    font-size: 23px;
+    margin:10px 0px;
+  }
+}

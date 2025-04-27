@@ -56,7 +56,7 @@
 }
 
 .sub-title span {
-  font-size: 40px; 
+  font-size: 40px;
   font-weight: bold;
   color: #FFBD59;
 }
@@ -103,3 +103,34 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+@media (max-width: 480px) {
+  .conhecimento-detail-container {
+    width: 90%;
+  }
+
+  .main-title {
+    font-size: 30px;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .author-date {
+    font-size: 16px;
+  }
+
+  .text {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .sub-title {
+    font-size: 30px;
+  }
+
+  .sub-title span {
+    font-size: 32px;
+  }
+}

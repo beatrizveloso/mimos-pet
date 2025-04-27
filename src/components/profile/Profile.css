@@ -147,7 +147,7 @@
   font-weight: bold;
   margin-bottom: 24px;
   text-align: center;
-  color: #FEBC56;
+  color: #003459;
 }
 
 @media (max-width: 768px) {
@@ -210,4 +210,116 @@
 
 .btn-save:hover {
   background-color: #0056b3;
+}
+
+@media (max-width: 480px) {
+  .align-profile {
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+
+  .container-profile {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .account-settings-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-right: none;
+  }
+
+  .account-settings-links button {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .align-group {
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0;
+    width: 100%;
+  }
+
+  .account-settings-links {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .tab-content {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .ui-w-80 {
+    width: 80px;
+    height: 80px;
+  }
+
+  .tab-content {
+    padding: 0rem;
+  }
+
+  .media-body {
+    margin-left: 0;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+    width: 90%; 
+    margin-left: auto;
+    margin-right: auto; 
+  }
+
+  .form-group label {
+    font-size: 14px;
+  }
+
+  .form-control {
+    padding: 10px;
+    font-size: 14px;
+    width: 100%; 
+    box-sizing: border-box; 
+  }
+
+  .btn-save {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 1rem;
+  }
+
+  .btn-outline-primary {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .alert {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .container-profile h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .align-img {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .account-settings-links button {
+    width: 100%;
+    text-align: center;
+  }
 }

@@ -4635,7 +4635,7 @@ const ProductDetail = () => {
         <div className="product-info">
           <h1>{produto.title}</h1>
           <div className="avaliacao">
-            <div className="star">
+            <div className="estrela">
               {[...Array(5)].map((_, i) => (
                 <FaStar key={i} color="#FFD700" />
               ))}
