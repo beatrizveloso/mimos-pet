@@ -5,9 +5,8 @@ import { UserContext } from "../../context/UserContext";
 const Profile = () => {
   const { userData, setUserData } = useContext(UserContext);
 
-  const [activeTab, setActiveTab] = useState("general"); // Adicionado o estado activeTab
+  const [activeTab, setActiveTab] = useState("general"); 
   
-  // Inicializa os dados do formulário com o UserContext ou com valores padrão
   const [formData, setFormData] = useState({
     username: userData?.username || "",
     name: userData?.name || "",
@@ -31,7 +30,7 @@ const Profile = () => {
         country: userData.country,
         phone: userData.phone,
         secondaryEmail: userData.secondaryEmail,
-        imagePreview: userData.imagePreview
+        imagePreview: userData.imagePreview || "/images/profile.jpg"
       });
     }
   }, [userData]);
@@ -59,10 +58,10 @@ const Profile = () => {
   };
 
   const handleSave = () => {
-    setUserData(formData);  // Atualiza o contexto com os dados mais recentes
-    localStorage.setItem("userProfileData", JSON.stringify(formData));  // Atualiza o localStorage
+    setUserData(formData); 
+    localStorage.setItem("userProfileData", JSON.stringify(formData));  
     alert("Dados salvos com sucesso!");
-    window.location.href = "/other-profile";  // Redireciona para o perfil
+    window.location.href = "/other-profile";  
   };
 
   const renderTabContent = () => {

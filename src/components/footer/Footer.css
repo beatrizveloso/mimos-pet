@@ -20,6 +20,7 @@ footer {
   background-color: #003459;
   width: 680px;
   height: 116px;
+  padding: 20px 20px 20px 20px;
   border-radius: 16px;
   display: flex;
   align-items: center;
@@ -163,7 +164,7 @@ hr {
   }
 
   .footer-rectangle {
-    width: 360px;
+    width: 420px;
     height: 262px;
     flex-direction: column;
     justify-content: center;
@@ -182,9 +183,8 @@ hr {
     margin-top: 20px;
   }
 
-  .map-container,
-  .contact-info {
-    display: none; 
+  .map-container{
+  display: none;
   }
 
   .footer-links {

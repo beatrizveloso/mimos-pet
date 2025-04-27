@@ -4,16 +4,21 @@ header {
     width: 100%;
     height: 90px;
     font-size: 1rem;
-    position: sticky;
+    position: fixed; 
     top: 0;
+    left: 0;
     z-index: 3;
     background-color: var(--third-color);
     color: var(--primary-color);
-    font-family: "Inter", sans-serif;
+    font-family: 'Poppins', sans-serif; 
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+}
+
+body {
+    padding-top: 90px; 
 }
 
 #navbar {
@@ -179,7 +184,12 @@ li p:hover {
 
 @media screen and (max-width: 480px) {
     header {
-    height: 70px;
+        position: static; 
+        height: 70px;
+    }
+
+    body {
+        padding-top: 0; 
     }
 
     #navbar {
@@ -212,12 +222,5 @@ li p:hover {
 
     .nav-right {
         gap: 10px;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    #search_toggle_btn,
-    .results {
-        display: none !important;
     }
 }

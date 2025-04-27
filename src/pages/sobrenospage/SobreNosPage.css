@@ -1,0 +1,46 @@
+.sobrenos-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .sobrenos-content {
+    flex: 1;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .sobrenos-hero {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .sobrenos-text {
+    margin-top: 2rem;
+  }
+  
+  .sobrenos-texto {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #686565;
+    margin-top: 30px;
+    line-height: 1.6;
+  }
+  
+  .sobrenos-titulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #003459;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .sobrenos-titulo span {
+    font-size: 36px; 
+    font-weight: bold;
+    color: #FFBD59;
+  }
+  

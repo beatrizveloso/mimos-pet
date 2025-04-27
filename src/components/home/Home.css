@@ -130,7 +130,7 @@
     flex-direction: column;
     align-items: center;
     height: auto;
-    padding: 0; /* Remove qualquer padding extra */
+    padding: 0; 
   }
 
   .shape {
@@ -139,9 +139,9 @@
 
   .text-home {
     width: 100%;
-    padding: 10px; /* Ajusta o padding para evitar o estouro */
+    padding: 10px; 
     height: auto;
-    box-sizing: border-box; /* Garante que o padding não afete o layout */
+    box-sizing: border-box; 
   }
 
   .home-h1 {
@@ -170,7 +170,7 @@
   }
 
   .text-home p {
-    width: 100%;
+    width: 360px;
     font-size: 15px;
     line-height: 23px;
     text-align: justify;

@@ -35,10 +35,10 @@ const Footer = () => {
 
                 <div className="contact-info">
                     <div className="contact-item">
-                        <p>📞 Tel: (11) 1234-5678</p>
+                        <p>Tel: (11) 1234-5678</p>
                     </div>
                     <div className="contact-item">
-                        <p>✉️ Email: contato@mimospet.com</p>
+                        <p>Email: contato@mimospet.com</p>
                     </div>
                 </div>
 
@@ -57,18 +57,7 @@ const Footer = () => {
                         <p>Início</p>
                     </Link>
                     <Link to="/categorias"><p>Categorias</p></Link>
-                    <Link
-                        to="/"
-                        onClick={(e) => {
-                            e.preventDefault();
-                            const section = document.getElementById("sobre-nos");
-                            if (section) {
-                                section.scrollIntoView({ behavior: "smooth" });
-                            }
-                        }}
-                    >
-                        <p>Sobre Nós</p>
-                    </Link>
+                    <Link to="/sobre-nos"><p>Sobre Nós</p></Link>
                     <Link
                         to="/"
                         onClick={(e) => {

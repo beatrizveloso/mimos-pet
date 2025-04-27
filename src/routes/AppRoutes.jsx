@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "../pages/homepage/HomePage"; 
 import CategoriesPage from "../pages/categoriespage/CategoriesPage"; 
+import SobreNosPage from "../pages/sobrenospage/SobreNosPage"; 
 import LoginPage from "../pages/loginpage/LoginPage"; 
 import ProductPage from "../pages/productpage/ProductPage"; 
 import CartPage from "../pages/cartpage/CartPage"; 
@@ -22,6 +23,7 @@ const AppRoutes = () => {
       <Routes>
         <Route path="/" element={<HomePage />} /> {/* Página inicial */}
         <Route path="/categorias" element={<CategoriesPage />} /> {/* Página Categorias */}
+        <Route path="/sobre-nos" element={<SobreNosPage />} /> {/* Página Categorias */}
         <Route path="/login" element={<LoginPage />} /> {/* Página de Login */}
         <Route path="/produtos/:id" element={<ProductPage />} /> {/* Página de Produtos */}
         <Route path="/carrinho" element={<CartPage />} /> {/* Página de Carrinho */}
