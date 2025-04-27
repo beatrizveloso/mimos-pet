@@ -5,6 +5,7 @@
   gap: 32px;
   padding: 32px 40px;
   font-family: 'Segoe UI', sans-serif;
+  margin-top: 90px;
 }
 
 .cart-left {
@@ -31,7 +32,7 @@
 }
 
 .cep-box input {
-  width: 100%;
+  width: 80%;
   padding: 10px 12px;
   border-radius: 8px;
   border: 1px solid #ccc;
@@ -226,4 +227,97 @@
 
 .button-secondary:hover {
   background-color: #f2f2f2;
+}
+
+/* Media Query para Mobile (até 480px) */
+@media (max-width: 480px) {
+  .cartpage-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px;
+    margin-top: 30px;
+  }
+
+  .cart-left {
+    flex: none;
+    width: 100%;
+  }
+
+  .cart-right {
+    flex: none;
+    width: 90%;
+    margin-bottom: 90px;
+    margin-top: 20px;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.05);
+    background-color: #fff;
+    font-size: 14px;
+  }
+
+  .cep-box label {
+    font-size: 12px;
+  }
+
+  .cep-box input {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+
+  .shipping-options h3,
+  .payment-options h3 {
+    font-size: 14px;
+  }
+
+  .shipping-options ul,
+  .payment-options ul {
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .shipping-options li,
+  .payment-options li {
+    font-size: 12px;
+  }
+
+  .summary-box {
+    margin-top: 16px;
+  }
+
+  .summary-box .line {
+    font-size: 12px;
+  }
+
+  .summary-box .total {
+    font-size: 16px;
+  }
+
+  .button-primary {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .button-secondary {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .payment-logos img {
+    max-width: 180px;
+  }
+
+  .support-box {
+    font-size: 12px;
+    margin-top: 16px;
+  }
+
+  .support-box a {
+    font-size: 12px;
+  }
+
+  .summary-box .installment {
+    font-size: 12px;
+  }
 }

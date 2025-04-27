@@ -98,6 +98,16 @@
   color: gray;
   font-size: 22px;
   font-weight: 500;
+  text-decoration: none;
+}
+
+.avaliacoes:hover {
+  color: #0056b3; 
+  text-decoration: underline; 
+}
+
+a {
+  text-decoration: none; 
 }
 
 .estoque {

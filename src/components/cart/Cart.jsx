@@ -19,10 +19,13 @@ const Cart = () => {
                             <h3>{item.title}</h3>
                             <p className="cart-size">Tamanho: {item.size}</p>
                             <div className="cart-details">
-                                <span className="cart-price">R$ {(Number(item.price) * item.quantidade).toFixed(2)}</span>
+
+                               <div className="align-price">
+                             <span className="cart-price">R$ {(Number(item.price) * item.quantidade).toFixed(2)}</span>
                                 <p className="cart-unit-price">
                                 <small>R$ {Number(item.price).toFixed(2).replace('.', ',')} cada</small>
                             </p>
+                            </div>
                             <div className="cart-quantity">
                                     <button onClick={() => updateQuantity(item.id, item.quantidade - 1)}>-</button>
                                     <span>{item.quantidade}</span>

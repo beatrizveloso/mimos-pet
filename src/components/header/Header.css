@@ -17,10 +17,6 @@ header {
     padding: 0 20px;
 }
 
-body {
-    padding-top: 90px; 
-}
-
 #navbar {
     display: flex;
     align-items: center;

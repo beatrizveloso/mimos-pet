@@ -65,6 +65,15 @@
   color: var(--title-color);
   text-align: center;
   margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.login__title2 {
+  font-size: var(--big-font-size);
+  color: var(--title-color);
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .login__box {
@@ -73,6 +82,8 @@
   align-items: center;
   background-color: var(--container-color);
   border-radius: 1rem;
+  max-width: 550px;
+  width: 100%;
 }
 
 .login__password-info {
@@ -153,11 +164,12 @@
 }
 
 .login__forgot:hover {
-  color: var(--primary-color);
+  color: var(--first-color-alt);
 }
 
 .login__button {
   width: 100%;
+  max-width: 550px;
   display: inline-flex;
   justify-content: center;
   background-color: #fab348;
@@ -238,7 +250,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  width: 100%;
+  width: 50vw;
   transition: transform .4s, opacity .4s .1s;
 }
 
@@ -315,19 +327,47 @@
 }
 
 
+.login__area {
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
 @media screen and (max-width: 480px) {
+
+  .login__access,
+.login__register {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 90vw;
+}
   .container {
     margin-inline: 1rem;
   }
 
   .login__area {
     width: 100%;
+    max-width: 340px;
     margin: 0 auto;
   }
 
   .login__title {
     font-size: 1.25rem;
     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .login__title2 {
+    font-size: 1.25rem;
+    text-align: center;
+    margin-top: 15rem;
     margin-bottom: 1.5rem;
   }
 
@@ -350,7 +390,7 @@
   .login__switch {
     margin-top: 1rem;
     text-align: center;
-    margin-bottom: 3rem; 
+    margin-bottom: 3rem;
   }
 
   .login__input {
@@ -368,12 +408,20 @@
     font-size: 0.875rem;
   }
 
+  /* Ajuste para manter a "Criar Conta" separada e visível apenas quando necessário */
   .login__register {
     text-align: center;
+    opacity: 0;
+    pointer-events: none;
+    margin-top: 2rem;
+    order: 2; /* Garantir que a "Criar Conta" vem depois do login */
+  }
+
+  .active .login__register {
     opacity: 1;
     pointer-events: initial;
-    margin-top: 16rem;
-    order: 1;
+    margin-top: 0;
+    transform: translateX(0);
   }
 
   .login__register button {
