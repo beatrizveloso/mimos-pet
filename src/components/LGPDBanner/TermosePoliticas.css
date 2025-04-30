@@ -3,7 +3,7 @@
     font-weight: bold;
     font-size: 30px;
     color: #003459;
-    margin-top: 40px;
+    margin-top: 110px;
     margin-bottom: 10px;
   }
   
@@ -16,3 +16,9 @@
     line-height: 1.6;
   }
   
+  
+@media (max-width: 480px) {
+  .sub-title {
+    margin-top: 20px;
+  }
+}
