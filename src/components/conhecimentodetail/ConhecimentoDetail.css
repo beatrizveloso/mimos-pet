@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }
 
 .main-title {
@@ -106,6 +107,7 @@
 @media (max-width: 480px) {
   .conhecimento-detail-container {
     width: 90%;
+    margin-top: 0px;
   }
 
   .main-title {
