@@ -43,6 +43,7 @@
 
 .product-image {
   width: 300px;
+  margin-top: 100px;
   height: auto;
   border-radius: 8px;
 }
@@ -242,6 +243,7 @@ hr {
   .product-image {
     width: 340px;
     height: auto;
+    margin-top: 0px;
   }
 
   .product-info {
