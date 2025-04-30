@@ -8,6 +8,7 @@
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
     margin: 40px 40px 120px 40px;
+    margin-top: 120px;
   }
   
   .dados-cadastrais,
@@ -91,3 +92,9 @@
     color: #666;
   }
   
+  
+@media (max-width: 480px) {
+  .pagamento-container {
+    margin-top: 20px;
+  }
+}

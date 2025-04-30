@@ -2,6 +2,7 @@
     padding: 40px;
     display: flex;
     justify-content: center;
+    margin-top: 100px;
   }
   
   .other-profile-card {
@@ -102,6 +103,10 @@
   }
   
   @media (max-width: 480px) {
+    .other-container {
+      margin-top: 10px;
+    }
+    
   .other-left {
     padding-right: 0px;
   }

@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }
 
 .icone {
@@ -38,4 +39,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+@media (max-width: 480px) {
+  .pagamento-aprovado {
+    margin-top: 20px;
+  }
 }
