@@ -15,14 +15,21 @@ const CartPage = () => {
   const handleCepChange = (e) => {
     const value = e.target.value;
     setCep(value);
-    if (value.length === 9) {
-      setShowOptions(true);
-    } else {
-      setShowOptions(false);
-    }
+    setShowOptions(value.length === 9);
   };
 
-  const subtotal = cartItems.reduce((acc, item) => acc + item.price * item.quantidade, 0);
+  // Função para converter string de preço para número
+  const parsePrice = (price) => {
+    if (typeof price === "string") {
+      return Number(price.replace("R$", "").replace(",", ".").trim());
+    }
+    return Number(price);
+  };
+
+  const subtotal = cartItems.reduce(
+    (acc, item) => acc + parsePrice(item.price) * item.quantidade,
+    0
+  );
   const descontoTotal = subtotal * 0.1877;
   const totalFinal = subtotal - descontoTotal;
 
@@ -61,22 +68,22 @@ const CartPage = () => {
                 <h4>Resumo do pedido</h4>
                 <div className="line">
                   <span>Valor dos produtos ({cartItems.length} {cartItems.length === 1 ? "item" : "itens"})</span>
-                  <span>R$ {subtotal.toFixed(2).replace('.', ',')}</span>
+                  <span>R$ {subtotal.toFixed(2).replace(".", ",")}</span>
                 </div>
                 <div className="line discount">
                   <span>Total de descontos</span>
-                  <span>- R$ {descontoTotal.toFixed(2).replace('.', ',')}</span>
+                  <span>- R$ {descontoTotal.toFixed(2).replace(".", ",")}</span>
                 </div>
                 <div className="total">
                   <span>Total</span>
-                  <span>R$ {totalFinal.toFixed(2).replace('.', ',')}</span>
+                  <span>R$ {totalFinal.toFixed(2).replace(".", ",")}</span>
                 </div>
                 <div className="installment">
-                  ou 3x de R$ {(totalFinal / 3).toFixed(2).replace('.', ',')} sem juros
+                  ou 3x de R$ {(totalFinal / 3).toFixed(2).replace(".", ",")} sem juros
                 </div>
 
                 <Link to="/pagamento">
-                <button className="button-primary">Ir para pagamento</button>
+                  <button className="button-primary">Ir para pagamento</button>
                 </Link>
 
                 <Link to="/categorias">
