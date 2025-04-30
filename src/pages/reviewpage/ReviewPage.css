@@ -12,6 +12,10 @@
   min-height: 100vh;
 }
 
+.profile-picture {
+  width: 40px;
+}
+
 .review-summary {
   margin-top: 80px;
   background: #fff;
