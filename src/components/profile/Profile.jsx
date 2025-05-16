@@ -1,10 +1,11 @@
 import React, { useState, useEffect, useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Profile.css";
 import { UserContext } from "../../context/UserContext";
 
 const Profile = () => {
   const { userData, setUserData } = useContext(UserContext);
+  const navigate = useNavigate(); // Adicionado hook useNavigate
 
   const [activeTab, setActiveTab] = useState("general"); 
   
@@ -62,7 +63,7 @@ const Profile = () => {
     setUserData(formData); 
     localStorage.setItem("userProfileData", JSON.stringify(formData));  
     alert("Dados salvos com sucesso!");
-    window.location.href = "/other-profile";  
+    navigate("/other-profile"); // Alterado para usar navigate
   };
 
   const renderTabContent = () => {
@@ -78,8 +79,7 @@ const Profile = () => {
                   className="d-block ui-w-80"
                 />
                 
-                 <button onClick={handleSave} className="btn-save">Salvar</button>
-
+                <button onClick={handleSave} className="btn-save">Salvar</button>
               </div>
               <div className="media-body ml-4">
                 <label className="btn btn-outline-primary">
