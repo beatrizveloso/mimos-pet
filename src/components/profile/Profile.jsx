@@ -77,9 +77,9 @@ const Profile = () => {
                   alt="Perfil"
                   className="d-block ui-w-80"
                 />
-                 <Link to="/other-profile">
-                <button className="btn-save" onClick={handleSave}>Salvar</button>
-                </Link>
+                
+                 <button onClick={handleSave} className="btn-save">Salvar</button>
+
               </div>
               <div className="media-body ml-4">
                 <label className="btn btn-outline-primary">
