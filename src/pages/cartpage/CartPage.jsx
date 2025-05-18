@@ -1,4 +1,4 @@
-import React, { useContext, useRef, useState } from "react";
+import React, { useContext, useRef, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { CartContext } from "../../context/CartContext";
 import Header from "../../components/header/Header";
@@ -11,14 +11,40 @@ const CartPage = () => {
   const cartRef = useRef(null);
   const [cep, setCep] = useState("");
   const [showOptions, setShowOptions] = useState(false);
+  const [shippingOption, setShippingOption] = useState("");
+  const [shippingPrice, setShippingPrice] = useState(8);
+  const [estimatedDelivery, setEstimatedDelivery] = useState("");
 
   const handleCepChange = (e) => {
-    const value = e.target.value;
-    setCep(value);
-    setShowOptions(value.length === 9);
+    const value = e.target.value.replace(/\D/g, "");
+    const formattedCep = value.replace(/^(\d{5})(\d)/, "$1-$2");
+    setCep(formattedCep);
+    setShowOptions(value.length === 8);
   };
 
-  // Função para converter string de preço para número
+  const handleShippingSelect = (option) => {
+    setShippingOption(option);
+    if (option === "expressa") {
+      setShippingPrice(calculateShippingPrice() + 5);
+      setEstimatedDelivery("Em até 3 horas");
+    } else {
+      setShippingPrice(calculateShippingPrice());
+      setEstimatedDelivery("Até 5 dias úteis");
+    }
+  };
+
+  const calculateShippingPrice = () => {
+    if (cep.length !== 9) return 8;
+    
+    const cepNumber = cep.replace("-", "");
+    const firstDigit = cepNumber.charAt(0);
+    
+    if (["0", "1", "2"].includes(firstDigit)) return 8;
+    if (["3", "4", "5"].includes(firstDigit)) return 10;
+    if (["6", "7"].includes(firstDigit)) return 12;
+    return 15;
+  };
+
   const parsePrice = (price) => {
     if (typeof price === "string") {
       return Number(price.replace("R$", "").replace(",", ".").trim());
@@ -26,12 +52,22 @@ const CartPage = () => {
     return Number(price);
   };
 
+  useEffect(() => {
+    if (cep.length === 9 && shippingOption) {
+      if (shippingOption === "expressa") {
+        setShippingPrice(calculateShippingPrice() + 5);
+      } else {
+        setShippingPrice(calculateShippingPrice());
+      }
+    }
+  }, [cep, shippingOption]);
+
   const subtotal = cartItems.reduce(
     (acc, item) => acc + parsePrice(item.price) * item.quantidade,
     0
   );
   const descontoTotal = subtotal * 0.1877;
-  const totalFinal = subtotal - descontoTotal;
+  const totalFinal = subtotal - descontoTotal + shippingPrice;
 
   return (
     <div className="cartpage-container">
@@ -59,8 +95,28 @@ const CartPage = () => {
               <div className="shipping-options">
                 <h3>Escolha a forma de entrega</h3>
                 <ul>
-                  <li><strong>Padrão:</strong> Grátis – Até 14/04/2025</li>
-                  <li><strong>Expressa:</strong> R$ 7,90 – Em até 3 horas</li>
+                  <li>
+                    <label>
+                      <input
+                        type="radio"
+                        name="shipping"
+                        checked={shippingOption === "padrao"}
+                        onChange={() => handleShippingSelect("padrao")}
+                      />
+                      <strong>Padrão:</strong> R$ {calculateShippingPrice().toFixed(2).replace(".", ",")} – Até 5 dias úteis
+                    </label>
+                  </li>
+                  <li>
+                    <label>
+                      <input
+                        type="radio"
+                        name="shipping"
+                        checked={shippingOption === "expressa"}
+                        onChange={() => handleShippingSelect("expressa")}
+                      />
+                      <strong>Expressa:</strong> R$ {(calculateShippingPrice() + 5).toFixed(2).replace(".", ",")} – Em até 3 horas
+                    </label>
+                  </li>
                 </ul>
               </div>
 
@@ -74,6 +130,12 @@ const CartPage = () => {
                   <span>Total de descontos</span>
                   <span>- R$ {descontoTotal.toFixed(2).replace(".", ",")}</span>
                 </div>
+                {shippingOption && (
+                  <div className="line">
+                    <span>Frete ({shippingOption})</span>
+                    <span>R$ {shippingPrice.toFixed(2).replace(".", ",")}</span>
+                  </div>
+                )}
                 <div className="total">
                   <span>Total</span>
                   <span>R$ {totalFinal.toFixed(2).replace(".", ",")}</span>
@@ -83,7 +145,9 @@ const CartPage = () => {
                 </div>
 
                 <Link to="/pagamento">
-                  <button className="button-primary">Ir para pagamento</button>
+                  <button className="button-primary" disabled={!shippingOption}>
+                    Ir para pagamento
+                  </button>
                 </Link>
 
                 <Link to="/categorias">
