@@ -1,15 +1,67 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { Link } from "react-router-dom";
+import { CartContext } from "../../context/CartContext";
 import "./Pagamento.css";
 
 export default function Pagamento() {
+  const { cartItems } = useContext(CartContext);
   const [formaPagamento, setFormaPagamento] = useState("cartao");
+  const [parcelas, setParcelas] = useState(1);
+
+  const parsePrice = (price) => {
+    if (typeof price === "string") {
+      return Number(price.replace("R$", "").replace(",", ".").trim());
+    }
+    return Number(price);
+  };
+
+  const subtotal = cartItems.reduce(
+    (acc, item) => acc + parsePrice(item.price) * item.quantidade,
+    0
+  );
+  const descontoTotal = subtotal * 0.1877;
+  const totalFinal = subtotal - descontoTotal + 8;
+
+  const gerarParcelas = () => {
+    const maxParcelas = Math.min(12, Math.floor(totalFinal / 10));
+    const options = [];
+    
+    for (let i = 1; i <= maxParcelas; i++) {
+      const valorParcela = totalFinal / i;
+      const juros = i > 1 && i <= 3 ? " (sem juros)" : i > 3 ? ` (com juros)` : "";
+      options.push(
+        <option key={i} value={i}>
+          {i}x de R$ {valorParcela.toFixed(2).replace(".", ",")}{juros}
+        </option>
+      );
+    }
+    return options;
+  };
 
   return (
     <div className="pagamento-container">
+      <div className="resumo-pedido">
+        <h2>Resumo do Pedido</h2>
+        <div className="linha">
+          <span>Subtotal:</span>
+          <span>R$ {subtotal.toFixed(2).replace(".", ",")}</span>
+        </div>
+        <div className="linha desconto">
+          <span>Descontos:</span>
+          <span>- R$ {descontoTotal.toFixed(2).replace(".", ",")}</span>
+        </div>
+        <div className="linha">
+          <span>Frete:</span>
+          <span>R$ 8,00</span>
+        </div>
+        <div className="linha total">
+          <span>Total:</span>
+          <span>R$ {totalFinal.toFixed(2).replace(".", ",")}</span>
+        </div>
+      </div>
+
       <div className="dados-cadastrais">
         <h2>1 - Dados cadastrais</h2>
-
         <div className="radio-group">
           <label>
             <input type="radio" name="tipoPessoa" defaultChecked />
@@ -20,7 +72,6 @@ export default function Pagamento() {
             Estrangeiro
           </label>
         </div>
-
         <input type="text" placeholder="Nome completo" />
         <input type="email" placeholder="E-mail" />
         <div className="duplo">
@@ -29,10 +80,8 @@ export default function Pagamento() {
         </div>
       </div>
 
-      {/* Seleção de pagamento */}
       <div className="selecao-pagamento">
         <h2>2 - Selecionar pagamento</h2>
-
         <div className="opcoes-pagamento">
           <button
             className={formaPagamento === "cartao" ? "ativo" : ""}
@@ -68,11 +117,8 @@ export default function Pagamento() {
               <input type="text" placeholder="Validade (MM/AA)" />
               <input type="text" placeholder="Código de segurança (CVV)" />
             </div>
-            <select>
-              <option value="">Selecione o número de parcelas</option>
-              <option value="1x">1x de R$ 97,00 (sem juros)</option>
-              <option value="2x">2x de R$ 48,50</option>
-              <option value="3x">3x de R$ 32,33</option>
+            <select value={parcelas} onChange={(e) => setParcelas(parseInt(e.target.value))}>
+              {gerarParcelas()}
             </select>
           </div>
         )}
@@ -80,6 +126,7 @@ export default function Pagamento() {
         {formaPagamento === "pix" && (
           <div className="pagamento-pix">
             <p>Você receberá um QR Code após clicar em "Comprar Agora".</p>
+            <p className="desconto-pix">5% de desconto: R$ {(totalFinal * 0.95).toFixed(2).replace(".", ",")}</p>
           </div>
         )}
 
@@ -88,6 +135,7 @@ export default function Pagamento() {
             <p>O boleto será gerado após clicar em "Comprar Agora".</p>
           </div>
         )}
+
         <Link to="/aprovado">
           <button className="botao-comprar">Comprar Agora</button>
         </Link>
